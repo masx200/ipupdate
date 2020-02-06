@@ -1,0 +1,57 @@
+{
+  "inbound": [
+    {
+      "localPort": 10808,
+      "protocol": "socks",
+      "udpEnabled": false,
+      "sniffingEnabled": false
+    }
+  ],
+  "logEnabled": false,
+  "loglevel": "warning",
+  "index": 0,
+  "vmess": [
+    {
+      "configVersion": 2,
+      "address": "www.free6666.net",
+      "port": 443,
+      "id": "430d4f4f-35a1-4c29-b161-b45dfd9f21ec",
+      "alterId": 2,
+      "security": "auto",
+      "network": "ws",
+      "remarks": "freedom",
+      "headerType": "none",
+      "requestHost": "",
+      "path": "/7f71b9e5/",
+      "streamSecurity": "tls",
+      "allowInsecure": "false",
+      "configType": 1,
+      "testResult": "",
+      "subid": ""
+    }
+  ],
+  "muxEnabled": true,
+  "domainStrategy": "IPIfNonMatch",
+  "routingMode": "0",
+  "useragent": [],
+  "userdirect": [],
+  "userblock": [],
+  "kcpItem": {
+    "mtu": 1350,
+    "tti": 50,
+    "uplinkCapacity": 12,
+    "downlinkCapacity": 100,
+    "congestion": false,
+    "readBufferSize": 2,
+    "writeBufferSize": 2
+  },
+  "sysAgentEnabled": false,
+  "listenerType": 0,
+  "urlGFWList": "",
+  "allowLANConn": false,
+  "remoteDNS": "",
+  "subItem": null,
+  "uiItem": {
+    "mainQRCodeWidth": 600
+  }
+}
