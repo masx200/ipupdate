@@ -9,7 +9,7 @@
   ],
   "logEnabled": false,
   "loglevel": "warning",
-  "index": 1,
+  "index": 0,
   "vmess": [
     {
       "configVersion": 2,
