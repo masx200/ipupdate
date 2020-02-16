@@ -19,7 +19,7 @@
       "alterId": 2,
       "security": "aes-128-gcm",
       "network": "tcp",
-      "remarks": "v2ray2",
+      "remarks": "https://github.com/Alvin9999/new-pac/wiki",
       "headerType": "none",
       "requestHost": "",
       "path": "",
