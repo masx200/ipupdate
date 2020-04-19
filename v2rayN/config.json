@@ -36,8 +36,8 @@
             "port": 443,
             "users": [
               {
-                "id": "23410574-3629-40ef-b5eb-7003cec6275b",
-                "alterId": 2,
+                "id": "9718c20b-a171-43da-b9f6-1ffc0792d7dd",
+                "alterId": 8,
                 "email": "t@t.tt",
                 "security": "auto"
               }
@@ -58,7 +58,7 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/46aefa2e/",
+          "path": "/f4be5506/",
           "headers": {
             "Host": "www.free6666.net"
           }
