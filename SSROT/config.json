@@ -1,4 +1,3 @@
-
 {
     "password": "dongtaiwang.com",
     "method": "chacha20",
@@ -12,7 +11,7 @@
 
     "server_settings": {
         "listen_address": "0.0.0.0",
-        "listen_port": 14748
+        "listen_port": 16141
     },
 
     "client_settings": {
@@ -25,7 +24,7 @@
     "over_tls_settings": {
         "enable": true,
         "server_domain": "free3333.xyz",
-        "path": "/2Sbesn7BFypQCi18zSMh/",
+        "path": "/4l5zaQmL6OlY0N5lUDgz/",
         "root_cert_file": ""
     }
 }
