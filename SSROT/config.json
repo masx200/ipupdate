@@ -11,7 +11,7 @@
 
     "server_settings": {
         "listen_address": "0.0.0.0",
-        "listen_port": 16141
+        "listen_port": 13564
     },
 
     "client_settings": {
@@ -24,7 +24,8 @@
     "over_tls_settings": {
         "enable": true,
         "server_domain": "free3333.xyz",
-        "path": "/4l5zaQmL6OlY0N5lUDgz/",
+        "path": "/SkSYD09Yhvh7CO2c1fol/",
         "root_cert_file": ""
     }
 }
+
