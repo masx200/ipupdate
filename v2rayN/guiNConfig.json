@@ -13,20 +13,20 @@
   "vmess": [
     {
       "configVersion": 2,
-      "address": "uni.kitsunebi.fun",
-      "port": 80,
-      "id": "95137857-70fa-4ac8-8f90-4220aeb662cf",
-      "alterId": 0,
+      "address": "tr3.free9999.net",
+      "port": 443,
+      "id": "c1c166ec-bc46-4843-9207-e5e3935864b8",
+      "alterId": 2,
       "security": "auto",
       "network": "ws",
-      "remarks": "",
+      "remarks": "wulabing_tr3.free9999.net",
       "headerType": "none",
       "requestHost": "",
-      "path": "/v2",
-      "streamSecurity": "",
+      "path": "/07262bc3/",
+      "streamSecurity": "tls",
       "allowInsecure": "",
       "configType": 1,
-      "testResult": "",
+      "testResult": "240ms",
       "subid": ""
     }
   ],
