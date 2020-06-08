@@ -13,21 +13,19 @@
   "vmess": [
     {
       "configVersion": 2,
-      "address": "tw02.0894168.xyz",
+      "address": "applemusics.tk",
       "port": 443,
-      "id": "4d6d0dd6-6f0b-3163-8b3d-4aa589b1a1d1",
-      "alterId": 2,
+      "id": "ff44d9da-a75a-11ea-80a6-560002cfeb51",
+      "alterId": 46,
       "security": "auto",
       "network": "ws",
       "remarks": "",
-      "headerType": "vmess",
-      "requestHost": "tw02.0894168.xyz",
-      "path": "/",
+      "headerType": "none",
+      "requestHost": "applemusics.tk",
+      "path": "/Jz1SVZas/",
       "streamSecurity": "tls",
-      "allowInsecure": "",
-      "configType": 1,
-      "testResult": "",
-      "subid": ""
+      "allowInsecure": "false",
+      "configType": 1
     }
   ],
   "muxEnabled": true,
