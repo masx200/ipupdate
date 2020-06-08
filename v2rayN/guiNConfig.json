@@ -13,19 +13,21 @@
   "vmess": [
     {
       "configVersion": 2,
-      "address": "applemusics.tk",
+      "address": "107.167.18.43",
       "port": 443,
-      "id": "ff44d9da-a75a-11ea-80a6-560002cfeb51",
-      "alterId": 46,
+      "id": "418048af-a293-4b99-9b0c-98ca3580dd23",
+      "alterId": 64,
       "security": "auto",
       "network": "ws",
       "remarks": "",
       "headerType": "none",
-      "requestHost": "applemusics.tk",
-      "path": "/Jz1SVZas/",
+      "requestHost": "www.7921769.xyz",
+      "path": "/footers",
       "streamSecurity": "tls",
-      "allowInsecure": "false",
-      "configType": 1
+      "allowInsecure": "",
+      "configType": 1,
+      "testResult": "",
+      "subid": ""
     }
   ],
   "muxEnabled": true,
