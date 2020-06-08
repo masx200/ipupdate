@@ -1,4 +1,5 @@
 {
+  "policy": null,
   "log": {
     "access": "",
     "error": "",
@@ -6,7 +7,8 @@
   },
   "inbounds": [
     {
-      "port": 1080,
+      "tag": "proxy",
+      "port": 10808,
       "listen": "127.0.0.1",
       "protocol": "socks",
       "sniffing": {
@@ -20,6 +22,7 @@
         "auth": "noauth",
         "udp": false,
         "ip": null,
+        "address": null,
         "clients": null
       },
       "streamSettings": null
@@ -32,12 +35,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "zhanghua.kuli888.xyz",
-            "port": 10000,
+            "address": "tw02.0894168.xyz",
+            "port": 443,
             "users": [
               {
-                "id": "f4eb2b49-33c9-341c-afaa-9a9ecba8b83a",
-                "alterId": 0,
+                "id": "4d6d0dd6-6f0b-3163-8b3d-4aa589b1a1d1",
+                "alterId": 2,
                 "email": "t@t.tt",
                 "security": "auto"
               }
@@ -49,25 +52,26 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "",
+        "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "www.bing.com"
+          "serverName": "tw02.0894168.xyz"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/v2ray",
+          "path": "/",
           "headers": {
-            "Host": "www.bing.com"
+            "Host": "tw02.0894168.xyz"
           }
         },
         "httpSettings": null,
         "quicSettings": null
       },
       "mux": {
-        "enabled": true
+        "enabled": true,
+        "concurrency": 8
       }
     },
     {
@@ -95,9 +99,22 @@
       "mux": null
     }
   ],
+  "stats": null,
+  "api": null,
   "dns": null,
   "routing": {
     "domainStrategy": "IPIfNonMatch",
-    "rules": []
+    "rules": [
+      {
+        "type": "field",
+        "port": null,
+        "inboundTag": [
+          "api"
+        ],
+        "outboundTag": "api",
+        "ip": null,
+        "domain": null
+      }
+    ]
   }
 }
