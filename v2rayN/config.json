@@ -35,12 +35,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "tw02.0894168.xyz",
+            "address": "applemusics.tk",
             "port": 443,
             "users": [
               {
-                "id": "4d6d0dd6-6f0b-3163-8b3d-4aa589b1a1d1",
-                "alterId": 2,
+                "id": "ff44d9da-a75a-11ea-80a6-560002cfeb51",
+                "alterId": 46,
                 "email": "t@t.tt",
                 "security": "auto"
               }
@@ -54,16 +54,16 @@
         "network": "ws",
         "security": "tls",
         "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": "tw02.0894168.xyz"
+          "allowInsecure": false,
+          "serverName": "applemusics.tk"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/",
+          "path": "/Jz1SVZas/",
           "headers": {
-            "Host": "tw02.0894168.xyz"
+            "Host": "applemusics.tk"
           }
         },
         "httpSettings": null,
