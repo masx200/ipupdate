@@ -1,4 +1,5 @@
 {
+  "policy": null,
   "log": {
     "access": "",
     "error": "",
@@ -6,7 +7,8 @@
   },
   "inbounds": [
     {
-      "port": 1080,
+      "tag": "proxy",
+      "port": 10808,
       "listen": "127.0.0.1",
       "protocol": "socks",
       "sniffing": {
@@ -20,6 +22,7 @@
         "auth": "noauth",
         "udp": false,
         "ip": null,
+        "address": null,
         "clients": null
       },
       "streamSettings": null
@@ -65,7 +68,8 @@
         "quicSettings": null
       },
       "mux": {
-        "enabled": true
+        "enabled": true,
+        "concurrency": 8
       }
     },
     {
@@ -93,9 +97,22 @@
       "mux": null
     }
   ],
+  "stats": null,
+  "api": null,
   "dns": null,
   "routing": {
     "domainStrategy": "IPIfNonMatch",
-    "rules": []
+    "rules": [
+      {
+        "type": "field",
+        "port": null,
+        "inboundTag": [
+          "api"
+        ],
+        "outboundTag": "api",
+        "ip": null,
+        "domain": null
+      }
+    ]
   }
 }
