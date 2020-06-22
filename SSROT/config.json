@@ -1,9 +1,10 @@
+
 {
-    "password": "5voCMETACmogyvBK",
-    "method": "rc4",
-    "protocol": "origin",
+    "password": "apx20yHAgb7MAMpU",
+    "method": "aes-128-ctr",
+    "protocol": "auth_aes128_md5",
     "protocol_param": "",
-    "obfs": "plain",
+    "obfs": "tls1.2_ticket_auth",
     "obfs_param": "",
 
     "udp": true,
@@ -13,11 +14,11 @@
 
     "server_settings": {
         "listen_address": "0.0.0.0",
-        "listen_port": 18862
+        "listen_port": 14451
     },
 
     "client_settings": {
-        "server": "185.22.152.126",
+        "server": "185.22.153.140",
         "server_port": 443,
         "listen_address": "0.0.0.0",
         "listen_port": 1080
@@ -25,9 +26,8 @@
 
     "over_tls_settings": {
         "enable": true,
-        "server_domain": "free3333.xyz",
-        "path": "/EJQ8sUB3UnUxMhuQue5l/",
+        "server_domain": "freedom105.xyz",
+        "path": "/7TKn4rKZCG7nhg8KrsmE/",
         "root_cert_file": ""
     }
 }
-
