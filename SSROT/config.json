@@ -1,6 +1,5 @@
-
 {
-    "password": "apx20yHAgb7MAMpU",
+    "password": "ERxHOF9WjI3vVaf0",
     "method": "aes-128-ctr",
     "protocol": "auth_aes128_md5",
     "protocol_param": "",
@@ -14,7 +13,7 @@
 
     "server_settings": {
         "listen_address": "0.0.0.0",
-        "listen_port": 14451
+        "listen_port": 9559
     },
 
     "client_settings": {
@@ -27,7 +26,7 @@
     "over_tls_settings": {
         "enable": true,
         "server_domain": "freedom105.xyz",
-        "path": "/7TKn4rKZCG7nhg8KrsmE/",
+        "path": "/Q0FkFVVZRdLdk22BRKdG/",
         "root_cert_file": ""
     }
 }
