@@ -13,13 +13,13 @@
   "vmess": [
     {
       "configVersion": 2,
-      "address": "tr4.freedom103.xyz",
+      "address": "tr11.freedom101.xyz",
       "port": 443,
-      "id": "48b0c3bc-d292-4ff6-8540-bae3ea571692",
+      "id": "42f49cc3-35b0-4636-aec6-290a286b6cd7",
       "alterId": 16,
       "security": "auto",
       "network": "ws",
-      "remarks": "tr4.freedom103.xyz",
+      "remarks": "tr11.freedom101.xyz",
       "headerType": "none",
       "requestHost": "",
       "path": "/ray",
