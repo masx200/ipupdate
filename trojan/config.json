@@ -2,10 +2,10 @@
   "run_type": "client",
   "local_addr": "127.0.0.1",
   "local_port": 1080,
-  "remote_addr": "tr23.freedom105.xyz",
+  "remote_addr": "trojan.ifuckgfw.cf",
   "remote_port": 443,
   "password": [
-    "cdf89028-c44a-4c4a-865f-89c1cc70fa49"
+    "ObIJshiX"
   ],
   "log_level": 1,
   "ssl": {
