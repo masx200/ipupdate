@@ -1,5 +1,4 @@
 {
-  "policy": null,
   "log": {
     "access": "",
     "error": "",
@@ -7,8 +6,7 @@
   },
   "inbounds": [
     {
-      "tag": "proxy",
-      "port": 10808,
+      "port": 1080,
       "listen": "127.0.0.1",
       "protocol": "socks",
       "sniffing": {
@@ -22,7 +20,6 @@
         "auth": "noauth",
         "udp": false,
         "ip": null,
-        "address": null,
         "clients": null
       },
       "streamSettings": null
@@ -35,45 +32,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "tr4.freedom103.xyz",
-            "port": 443,
-            "users": [
-              {
-                "id": "48b0c3bc-d292-4ff6-8540-bae3ea571692",
-                "alterId": 16,
-                "email": "t@t.tt",
-                "security": "auto"
-              }
-            ]
-          },
-		  {
             "address": "tr11.freedom101.xyz",
             "port": 443,
             "users": [
               {
                 "id": "42f49cc3-35b0-4636-aec6-290a286b6cd7",
-                "alterId": 16,
-                "email": "t@t.tt",
-                "security": "auto"
-              }
-            ]
-          },
-		  {"address": "tr12.free9999.net",
-            "port": 443,
-            "users": [
-              {
-                "id": "0d4faf19-6d17-43d4-b0d5-9f5af07946a1",
-                "alterId": 16,
-                "email": "t@t.tt",
-                "security": "auto"
-              }
-            ]
-          },
-		  	{"address": "tr1.freedom105.xyz",
-            "port": 443,
-            "users": [
-              {
-                "id": "bd9fa9e6-6caf-4712-8728-a92d3048342e",
                 "alterId": 16,
                 "email": "t@t.tt",
                 "security": "auto"
@@ -102,8 +65,7 @@
         "quicSettings": null
       },
       "mux": {
-        "enabled": true,
-        "concurrency": 8
+        "enabled": true
       }
     },
     {
@@ -131,22 +93,9 @@
       "mux": null
     }
   ],
-  "stats": null,
-  "api": null,
   "dns": null,
   "routing": {
     "domainStrategy": "IPIfNonMatch",
-    "rules": [
-      {
-        "type": "field",
-        "port": null,
-        "inboundTag": [
-          "api"
-        ],
-        "outboundTag": "api",
-        "ip": null,
-        "domain": null
-      }
-    ]
+    "rules": []
   }
 }
