@@ -2,10 +2,10 @@
   "run_type": "client",
   "local_addr": "127.0.0.1",
   "local_port": 1080,
-  "remote_addr": "jp9s253.wwap1.com",
+  "remote_addr": "tr51.freedom105.xyz",
   "remote_port": 443,
   "password": [
-    "8mMv8F"
+    "ea1e1482-c313-460d-a1dd-4e6899c5820e"
   ],
   "log_level": 1,
   "ssl": {
