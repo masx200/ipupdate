@@ -2,10 +2,10 @@
   "run_type": "client",
   "local_addr": "127.0.0.1",
   "local_port": 1080,
-  "remote_addr": "tr51.freedom105.xyz",
+  "remote_addr": "jiangfengdawang.gq",
   "remote_port": 443,
   "password": [
-    "ea1e1482-c313-460d-a1dd-4e6899c5820e"
+    "fjru48576"
   ],
   "log_level": 1,
   "ssl": {
