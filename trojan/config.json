@@ -2,10 +2,10 @@
   "run_type": "client",
   "local_addr": "127.0.0.1",
   "local_port": 1080,
-  "remote_addr": "usr8230.wwap1.com",
+  "remote_addr": "trojan.ifuckgfw.gq",
   "remote_port": 443,
   "password": [
-    "7mMv8F"
+    "qaGLFjKl"
   ],
   "log_level": 1,
   "ssl": {
