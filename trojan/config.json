@@ -2,10 +2,10 @@
   "run_type": "client",
   "local_addr": "127.0.0.1",
   "local_port": 1080,
-  "remote_addr": "5322.ml",
+  "remote_addr": "usaz16.wwtta1.com",
   "remote_port": 443,
   "password": [
-    "hguiy87767"
+    "xQv9TA"
   ],
   "log_level": 1,
   "ssl": {
