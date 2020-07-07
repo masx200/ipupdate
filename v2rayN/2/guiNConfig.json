@@ -13,20 +13,20 @@
   "vmess": [
     {
       "configVersion": 2,
-      "address": "tr11.freedom101.xyz",
+      "address": "107.167.18.43",
       "port": 443,
-      "id": "42f49cc3-35b0-4636-aec6-290a286b6cd7",
-      "alterId": 16,
+      "id": "418048af-a293-4b99-9b0c-98ca3580dd23",
+      "alterId": 64,
       "security": "auto",
       "network": "ws",
-      "remarks": "tr11.freedom101.xyz",
+      "remarks": "",
       "headerType": "none",
-      "requestHost": "",
-      "path": "/ray",
+      "requestHost": "www.7921769.xyz",
+      "path": "/footers",
       "streamSecurity": "tls",
       "allowInsecure": "",
       "configType": 1,
-      "testResult": "974ms",
+      "testResult": "",
       "subid": ""
     }
   ],
