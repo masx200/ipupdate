@@ -6,7 +6,7 @@
   },
   "inbounds": [
     {
-      "port": 10808,
+      "port": 1080,
       "listen": "127.0.0.1",
       "protocol": "socks",
       "sniffing": {
@@ -32,7 +32,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "107.167.18.43",
+            "address": "45.58.149.132",
             "port": 443,
             "users": [
               {
@@ -52,7 +52,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": true,
-          "serverName": "www.7921769.xyz"
+          "serverName": "www.56434.xyz"
         },
         "tcpSettings": null,
         "kcpSettings": null,
@@ -60,7 +60,7 @@
           "connectionReuse": true,
           "path": "/footers",
           "headers": {
-            "Host": "www.7921769.xyz"
+            "Host": "www.56434.xyz"
           }
         },
         "httpSettings": null,
