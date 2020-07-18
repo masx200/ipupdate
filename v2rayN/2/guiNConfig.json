@@ -13,15 +13,15 @@
   "vmess": [
     {
       "configVersion": 2,
-      "address": "107.167.18.43",
+      "address": "45.58.149.132",
       "port": 443,
       "id": "418048af-a293-4b99-9b0c-98ca3580dd23",
       "alterId": 64,
       "security": "auto",
       "network": "ws",
-      "remarks": "",
+      "remarks": "https://github.com/Alvin9999/new-pac/wiki",
       "headerType": "none",
-      "requestHost": "www.7921769.xyz",
+      "requestHost": "www.56434.xyz",
       "path": "/footers",
       "streamSecurity": "tls",
       "allowInsecure": "",
