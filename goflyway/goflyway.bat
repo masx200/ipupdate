@@ -1,5 +1,5 @@
 CD /D "%~dp0"
-goflyway -l="127.0.0.1:8100"  -up="cf://tr18.free4444.club:8880"  -k="dongtaiwang.com 666nice"
+goflyway -l="127.0.0.1:8100"  -up="cf://tr22.free4444.club:8880"  -k="dongtaiwang.com 666nice"
 pause
 exit
 
