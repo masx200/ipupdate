@@ -32,11 +32,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "tr11.freedom101.xyz",
-            "port": 443,
+            "address": "45.129.2.169",
+            "port": 22225,
             "users": [
               {
-                "id": "42f49cc3-35b0-4636-aec6-290a286b6cd7",
+                "id": "c086c8d7-f5ae-4120-8efc-94432ce0868b",
                 "alterId": 16,
                 "email": "t@t.tt",
                 "security": "auto"
@@ -49,7 +49,7 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
+        "security": "",
         "tlsSettings": {
           "allowInsecure": true,
           "serverName": null
@@ -58,7 +58,7 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/ray",
+          "path": null,
           "headers": null
         },
         "httpSettings": null,
