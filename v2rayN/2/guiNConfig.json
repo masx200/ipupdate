@@ -13,9 +13,9 @@
   "vmess": [
     {
       "configVersion": 2,
-      "address": "89.163.224.93",
-      "port": 37356,
-      "id": "1b3e04a6-7cbf-413a-a4fc-1f1e44b78f77",
+      "address": "45.147.201.190",
+      "port": 38523,
+      "id": "6f4967cf-f684-448a-9526-fa4bbbff7252",
       "alterId": 16,
       "security": "auto",
       "network": "ws",
@@ -23,7 +23,7 @@
       "headerType": "none",
       "requestHost": "",
       "path": "",
-      "streamSecurity": "none",
+      "streamSecurity": "",
       "allowInsecure": "",
       "configType": 1,
       "testResult": "",
