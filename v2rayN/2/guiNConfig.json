@@ -13,9 +13,9 @@
   "vmess": [
     {
       "configVersion": 2,
-      "address": "89.163.224.127",
-      "port": 47702,
-      "id": "e297890e-7add-4211-b051-d698fc50a49c",
+      "address": "5.180.77.246",
+      "port": 15089,
+      "id": "ee2495cd-b26e-4a3d-b9d2-0b81ab614571",
       "alterId": 16,
       "security": "auto",
       "network": "ws",
