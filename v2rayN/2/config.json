@@ -6,7 +6,7 @@
   },
   "inbounds": [
     {
-      "port": 10808,
+      "port": 1080,
       "listen": "127.0.0.1",
       "protocol": "socks",
       "sniffing": {
@@ -32,11 +32,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "89.163.224.127",
-            "port": 47702,
+            "address": "5.180.77.246",
+            "port": 15089,
             "users": [
               {
-                "id": "e297890e-7add-4211-b051-d698fc50a49c",
+                "id": "ee2495cd-b26e-4a3d-b9d2-0b81ab614571",
                 "alterId": 16,
                 "email": "t@t.tt",
                 "security": "auto"
