@@ -1,4 +1,5 @@
 {
+  "policy": null,
   "log": {
     "access": "",
     "error": "",
@@ -6,6 +7,7 @@
   },
   "inbounds": [
     {
+      "tag": "proxy",
       "port": 10808,
       "listen": "127.0.0.1",
       "protocol": "socks",
@@ -20,7 +22,9 @@
         "auth": "noauth",
         "udp": false,
         "ip": null,
-        "clients": null
+        "address": null,
+        "clients": null,
+        "decryption": null
       },
       "streamSettings": null
     }
@@ -32,14 +36,15 @@
       "settings": {
         "vnext": [
           {
-            "address": "tr30.free9999.net",
-            "port": 36892,
+            "address": "tr3.free3333.xyz",
+            "port": 443,
             "users": [
               {
-                "id": "e84a1971-eb51-4600-8e49-16ab960b7f28",
-                "alterId": 233,
+                "id": "0016b1a5-a696-4250-ace5-cfba2d5296a6",
+                "alterId": 2,
                 "email": "t@t.tt",
-                "security": "auto"
+                "security": "auto",
+                "encryption": null
               }
             ]
           }
@@ -49,23 +54,26 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "",
+        "security": "tls",
         "tlsSettings": {
-          "allowInsecure": true,
-          "serverName": null
+          "allowInsecure": false,
+          "serverName": "tr3.free3333.xyz"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": null,
-          "headers": null
+          "path": "/882e/",
+          "headers": {
+            "Host": "tr3.free3333.xyz"
+          }
         },
         "httpSettings": null,
         "quicSettings": null
       },
       "mux": {
-        "enabled": true
+        "enabled": true,
+        "concurrency": 8
       }
     },
     {
@@ -93,9 +101,22 @@
       "mux": null
     }
   ],
+  "stats": null,
+  "api": null,
   "dns": null,
   "routing": {
     "domainStrategy": "IPIfNonMatch",
-    "rules": []
+    "rules": [
+      {
+        "type": "field",
+        "port": null,
+        "inboundTag": [
+          "api"
+        ],
+        "outboundTag": "api",
+        "ip": null,
+        "domain": null
+      }
+    ]
   }
 }
