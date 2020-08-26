@@ -1,6 +1,5 @@
 CD /D "%~dp0"
-goflyway -l="127.0.0.1:8100"  -up="104.233.154.4:2095"  -k="ntdtv.com 123abc"
+goflyway -l="127.0.0.1:8100"  -up="89.163.224.142:2086"  -k="dongtaiwang.com 666nice"
 pause
 exit
-
 
