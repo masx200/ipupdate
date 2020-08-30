@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "tr17.freedom103.xyz",
+            "address": "tr27.freedom103.xyz",
             "port": 443,
             "users": [
               {
-                "id": "9dfdcc43-c2cd-4781-bfd6-0a43c43799ec",
+                "id": "576d68f6-e6d0-4ed7-9789-cc6e0b7a24f3",
                 "alterId": 2,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -57,15 +57,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "tr17.freedom103.xyz"
+          "serverName": "tr27.freedom103.xyz"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/c5844687/",
+          "path": "/a23ce177/",
           "headers": {
-            "Host": "tr17.freedom103.xyz"
+            "Host": "tr27.freedom103.xyz"
           }
         },
         "httpSettings": null,
