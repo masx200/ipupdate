@@ -13,18 +13,18 @@
   "vmess": [
     {
       "configVersion": 2,
-      "address": "104.233.240.249",
+      "address": "tr17.freedom103.xyz",
       "port": 443,
-      "id": "16282caa-f501-45e9-a50e-e8d14f63296b",
-      "alterId": 64,
+      "id": "9dfdcc43-c2cd-4781-bfd6-0a43c43799ec",
+      "alterId": 2,
       "security": "auto",
       "network": "ws",
-      "remarks": "https://git.io/v9999  104.233.240.249",
+      "remarks": "https://git.io/v9999 tr17.freedom103.xyz",
       "headerType": "none",
-      "requestHost": "www.0363847.xyz",
-      "path": "/footers",
+      "requestHost": "tr17.freedom103.xyz",
+      "path": "/c5844687/",
       "streamSecurity": "tls",
-      "allowInsecure": "",
+      "allowInsecure": "false",
       "configType": 1,
       "testResult": "",
       "subid": ""
@@ -45,13 +45,19 @@
     "readBufferSize": 2,
     "writeBufferSize": 2
   },
-  "sysAgentEnabled": false,
   "listenerType": 0,
-  "urlGFWList": "",
+  "speedTestUrl": "http://speedtest-sgp1.digitalocean.com/10mb.test",
+  "speedPingTestUrl": "https://www.google.com/generate_204",
+  "urlGFWList": "https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt",
   "allowLANConn": false,
+  "enableStatistics": false,
+  "keepOlderDedupl": false,
+  "statisticsFreshRate": 0,
   "remoteDNS": "",
-  "subItem": null,
+  "defaultAllowInsecure": "false",
+  "subItem": [],
   "uiItem": {
     "mainQRCodeWidth": 600
-  }
+  },
+  "userPacRule": []
 }
