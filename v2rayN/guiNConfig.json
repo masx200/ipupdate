@@ -26,7 +26,8 @@
       "streamSecurity": "",
       "allowInsecure": "false",
       "configType": 1,
-      "testResult"
+      "testResult": "",
+      "subid": ""
     }
   ],
   "muxEnabled": true,
