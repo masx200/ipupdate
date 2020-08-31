@@ -13,20 +13,21 @@
   "vmess": [
     {
       "configVersion": 2,
-      "address": "tr19.freedom103.xyz",
-      "port": 443,
-      "id": "563c1fde-f5c8-47b9-bc01-a611b8795466",
-      "alterId": 2,
+      "address": "104.233.153.85",
+      "port": 62233,
+      "id": "73fbe257-573d-4c0c-bf94-11aeae6c45c7",
+      "alterId": 233,
       "security": "auto",
-      "network": "ws",
-      "remarks": "https://git.io/v9999 tr19.freedom103.xyz",
+      "network": "tcp",
+      "remarks": "https://git.io/v9999 104.233.153.84",
       "headerType": "none",
-      "requestHost": "tr19.freedom103.xyz",
-      "path": "/43e283/",
-      "streamSecurity": "tls",
+      "requestHost": "",
+      "path": "",
+      "streamSecurity": "",
       "allowInsecure": "false",
       "configType": 1,
-      "testResult
+      "testResult": "",
+      "subid": ""
     }
   ],
   "muxEnabled": true,
