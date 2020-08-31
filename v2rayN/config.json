@@ -53,16 +53,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": null,
-          "headers": null
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null
       },
