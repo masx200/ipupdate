@@ -13,13 +13,13 @@
   "vmess": [
     {
       "configVersion": 2,
-      "address": "67.21.94.231",
-      "port": 62205,
-      "id": "dfe2665d-a881-45d4-a51b-b833db0542d0",
+      "address": "104.233.153.85",
+      "port": 62233,
+      "id": "73fbe257-573d-4c0c-bf94-11aeae6c45c7",
       "alterId": 233,
       "security": "auto",
-      "network": "ws",
-      "remarks": "https://git.io/v9999 67.21.94.231",
+      "network": "tcp",
+      "remarks": "https://git.io/v9999 104.233.153.85",
       "headerType": "none",
       "requestHost": "",
       "path": "",
