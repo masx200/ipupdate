@@ -18,7 +18,7 @@
       "id": "42b9db50-88ff-413c-b106-cc538ec59da2",
       "alterId": 233,
       "security": "auto",
-      "network": "ws",
+      "network": "tcp",
       "remarks": "https://git.io/v9999 104.233.153.85",
       "headerType": "none",
       "requestHost": "",
