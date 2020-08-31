@@ -14,8 +14,8 @@
     {
       "configVersion": 2,
       "address": "104.233.153.85",
-      "port": 21209,
-      "id": "42b9db50-88ff-413c-b106-cc538ec59da2",
+      "port": 25659,
+      "id": "bcc700d5-719c-4651-980d-3fe55c47c3af",
       "alterId": 233,
       "security": "auto",
       "network": "tcp",
