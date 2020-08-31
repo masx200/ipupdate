@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "tr4.free9999.net",
+            "address": "tr2.free3333.xyz",
             "port": 443,
             "users": [
               {
-                "id": "e5a59c58-d055-428e-b191-95fb5dcb7539",
+                "id": "3e852c43-36b5-4215-b57c-6b991aa4a605",
                 "alterId": 2,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -57,15 +57,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "tr4.free9999.net"
+          "serverName": "tr2.free3333.xyz"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/622f/",
+          "path": "/e2a4c8/",
           "headers": {
-            "Host": "tr4.free9999.net"
+            "Host": "tr2.free3333.xyz"
           }
         },
         "httpSettings": null,
