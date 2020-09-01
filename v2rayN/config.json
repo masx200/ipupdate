@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.233.153.85",
-            "port": 62233,
+            "address": "tr13.free9999.net",
+            "port": 443,
             "users": [
               {
-                "id": "73fbe257-573d-4c0c-bf94-11aeae6c45c7",
-                "alterId": 233,
+                "id": "a800ae63-7e83-4f29-9689-5df65de01d1e",
+                "alterId": 2,
                 "email": "t@t.tt",
                 "security": "auto",
                 "encryption": null
@@ -53,12 +53,21 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "tr13.free9999.net"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/8116d3258b/",
+          "headers": {
+            "Host": "tr13.free9999.net"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null
       },
