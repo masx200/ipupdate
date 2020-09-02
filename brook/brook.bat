@@ -1,6 +1,9 @@
 CD /D "%~dp0"
-start brook wsclient -l 127.0.0.1:2080 -i 127.0.0.1 -s wss://tr8.freedom102.xyz:443 -p dongtaiwang.com
+start brook client -l 127.0.0.1:2080 -i 127.0.0.1 -s 67.21.81.19:11111 -p ntdtv.com
 exit
+
+
+
 
 
 
