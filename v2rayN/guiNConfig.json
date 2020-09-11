@@ -14,7 +14,7 @@
     {
       "configVersion": 2,
       "address": "195.123.241.117",
-      "port": 45617,
+      "port": 54321,
       "id": "5821a0a0-ef78-11ea-b9a9-52ac006718a2",
       "alterId": 16,
       "security": "auto",
