@@ -2,10 +2,10 @@
     "run_type": "client",
     "local_addr": "127.0.0.1",
     "local_port": 1080,
-    "remote_addr": "tr104.freedom103.xyz",
+    "remote_addr": "tr115.freedom103.xyz",
     "remote_port": 443,
     "password": [
-        "dongtaiwang.com"
+        "ntdtv.com"
     ],
     "log_level": 1,
     "ssl": {
