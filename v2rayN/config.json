@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 1080,
+      "port": 10808,
       "listen": "127.0.0.1",
       "protocol": "socks",
       "sniffing": {
@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "195.123.241.117",
-            "port": 54321,
+            "address": "109.166.37.200",
+            "port": 25431,
             "users": [
               {
-                "id": "5821a0a0-ef78-11ea-b9a9-52ac006718a2",
+                "id": "f4028cc8-f62b-11ea-ab31-00163c467c2d",
                 "alterId": 16,
                 "email": "t@t.tt",
                 "security": "auto",
