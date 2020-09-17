@@ -13,13 +13,13 @@
   "vmess": [
     {
       "configVersion": 2,
-      "address": "45.147.201.142",
-      "port": 15659,
-      "id": "1ec8f3a0-ee45-11ea-918d-0218e09e6484",
+      "address": "45.66.159.254",
+      "port": 14148,
+      "id": "d5fa270a-f8e1-11ea-8de6-00163cbd9cf7",
       "alterId": 16,
       "security": "auto",
       "network": "tcp",
-      "remarks": "https://git.io/v9999 莫斯科",
+      "remarks": "https://git.io/v9999 洛杉矶",
       "headerType": "none",
       "requestHost": "",
       "path": "",
