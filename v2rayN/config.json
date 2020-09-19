@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.66.159.254",
-            "port": 14148,
+            "address": "104.19.19.16",
+            "port": 443,
             "users": [
               {
-                "id": "d5fa270a-f8e1-11ea-8de6-00163cbd9cf7",
-                "alterId": 16,
+                "id": "a9cdfbfc-e563-4a0b-87de-665bf4f300c5",
+                "alterId": 64,
                 "email": "t@t.tt",
                 "security": "auto",
                 "encryption": null
@@ -53,12 +53,21 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": null,
-        "tlsSettings": null,
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "ibm2020630.ibmcj.workers.dev"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": null,
+          "headers": {
+            "Host": "ibm2020630.ibmcj.workers.dev"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null
       },
