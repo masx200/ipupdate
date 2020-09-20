@@ -13,7 +13,7 @@
   "vmess": [
     {
       "configVersion": 2,
-      "address": "104.19.103.161",
+      "address": "tr33.free99999.com",
       "port": 443,
       "id": "1eac47fe-3a85-4e07-9a43-0a8dd65eb7e4",
       "alterId": 16,
@@ -21,7 +21,7 @@
       "network": "ws",
       "remarks": "https://git.io/v9999 加利福尼亚",
       "headerType": "none",
-      "requestHost": "old-river-a2f2.kebi2014.workers.dev",
+      "requestHost": "",
       "path": "/ray",
       "streamSecurity": "tls",
       "allowInsecure": "false",
