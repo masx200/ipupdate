@@ -8,7 +8,7 @@
   "inbounds": [
     {
       "tag": "proxy",
-      "port": 1080,
+      "port": 10808,
       "listen": "127.0.0.1",
       "protocol": "socks",
       "sniffing": {
@@ -36,7 +36,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.19.103.161",
+            "address": "tr33.free99999.com",
             "port": 443,
             "users": [
               {
@@ -57,16 +57,14 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "old-river-a2f2.kebi2014.workers.dev"
+          "serverName": null
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
           "path": "/ray",
-          "headers": {
-            "Host": "old-river-a2f2.kebi2014.workers.dev"
-          }
+          "headers": null
         },
         "httpSettings": null,
         "quicSettings": null
