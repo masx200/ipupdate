@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "tr33.free99999.com",
+            "address": "tr36.free99999.com",
             "port": 443,
             "users": [
               {
-                "id": "1eac47fe-3a85-4e07-9a43-0a8dd65eb7e4",
+                "id": "42ac06a1-6016-4188-ad74-5380d884ed8d",
                 "alterId": 16,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -63,7 +63,7 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/ray",
+          "path": "/cec2",
           "headers": null
         },
         "httpSettings": null,
