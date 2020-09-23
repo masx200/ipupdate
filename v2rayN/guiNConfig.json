@@ -13,21 +13,20 @@
   "vmess": [
     {
       "configVersion": 2,
-      "address": "tr36.free99999.com",
-      "port": 443,
-      "id": "42ac06a1-6016-4188-ad74-5380d884ed8d",
+      "address": "45.66.159.254",
+      "port": 14148,
+      "id": "d5fa270a-f8e1-11ea-8de6-00163cbd9cf7",
       "alterId": 16,
       "security": "auto",
-      "network": "ws",
-      "remarks": "https://git.io/v9999 加利福尼亚",
+      "network": "tcp",
+      "remarks": "https://git.io/v9999 洛杉矶",
       "headerType": "none",
       "requestHost": "",
-      "path": "/cec2",
-      "streamSecurity": "tls",
+      "path": "",
+      "streamSecurity": "",
       "allowInsecure": "false",
       "configType": 1,
-      "testResult": "",
-      "subid": ""
+      "testResult":
     }
   ],
   "muxEnabled": true,
