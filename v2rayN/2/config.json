@@ -53,12 +53,18 @@
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/xw37KsSh/",
+          "headers": {
+            "Host": "tr39.free99999.com"
+          }
+        },
         "httpSettings": null,
         "quicSettings": null
       },
