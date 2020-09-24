@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "tr4.free2222.xyz",
-            "port": 443,
+            "address": "192.74.254.93",
+            "port": 23531,
             "users": [
               {
-                "id": "604a370b-d35f-4b96-b58d-1fcd598ac46e",
-                "alterId": 2,
+                "id": "cb0fdb36-fe78-11ea-9584-00163c59e9cb",
+                "alterId": 16,
                 "email": "t@t.tt",
                 "security": "auto",
                 "encryption": null
@@ -53,21 +53,25 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "tr4.free2222.xyz"
-        },
+        "network": "kcp",
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
-        "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/07aac5242/",
-          "headers": {
-            "Host": "tr4.free2222.xyz"
+        "kcpSettings": {
+          "mtu": 1350,
+          "tti": 50,
+          "uplinkCapacity": 12,
+          "downlinkCapacity": 100,
+          "congestion": false,
+          "readBufferSize": 2,
+          "writeBufferSize": 2,
+          "header": {
+            "type": "srtp",
+            "request": null,
+            "response": null
           }
         },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null
       },
