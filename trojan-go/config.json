@@ -2,10 +2,10 @@
   "run_type": "client",
   "local_addr": "127.0.0.1",
   "local_port": 1080,
-  "remote_addr": "tr119.freedom103.xyz",
+  "remote_addr": "tr121.freedom103.xyz",
   "remote_port": 443,
   "password": [
-    "097a21b2-c67f-409d-981f-a6b9231e00a3"
+    "e26c7044-5c64-43cf-af2d-c9f86ca47bd4"
   ],
   "ssl": {
     "cert": "",
