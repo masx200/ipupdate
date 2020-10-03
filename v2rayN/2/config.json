@@ -36,7 +36,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "tr4.free4444.xyz",
+            "address": "104.233.153.84",
             "port": 443,
             "users": [
               {
@@ -57,14 +57,16 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": null
+          "serverName": "tr4.free4444.xyz"
         },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
           "path": "/ray",
-          "headers": null
+          "headers": {
+            "Host": "tr4.free4444.xyz"
+          }
         },
         "httpSettings": null,
         "quicSettings": null
