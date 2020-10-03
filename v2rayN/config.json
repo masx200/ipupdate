@@ -36,8 +36,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "tr3.free4444.xyz",
-            "port": 10000,
+            "address": "45.66.159.254",
+            "port": 11111,
             "users": [
               {
                 "id": "d5fa270a-f8e1-11ea-8de6-00163cbd9cf7",
@@ -53,18 +53,12 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": {
-          "connectionReuse": true,
-          "path": "/h93y80Ve/",
-          "headers": {
-            "Host": "tr3.free4444.xyz"
-          }
-        },
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null
       },
