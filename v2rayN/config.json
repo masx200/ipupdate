@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "tr51.free3333.xyz",
-            "port": 443,
+            "address": "g8u.eurodns.cf",
+            "port": 80,
             "users": [
               {
-                "id": "f904d088-a2bb-43bd-af1e-2bde3918c09e",
-                "alterId": 0,
+                "id": "930ab934-c00e-403a-818c-171804966a22",
+                "alterId": 2,
                 "email": "t@t.tt",
                 "security": "auto",
                 "encryption": null
@@ -54,16 +54,13 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": null
-        },
+        "security": null,
+        "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/ray",
+          "path": "/ZPKLBEy5",
           "headers": null
         },
         "httpSettings": null,
