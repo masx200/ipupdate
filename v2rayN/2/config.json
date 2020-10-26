@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "tr51.free3333.xyz",
+            "address": "tr52.free3333.xyz",
             "port": 443,
             "users": [
               {
-                "id": "f904d088-a2bb-43bd-af1e-2bde3918c09e",
+                "id": "cfd51b7d-45e5-48bf-a3a1-447b65918450",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
