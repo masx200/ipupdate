@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "g8u.eurodns.cf",
+            "address": "192.109.98.115",
             "port": 80,
             "users": [
               {
-                "id": "930ab934-c00e-403a-818c-171804966a22",
-                "alterId": 2,
+                "id": "305a95e9-f0dc-4b71-80b5-b102162b96fa",
+                "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
                 "encryption": null
@@ -53,16 +53,41 @@
         "response": null
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": null,
         "tlsSettings": null,
-        "tcpSettings": null,
-        "kcpSettings": null,
-        "wsSettings": {
+        "tcpSettings": {
           "connectionReuse": true,
-          "path": "/ZPKLBEy5",
-          "headers": null
+          "header": {
+            "type": "http",
+            "request": {
+              "version": "1.1",
+              "method": "GET",
+              "path": [
+                "/"
+              ],
+              "headers": {
+                "Host": [
+                  ""
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.75 Safari/537.36",
+                  "Mozilla/5.0 (iPhone; CPU iPhone OS 10_0_2 like Mac OS X) AppleWebKit/601.1 (KHTML, like Gecko) CriOS/53.0.2785.109 Mobile/14A456 Safari/601.1.46"
+                ],
+                "Accept-Encoding": [
+                  "gzip, deflate"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Pragma": "no-cache"
+              }
+            },
+            "response": null
+          }
         },
+        "kcpSettings": null,
+        "wsSettings": null,
         "httpSettings": null,
         "quicSettings": null
       },
