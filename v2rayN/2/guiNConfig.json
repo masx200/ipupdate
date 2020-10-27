@@ -13,7 +13,7 @@
   "vmess": [
     {
       "configVersion": 2,
-      "address": "L1-aws-hk-06.baipiao.de",
+      "address": "L1-aws-hk-02.baipiao.de",
       "port": 80,
       "id": "cfee2f03-f9f9-38ca-80da-164f4d7267f7",
       "alterId": 0,
