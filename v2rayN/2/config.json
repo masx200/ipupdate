@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "139.28.235.41",
-            "port": 15676,
+            "address": "18.162.147.210",
+            "port": 40086,
             "users": [
               {
-                "id": "8bbeb58a-fe67-11ea-82b3-00163c8f08fc",
-                "alterId": 16,
+                "id": "8f47a763-f2d4-44cd-f67f-2f6beda5c902",
+                "alterId": 2,
                 "email": "t@t.tt",
                 "security": "auto",
                 "encryption": null
@@ -60,10 +60,8 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/UMxbR4uE/",
-          "headers": {
-            "Host": "tr38.free99999.com"
-          }
+          "path": "/dwn",
+          "headers": null
         },
         "httpSettings": null,
         "quicSettings": null
