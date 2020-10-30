@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "13.212.158.108",
-            "port": 20134,
+            "address": "76.223.57.161",
+            "port": 40203,
             "users": [
               {
-                "id": "d7e823c3-837c-4177-c7f5-14a37cd575bb",
-                "alterId": 2,
+                "id": "a8497551-3407-3c9e-a126-7834101b5f6a",
+                "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
                 "encryption": null
@@ -60,7 +60,7 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/dwn",
+          "path": "/honda",
           "headers": null
         },
         "httpSettings": null,
