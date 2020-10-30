@@ -13,13 +13,13 @@
   "vmess": [
     {
       "configVersion": 2,
-      "address": "18.162.147.210",
-      "port": 40086,
-      "id": "8f47a763-f2d4-44cd-f67f-2f6beda5c902",
+      "address": "13.212.158.108",
+      "port": 20134,
+      "id": "d7e823c3-837c-4177-c7f5-14a37cd575bb",
       "alterId": 2,
       "security": "auto",
       "network": "ws",
-      "remarks": "https://github.com/Alvin9999/new-pac/wiki ip1",
+      "remarks": "https://github.com/Alvin9999/new-pac/wiki 新加坡ip1",
       "headerType": "none",
       "requestHost": "",
       "path": "/dwn",
