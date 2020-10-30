@@ -36,12 +36,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "jdy-shlt.ddns-only.xyz",
-            "port": 17507,
+            "address": "bigsur.cf",
+            "port": 443,
             "users": [
               {
-                "id": "debce643-cad2-35a1-8718-67ff7526d215",
-                "alterId": 2,
+                "id": "b6c11428-1a30-11eb-8a8f-5600030aa1a7",
+                "alterId": 46,
                 "email": "t@t.tt",
                 "security": "auto",
                 "encryption": null
@@ -54,15 +54,18 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "bigsur.cf"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/jdy",
+          "path": "/NxtEbXiD/",
           "headers": {
-            "Host": "jdy-shlt.ddns-only.xyz"
+            "Host": "bigsur.cf"
           }
         },
         "httpSettings": null,
