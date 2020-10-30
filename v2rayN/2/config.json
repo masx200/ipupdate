@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "18.162.147.210",
-            "port": 40086,
+            "address": "jdy-shlt.ddns-only.xyz",
+            "port": 17507,
             "users": [
               {
-                "id": "8f47a763-f2d4-44cd-f67f-2f6beda5c902",
+                "id": "debce643-cad2-35a1-8718-67ff7526d215",
                 "alterId": 2,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -60,8 +60,10 @@
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": "/dwn",
-          "headers": null
+          "path": "/jdy",
+          "headers": {
+            "Host": "jdy-shlt.ddns-only.xyz"
+          }
         },
         "httpSettings": null,
         "quicSettings": null
