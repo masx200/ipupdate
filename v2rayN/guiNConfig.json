@@ -13,19 +13,19 @@
   "vmess": [
     {
       "configVersion": 2,
-      "address": "45.88.40.154",
-      "port": 80,
-      "id": "5689456e-1297-440e-845e-b9a5bccf4ff3",
+      "address": "120.232.194.9",
+      "port": 104,
+      "id": "mC7qrHw3",
       "alterId": 0,
-      "security": "auto",
-      "network": "tcp",
-      "remarks": "https://github.com/Alvin9999/new-pac/wiki ip1洛杉矶",
-      "headerType": "http",
+      "security": "aes-128-gcm",
+      "network": "",
+      "remarks": "https://github.com/Alvin9999/new-pac/wiki ip1",
+      "headerType": "",
       "requestHost": "",
       "path": "",
       "streamSecurity": "",
-      "allowInsecure": "false",
-      "configType": 1,
+      "allowInsecure": "",
+      "configType": 3,
       "testResult": "",
       "subid": ""
     }
