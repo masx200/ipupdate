@@ -32,36 +32,43 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "shadowsocks",
+      "protocol": "vmess",
       "settings": {
-        "vnext": null,
-        "servers": [
+        "vnext": [
           {
-            "email": null,
-            "address": "120.232.194.9",
-            "method": "aes-128-gcm",
-            "ota": false,
-            "password": "mC7qrHw3",
-            "port": 104,
-            "level": 1,
-            "users": null
+            "address": "shanghai-cn2-nat.mugun.xyz",
+            "port": 25069,
+            "users": [
+              {
+                "id": "d388ac06-a595-3802-a8fa-5f22aa27d4ad",
+                "alterId": 2,
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": null
+              }
+            ]
           }
         ],
+        "servers": null,
         "response": null
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": null,
         "tlsSettings": null,
         "tcpSettings": null,
         "kcpSettings": null,
-        "wsSettings": null,
+        "wsSettings": {
+          "connectionReuse": true,
+          "path": "/",
+          "headers": null
+        },
         "httpSettings": null,
         "quicSettings": null
       },
       "mux": {
-        "enabled": false,
-        "concurrency": -1
+        "enabled": true,
+        "concurrency": 8
       }
     },
     {
