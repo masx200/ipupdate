@@ -303,23 +303,17 @@ proxies:
   - {name: https://git.io/v9999 296, server: azhk1.ssrcloud.co, port: 8083, type: vmess, uuid: 9aeb8c2a-70f6-4162-bae0-36ba63266f33, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: azhk1.ssrcloud.co}}
   - {name: https://git.io/v9999 297, server: azhk3.ssrcloud.co, port: 8083, type: vmess, uuid: 9aeb8c2a-70f6-4162-bae0-36ba63266f33, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: azhk3.ssrcloud.co}}
   - {name: https://git.io/v9999 298, server: azhk5.ssrcloud.co, port: 8083, type: vmess, uuid: 9aeb8c2a-70f6-4162-bae0-36ba63266f33, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: azhk5.ssrcloud.co}}
-  - {name: https://git.io/v9999 299, server: fuckxiaofenhong.cf, port: 443, type: trojan, password: 6cbf2318-e64e-4d2e-a267-9bf66d91c264, sni: fuckxiaofenhong.cf}
-  - {name: https://git.io/v9999 300, server: fuckxiaofenhong.gq, port: 443, type: trojan, password: 6aae799b-ba61-4029-a565-e2fd1bed85a9, sni: fuckxiaofenhong.gq}
-  - {name: https://git.io/v9999 301, server: fuckxiaofenhong.ml, port: 443, type: trojan, password: 6cbf2318-e64e-4d2e-a267-9bf66d91c264, sni: fuckxiaofenhong.ml}
-  - {name: https://git.io/v9999 302, server: fuckxiaofenhong.tk, port: 443, type: trojan, password: 6cbf2318-e64e-4d2e-a267-9bf66d91c264, sni: fuckxiaofenhong.tk}
-  - {name: https://git.io/v9999 303, server: fuckxijinping.cf, port: 443, type: trojan, password: ea1ddbb5-8de9-410e-98e4-646e15139d53, sni: fuckxijinping.cf}
-  - {name: https://git.io/v9999 304, server: fuckxijinping.ga, port: 443, type: trojan, password: 1605b14d-87c5-446e-a8e1-8078d42970f3, sni: fuckxijinping.ga}
-  - {name: https://git.io/v9999 305, server: hgc04.gkv2.tk, port: 8080, type: vmess, uuid: 5634d58d-afd0-3021-af6f-887101457d1e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: hgc04.gkv2.tk}}
-  - {name: https://git.io/v9999 306, server: la.usaxyz.xyz, port: 443, type: vmess, uuid: 538d3e5f-7887-4963-a0bb-b47cf9860469, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /e362c83d/, ws-headers: {Host: la.usaxyz.xyz}}
-  - {name: https://git.io/v9999 307, server: llajv.rebldp.tech, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: llajv.rebldp.tech}}
-  - {name: https://git.io/v9999 308, server: losangeles.freev2.online, port: 443, type: vmess, uuid: 910b3c74-54bf-46f3-8a85-2e57f5e78dd2, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: losangeles.freev2.online}}
-  - {name: https://git.io/v9999 309, server: milkgogo.ga, port: 443, type: trojan, password: 18fd1888-64dd-4f8c-8287-89b17c1f6e88, sni: milkgogo.ga}
-  - {name: https://git.io/v9999 310, server: ny.bububu.buzz, port: 443, type: vmess, uuid: 246b08ed-d585-4dcf-8a9d-39d58176c0fb, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /a4496cb6/, ws-headers: {Host: ny.bububu.buzz}}
-  - {name: https://git.io/v9999 311, server: usa.usaxyz.xyz, port: 443, type: vmess, uuid: 953a678c-2431-4316-82ad-cda49b07829c, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /7b233/, ws-headers: {Host: usa.usaxyz.xyz}}
-  - {name: https://git.io/v9999 312, server: v2-04.ssrsub.one, port: 443, type: vmess, uuid: d0cfd824-8cac-180e-6f78-d4ac2cda6a25, alterId: 32, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: v2-04.ssrsub.one}}
-  - {name: https://git.io/v9999 313, server: v2-06.ssrsub.one, port: 443, type: vmess, uuid: d0cfd824-8cac-180e-6f78-d4ac2cda6a25, alterId: 32, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: v2-06.ssrsub.one}}
-  - {name: https://git.io/v9999 314, server: v2-14.ssrsub.one, port: 443, type: vmess, uuid: d0cfd824-8cac-180e-6f78-d4ac2cda6a25, alterId: 32, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: v2-14.ssrsub.one}}
-  - {name: https://git.io/v9999 315, server: xibun.gq, port: 443, type: trojan, password: 6cbf2318-e64e-4d2e-a267-9bf66d91c264, sni: xibun.gq}
+  - {name: https://git.io/v9999 299, server: hgc04.gkv2.tk, port: 8080, type: vmess, uuid: 5634d58d-afd0-3021-af6f-887101457d1e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: hgc04.gkv2.tk}}
+  - {name: https://git.io/v9999 300, server: la.usaxyz.xyz, port: 443, type: vmess, uuid: 538d3e5f-7887-4963-a0bb-b47cf9860469, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /e362c83d/, ws-headers: {Host: la.usaxyz.xyz}}
+  - {name: https://git.io/v9999 301, server: llajv.rebldp.tech, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: llajv.rebldp.tech}}
+  - {name: https://git.io/v9999 302, server: losangeles.freev2.online, port: 443, type: vmess, uuid: 910b3c74-54bf-46f3-8a85-2e57f5e78dd2, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: losangeles.freev2.online}}
+  - {name: https://git.io/v9999 303, server: milkgogo.ga, port: 443, type: trojan, password: 18fd1888-64dd-4f8c-8287-89b17c1f6e88, sni: milkgogo.ga}
+  - {name: https://git.io/v9999 304, server: ny.bububu.buzz, port: 443, type: vmess, uuid: 246b08ed-d585-4dcf-8a9d-39d58176c0fb, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /a4496cb6/, ws-headers: {Host: ny.bububu.buzz}}
+  - {name: https://git.io/v9999 305, server: usa.usaxyz.xyz, port: 443, type: vmess, uuid: 953a678c-2431-4316-82ad-cda49b07829c, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /7b233/, ws-headers: {Host: usa.usaxyz.xyz}}
+  - {name: https://git.io/v9999 306, server: v2-04.ssrsub.one, port: 443, type: vmess, uuid: d0cfd824-8cac-180e-6f78-d4ac2cda6a25, alterId: 32, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: v2-04.ssrsub.one}}
+  - {name: https://git.io/v9999 307, server: v2-06.ssrsub.one, port: 443, type: vmess, uuid: d0cfd824-8cac-180e-6f78-d4ac2cda6a25, alterId: 32, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: v2-06.ssrsub.one}}
+  - {name: https://git.io/v9999 308, server: v2-14.ssrsub.one, port: 443, type: vmess, uuid: d0cfd824-8cac-180e-6f78-d4ac2cda6a25, alterId: 32, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: v2-14.ssrsub.one}}
+  - {name: https://git.io/v9999 309, server: xibun.gq, port: 443, type: trojan, password: 6cbf2318-e64e-4d2e-a267-9bf66d91c264, sni: xibun.gq}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -635,12 +629,6 @@ proxy-groups:
       - https://git.io/v9999 307
       - https://git.io/v9999 308
       - https://git.io/v9999 309
-      - https://git.io/v9999 310
-      - https://git.io/v9999 311
-      - https://git.io/v9999 312
-      - https://git.io/v9999 313
-      - https://git.io/v9999 314
-      - https://git.io/v9999 315
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -956,12 +944,6 @@ proxy-groups:
       - https://git.io/v9999 307
       - https://git.io/v9999 308
       - https://git.io/v9999 309
-      - https://git.io/v9999 310
-      - https://git.io/v9999 311
-      - https://git.io/v9999 312
-      - https://git.io/v9999 313
-      - https://git.io/v9999 314
-      - https://git.io/v9999 315
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -1277,12 +1259,6 @@ proxy-groups:
       - https://git.io/v9999 307
       - https://git.io/v9999 308
       - https://git.io/v9999 309
-      - https://git.io/v9999 310
-      - https://git.io/v9999 311
-      - https://git.io/v9999 312
-      - https://git.io/v9999 313
-      - https://git.io/v9999 314
-      - https://git.io/v9999 315
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -1602,12 +1578,6 @@ proxy-groups:
       - https://git.io/v9999 307
       - https://git.io/v9999 308
       - https://git.io/v9999 309
-      - https://git.io/v9999 310
-      - https://git.io/v9999 311
-      - https://git.io/v9999 312
-      - https://git.io/v9999 313
-      - https://git.io/v9999 314
-      - https://git.io/v9999 315
   - name: 📲 电报信息
     type: select
     proxies:
@@ -1922,12 +1892,6 @@ proxy-groups:
       - https://git.io/v9999 307
       - https://git.io/v9999 308
       - https://git.io/v9999 309
-      - https://git.io/v9999 310
-      - https://git.io/v9999 311
-      - https://git.io/v9999 312
-      - https://git.io/v9999 313
-      - https://git.io/v9999 314
-      - https://git.io/v9999 315
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -2243,12 +2207,6 @@ proxy-groups:
       - https://git.io/v9999 307
       - https://git.io/v9999 308
       - https://git.io/v9999 309
-      - https://git.io/v9999 310
-      - https://git.io/v9999 311
-      - https://git.io/v9999 312
-      - https://git.io/v9999 313
-      - https://git.io/v9999 314
-      - https://git.io/v9999 315
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -2573,12 +2531,6 @@ proxy-groups:
       - https://git.io/v9999 307
       - https://git.io/v9999 308
       - https://git.io/v9999 309
-      - https://git.io/v9999 310
-      - https://git.io/v9999 311
-      - https://git.io/v9999 312
-      - https://git.io/v9999 313
-      - https://git.io/v9999 314
-      - https://git.io/v9999 315
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
