@@ -13,21 +13,22 @@
   "vmess": [
     {
       "configVersion": 2,
-      "address": "tr4.free5555.xyz",
-      "port": 443,
-      "id": "71329d98-782a-48de-8aa5-f551c7ae96d2",
+      "address": "192.109.98.115",
+      "port": 55500,
+      "id": "af8b8520-d1f9-4ace-83ed-fd4546a63285",
       "alterId": 0,
       "security": "auto",
-      "network": "ws",
-      "remarks": "https://github.com/Alvin9999/new-pac/wiki ip1莫斯科192",
+      "network": "tcp",
+      "remarks": "https://github.com/Alvin9999/new-pac/wiki ip3莫斯科192",
       "headerType": "none",
-      "requestHost": "tr4.free5555.xyz",
-      "path": "/ray",
-      "streamSecurity": "tls",
+      "requestHost": "",
+      "path": "",
+      "streamSecurity": "",
       "allowInsecure": "false",
       "configType": 1,
       "testResult": "",
-      "subid": ""
+      "subid": "",
+      "flow": ""
     }
   ],
   "muxEnabled": true,
