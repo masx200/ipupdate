@@ -13,22 +13,21 @@
   "vmess": [
     {
       "configVersion": 2,
-      "address": "192.109.98.115",
-      "port": 55500,
-      "id": "af8b8520-d1f9-4ace-83ed-fd4546a63285",
+      "address": "tr10.free5555.xyz",
+      "port": 443,
+      "id": "0e6e945d-50a4-4be2-a509-c6952ec5ec58",
       "alterId": 0,
       "security": "auto",
-      "network": "tcp",
+      "network": "ws",
       "remarks": "https://github.com/Alvin9999/new-pac/wiki ip3莫斯科192",
       "headerType": "none",
-      "requestHost": "",
-      "path": "",
-      "streamSecurity": "",
+      "requestHost": "tr10.free5555.xyz",
+      "path": "/dongtaiwang.com",
+      "streamSecurity": "tls",
       "allowInsecure": "false",
       "configType": 1,
       "testResult": "",
-      "subid": "",
-      "flow": ""
+      "subid": ""
     }
   ],
   "muxEnabled": true,
