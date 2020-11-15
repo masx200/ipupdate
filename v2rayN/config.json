@@ -36,7 +36,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "tr7.free5555.xyz",
+            "address": "104.20.53.30",
             "port": 443,
             "users": [
               {
@@ -44,7 +44,8 @@
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
-                "encryption": null
+                "encryption": null,
+                "flow": null
               }
             ]
           }
@@ -57,7 +58,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "tr7.free5555.xyz"
+          "serverName": "dongtaiwang.kebi2014.workers.dev"
         },
         "tcpSettings": null,
         "kcpSettings": null,
@@ -65,11 +66,12 @@
           "connectionReuse": true,
           "path": "/ray",
           "headers": {
-            "Host": "tr7.free5555.xyz"
+            "Host": "dongtaiwang.kebi2014.workers.dev"
           }
         },
         "httpSettings": null,
-        "quicSettings": null
+        "quicSettings": null,
+        "xtlsSettings": null
       },
       "mux": {
         "enabled": true,
