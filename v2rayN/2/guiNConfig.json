@@ -13,15 +13,15 @@
   "vmess": [
     {
       "configVersion": 2,
-      "address": "104.19.8.10",
+      "address": "tr10.free5555.xyz",
       "port": 443,
       "id": "0e6e945d-50a4-4be2-a509-c6952ec5ec58",
       "alterId": 0,
       "security": "auto",
       "network": "ws",
-      "remarks": "https://github.com/Alvin9999/new-pac/wiki ip3莫斯科CDN",
+      "remarks": "https://github.com/Alvin9999/new-pac/wiki ip3莫斯科",
       "headerType": "none",
-      "requestHost": "dongtaiwang.rebeccalane27.workers.dev",
+      "requestHost": "tr10.free5555.xyz",
       "path": "/dongtaiwang.com",
       "streamSecurity": "tls",
       "allowInsecure": "false",
