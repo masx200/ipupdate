@@ -36,7 +36,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.19.8.10",
+            "address": "tr10.free5555.xyz",
             "port": 443,
             "users": [
               {
@@ -58,7 +58,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "dongtaiwang.rebeccalane27.workers.dev"
+          "serverName": "tr10.free5555.xyz"
         },
         "tcpSettings": null,
         "kcpSettings": null,
@@ -66,7 +66,7 @@
           "connectionReuse": true,
           "path": "/dongtaiwang.com",
           "headers": {
-            "Host": "dongtaiwang.rebeccalane27.workers.dev"
+            "Host": "tr10.free5555.xyz"
           }
         },
         "httpSettings": null,
