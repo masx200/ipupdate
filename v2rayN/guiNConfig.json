@@ -13,15 +13,15 @@
   "vmess": [
     {
       "configVersion": 2,
-      "address": "104.19.64.10",
+      "address": "tr7.free5555.xyz",
       "port": 443,
       "id": "8c4ecf2b-e239-484b-9a87-0547f8a50431",
       "alterId": 0,
       "security": "auto",
       "network": "ws",
-      "remarks": "https://github.com/Alvin9999/new-pac/wiki ip1德国CDN",
+      "remarks": "https://github.com/Alvin9999/new-pac/wiki ip1德国",
       "headerType": "none",
-      "requestHost": "dongtaiwang.kebi2014.workers.dev",
+      "requestHost": "tr7.free5555.xyz",
       "path": "/ray",
       "streamSecurity": "tls",
       "allowInsecure": "false",
