@@ -53,70 +53,68 @@ proxies:
   - {name: https://git.io/v9999 46, server: 198.8.85.19, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: https://git.io/v9999 47, server: 198.8.85.89, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: https://git.io/v9999 48, server: 207.46.154.119, port: 8083, type: vmess, uuid: 5cf335d9-f783-4d95-89b2-898fec4b19f3, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 207.46.154.119}}
-  - {name: https://git.io/v9999 49, server: 209.141.52.187, port: 35055, type: vmess, uuid: 92903b27-a175-45af-95f4-d251ab2f33df, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 209.141.52.187}}
-  - {name: https://git.io/v9999 50, server: 209.58.188.157, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
-  - {name: https://git.io/v9999 51, server: 217.138.222.43, port: 36811, type: ss, cipher: aes-256-gcm, password: UhV73M9rmGqDfKh3Xtd4USHp}
-  - {name: https://git.io/v9999 52, server: 23.225.125.84, port: 443, type: vmess, uuid: 8fb921c0-564d-4d5a-9b13-384c01820126, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.56626173.xyz}}
-  - {name: https://git.io/v9999 53, server: 23.225.125.86, port: 443, type: vmess, uuid: 8fb921c0-564d-4d5a-9b13-384c01820126, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.56626173.xyz}}
-  - {name: https://git.io/v9999 54, server: 27.255.77.195, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: https://git.io/v9999 55, server: 37.120.194.99, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: https://git.io/v9999 56, server: 37.120.212.133, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 57, server: 37.120.221.3, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 58, server: 45.12.221.163, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: https://git.io/v9999 59, server: 45.12.221.165, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: https://git.io/v9999 60, server: 45.12.221.167, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: https://git.io/v9999 61, server: 45.12.222.245, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: https://git.io/v9999 62, server: 45.43.14.83, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 63, server: 45.43.14.93, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: https://git.io/v9999 64, server: 45.43.14.95, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: https://git.io/v9999 65, server: 45.85.3.162, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: https://git.io/v9999 66, server: 45.87.212.211, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: https://git.io/v9999 67, server: 45.87.213.101, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: https://git.io/v9999 68, server: 45.87.213.103, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: https://git.io/v9999 69, server: 45.87.213.211, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: https://git.io/v9999 70, server: 45.87.213.243, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: https://git.io/v9999 71, server: 45.87.213.7, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: https://git.io/v9999 72, server: 45.87.213.85, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: https://git.io/v9999 73, server: 45.87.213.85, port: 36811, type: ss, cipher: aes-256-gcm, password: UhV73M9rmGqDfKh3Xtd4USHp}
-  - {name: https://git.io/v9999 74, server: 45.87.213.87, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: https://git.io/v9999 75, server: 45.87.213.87, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: https://git.io/v9999 76, server: 5.154.174.115, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: https://git.io/v9999 77, server: 5.187.49.187, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: https://git.io/v9999 78, server: 5.253.206.227, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: https://git.io/v9999 79, server: 52.175.16.108, port: 60227, type: vmess, uuid: 04fb8e81-6551-414f-d64b-cb43e7c9cfae, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /dwn, ws-headers: {Host: 52.175.16.108}}
-  - {name: https://git.io/v9999 80, server: 52.175.16.108, port: 60227, type: vmess, uuid: 04fb8e81-6551-414f-d64b-cb43e7c9cfae, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /dwn, ws-headers: {Host: 52.175.16.108}}
-  - {name: https://git.io/v9999 81, server: 52.194.248.249, port: 13848, type: vmess, uuid: e3e3150b-ce47-489c-83f9-52a12d952aa5, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /dwn, ws-headers: {Host: 52.194.248.249}}
-  - {name: https://git.io/v9999 82, server: 52.194.248.249, port: 13848, type: vmess, uuid: e3e3150b-ce47-489c-83f9-52a12d952aa5, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /dwn, ws-headers: {Host: 52.194.248.249}}
-  - {name: https://git.io/v9999 83, server: 61.14.210.234, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: https://git.io/v9999 84, server: 61.14.210.242, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: https://git.io/v9999 85, server: 61.14.210.244, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: https://git.io/v9999 86, server: 61.14.210.244, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: https://git.io/v9999 87, server: 62.171.151.182, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: https://git.io/v9999 88, server: 66.115.147.94, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 89, server: 66.115.177.133, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: https://git.io/v9999 90, server: 74.119.146.117, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 91, server: 74.119.146.211, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: https://git.io/v9999 92, server: 76.223.46.100, port: 8080, type: vmess, uuid: 5cf335d9-f783-4d95-89b2-898fec4b19f3, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 76.223.46.100}}
-  - {name: https://git.io/v9999 93, server: 89.164.99.111, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://git.io/v9999 94, server: a95375b4d6e9c8546.awsglobalaccelerator.com, port: 8080, type: vmess, uuid: 5cf335d9-f783-4d95-89b2-898fec4b19f3, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: a95375b4d6e9c8546.awsglobalaccelerator.com}}
-  - {name: https://git.io/v9999 95, server: ac74dcea623fbeebf.awsglobalaccelerator.com, port: 1000, type: vmess, uuid: 786d1602-3cc9-405f-87c7-446c84cd92a8, alterId: 2, cipher: auto, tls: true}
-  - {name: https://git.io/v9999 96, server: azhk1.ssrcloud.co, port: 8083, type: vmess, uuid: 5cf335d9-f783-4d95-89b2-898fec4b19f3, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: azhk1.ssrcloud.co}}
-  - {name: https://git.io/v9999 97, server: bigsur.cf, port: 443, type: vmess, uuid: a85c5c4a-2bbe-11eb-8835-560003122328, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /J34U7AXB/, ws-headers: {Host: bigsur.cf}}
-  - {name: https://git.io/v9999 98, server: fuckxiaofenhong.cf, port: 443, type: trojan, password: 2e4557b4-bb55-4277-aea8-ec86b0e8cdd9, sni: fuckxiaofenhong.cf}
-  - {name: https://git.io/v9999 99, server: fuckxiaofenhong.ml, port: 443, type: trojan, password: 9e8ba352-4335-40d7-b01b-59611024ace0, sni: fuckxiaofenhong.ml}
-  - {name: https://git.io/v9999 100, server: fuckxiaofenhong.tk, port: 443, type: trojan, password: 91dd199d-f442-4615-9031-0c2e163a3533, sni: fuckxiaofenhong.tk}
-  - {name: https://git.io/v9999 101, server: la001.usaxyz.xyz, port: 443, type: vmess, uuid: 2b2db318-6996-4f41-aa34-8d989727aafa, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /bd79c09/, ws-headers: {Host: la001.usaxyz.xyz}}
-  - {name: https://git.io/v9999 102, server: mga.centos8.cloud, port: 443, type: vmess, uuid: 9bf0b2a1-f890-3d79-ba0b-0aa35a04d8d5, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /movie, ws-headers: {Host: mga.centos8.cloud}}
-  - {name: https://git.io/v9999 103, server: milkgogo.ga, port: 443, type: trojan, password: 42e30260-0c4b-4f30-bda5-a71dcd5aab27, sni: milkgogo.ga}
-  - {name: https://git.io/v9999 104, server: node2.zhimianfei.com, port: 17905, type: ss, cipher: chacha20-ietf-poly1305, password: 50oZ41pa1w97}
-  - {name: https://git.io/v9999 105, server: rntwo.laoban666.xyz, port: 443, type: vmess, uuid: 114f5786-a8a0-446a-a32f-446893480560, alterId: 10, cipher: auto, tls: true, network: ws, ws-path: /27353486f3a1d4f/, ws-headers: {Host: rntwo.laoban666.xyz}}
-  - {name: https://git.io/v9999 106, server: v2-04.ssrsub.one, port: 443, type: vmess, uuid: 9c6a715a-9707-42c3-8ff6-9737bd456cf2, alterId: 32, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: v2-04.ssrsub.one}}
-  - {name: https://git.io/v9999 107, server: v2-06.ssrsub.one, port: 443, type: vmess, uuid: 9c6a715a-9707-42c3-8ff6-9737bd456cf2, alterId: 32, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: v2-06.ssrsub.one}}
-  - {name: https://git.io/v9999 108, server: v2-07.ssrsub.one, port: 443, type: vmess, uuid: 9c6a715a-9707-42c3-8ff6-9737bd456cf2, alterId: 32, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: v2-07.ssrsub.one}}
-  - {name: https://git.io/v9999 109, server: v2-15.ssrsub.one, port: 443, type: vmess, uuid: 9c6a715a-9707-42c3-8ff6-9737bd456cf2, alterId: 32, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: v2-15.ssrsub.one}}
-  - {name: https://git.io/v9999 110, server: vir.laoban666.xyz, port: 443, type: vmess, uuid: 4f672ab6-25e3-49e8-951a-d87b1fa75467, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /ce04/, ws-headers: {Host: vir.laoban666.xyz}}
-  - {name: https://git.io/v9999 111, server: xibun.cf, port: 443, type: vmess, uuid: ae0481c2-2bbe-11eb-b293-56000312230f, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /GYaIOdDr/, ws-headers: {Host: xibun.cf}}
-  - {name: https://git.io/v9999 112, server: xibun.gq, port: 443, type: trojan, password: 44fc82f4-2dab-4713-b666-a7636cd504e0, sni: xibun.gq}
+  - {name: https://git.io/v9999 49, server: 217.138.222.43, port: 36811, type: ss, cipher: aes-256-gcm, password: UhV73M9rmGqDfKh3Xtd4USHp}
+  - {name: https://git.io/v9999 50, server: 23.225.125.84, port: 443, type: vmess, uuid: 8fb921c0-564d-4d5a-9b13-384c01820126, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.56626173.xyz}}
+  - {name: https://git.io/v9999 51, server: 23.225.125.86, port: 443, type: vmess, uuid: 8fb921c0-564d-4d5a-9b13-384c01820126, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.56626173.xyz}}
+  - {name: https://git.io/v9999 52, server: 27.255.77.195, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: https://git.io/v9999 53, server: 37.120.194.99, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: https://git.io/v9999 54, server: 37.120.212.133, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://git.io/v9999 55, server: 37.120.221.3, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://git.io/v9999 56, server: 45.12.221.163, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: https://git.io/v9999 57, server: 45.12.221.165, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: https://git.io/v9999 58, server: 45.12.221.167, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: https://git.io/v9999 59, server: 45.12.222.245, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: https://git.io/v9999 60, server: 45.43.14.83, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://git.io/v9999 61, server: 45.43.14.93, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: https://git.io/v9999 62, server: 45.43.14.95, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: https://git.io/v9999 63, server: 45.85.3.162, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: https://git.io/v9999 64, server: 45.87.212.211, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: https://git.io/v9999 65, server: 45.87.213.101, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: https://git.io/v9999 66, server: 45.87.213.103, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: https://git.io/v9999 67, server: 45.87.213.211, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: https://git.io/v9999 68, server: 45.87.213.243, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: https://git.io/v9999 69, server: 45.87.213.7, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: https://git.io/v9999 70, server: 45.87.213.85, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: https://git.io/v9999 71, server: 45.87.213.85, port: 36811, type: ss, cipher: aes-256-gcm, password: UhV73M9rmGqDfKh3Xtd4USHp}
+  - {name: https://git.io/v9999 72, server: 45.87.213.87, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: https://git.io/v9999 73, server: 45.87.213.87, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: https://git.io/v9999 74, server: 5.154.174.115, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: https://git.io/v9999 75, server: 5.187.49.187, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: https://git.io/v9999 76, server: 5.253.206.227, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: https://git.io/v9999 77, server: 52.175.16.108, port: 60227, type: vmess, uuid: 04fb8e81-6551-414f-d64b-cb43e7c9cfae, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /dwn, ws-headers: {Host: 52.175.16.108}}
+  - {name: https://git.io/v9999 78, server: 52.175.16.108, port: 60227, type: vmess, uuid: 04fb8e81-6551-414f-d64b-cb43e7c9cfae, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /dwn, ws-headers: {Host: 52.175.16.108}}
+  - {name: https://git.io/v9999 79, server: 52.194.248.249, port: 13848, type: vmess, uuid: e3e3150b-ce47-489c-83f9-52a12d952aa5, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /dwn, ws-headers: {Host: 52.194.248.249}}
+  - {name: https://git.io/v9999 80, server: 52.194.248.249, port: 13848, type: vmess, uuid: e3e3150b-ce47-489c-83f9-52a12d952aa5, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /dwn, ws-headers: {Host: 52.194.248.249}}
+  - {name: https://git.io/v9999 81, server: 61.14.210.234, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: https://git.io/v9999 82, server: 61.14.210.242, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: https://git.io/v9999 83, server: 61.14.210.244, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: https://git.io/v9999 84, server: 61.14.210.244, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: https://git.io/v9999 85, server: 62.171.151.182, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: https://git.io/v9999 86, server: 66.115.147.94, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://git.io/v9999 87, server: 66.115.177.133, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: https://git.io/v9999 88, server: 74.119.146.117, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://git.io/v9999 89, server: 74.119.146.211, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: https://git.io/v9999 90, server: 76.223.46.100, port: 8080, type: vmess, uuid: 5cf335d9-f783-4d95-89b2-898fec4b19f3, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 76.223.46.100}}
+  - {name: https://git.io/v9999 91, server: 89.164.99.111, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://git.io/v9999 92, server: a95375b4d6e9c8546.awsglobalaccelerator.com, port: 8080, type: vmess, uuid: 5cf335d9-f783-4d95-89b2-898fec4b19f3, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: a95375b4d6e9c8546.awsglobalaccelerator.com}}
+  - {name: https://git.io/v9999 93, server: ac74dcea623fbeebf.awsglobalaccelerator.com, port: 1000, type: vmess, uuid: 786d1602-3cc9-405f-87c7-446c84cd92a8, alterId: 2, cipher: auto, tls: true}
+  - {name: https://git.io/v9999 94, server: azhk1.ssrcloud.co, port: 8083, type: vmess, uuid: 5cf335d9-f783-4d95-89b2-898fec4b19f3, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: azhk1.ssrcloud.co}}
+  - {name: https://git.io/v9999 95, server: bigsur.cf, port: 443, type: vmess, uuid: a85c5c4a-2bbe-11eb-8835-560003122328, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /J34U7AXB/, ws-headers: {Host: bigsur.cf}}
+  - {name: https://git.io/v9999 96, server: fuckxiaofenhong.cf, port: 443, type: trojan, password: 2e4557b4-bb55-4277-aea8-ec86b0e8cdd9, sni: fuckxiaofenhong.cf}
+  - {name: https://git.io/v9999 97, server: fuckxiaofenhong.ml, port: 443, type: trojan, password: 9e8ba352-4335-40d7-b01b-59611024ace0, sni: fuckxiaofenhong.ml}
+  - {name: https://git.io/v9999 98, server: fuckxiaofenhong.tk, port: 443, type: trojan, password: 91dd199d-f442-4615-9031-0c2e163a3533, sni: fuckxiaofenhong.tk}
+  - {name: https://git.io/v9999 99, server: la001.usaxyz.xyz, port: 443, type: vmess, uuid: 2b2db318-6996-4f41-aa34-8d989727aafa, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /bd79c09/, ws-headers: {Host: la001.usaxyz.xyz}}
+  - {name: https://git.io/v9999 100, server: mga.centos8.cloud, port: 443, type: vmess, uuid: 9bf0b2a1-f890-3d79-ba0b-0aa35a04d8d5, alterId: 16, cipher: auto, tls: true, network: ws, ws-path: /movie, ws-headers: {Host: mga.centos8.cloud}}
+  - {name: https://git.io/v9999 101, server: milkgogo.ga, port: 443, type: trojan, password: 42e30260-0c4b-4f30-bda5-a71dcd5aab27, sni: milkgogo.ga}
+  - {name: https://git.io/v9999 102, server: node2.zhimianfei.com, port: 17905, type: ss, cipher: chacha20-ietf-poly1305, password: 50oZ41pa1w97}
+  - {name: https://git.io/v9999 103, server: rntwo.laoban666.xyz, port: 443, type: vmess, uuid: 114f5786-a8a0-446a-a32f-446893480560, alterId: 10, cipher: auto, tls: true, network: ws, ws-path: /27353486f3a1d4f/, ws-headers: {Host: rntwo.laoban666.xyz}}
+  - {name: https://git.io/v9999 104, server: v2-04.ssrsub.one, port: 443, type: vmess, uuid: 9c6a715a-9707-42c3-8ff6-9737bd456cf2, alterId: 32, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: v2-04.ssrsub.one}}
+  - {name: https://git.io/v9999 105, server: v2-06.ssrsub.one, port: 443, type: vmess, uuid: 9c6a715a-9707-42c3-8ff6-9737bd456cf2, alterId: 32, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: v2-06.ssrsub.one}}
+  - {name: https://git.io/v9999 106, server: v2-07.ssrsub.one, port: 443, type: vmess, uuid: 9c6a715a-9707-42c3-8ff6-9737bd456cf2, alterId: 32, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: v2-07.ssrsub.one}}
+  - {name: https://git.io/v9999 107, server: v2-15.ssrsub.one, port: 443, type: vmess, uuid: 9c6a715a-9707-42c3-8ff6-9737bd456cf2, alterId: 32, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: v2-15.ssrsub.one}}
+  - {name: https://git.io/v9999 108, server: vir.laoban666.xyz, port: 443, type: vmess, uuid: 4f672ab6-25e3-49e8-951a-d87b1fa75467, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /ce04/, ws-headers: {Host: vir.laoban666.xyz}}
+  - {name: https://git.io/v9999 109, server: xibun.cf, port: 443, type: vmess, uuid: ae0481c2-2bbe-11eb-b293-56000312230f, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /GYaIOdDr/, ws-headers: {Host: xibun.cf}}
+  - {name: https://git.io/v9999 110, server: xibun.gq, port: 443, type: trojan, password: 44fc82f4-2dab-4713-b666-a7636cd504e0, sni: xibun.gq}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -233,8 +231,6 @@ proxy-groups:
       - https://git.io/v9999 108
       - https://git.io/v9999 109
       - https://git.io/v9999 110
-      - https://git.io/v9999 111
-      - https://git.io/v9999 112
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -351,8 +347,6 @@ proxy-groups:
       - https://git.io/v9999 108
       - https://git.io/v9999 109
       - https://git.io/v9999 110
-      - https://git.io/v9999 111
-      - https://git.io/v9999 112
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -469,8 +463,6 @@ proxy-groups:
       - https://git.io/v9999 108
       - https://git.io/v9999 109
       - https://git.io/v9999 110
-      - https://git.io/v9999 111
-      - https://git.io/v9999 112
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -591,8 +583,6 @@ proxy-groups:
       - https://git.io/v9999 108
       - https://git.io/v9999 109
       - https://git.io/v9999 110
-      - https://git.io/v9999 111
-      - https://git.io/v9999 112
   - name: 📲 电报信息
     type: select
     proxies:
@@ -708,8 +698,6 @@ proxy-groups:
       - https://git.io/v9999 108
       - https://git.io/v9999 109
       - https://git.io/v9999 110
-      - https://git.io/v9999 111
-      - https://git.io/v9999 112
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -826,8 +814,6 @@ proxy-groups:
       - https://git.io/v9999 108
       - https://git.io/v9999 109
       - https://git.io/v9999 110
-      - https://git.io/v9999 111
-      - https://git.io/v9999 112
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -953,8 +939,6 @@ proxy-groups:
       - https://git.io/v9999 108
       - https://git.io/v9999 109
       - https://git.io/v9999 110
-      - https://git.io/v9999 111
-      - https://git.io/v9999 112
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
