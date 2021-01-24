@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.66.156.199",
-            "port": 42814,
+            "address": "cloudflare.com",
+            "port": 443,
             "users": [
               {
-                "id": "4587d2d0-c78c-4620-b780-22e77fde8a14",
+                "id": "3042bf92-26a7-4de8-adce-05c0fad54341",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -55,14 +55,19 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "cdn1.free2222.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": null,
-          "headers": null
+          "path": "/ray",
+          "headers": {
+            "Host": "cdn1.free2222.xyz"
+          }
         },
         "httpSettings": null,
         "quicSettings": null,
