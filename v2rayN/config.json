@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "89.163.224.92",
-            "port": 58224,
+            "address": "ge001.free2222.xyz",
+            "port": 443,
             "users": [
               {
-                "id": "ea2bb138-8043-4586-845a-31a1e0da34bc",
+                "id": "55139eb8-f598-4cdd-90e5-def733e8f999",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -55,14 +55,19 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": null,
-        "tlsSettings": null,
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "ge001.free2222.xyz"
+        },
         "tcpSettings": null,
         "kcpSettings": null,
         "wsSettings": {
           "connectionReuse": true,
-          "path": null,
-          "headers": null
+          "path": "/ray",
+          "headers": {
+            "Host": "ge001.free2222.xyz"
+          }
         },
         "httpSettings": null,
         "quicSettings": null,
