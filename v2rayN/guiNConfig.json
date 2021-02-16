@@ -12,8 +12,8 @@
   "index": 0,
   "vmess": [
     {
-       "configVersion": 2,
-      "address": "ge001.free2222.xyz",
+      "configVersion": 2,
+      "address": "104.19.0.10",
       "port": 443,
       "id": "55139eb8-f598-4cdd-90e5-def733e8f999",
       "alterId": 0,
