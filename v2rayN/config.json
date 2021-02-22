@@ -36,7 +36,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "ge001.free2222.xyz",
+            "address": "cloudflare.com",
             "port": 443,
             "users": [
               {
