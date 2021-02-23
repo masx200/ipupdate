@@ -13,15 +13,15 @@
   "vmess": [
     {
       "configVersion": 2,
-      "address": "cloudflare.com",
+      "address": "adman01.free2222.xyz",
       "port": 443,
-      "id": "3042bf92-26a7-4de8-adce-05c0fad54341",
+      "id": "1564abce-bde7-435a-9ab4-97565eb17734",
       "alterId": 0,
       "security": "auto",
       "network": "ws",
       "remarks": "https://github.com/Alvin9999/new-pac/wiki ip3莫斯科",
       "headerType": "none",
-      "requestHost": "cdn1.free2222.xyz",
+      "requestHost": "adman01.free2222.xyz",
       "path": "/ray",
       "streamSecurity": "tls",
       "allowInsecure": "false",
