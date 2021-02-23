@@ -36,11 +36,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "cloudflare.com",
+            "address": "adman01.free2222.xyz",
             "port": 443,
             "users": [
               {
-                "id": "3042bf92-26a7-4de8-adce-05c0fad54341",
+                "id": "1564abce-bde7-435a-9ab4-97565eb17734",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -58,7 +58,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "cdn1.free2222.xyz"
+          "serverName": "adman01.free2222.xyz"
         },
         "tcpSettings": null,
         "kcpSettings": null,
@@ -66,7 +66,7 @@
           "connectionReuse": true,
           "path": "/ray",
           "headers": {
-            "Host": "cdn1.free2222.xyz"
+            "Host": "adman01.free2222.xyz"
           }
         },
         "httpSettings": null,
