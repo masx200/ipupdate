@@ -1,6 +1,6 @@
 
 {
-    "password": "nHNcLN5E0zZQI7yG",
+    "password": "aES6Cde0ylVCQeTf",
     "method": "rc4",
     "protocol": "origin",
     "protocol_param": "",
@@ -14,11 +14,11 @@
 
     "server_settings": {
         "listen_address": "0.0.0.0",
-        "listen_port": 14862
+        "listen_port": 13593
     },
 
     "client_settings": {
-        "server": "45.66.159.254",
+        "server": "108.61.207.109",
         "server_port": 443,
         "listen_address": "0.0.0.0",
         "listen_port": 1080
@@ -26,8 +26,8 @@
 
     "over_tls_settings": {
         "enable": true,
-        "server_domain": "tr102.free5555.xyz",
-        "path": "/7ikooBOT77I3yFgLffhS/",
+        "server_domain": "ssrot1.free2222.xyz",
+        "path": "/MGfbDYyXkzCt127li2nr/",
         "root_cert_file": ""
     }
 }
