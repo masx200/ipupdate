@@ -5,71 +5,63 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇷🇺 俄罗斯新西伯利亚JustHost175.27, server: 194.50.171.175, port: 9730, type: ssr, cipher: rc4, password: lncn.org h9r, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: 🇷🇺 俄罗斯新西伯利亚JustHost175.69, server: 45.130.146.175, port: 9730, type: ssr, cipher: rc4, password: lncn.org 6ku, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: 🇷🇺 俄罗斯新西伯利亚ADMAN网络31.73, server: 194.156.120.31, port: 9730, type: ssr, cipher: rc4, password: lncn.org n6e, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: 🇷🇺 俄罗斯新西伯利亚ADMAN网络127.E2, server: 188.119.64.127, port: 9730, type: ssr, cipher: rc4, password: lncn.org n6e, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: 🇷🇺 俄罗斯新西伯利亚justhost83.1B, server: 45.8.158.83, port: 9730, type: ssr, cipher: rc4, password: lncn.org n6e, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: 🇷🇺 俄罗斯新西伯利亚JustHost37.3A, server: 45.89.229.37, port: 9730, type: ssr, cipher: rc4, password: lncn.org 6ku, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: 🇷🇺 俄罗斯新西伯利亚JustHost193.F2, server: 45.130.146.193, port: 9730, type: ssr, cipher: rc4, password: lncn.org h9r, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: 🇷🇺 俄罗斯新西伯利亚justhost152.F7, server: 2.56.241.152, port: 9730, type: ssr, cipher: rc4, password: lncn.org n6e, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: 🇷🇺 俄罗斯新西伯利亚justhost28.C5, server: 45.8.158.28, port: 9730, type: ssr, cipher: rc4, password: lncn.org 6ku, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: 🇷🇺 俄罗斯新西伯利亚justhost240.48, server: 2.56.240.240, port: 9730, type: ssr, cipher: rc4, password: lncn.org h9r, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: 🇷🇺 俄罗斯新西伯利亚JustHost122.8F, server: 194.50.171.122, port: 9730, type: ssr, cipher: rc4, password: lncn.org 6ku, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: 🇷🇺 俄罗斯西伯利亚JustHost217.7D, server: 91.206.93.217, port: 9730, type: ssr, cipher: rc4, password: lncn.org h9r, protocol: origin, obfs: plain, protocol-param: "", obfs-param: ""}
+  - {name: https://git.io/v9999 v2raycdn, server: 104.17.64.0, port: 443, type: vmess, uuid: 55139eb8-f598-4cdd-90e5-def733e8f999, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge001.free2222.xyz}}
+  - {name: https://git.io/v9999 v2raycdn 2, server: 104.17.192.0, port: 443, type: vmess, uuid: 55139eb8-f598-4cdd-90e5-def733e8f999, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge001.free2222.xyz}}
+  - {name: https://git.io/v9999 v2raycdn 3, server: 104.16.192.0, port: 443, type: vmess, uuid: 55139eb8-f598-4cdd-90e5-def733e8f999, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge001.free2222.xyz}}
+  - {name: https://git.io/v9999 v2raycdn 4, server: 104.16.0.0, port: 443, type: vmess, uuid: 55139eb8-f598-4cdd-90e5-def733e8f999, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge001.free2222.xyz}}
+  - {name: https://git.io/v9999 v2raycdn 5, server: 104.16.96.0, port: 443, type: vmess, uuid: 55139eb8-f598-4cdd-90e5-def733e8f999, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge001.free2222.xyz}}
+  - {name: https://git.io/v9999 v2raycdn 6, server: 104.16.224.0, port: 443, type: vmess, uuid: 55139eb8-f598-4cdd-90e5-def733e8f999, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge001.free2222.xyz}}
+  - {name: https://git.io/v9999 v2raycdn 7, server: 104.17.0.0, port: 443, type: vmess, uuid: 55139eb8-f598-4cdd-90e5-def733e8f999, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge001.free2222.xyz}}
+  - {name: https://git.io/v9999 v2raycdn 8, server: 104.16.32.0, port: 443, type: vmess, uuid: 55139eb8-f598-4cdd-90e5-def733e8f999, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge001.free2222.xyz}}
+  - {name: https://git.io/v9999 v2raycdn 9, server: 104.17.160.0, port: 443, type: vmess, uuid: 55139eb8-f598-4cdd-90e5-def733e8f999, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge001.free2222.xyz}}
+  - {name: https://git.io/v9999 v2raycdn 10, server: 104.17.64.0, port: 443, type: vmess, uuid: 55139eb8-f598-4cdd-90e5-def733e8f999, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge001.free2222.xyz}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇷🇺 俄罗斯新西伯利亚JustHost175.27
-      - 🇷🇺 俄罗斯新西伯利亚JustHost175.69
-      - 🇷🇺 俄罗斯新西伯利亚ADMAN网络31.73
-      - 🇷🇺 俄罗斯新西伯利亚ADMAN网络127.E2
-      - 🇷🇺 俄罗斯新西伯利亚justhost83.1B
-      - 🇷🇺 俄罗斯新西伯利亚JustHost37.3A
-      - 🇷🇺 俄罗斯新西伯利亚JustHost193.F2
-      - 🇷🇺 俄罗斯新西伯利亚justhost152.F7
-      - 🇷🇺 俄罗斯新西伯利亚justhost28.C5
-      - 🇷🇺 俄罗斯新西伯利亚justhost240.48
-      - 🇷🇺 俄罗斯新西伯利亚JustHost122.8F
-      - 🇷🇺 俄罗斯西伯利亚JustHost217.7D
+      - https://git.io/v9999 v2raycdn
+      - https://git.io/v9999 v2raycdn 2
+      - https://git.io/v9999 v2raycdn 3
+      - https://git.io/v9999 v2raycdn 4
+      - https://git.io/v9999 v2raycdn 5
+      - https://git.io/v9999 v2raycdn 6
+      - https://git.io/v9999 v2raycdn 7
+      - https://git.io/v9999 v2raycdn 8
+      - https://git.io/v9999 v2raycdn 9
+      - https://git.io/v9999 v2raycdn 10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇷🇺 俄罗斯新西伯利亚JustHost175.27
-      - 🇷🇺 俄罗斯新西伯利亚JustHost175.69
-      - 🇷🇺 俄罗斯新西伯利亚ADMAN网络31.73
-      - 🇷🇺 俄罗斯新西伯利亚ADMAN网络127.E2
-      - 🇷🇺 俄罗斯新西伯利亚justhost83.1B
-      - 🇷🇺 俄罗斯新西伯利亚JustHost37.3A
-      - 🇷🇺 俄罗斯新西伯利亚JustHost193.F2
-      - 🇷🇺 俄罗斯新西伯利亚justhost152.F7
-      - 🇷🇺 俄罗斯新西伯利亚justhost28.C5
-      - 🇷🇺 俄罗斯新西伯利亚justhost240.48
-      - 🇷🇺 俄罗斯新西伯利亚JustHost122.8F
-      - 🇷🇺 俄罗斯西伯利亚JustHost217.7D
+      - https://git.io/v9999 v2raycdn
+      - https://git.io/v9999 v2raycdn 2
+      - https://git.io/v9999 v2raycdn 3
+      - https://git.io/v9999 v2raycdn 4
+      - https://git.io/v9999 v2raycdn 5
+      - https://git.io/v9999 v2raycdn 6
+      - https://git.io/v9999 v2raycdn 7
+      - https://git.io/v9999 v2raycdn 8
+      - https://git.io/v9999 v2raycdn 9
+      - https://git.io/v9999 v2raycdn 10
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇷🇺 俄罗斯新西伯利亚JustHost175.27
-      - 🇷🇺 俄罗斯新西伯利亚JustHost175.69
-      - 🇷🇺 俄罗斯新西伯利亚ADMAN网络31.73
-      - 🇷🇺 俄罗斯新西伯利亚ADMAN网络127.E2
-      - 🇷🇺 俄罗斯新西伯利亚justhost83.1B
-      - 🇷🇺 俄罗斯新西伯利亚JustHost37.3A
-      - 🇷🇺 俄罗斯新西伯利亚JustHost193.F2
-      - 🇷🇺 俄罗斯新西伯利亚justhost152.F7
-      - 🇷🇺 俄罗斯新西伯利亚justhost28.C5
-      - 🇷🇺 俄罗斯新西伯利亚justhost240.48
-      - 🇷🇺 俄罗斯新西伯利亚JustHost122.8F
-      - 🇷🇺 俄罗斯西伯利亚JustHost217.7D
+      - https://git.io/v9999 v2raycdn
+      - https://git.io/v9999 v2raycdn 2
+      - https://git.io/v9999 v2raycdn 3
+      - https://git.io/v9999 v2raycdn 4
+      - https://git.io/v9999 v2raycdn 5
+      - https://git.io/v9999 v2raycdn 6
+      - https://git.io/v9999 v2raycdn 7
+      - https://git.io/v9999 v2raycdn 8
+      - https://git.io/v9999 v2raycdn 9
+      - https://git.io/v9999 v2raycdn 10
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -80,53 +72,47 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇷🇺 俄罗斯新西伯利亚JustHost175.27
-      - 🇷🇺 俄罗斯新西伯利亚JustHost175.69
-      - 🇷🇺 俄罗斯新西伯利亚ADMAN网络31.73
-      - 🇷🇺 俄罗斯新西伯利亚ADMAN网络127.E2
-      - 🇷🇺 俄罗斯新西伯利亚justhost83.1B
-      - 🇷🇺 俄罗斯新西伯利亚JustHost37.3A
-      - 🇷🇺 俄罗斯新西伯利亚JustHost193.F2
-      - 🇷🇺 俄罗斯新西伯利亚justhost152.F7
-      - 🇷🇺 俄罗斯新西伯利亚justhost28.C5
-      - 🇷🇺 俄罗斯新西伯利亚justhost240.48
-      - 🇷🇺 俄罗斯新西伯利亚JustHost122.8F
-      - 🇷🇺 俄罗斯西伯利亚JustHost217.7D
+      - https://git.io/v9999 v2raycdn
+      - https://git.io/v9999 v2raycdn 2
+      - https://git.io/v9999 v2raycdn 3
+      - https://git.io/v9999 v2raycdn 4
+      - https://git.io/v9999 v2raycdn 5
+      - https://git.io/v9999 v2raycdn 6
+      - https://git.io/v9999 v2raycdn 7
+      - https://git.io/v9999 v2raycdn 8
+      - https://git.io/v9999 v2raycdn 9
+      - https://git.io/v9999 v2raycdn 10
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇷🇺 俄罗斯新西伯利亚JustHost175.27
-      - 🇷🇺 俄罗斯新西伯利亚JustHost175.69
-      - 🇷🇺 俄罗斯新西伯利亚ADMAN网络31.73
-      - 🇷🇺 俄罗斯新西伯利亚ADMAN网络127.E2
-      - 🇷🇺 俄罗斯新西伯利亚justhost83.1B
-      - 🇷🇺 俄罗斯新西伯利亚JustHost37.3A
-      - 🇷🇺 俄罗斯新西伯利亚JustHost193.F2
-      - 🇷🇺 俄罗斯新西伯利亚justhost152.F7
-      - 🇷🇺 俄罗斯新西伯利亚justhost28.C5
-      - 🇷🇺 俄罗斯新西伯利亚justhost240.48
-      - 🇷🇺 俄罗斯新西伯利亚JustHost122.8F
-      - 🇷🇺 俄罗斯西伯利亚JustHost217.7D
+      - https://git.io/v9999 v2raycdn
+      - https://git.io/v9999 v2raycdn 2
+      - https://git.io/v9999 v2raycdn 3
+      - https://git.io/v9999 v2raycdn 4
+      - https://git.io/v9999 v2raycdn 5
+      - https://git.io/v9999 v2raycdn 6
+      - https://git.io/v9999 v2raycdn 7
+      - https://git.io/v9999 v2raycdn 8
+      - https://git.io/v9999 v2raycdn 9
+      - https://git.io/v9999 v2raycdn 10
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇷🇺 俄罗斯新西伯利亚JustHost175.27
-      - 🇷🇺 俄罗斯新西伯利亚JustHost175.69
-      - 🇷🇺 俄罗斯新西伯利亚ADMAN网络31.73
-      - 🇷🇺 俄罗斯新西伯利亚ADMAN网络127.E2
-      - 🇷🇺 俄罗斯新西伯利亚justhost83.1B
-      - 🇷🇺 俄罗斯新西伯利亚JustHost37.3A
-      - 🇷🇺 俄罗斯新西伯利亚JustHost193.F2
-      - 🇷🇺 俄罗斯新西伯利亚justhost152.F7
-      - 🇷🇺 俄罗斯新西伯利亚justhost28.C5
-      - 🇷🇺 俄罗斯新西伯利亚justhost240.48
-      - 🇷🇺 俄罗斯新西伯利亚JustHost122.8F
-      - 🇷🇺 俄罗斯西伯利亚JustHost217.7D
+      - https://git.io/v9999 v2raycdn
+      - https://git.io/v9999 v2raycdn 2
+      - https://git.io/v9999 v2raycdn 3
+      - https://git.io/v9999 v2raycdn 4
+      - https://git.io/v9999 v2raycdn 5
+      - https://git.io/v9999 v2raycdn 6
+      - https://git.io/v9999 v2raycdn 7
+      - https://git.io/v9999 v2raycdn 8
+      - https://git.io/v9999 v2raycdn 9
+      - https://git.io/v9999 v2raycdn 10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -142,18 +128,16 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇷🇺 俄罗斯新西伯利亚JustHost175.27
-      - 🇷🇺 俄罗斯新西伯利亚JustHost175.69
-      - 🇷🇺 俄罗斯新西伯利亚ADMAN网络31.73
-      - 🇷🇺 俄罗斯新西伯利亚ADMAN网络127.E2
-      - 🇷🇺 俄罗斯新西伯利亚justhost83.1B
-      - 🇷🇺 俄罗斯新西伯利亚JustHost37.3A
-      - 🇷🇺 俄罗斯新西伯利亚JustHost193.F2
-      - 🇷🇺 俄罗斯新西伯利亚justhost152.F7
-      - 🇷🇺 俄罗斯新西伯利亚justhost28.C5
-      - 🇷🇺 俄罗斯新西伯利亚justhost240.48
-      - 🇷🇺 俄罗斯新西伯利亚JustHost122.8F
-      - 🇷🇺 俄罗斯西伯利亚JustHost217.7D
+      - https://git.io/v9999 v2raycdn
+      - https://git.io/v9999 v2raycdn 2
+      - https://git.io/v9999 v2raycdn 3
+      - https://git.io/v9999 v2raycdn 4
+      - https://git.io/v9999 v2raycdn 5
+      - https://git.io/v9999 v2raycdn 6
+      - https://git.io/v9999 v2raycdn 7
+      - https://git.io/v9999 v2raycdn 8
+      - https://git.io/v9999 v2raycdn 9
+      - https://git.io/v9999 v2raycdn 10
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
