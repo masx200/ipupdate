@@ -13,17 +13,6 @@ proxies:
   - {name: 🇩🇪 https://git.io/v9999 v2ray德国 6, server: www.hkmci.com, port: 443, type: vmess, uuid: 55139eb8-f598-4cdd-90e5-def733e8f999, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge001.free2222.xyz}}
   - {name: 🇩🇪 https://git.io/v9999 v2ray德国 7, server: icook.tw, port: 443, type: vmess, uuid: 55139eb8-f598-4cdd-90e5-def733e8f999, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge001.free2222.xyz}}
   - {name: 🇩🇪 https://git.io/v9999 v2ray德国 8, server: www.garmin.com, port: 443, type: vmess, uuid: 55139eb8-f598-4cdd-90e5-def733e8f999, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge001.free2222.xyz}}
-  - {name: https://git.io/v9999 v2raycdn, server: 104.17.0.10, port: 443, type: vmess, uuid: 55139eb8-f598-4cdd-90e5-def733e8f999, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge001.free2222.xyz}}
-  - {name: https://git.io/v9999 v2raycdn 2, server: 104.16.192.10, port: 443, type: vmess, uuid: 55139eb8-f598-4cdd-90e5-def733e8f999, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge001.free2222.xyz}}
-  - {name: https://git.io/v9999 v2raycdn 3, server: 104.17.192.10, port: 443, type: vmess, uuid: 55139eb8-f598-4cdd-90e5-def733e8f999, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge001.free2222.xyz}}
-  - {name: https://git.io/v9999 v2raycdn 4, server: 104.16.224.10, port: 443, type: vmess, uuid: 55139eb8-f598-4cdd-90e5-def733e8f999, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge001.free2222.xyz}}
-  - {name: https://git.io/v9999 v2raycdn 5, server: 104.16.0.10, port: 443, type: vmess, uuid: 55139eb8-f598-4cdd-90e5-def733e8f999, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge001.free2222.xyz}}
-  - {name: https://git.io/v9999 v2raycdn 6, server: 104.17.64.10, port: 443, type: vmess, uuid: 55139eb8-f598-4cdd-90e5-def733e8f999, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge001.free2222.xyz}}
-  - {name: https://git.io/v9999 v2raycdn 7, server: 104.16.32.10, port: 443, type: vmess, uuid: 55139eb8-f598-4cdd-90e5-def733e8f999, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge001.free2222.xyz}}
-  - {name: https://git.io/v9999 v2raycdn 8, server: 104.17.160.10, port: 443, type: vmess, uuid: 55139eb8-f598-4cdd-90e5-def733e8f999, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge001.free2222.xyz}}
-  - {name: https://git.io/v9999 v2raycdn 9, server: 104.19.96.10, port: 443, type: vmess, uuid: 55139eb8-f598-4cdd-90e5-def733e8f999, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge001.free2222.xyz}}
-  - {name: https://git.io/v9999 v2raycdn 10, server: 104.19.32.10, port: 443, type: vmess, uuid: 55139eb8-f598-4cdd-90e5-def733e8f999, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge001.free2222.xyz}}
-  - {name: https://git.io/v9999 v2raycdn 11, server: 104.19.64.10, port: 443, type: vmess, uuid: 55139eb8-f598-4cdd-90e5-def733e8f999, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge001.free2222.xyz}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -38,17 +27,6 @@ proxy-groups:
       - 🇩🇪 https://git.io/v9999 v2ray德国 6
       - 🇩🇪 https://git.io/v9999 v2ray德国 7
       - 🇩🇪 https://git.io/v9999 v2ray德国 8
-      - https://git.io/v9999 v2raycdn
-      - https://git.io/v9999 v2raycdn 2
-      - https://git.io/v9999 v2raycdn 3
-      - https://git.io/v9999 v2raycdn 4
-      - https://git.io/v9999 v2raycdn 5
-      - https://git.io/v9999 v2raycdn 6
-      - https://git.io/v9999 v2raycdn 7
-      - https://git.io/v9999 v2raycdn 8
-      - https://git.io/v9999 v2raycdn 9
-      - https://git.io/v9999 v2raycdn 10
-      - https://git.io/v9999 v2raycdn 11
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -62,17 +40,6 @@ proxy-groups:
       - 🇩🇪 https://git.io/v9999 v2ray德国 6
       - 🇩🇪 https://git.io/v9999 v2ray德国 7
       - 🇩🇪 https://git.io/v9999 v2ray德国 8
-      - https://git.io/v9999 v2raycdn
-      - https://git.io/v9999 v2raycdn 2
-      - https://git.io/v9999 v2raycdn 3
-      - https://git.io/v9999 v2raycdn 4
-      - https://git.io/v9999 v2raycdn 5
-      - https://git.io/v9999 v2raycdn 6
-      - https://git.io/v9999 v2raycdn 7
-      - https://git.io/v9999 v2raycdn 8
-      - https://git.io/v9999 v2raycdn 9
-      - https://git.io/v9999 v2raycdn 10
-      - https://git.io/v9999 v2raycdn 11
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -87,17 +54,6 @@ proxy-groups:
       - 🇩🇪 https://git.io/v9999 v2ray德国 6
       - 🇩🇪 https://git.io/v9999 v2ray德国 7
       - 🇩🇪 https://git.io/v9999 v2ray德国 8
-      - https://git.io/v9999 v2raycdn
-      - https://git.io/v9999 v2raycdn 2
-      - https://git.io/v9999 v2raycdn 3
-      - https://git.io/v9999 v2raycdn 4
-      - https://git.io/v9999 v2raycdn 5
-      - https://git.io/v9999 v2raycdn 6
-      - https://git.io/v9999 v2raycdn 7
-      - https://git.io/v9999 v2raycdn 8
-      - https://git.io/v9999 v2raycdn 9
-      - https://git.io/v9999 v2raycdn 10
-      - https://git.io/v9999 v2raycdn 11
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -116,17 +72,6 @@ proxy-groups:
       - 🇩🇪 https://git.io/v9999 v2ray德国 6
       - 🇩🇪 https://git.io/v9999 v2ray德国 7
       - 🇩🇪 https://git.io/v9999 v2ray德国 8
-      - https://git.io/v9999 v2raycdn
-      - https://git.io/v9999 v2raycdn 2
-      - https://git.io/v9999 v2raycdn 3
-      - https://git.io/v9999 v2raycdn 4
-      - https://git.io/v9999 v2raycdn 5
-      - https://git.io/v9999 v2raycdn 6
-      - https://git.io/v9999 v2raycdn 7
-      - https://git.io/v9999 v2raycdn 8
-      - https://git.io/v9999 v2raycdn 9
-      - https://git.io/v9999 v2raycdn 10
-      - https://git.io/v9999 v2raycdn 11
   - name: 📲 电报信息
     type: select
     proxies:
@@ -140,17 +85,6 @@ proxy-groups:
       - 🇩🇪 https://git.io/v9999 v2ray德国 6
       - 🇩🇪 https://git.io/v9999 v2ray德国 7
       - 🇩🇪 https://git.io/v9999 v2ray德国 8
-      - https://git.io/v9999 v2raycdn
-      - https://git.io/v9999 v2raycdn 2
-      - https://git.io/v9999 v2raycdn 3
-      - https://git.io/v9999 v2raycdn 4
-      - https://git.io/v9999 v2raycdn 5
-      - https://git.io/v9999 v2raycdn 6
-      - https://git.io/v9999 v2raycdn 7
-      - https://git.io/v9999 v2raycdn 8
-      - https://git.io/v9999 v2raycdn 9
-      - https://git.io/v9999 v2raycdn 10
-      - https://git.io/v9999 v2raycdn 11
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -165,17 +99,6 @@ proxy-groups:
       - 🇩🇪 https://git.io/v9999 v2ray德国 6
       - 🇩🇪 https://git.io/v9999 v2ray德国 7
       - 🇩🇪 https://git.io/v9999 v2ray德国 8
-      - https://git.io/v9999 v2raycdn
-      - https://git.io/v9999 v2raycdn 2
-      - https://git.io/v9999 v2raycdn 3
-      - https://git.io/v9999 v2raycdn 4
-      - https://git.io/v9999 v2raycdn 5
-      - https://git.io/v9999 v2raycdn 6
-      - https://git.io/v9999 v2raycdn 7
-      - https://git.io/v9999 v2raycdn 8
-      - https://git.io/v9999 v2raycdn 9
-      - https://git.io/v9999 v2raycdn 10
-      - https://git.io/v9999 v2raycdn 11
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -199,17 +122,6 @@ proxy-groups:
       - 🇩🇪 https://git.io/v9999 v2ray德国 6
       - 🇩🇪 https://git.io/v9999 v2ray德国 7
       - 🇩🇪 https://git.io/v9999 v2ray德国 8
-      - https://git.io/v9999 v2raycdn
-      - https://git.io/v9999 v2raycdn 2
-      - https://git.io/v9999 v2raycdn 3
-      - https://git.io/v9999 v2raycdn 4
-      - https://git.io/v9999 v2raycdn 5
-      - https://git.io/v9999 v2raycdn 6
-      - https://git.io/v9999 v2raycdn 7
-      - https://git.io/v9999 v2raycdn 8
-      - https://git.io/v9999 v2raycdn 9
-      - https://git.io/v9999 v2raycdn 10
-      - https://git.io/v9999 v2raycdn 11
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
