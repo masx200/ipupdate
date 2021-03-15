@@ -5,42 +5,37 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇩🇪 https://git.io/v9999 v2ray德国free, server: gefree.free2222.xyz, port: 443, type: vmess, uuid: d01dc9ff-ef1a-4a5e-9343-fecc369a539d, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: gefree.free2222.xyz}}
-  - {name: 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree, server: 104.19.64.0, port: 443, type: vmess, uuid: d73d8a16-740a-48d8-9057-3ab4b0bd411c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge003.free2222.xyz}}
-  - {name: 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 2, server: 172.64.64.0, port: 443, type: vmess, uuid: d73d8a16-740a-48d8-9057-3ab4b0bd411c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge003.free2222.xyz}}
-  - {name: 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 3, server: 104.22.64.0, port: 443, type: vmess, uuid: d73d8a16-740a-48d8-9057-3ab4b0bd411c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge003.free2222.xyz}}
-  - {name: 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 4, server: 104.18.0.0, port: 443, type: vmess, uuid: d73d8a16-740a-48d8-9057-3ab4b0bd411c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge003.free2222.xyz}}
-  - {name: 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 5, server: 104.18.224.0, port: 443, type: vmess, uuid: d73d8a16-740a-48d8-9057-3ab4b0bd411c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge003.free2222.xyz}}
-  - {name: 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 6, server: 104.17.128.0, port: 443, type: vmess, uuid: d73d8a16-740a-48d8-9057-3ab4b0bd411c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge003.free2222.xyz}}
-  - {name: 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 7, server: 104.16.224.0, port: 443, type: vmess, uuid: d73d8a16-740a-48d8-9057-3ab4b0bd411c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge003.free2222.xyz}}
-  - {name: 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 8, server: 104.16.128.0, port: 443, type: vmess, uuid: d73d8a16-740a-48d8-9057-3ab4b0bd411c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge003.free2222.xyz}}
-  - {name: 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 9, server: 104.16.32.0, port: 443, type: vmess, uuid: d73d8a16-740a-48d8-9057-3ab4b0bd411c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge003.free2222.xyz}}
-  - {name: 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 10, server: 104.17.192.0, port: 443, type: vmess, uuid: d73d8a16-740a-48d8-9057-3ab4b0bd411c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge003.free2222.xyz}}
-  - {name: 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 11, server: 104.16.96.0, port: 443, type: vmess, uuid: d73d8a16-740a-48d8-9057-3ab4b0bd411c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge003.free2222.xyz}}
-  - {name: 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 12, server: 104.16.192.0, port: 443, type: vmess, uuid: d73d8a16-740a-48d8-9057-3ab4b0bd411c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge003.free2222.xyz}}
-  - {name: 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 13, server: 104.19.224.0, port: 443, type: vmess, uuid: d73d8a16-740a-48d8-9057-3ab4b0bd411c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge003.free2222.xyz}}
-  - {name: 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 14, server: 104.16.160.0, port: 443, type: vmess, uuid: d73d8a16-740a-48d8-9057-3ab4b0bd411c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge003.free2222.xyz}}
-  - {name: 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 15, server: 190.93.244.0, port: 443, type: vmess, uuid: d73d8a16-740a-48d8-9057-3ab4b0bd411c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge003.free2222.xyz}}
-  - {name: 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 16, server: 104.17.160.0, port: 443, type: vmess, uuid: d73d8a16-740a-48d8-9057-3ab4b0bd411c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge003.free2222.xyz}}
-  - {name: 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 17, server: 104.16.0.0, port: 443, type: vmess, uuid: d73d8a16-740a-48d8-9057-3ab4b0bd411c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge003.free2222.xyz}}
-  - {name: 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 18, server: 104.17.64.0, port: 443, type: vmess, uuid: d73d8a16-740a-48d8-9057-3ab4b0bd411c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge003.free2222.xyz}}
-  - {name: 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 19, server: 104.17.32.0, port: 443, type: vmess, uuid: d73d8a16-740a-48d8-9057-3ab4b0bd411c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge003.free2222.xyz}}
-  - {name: 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 20, server: 104.17.96.0, port: 443, type: vmess, uuid: d73d8a16-740a-48d8-9057-3ab4b0bd411c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge003.free2222.xyz}}
+  - {name: 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree, server: 104.17.128.0, port: 443, type: vmess, uuid: d73d8a16-740a-48d8-9057-3ab4b0bd411c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge003.free2222.xyz}}
+  - {name: 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 2, server: 104.19.224.0, port: 443, type: vmess, uuid: d73d8a16-740a-48d8-9057-3ab4b0bd411c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge003.free2222.xyz}}
+  - {name: 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 3, server: 190.93.244.0, port: 443, type: vmess, uuid: d73d8a16-740a-48d8-9057-3ab4b0bd411c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge003.free2222.xyz}}
+  - {name: 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 4, server: 104.17.64.0, port: 443, type: vmess, uuid: d73d8a16-740a-48d8-9057-3ab4b0bd411c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge003.free2222.xyz}}
+  - {name: 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 5, server: 104.17.32.0, port: 443, type: vmess, uuid: d73d8a16-740a-48d8-9057-3ab4b0bd411c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge003.free2222.xyz}}
+  - {name: 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 6, server: 104.17.96.0, port: 443, type: vmess, uuid: d73d8a16-740a-48d8-9057-3ab4b0bd411c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge003.free2222.xyz}}
+  - {name: 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 7, server: 104.16.96.0, port: 443, type: vmess, uuid: d73d8a16-740a-48d8-9057-3ab4b0bd411c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge003.free2222.xyz}}
+  - {name: 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 8, server: 104.18.0.0, port: 443, type: vmess, uuid: d73d8a16-740a-48d8-9057-3ab4b0bd411c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge003.free2222.xyz}}
+  - {name: 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 9, server: 104.18.224.0, port: 443, type: vmess, uuid: d73d8a16-740a-48d8-9057-3ab4b0bd411c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge003.free2222.xyz}}
+  - {name: 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 10, server: 104.22.64.0, port: 443, type: vmess, uuid: d73d8a16-740a-48d8-9057-3ab4b0bd411c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge003.free2222.xyz}}
+  - {name: 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 11, server: 104.16.128.0, port: 443, type: vmess, uuid: d73d8a16-740a-48d8-9057-3ab4b0bd411c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge003.free2222.xyz}}
+  - {name: 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 12, server: 172.64.64.0, port: 443, type: vmess, uuid: d73d8a16-740a-48d8-9057-3ab4b0bd411c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge003.free2222.xyz}}
+  - {name: 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 13, server: 104.17.192.0, port: 443, type: vmess, uuid: d73d8a16-740a-48d8-9057-3ab4b0bd411c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge003.free2222.xyz}}
+  - {name: 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 14, server: 104.16.192.0, port: 443, type: vmess, uuid: d73d8a16-740a-48d8-9057-3ab4b0bd411c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge003.free2222.xyz}}
+  - {name: 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 15, server: 104.16.32.0, port: 443, type: vmess, uuid: d73d8a16-740a-48d8-9057-3ab4b0bd411c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge003.free2222.xyz}}
+  - {name: 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 16, server: 104.16.224.0, port: 443, type: vmess, uuid: d73d8a16-740a-48d8-9057-3ab4b0bd411c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge003.free2222.xyz}}
+  - {name: 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 17, server: 104.16.160.0, port: 443, type: vmess, uuid: d73d8a16-740a-48d8-9057-3ab4b0bd411c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge003.free2222.xyz}}
+  - {name: 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 18, server: 104.17.160.0, port: 443, type: vmess, uuid: d73d8a16-740a-48d8-9057-3ab4b0bd411c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge003.free2222.xyz}}
+  - {name: 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 19, server: 104.19.64.0, port: 443, type: vmess, uuid: d73d8a16-740a-48d8-9057-3ab4b0bd411c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge003.free2222.xyz}}
   - {name: 🇩🇪 https://git.io/v9999 v2ray德国2, server: www.digitalocean.com, port: 443, type: vmess, uuid: d73d8a16-740a-48d8-9057-3ab4b0bd411c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge003.free2222.xyz}}
-  - {name: 🇩🇪 https://git.io/v9999 v2ray德国2 2, server: www.cybersource.com, port: 443, type: vmess, uuid: d73d8a16-740a-48d8-9057-3ab4b0bd411c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge003.free2222.xyz}}
-  - {name: 🇩🇪 https://git.io/v9999 v2ray德国2 3, server: gamer.com.tw, port: 443, type: vmess, uuid: d73d8a16-740a-48d8-9057-3ab4b0bd411c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge003.free2222.xyz}}
-  - {name: 🇩🇪 https://git.io/v9999 v2ray德国2 4, server: www.hkmci.com, port: 443, type: vmess, uuid: d73d8a16-740a-48d8-9057-3ab4b0bd411c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge003.free2222.xyz}}
-  - {name: 🇩🇪 https://git.io/v9999 v2ray德国2 5, server: www.fitbit.com, port: 443, type: vmess, uuid: d73d8a16-740a-48d8-9057-3ab4b0bd411c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge003.free2222.xyz}}
-  - {name: 🇩🇪 https://git.io/v9999 v2ray德国2 6, server: www.garmin.com, port: 443, type: vmess, uuid: d73d8a16-740a-48d8-9057-3ab4b0bd411c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge003.free2222.xyz}}
-  - {name: 🇩🇪 https://git.io/v9999 v2ray德国2 7, server: www.cloudflare.com, port: 443, type: vmess, uuid: d73d8a16-740a-48d8-9057-3ab4b0bd411c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge003.free2222.xyz}}
-  - {name: 🇩🇪 https://git.io/v9999 v2ray德国2 8, server: icook.tw, port: 443, type: vmess, uuid: d73d8a16-740a-48d8-9057-3ab4b0bd411c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge003.free2222.xyz}}
+  - {name: 🇩🇪 https://git.io/v9999 v2ray德国2 2, server: www.hkmci.com, port: 443, type: vmess, uuid: d73d8a16-740a-48d8-9057-3ab4b0bd411c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge003.free2222.xyz}}
+  - {name: 🇩🇪 https://git.io/v9999 v2ray德国2 3, server: www.fitbit.com, port: 443, type: vmess, uuid: d73d8a16-740a-48d8-9057-3ab4b0bd411c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge003.free2222.xyz}}
+  - {name: 🇩🇪 https://git.io/v9999 v2ray德国2 4, server: www.garmin.com, port: 443, type: vmess, uuid: d73d8a16-740a-48d8-9057-3ab4b0bd411c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge003.free2222.xyz}}
+  - {name: 🇩🇪 https://git.io/v9999 v2ray德国2 5, server: icook.tw, port: 443, type: vmess, uuid: d73d8a16-740a-48d8-9057-3ab4b0bd411c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge003.free2222.xyz}}
+  - {name: 🇩🇪 https://git.io/v9999 v2ray德国2 6, server: www.cybersource.com, port: 443, type: vmess, uuid: d73d8a16-740a-48d8-9057-3ab4b0bd411c, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: ge003.free2222.xyz}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇩🇪 https://git.io/v9999 v2ray德国free
       - 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree
       - 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 2
       - 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 3
@@ -60,21 +55,17 @@ proxy-groups:
       - 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 17
       - 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 18
       - 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 19
-      - 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 20
       - 🇩🇪 https://git.io/v9999 v2ray德国2
       - 🇩🇪 https://git.io/v9999 v2ray德国2 2
       - 🇩🇪 https://git.io/v9999 v2ray德国2 3
       - 🇩🇪 https://git.io/v9999 v2ray德国2 4
       - 🇩🇪 https://git.io/v9999 v2ray德国2 5
       - 🇩🇪 https://git.io/v9999 v2ray德国2 6
-      - 🇩🇪 https://git.io/v9999 v2ray德国2 7
-      - 🇩🇪 https://git.io/v9999 v2ray德国2 8
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇩🇪 https://git.io/v9999 v2ray德国free
       - 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree
       - 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 2
       - 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 3
@@ -94,22 +85,18 @@ proxy-groups:
       - 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 17
       - 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 18
       - 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 19
-      - 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 20
       - 🇩🇪 https://git.io/v9999 v2ray德国2
       - 🇩🇪 https://git.io/v9999 v2ray德国2 2
       - 🇩🇪 https://git.io/v9999 v2ray德国2 3
       - 🇩🇪 https://git.io/v9999 v2ray德国2 4
       - 🇩🇪 https://git.io/v9999 v2ray德国2 5
       - 🇩🇪 https://git.io/v9999 v2ray德国2 6
-      - 🇩🇪 https://git.io/v9999 v2ray德国2 7
-      - 🇩🇪 https://git.io/v9999 v2ray德国2 8
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇩🇪 https://git.io/v9999 v2ray德国free
       - 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree
       - 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 2
       - 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 3
@@ -129,15 +116,12 @@ proxy-groups:
       - 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 17
       - 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 18
       - 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 19
-      - 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 20
       - 🇩🇪 https://git.io/v9999 v2ray德国2
       - 🇩🇪 https://git.io/v9999 v2ray德国2 2
       - 🇩🇪 https://git.io/v9999 v2ray德国2 3
       - 🇩🇪 https://git.io/v9999 v2ray德国2 4
       - 🇩🇪 https://git.io/v9999 v2ray德国2 5
       - 🇩🇪 https://git.io/v9999 v2ray德国2 6
-      - 🇩🇪 https://git.io/v9999 v2ray德国2 7
-      - 🇩🇪 https://git.io/v9999 v2ray德国2 8
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -148,7 +132,6 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇩🇪 https://git.io/v9999 v2ray德国free
       - 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree
       - 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 2
       - 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 3
@@ -168,21 +151,17 @@ proxy-groups:
       - 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 17
       - 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 18
       - 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 19
-      - 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 20
       - 🇩🇪 https://git.io/v9999 v2ray德国2
       - 🇩🇪 https://git.io/v9999 v2ray德国2 2
       - 🇩🇪 https://git.io/v9999 v2ray德国2 3
       - 🇩🇪 https://git.io/v9999 v2ray德国2 4
       - 🇩🇪 https://git.io/v9999 v2ray德国2 5
       - 🇩🇪 https://git.io/v9999 v2ray德国2 6
-      - 🇩🇪 https://git.io/v9999 v2ray德国2 7
-      - 🇩🇪 https://git.io/v9999 v2ray德国2 8
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇩🇪 https://git.io/v9999 v2ray德国free
       - 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree
       - 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 2
       - 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 3
@@ -202,22 +181,18 @@ proxy-groups:
       - 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 17
       - 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 18
       - 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 19
-      - 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 20
       - 🇩🇪 https://git.io/v9999 v2ray德国2
       - 🇩🇪 https://git.io/v9999 v2ray德国2 2
       - 🇩🇪 https://git.io/v9999 v2ray德国2 3
       - 🇩🇪 https://git.io/v9999 v2ray德国2 4
       - 🇩🇪 https://git.io/v9999 v2ray德国2 5
       - 🇩🇪 https://git.io/v9999 v2ray德国2 6
-      - 🇩🇪 https://git.io/v9999 v2ray德国2 7
-      - 🇩🇪 https://git.io/v9999 v2ray德国2 8
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇩🇪 https://git.io/v9999 v2ray德国free
       - 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree
       - 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 2
       - 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 3
@@ -237,15 +212,12 @@ proxy-groups:
       - 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 17
       - 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 18
       - 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 19
-      - 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 20
       - 🇩🇪 https://git.io/v9999 v2ray德国2
       - 🇩🇪 https://git.io/v9999 v2ray德国2 2
       - 🇩🇪 https://git.io/v9999 v2ray德国2 3
       - 🇩🇪 https://git.io/v9999 v2ray德国2 4
       - 🇩🇪 https://git.io/v9999 v2ray德国2 5
       - 🇩🇪 https://git.io/v9999 v2ray德国2 6
-      - 🇩🇪 https://git.io/v9999 v2ray德国2 7
-      - 🇩🇪 https://git.io/v9999 v2ray德国2 8
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -261,7 +233,6 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇩🇪 https://git.io/v9999 v2ray德国free
       - 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree
       - 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 2
       - 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 3
@@ -281,15 +252,12 @@ proxy-groups:
       - 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 17
       - 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 18
       - 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 19
-      - 🇩🇪 https://git.io/v9999 v2ray德国2cdnfree 20
       - 🇩🇪 https://git.io/v9999 v2ray德国2
       - 🇩🇪 https://git.io/v9999 v2ray德国2 2
       - 🇩🇪 https://git.io/v9999 v2ray德国2 3
       - 🇩🇪 https://git.io/v9999 v2ray德国2 4
       - 🇩🇪 https://git.io/v9999 v2ray德国2 5
       - 🇩🇪 https://git.io/v9999 v2ray德国2 6
-      - 🇩🇪 https://git.io/v9999 v2ray德国2 7
-      - 🇩🇪 https://git.io/v9999 v2ray德国2 8
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
