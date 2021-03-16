@@ -15,7 +15,7 @@
       "configVersion": 2,
       "address": "ge002.free2222.xyz",
       "port": 443,
-      "id": "acc842f9-1590-404a-804b-e4613162c6a5",
+      "id": "55b9a996-2846-4e99-bdd7-82d360110dd6",
       "alterId": 0,
       "security": "auto",
       "network": "ws",
@@ -28,7 +28,8 @@
       "configType": 1,
       "testResult": "",
       "subid": "",
-      "flow": ""
+      "flow": "",
+      "sni": ""
     }
   ],
   "muxEnabled": true,
