@@ -1,5 +1,4 @@
 {
-  "policy": null,
   "log": {
     "access": "",
     "error": "",
@@ -7,7 +6,7 @@
   },
   "inbounds": [
     {
-      "tag": "proxy",
+      "tag": "socks",
       "port": 10808,
       "listen": "127.0.0.1",
       "protocol": "socks",
@@ -21,12 +20,25 @@
       "settings": {
         "auth": "noauth",
         "udp": false,
-        "ip": null,
-        "address": null,
-        "clients": null,
-        "decryption": null
+        "allowTransparent": false
+      }
+    },
+    {
+      "tag": "http",
+      "port": 1081,
+      "listen": "127.0.0.1",
+      "protocol": "http",
+      "sniffing": {
+        "enabled": true,
+        "destOverride": [
+          "http",
+          "tls"
+        ]
       },
-      "streamSettings": null
+      "settings": {
+        "udp": false,
+        "allowTransparent": false
+      }
     }
   ],
   "outbounds": [
@@ -36,42 +48,32 @@
       "settings": {
         "vnext": [
           {
-            "address": "adman01.free2222.xyz",
+            "address": "xtls001.free3333.xyz",
             "port": 443,
             "users": [
               {
-                "id": "1564abce-bde7-435a-9ab4-97565eb17734",
-                "alterId": 0,
+                "id": "d2a95e8f-0f37-ff7b-665c-9853f64f1e30",
+                "alterId": 1,
                 "email": "t@t.tt",
-                "security": "auto",
-                "encryption": null,
-                "flow": null
+                "security": "auto"
               }
             ]
           }
-        ],
-        "servers": null,
-        "response": null
+        ]
       },
       "streamSettings": {
         "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "adman01.free2222.xyz"
+          "serverName": "xtls001.free3333.xyz"
         },
-        "tcpSettings": null,
-        "kcpSettings": null,
         "wsSettings": {
-          "connectionReuse": true,
-          "path": "/ray",
+          "path": "/sjbwvtxvwttfmcknxfxvws",
           "headers": {
-            "Host": "adman01.free2222.xyz"
+            "Host": "xtls001.free3333.xyz"
           }
-        },
-        "httpSettings": null,
-        "quicSettings": null,
-        "xtlsSettings": null
+        }
       },
       "mux": {
         "enabled": true,
@@ -81,43 +83,49 @@
     {
       "tag": "direct",
       "protocol": "freedom",
-      "settings": {
-        "vnext": null,
-        "servers": null,
-        "response": null
-      },
-      "streamSettings": null,
-      "mux": null
+      "settings": {}
     },
     {
       "tag": "block",
       "protocol": "blackhole",
       "settings": {
-        "vnext": null,
-        "servers": null,
         "response": {
           "type": "http"
         }
-      },
-      "streamSettings": null,
-      "mux": null
+      }
     }
   ],
-  "stats": null,
-  "api": null,
-  "dns": null,
   "routing": {
     "domainStrategy": "IPIfNonMatch",
     "rules": [
       {
         "type": "field",
-        "port": null,
         "inboundTag": [
           "api"
         ],
-        "outboundTag": "api",
-        "ip": null,
-        "domain": null
+        "outboundTag": "api"
+      },
+      {
+        "type": "field",
+        "outboundTag": "proxy",
+        "domain": [
+          "geosite:google"
+        ]
+      },
+      {
+        "type": "field",
+        "outboundTag": "direct",
+        "domain": [
+          "domain:example-example.com",
+          "domain:example-example2.com"
+        ]
+      },
+      {
+        "type": "field",
+        "outboundTag": "block",
+        "domain": [
+          "geosite:category-ads-all"
+        ]
       }
     ]
   }
