@@ -44,40 +44,25 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vmess",
+      "protocol": "shadowsocks",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "xtls001.free3333.xyz",
-            "port": 443,
-            "users": [
-              {
-                "id": "d2a95e8f-0f37-ff7b-665c-9853f64f1e30",
-                "alterId": 1,
-                "email": "t@t.tt",
-                "security": "auto"
-              }
-            ]
+            "address": "66.115.147.89",
+            "method": "aes-256-gcm",
+            "ota": false,
+            "password": "8n6pwAcrrv2pj6tFY2p3TbQ6",
+            "port": 33992,
+            "level": 1
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "xtls001.free3333.xyz"
-        },
-        "wsSettings": {
-          "path": "/sjbwvtxvwttfmcknxfxvws",
-          "headers": {
-            "Host": "xtls001.free3333.xyz"
-          }
-        }
+        "network": "tcp"
       },
       "mux": {
-        "enabled": true,
-        "concurrency": 8
+        "enabled": false,
+        "concurrency": -1
       }
     },
     {
