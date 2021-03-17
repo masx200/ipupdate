@@ -13,22 +13,23 @@
   "vmess": [
     {
       "configVersion": 2,
-      "address": "adman01.free2222.xyz",
+      "address": "adman02.free3333.xyz",
       "port": 443,
-      "id": "1564abce-bde7-435a-9ab4-97565eb17734",
+      "id": "2d58c492-aa6c-485f-ac06-16c46de03a15",
       "alterId": 0,
-      "security": "auto",
+      "security": "none",
       "network": "ws",
       "remarks": "https://github.com/Alvin9999/new-pac/wiki ip3莫斯科",
       "headerType": "none",
-      "requestHost": "adman01.free2222.xyz",
+      "requestHost": "adman02.free3333.xyz",
       "path": "/ray",
       "streamSecurity": "tls",
       "allowInsecure": "false",
-      "configType": 1,
+      "configType": 5,
       "testResult": "",
       "subid": "",
-      "flow": ""
+      "flow": "",
+      "sni": ""
     }
   ],
   "muxEnabled": true,
