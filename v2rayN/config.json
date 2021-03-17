@@ -44,18 +44,20 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vmess",
+      "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "ge002.free2222.xyz",
+            "address": "ge004.free2222.xyz",
             "port": 443,
             "users": [
               {
-                "id": "55b9a996-2846-4e99-bdd7-82d360110dd6",
+                "id": "e8ebdbe0-b247-4054-bb7f-ef7b9bb33d67",
                 "alterId": 0,
                 "email": "t@t.tt",
-                "security": "auto"
+                "security": "auto",
+                "encryption": "none",
+                "flow": ""
               }
             ]
           }
@@ -66,12 +68,12 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "ge002.free2222.xyz"
+          "serverName": "ge004.free2222.xyz"
         },
         "wsSettings": {
           "path": "/ray",
           "headers": {
-            "Host": "ge002.free2222.xyz"
+            "Host": "ge004.free2222.xyz"
           }
         }
       },
