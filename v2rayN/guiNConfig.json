@@ -13,22 +13,22 @@
   "vmess": [
     {
       "configVersion": 2,
-      "address": "109.166.38.103",
+      "address": "ge004.free2222.xyz",
       "port": 443,
-      "id": "b0945ba3-f727-4a07-a1da-a63807b2ec72",
+      "id": "e8ebdbe0-b247-4054-bb7f-ef7b9bb33d67",
       "alterId": 0,
       "security": "none",
-      "network": "tcp",
-      "remarks": "https://github.com/Alvin9999/new-pac/wiki XTLS日本",
-      "headerType": "none",
-      "requestHost": "xtls004.free3333.xyz",
-      "path": "",
-      "streamSecurity": "xtls",
-      "allowInsecure": "false",
+      "network": "ws",
+      "remarks": "https://github.com/Alvin9999/new-pac/wiki+ip1德国",
+      "headerType": "",
+      "requestHost": "ge004.free2222.xyz",
+      "path": "/ray",
+      "streamSecurity": "tls",
+      "allowInsecure": "False",
       "configType": 5,
       "testResult": "",
       "subid": "",
-      "flow": "xtls-rprx-direct",
+      "flow": "",
       "sni": ""
     }
   ],
@@ -176,6 +176,6 @@
     }
   ],
   "enableRoutingAdvanced": false,
-  "coreType": 1,
+  "coreType": 0,
   "ignoreGeoUpdateCore": false
 }
