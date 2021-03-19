@@ -13,13 +13,13 @@
   "vmess": [
     {
       "configVersion": 2,
-      "address": "ge004.free2222.xyz",
+      "address": "www.digitalocean.com",
       "port": 443,
       "id": "e8ebdbe0-b247-4054-bb7f-ef7b9bb33d67",
       "alterId": 0,
       "security": "none",
       "network": "ws",
-      "remarks": "https://github.com/Alvin9999/new-pac/wiki+ip1德国",
+      "remarks": "https://github.com/Alvin9999/new-pac/wiki+ip1德国CDN",
       "headerType": "",
       "requestHost": "ge004.free2222.xyz",
       "path": "/ray",
