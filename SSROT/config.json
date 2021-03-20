@@ -1,10 +1,10 @@
 
 {
-    "password": "kGfOmajnltCDIqiv",
-    "method": "aes-192-ctr",
-    "protocol": "auth_chain_f",
+    "password": "6adBD6sFbpFrhAW0",
+    "method": "rc4",
+    "protocol": "origin",
     "protocol_param": "",
-    "obfs": "http_simple",
+    "obfs": "plain",
     "obfs_param": "",
 
     "udp": true,
@@ -14,11 +14,11 @@
 
     "server_settings": {
         "listen_address": "0.0.0.0",
-        "listen_port": 18460
+        "listen_port": 9025
     },
 
     "client_settings": {
-        "server": "45.32.83.73",
+        "server": "45.32.84.16",
         "server_port": 443,
         "listen_address": "0.0.0.0",
         "listen_port": 1080
@@ -26,8 +26,9 @@
 
     "over_tls_settings": {
         "enable": true,
-        "server_domain": "ssrot001.free3333.xyz",
-        "path": "/xRzV1n9yZ3tDgWcv6Uoe/",
+        "server_domain": "ssrot4.free2222.xyz",
+        "path": "/VBhUju5RZYuJ5YQzH7BL/",
         "root_cert_file": ""
     }
 }
+
