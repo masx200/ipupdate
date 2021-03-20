@@ -44,16 +44,20 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "shadowsocks",
+      "protocol": "vmess",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "66.115.147.89",
-            "method": "aes-256-gcm",
-            "ota": false,
-            "password": "8n6pwAcrrv2pj6tFY2p3TbQ6",
-            "port": 33992,
-            "level": 1
+            "address": "116.192.165.207",
+            "port": 52009,
+            "users": [
+              {
+                "id": "eb862777-237c-4cd3-a278-a2a358f2ea40",
+                "alterId": 1,
+                "email": "t@t.tt",
+                "security": "auto"
+              }
+            ]
           }
         ]
       },
@@ -61,8 +65,8 @@
         "network": "tcp"
       },
       "mux": {
-        "enabled": false,
-        "concurrency": -1
+        "enabled": true,
+        "concurrency": 8
       }
     },
     {
