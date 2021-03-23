@@ -44,40 +44,25 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vmess",
+      "protocol": "shadowsocks",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "cc.hciahciphcie.club",
-            "port": 443,
-            "users": [
-              {
-                "id": "219be2f9-573d-4507-9e9b-74b385ba1c9c",
-                "alterId": 10,
-                "email": "t@t.tt",
-                "security": "auto"
-              }
-            ]
+            "address": "217.138.222.51",
+            "method": "aes-256-gcm",
+            "ota": false,
+            "password": "8n6pwAcrrv2pj6tFY2p3TbQ6",
+            "port": 33992,
+            "level": 1
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "cc.hciahciphcie.club"
-        },
-        "wsSettings": {
-          "path": "/0574a110e138dd/",
-          "headers": {
-            "Host": "cc.hciahciphcie.club"
-          }
-        }
+        "network": "tcp"
       },
       "mux": {
-        "enabled": true,
-        "concurrency": 8
+        "enabled": false,
+        "concurrency": -1
       }
     },
     {
