@@ -13,16 +13,16 @@
   "vmess": [
     {
       "configVersion": 2,
-      "address": "ge005.free2222.xyz",
+      "address": "adman03.free3333.xyz",
       "port": 443,
-      "id": "1f7ec452-f9b4-47fc-a437-711b1fec0361",
+      "id": "919a9c08-5388-8761-efe3-6ea9d48cfe63",
       "alterId": 0,
       "security": "none",
       "network": "ws",
       "remarks": "https://github.com/Alvin9999/new-pac/wiki+ip3莫斯科",
       "headerType": "",
-      "requestHost": "ge005.free2222.xyz",
-      "path": "/jpoxws",
+      "requestHost": "adman03.free3333.xyz",
+      "path": "/suwtws",
       "streamSecurity": "tls",
       "allowInsecure": "False",
       "configType": 5,
@@ -176,6 +176,6 @@
     }
   ],
   "enableRoutingAdvanced": false,
-  "coreType": 1,
+  "coreType": 0,
   "ignoreGeoUpdateCore": false
 }
