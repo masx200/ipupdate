@@ -1,7 +1,8 @@
+
 {
-    "password": "KYaArVeYcLXv5UFN",
+    "password": "k5oAOnqghQZ6GSBM",
     "method": "none",
-    "protocol": "auth_chain_f",
+    "protocol": "auth_chain_a",
     "protocol_param": "",
     "obfs": "tls1.2_ticket_auth",
     "obfs_param": "",
@@ -13,7 +14,7 @@
 
     "server_settings": {
         "listen_address": "0.0.0.0",
-        "listen_port": 9148
+        "listen_port": 13355
     },
 
     "client_settings": {
@@ -25,8 +26,8 @@
 
     "over_tls_settings": {
         "enable": true,
-        "server_domain": "ssr6.free3333.xyz",
-        "path": "/roDatUlZELPbpJe0iyek/",
+        "server_domain": "ssrot2.free3333.xyz",
+        "path": "/M5WYofDAzdmGNFDFNAvB/",
         "root_cert_file": ""
     }
 }
