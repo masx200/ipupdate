@@ -8,45 +8,40 @@ proxies:
   - {name: 🇨🇳 https://git.io/v9999 中国广东深圳, server: in1-relay.kejibearnode.cf, port: 10015, type: vmess, uuid: 3647ebdb-fa25-385f-a78b-f137811e586f, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: in1-relay.kejibearnode.cf}}
   - {name: 🇨🇳 https://git.io/v9999 中国广东广州, server: sg6-relay.kejibearnode.cf, port: 10025, type: vmess, uuid: 3647ebdb-fa25-385f-a78b-f137811e586f, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: sg6-relay.kejibearnode.cf}}
   - {name: 🇨🇳 https://git.io/v9999 中国广东广州 2, server: jp2-relay.kejibearnode.cf, port: 12675, type: vmess, uuid: 3647ebdb-fa25-385f-a78b-f137811e586f, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: jp2-relay.kejibearnode.cf}}
-  - {name: 🇸🇬 https://git.io/v9999 新加坡, server: v1-aws-sg-10.tudog.me, port: 80, type: vmess, uuid: 59bd8f83-c33d-3149-b4f9-b5b6366cc971, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-sg-10.tudog.me}}
+  - {name: 🇭🇰 https://git.io/v9999 香港香港宽频 21, server: centos.fuchau.xyz, port: 443, type: vmess, uuid: b707c9e6-3a61-4f0b-8844-9a398cfadfb7, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /add76314/, ws-headers: {Host: centos.fuchau.xyz}}
+  - {name: 🇭🇰 https://git.io/v9999 香港香港宽频 1, server: 58.177.131.223, port: 443, type: vmess, uuid: b707c9e6-3a61-4f0b-8844-9a398cfadfb7, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /add76314/, ws-headers: {Host: centos.fuchau.xyz}}
   - {name: 🇭🇰 https://git.io/v9999 香港阿里云 16, server: 47.240.91.209, port: 16493, type: vmess, uuid: 4228fb0c-f2f0-4825-9076-ea9707179d9f, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇭🇰 https://git.io/v9999 香港Microsoft数据中心 18, server: hk01.indihome.tk, port: 20013, type: vmess, uuid: 7a2dac45-58ce-49e9-86f3-c85f8cca97b3, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hk01.indihome.tk}}
-  - {name: 🇭🇰 https://git.io/v9999 香港Microsoft公司 17, server: hk11.indihome.tk, port: 22445, type: vmess, uuid: 7a2dac45-58ce-49e9-86f3-c85f8cca97b3, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hk11.indihome.tk}}
-  - {name: 🇯🇵 https://git.io/v9999 日本大阪府大阪Microsoft数据中心 19, server: jp02.indihome.tk, port: 20020, type: vmess, uuid: 7a2dac45-58ce-49e9-86f3-c85f8cca97b3, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: jp02.indihome.tk}}
-  - {name: 🇯🇵 https://git.io/v9999 日本大阪府大阪, server: 13.208.248.208, port: 35105, type: vmess, uuid: 6914f4cc-fa4b-4d5e-9a77-d6f8ea5e2f34, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 13.208.248.208}}
-  - {name: 🇯🇵 https://git.io/v9999 日本大阪Amazon数据中心 29, server: desperado.ml, port: 443, type: vmess, uuid: a4a3d57f-d59e-46a3-ac7c-9257ead5e3c2, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /vmessws, ws-headers: {Host: desperado.ml}}
-  - {name: 🇺🇸 https://git.io/v9999 美国纽约州纽约BuyVM 42, server: t09.ssrsub.one, port: 443, type: trojan, password: ssrsub, sni: t09.ssrsub.one}
-  - {name: 🇺🇸 https://git.io/v9999 美国内华达州拉斯维加斯BuyVM 32, server: v2-08.ssrsub.one, port: 153, type: vmess, uuid: 6bb99012-5169-405b-9443-05d8773fc120, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: n46hm52773.laowanxiang.com}}
-  - {name: 🇺🇸 https://git.io/v9999 美国内华达州拉斯维加斯BuyVM 31, server: t08.ssrsub.one, port: 443, type: trojan, password: ssrsub, sni: t08.ssrsub.one}
-  - {name: 🇺🇸 https://git.io/v9999 美国内华达州拉斯维加斯, server: v2-08.ssrsub.one, port: 153, type: vmess, uuid: 6bb99012-5169-405b-9443-05d8773fc120, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: n46hm52773.laowanxiang.com}}
-  - {name: 🇺🇸 https://git.io/v9999 美国加利福尼亚州圣克拉拉Microsoft公司 20, server: jp01.indihome.tk, port: 20020, type: vmess, uuid: 7a2dac45-58ce-49e9-86f3-c85f8cca97b3, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: jp01.indihome.tk}}
-  - {name: 🇦🇨 https://git.io/v9999 美国加利福尼亚州洛杉矶MULTACOM数据中心 41, server: cl.loogsom.xyz, port: 443, type: vmess, uuid: f318a25e-9e0e-4fb3-bb1a-5ef21a36677e, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /v, ws-headers: {Host: cl.loogsom.xyz}}
-  - {name: 🇨🇦 https://git.io/v9999 加拿大  51, server: t02.ssrsub.one, port: 443, type: trojan, password: ssrsub, sni: t02.ssrsub.one}
-  - {name: 🇨🇦 https://git.io/v9999 加拿大  48, server: v2-01.ssrsub.one, port: 153, type: vmess, uuid: 6bb99012-5169-405b-9443-05d8773fc120, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: n46hm52773.laowanxiang.com}}
-  - {name: 🇨🇦 https://git.io/v9999 加拿大  46, server: v2-04.ssrsub.one, port: 153, type: vmess, uuid: 6bb99012-5169-405b-9443-05d8773fc120, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: n46hm52773.laowanxiang.com}}
-  - {name: 🇨🇦 https://git.io/v9999 加拿大  43, server: t04.ssrsub.one, port: 443, type: trojan, password: ssrsub, sni: t04.ssrsub.one}
-  - {name: https://git.io/v9999 湖南省联通 34, server: cs-cu01.haoye.cf, port: 20007, type: vmess, uuid: 7a2dac45-58ce-49e9-86f3-c85f8cca97b3, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cs-cu01.haoye.cf}}
-  - {name: https://git.io/v9999 河南省洛阳市移动 49, server: hn-cm01.haoye.cf, port: 11807, type: vmess, uuid: 7a2dac45-58ce-49e9-86f3-c85f8cca97b3, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hn-cm01.haoye.cf}}
-  - {name: 🇷🇺 https://git.io/v9999 俄罗斯新西伯利亚JustHost 52, server: v2-07.ssrsub.one, port: 153, type: vmess, uuid: 6bb99012-5169-405b-9443-05d8773fc120, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: n46hm52773.laowanxiang.com}}
-  - {name: 🇷🇺 https://git.io/v9999 俄罗斯新西伯利亚, server: v2-07.ssrsub.one, port: 153, type: vmess, uuid: 6bb99012-5169-405b-9443-05d8773fc120, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: n46hm52773.laowanxiang.com}}
-  - {name: 🇷🇺 https://git.io/v9999 俄罗斯新西伯利, server: v2-10.ssrsub.one, port: 153, type: vmess, uuid: 6bb99012-5169-405b-9443-05d8773fc120, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: n46hm52773.laowanxiang.com}}
-  - {name: 🇷🇺 https://git.io/v9999 俄罗斯  56, server: v2-11.ssrsub.one, port: 153, type: vmess, uuid: 6bb99012-5169-405b-9443-05d8773fc120, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: n46hm52773.laowanxiang.com}}
-  - {name: https://git.io/v9999 安徽省联通 59, server: ah-cu01.haoye.cf, port: 50040, type: vmess, uuid: 7a2dac45-58ce-49e9-86f3-c85f8cca97b3, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ah-cu01.haoye.cf}}
-  - {name: https://git.io/v9999 clash ip3, server: 45.125.247.155, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: https://git.io/v9999 clash ip3 2, server: 185.174.159.51, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: https://git.io/v9999 clash ip3 3, server: 31.171.154.219, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: https://git.io/v9999 clash ip3 4, server: 31.171.154.219, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: https://git.io/v9999 clash ip3 5, server: 196.244.191.93, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: https://git.io/v9999 clash ip3 6, server: 2.58.242.133, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: https://git.io/v9999 clash ip3 7, server: 194.110.115.75, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: https://git.io/v9999 clash ip3 8, server: 180.149.228.147, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: https://git.io/v9999 clash ip3 9, server: 185.153.151.80, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: https://git.io/v9999 clash ip3 10, server: 217.138.222.53, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: https://git.io/v9999 clash ip3 11, server: 217.138.222.53, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: https://git.io/v9999 CDN, server: 104.19.3.36, port: 443, type: vmess, uuid: 4cdb016f-f14e-30b3-97d6-453c741a5c80, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /y475, ws-headers: {Host: free.frli.xyz}}
-  - {name: https://git.io/v9999 CDN 2, server: 104.19.23.6, port: 443, type: vmess, uuid: 4cdb016f-f14e-30b3-97d6-453c741a5c80, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /y475, ws-headers: {Host: free.frli.xyz}}
-  - {name: https://git.io/v9999 CDN 3, server: 104.19.7.84, port: 443, type: vmess, uuid: 4cdb016f-f14e-30b3-97d6-453c741a5c80, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /y475, ws-headers: {Host: free.frli.xyz}}
-  - {name: https://git.io/v9999 CDN 4, server: 104.16.160.122, port: 443, type: vmess, uuid: ad806487-2d26-4636-98b6-ab85cc8521f7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: dawn-king-a02e.hd1831420646.workers.dev}}
+  - {name: 🇺🇸 https://git.io/v9999 美国纽约州纽约BuyVM 45, server: t09.ssrsub.one, port: 443, type: trojan, password: ssrsub, sni: t09.ssrsub.one}
+  - {name: 🇺🇸 https://git.io/v9999 美国纽约州纽约BuyVM 43, server: v2-09.ssrsub.one, port: 153, type: vmess, uuid: e8444f0d-210a-4f20-9ea7-68ee3d547205, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: n46hm52773.laowanxiang.com}}
+  - {name: 🇺🇸 https://git.io/v9999 美国内华达州拉斯维加斯BuyVM 30, server: t08.ssrsub.one, port: 443, type: trojan, password: ssrsub, sni: t08.ssrsub.one}
+  - {name: 🇺🇸 https://git.io/v9999 美国内华达州拉斯维加斯BuyVM 28, server: v2-08.ssrsub.one, port: 153, type: vmess, uuid: e8444f0d-210a-4f20-9ea7-68ee3d547205, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: n46hm52773.laowanxiang.com}}
+  - {name: 🇺🇸 https://git.io/v9999 美国加利福尼亚州洛杉矶Zenlayer数据中心 15, server: 128.14.153.42, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8633, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: usa2-node.3366test.com}}
+  - {name: 🇺🇸 https://git.io/v9999 美国加利福尼亚州洛杉矶Psychz数据中心 34, server: dd.199301.xyz, port: 443, type: vmess, uuid: fdb86cbc-c537-4a92-9717-0d4ba26ab9ea, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /dde7fa4/, ws-headers: {Host: dd.199301.xyz}}
+  - {name: 🇺🇸 https://git.io/v9999 美国加利福尼亚州洛杉矶Psychz数据中心 16, server: 185.243.57.132, port: 443, type: vmess, uuid: fdb86cbc-c537-4a92-9717-0d4ba26ab9ea, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /dde7fa4/, ws-headers: {Host: dd.199301.xyz}}
+  - {name: 🇦🇨 https://git.io/v9999 美国加利福尼亚州洛杉矶MULTACOM数据中心 40, server: cl.loogsom.xyz, port: 443, type: vmess, uuid: f5f8e60b-7175-4980-ad9a-5a83f96cceb7, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /v, ws-headers: {Host: cl.loogsom.xyz}}
+  - {name: 🇺🇸 https://git.io/v9999 美国CloudFlare节点 58, server: c-jp-dv1.ooxc.cc, port: 443, type: vmess, uuid: f299184b-19e0-41a4-9b4b-65fa8f0e691c, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /jj, ws-headers: {Host: c-jp-dv1.ooxc.cc}}
+  - {name: 🇺🇸 https://git.io/v9999 美国CloudFlare节点 47, server: free.milagropets.tech, port: 80, type: vmess, uuid: fe4b09d6-8af6-33a2-8340-d3539f8c8a4c, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /ray, ws-headers: {Host: free.milagropets.tech}}
+  - {name: 🇺🇸 https://git.io/v9999 美国CloudFlare公司CDN节点 65, server: cdnde.irteyz.today, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇺🇸 https://git.io/v9999 美国CloudFlare公司CDN节点 41, server: c-us3.ooxc.cc, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /jj, ws-headers: {Host: c-us3.ooxc.cc}}
+  - {name: https://git.io/v9999 湖南省联通 31, server: cs-cu01.haoye.cf, port: 20007, type: vmess, uuid: 7a2dac45-58ce-49e9-863f-c85f8cca97b3, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: cs-cu01.haoye.cf}}
+  - {name: https://git.io/v9999 河南省洛阳市移动 49, server: hn-cm01.haoye.cf, port: 11807, type: vmess, uuid: 7a2dac45-58ce-49e9-863f-c85f8cca97b3, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hn-cm01.haoye.cf}}
+  - {name: 🇨🇳 https://git.io/v9999 广东省广州市移动 33, server: jm-cm01.haoye.cf, port: 21033, type: vmess, uuid: 7a2dac45-58ce-49e9-863f-c85f8cca97b3, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: jm-cm01.haoye.cf}}
+  - {name: 🇷🇺 https://git.io/v9999 俄罗斯新西伯利亚JustHost 61, server: v2-10.ssrsub.one, port: 153, type: vmess, uuid: e8444f0d-210a-4f20-9ea7-68ee3d547205, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: n46hm52773.laowanxiang.com}}
+  - {name: 🇷🇺 https://git.io/v9999 俄罗斯新西伯利亚justhost 55, server: v2-06.ssrsub.one, port: 153, type: vmess, uuid: e8444f0d-210a-4f20-9ea7-68ee3d547205, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: n46hm52773.laowanxiang.com}}
+  - {name: 🇷🇺 https://git.io/v9999 俄罗斯新西伯利亚JustHost 44, server: v2-07.ssrsub.one, port: 153, type: vmess, uuid: e8444f0d-210a-4f20-9ea7-68ee3d547205, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: n46hm52773.laowanxiang.com}}
+  - {name: 🇷🇺 https://git.io/v9999 俄罗斯  60, server: t11.ssrsub.one, port: 443, type: trojan, password: ssrsub, sni: t11.ssrsub.one}
+  - {name: 🇷🇺 https://git.io/v9999 俄罗斯  53, server: v2-11.ssrsub.one, port: 153, type: vmess, uuid: e8444f0d-210a-4f20-9ea7-68ee3d547205, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: n46hm52773.laowanxiang.com}}
+  - {name: https://git.io/v9999 clash ip3, server: 185.153.151.80, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: https://git.io/v9999 clash ip3 2, server: 180.149.228.147, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: https://git.io/v9999 clash ip3 3, server: 185.174.159.51, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: https://git.io/v9999 clash ip3 4, server: 196.244.191.93, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: https://git.io/v9999 clash ip3 5, server: 45.125.247.155, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: https://git.io/v9999 clash ip3 6, server: 31.171.154.219, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: https://git.io/v9999 clash ip3 7, server: 31.171.154.219, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: https://git.io/v9999 clash ip3 8, server: 2.58.242.133, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: https://git.io/v9999 clash ip3 9, server: 194.110.115.75, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: https://git.io/v9999 clash ip3 10, server: 217.138.222.53, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: https://git.io/v9999 clash ip3 11, server: 217.138.222.53, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -56,30 +51,29 @@ proxy-groups:
       - 🇨🇳 https://git.io/v9999 中国广东深圳
       - 🇨🇳 https://git.io/v9999 中国广东广州
       - 🇨🇳 https://git.io/v9999 中国广东广州 2
-      - 🇸🇬 https://git.io/v9999 新加坡
+      - 🇭🇰 https://git.io/v9999 香港香港宽频 21
+      - 🇭🇰 https://git.io/v9999 香港香港宽频 1
       - 🇭🇰 https://git.io/v9999 香港阿里云 16
-      - 🇭🇰 https://git.io/v9999 香港Microsoft数据中心 18
-      - 🇭🇰 https://git.io/v9999 香港Microsoft公司 17
-      - 🇯🇵 https://git.io/v9999 日本大阪府大阪Microsoft数据中心 19
-      - 🇯🇵 https://git.io/v9999 日本大阪府大阪
-      - 🇯🇵 https://git.io/v9999 日本大阪Amazon数据中心 29
-      - 🇺🇸 https://git.io/v9999 美国纽约州纽约BuyVM 42
-      - 🇺🇸 https://git.io/v9999 美国内华达州拉斯维加斯BuyVM 32
-      - 🇺🇸 https://git.io/v9999 美国内华达州拉斯维加斯BuyVM 31
-      - 🇺🇸 https://git.io/v9999 美国内华达州拉斯维加斯
-      - 🇺🇸 https://git.io/v9999 美国加利福尼亚州圣克拉拉Microsoft公司 20
-      - 🇦🇨 https://git.io/v9999 美国加利福尼亚州洛杉矶MULTACOM数据中心 41
-      - 🇨🇦 https://git.io/v9999 加拿大  51
-      - 🇨🇦 https://git.io/v9999 加拿大  48
-      - 🇨🇦 https://git.io/v9999 加拿大  46
-      - 🇨🇦 https://git.io/v9999 加拿大  43
-      - https://git.io/v9999 湖南省联通 34
+      - 🇺🇸 https://git.io/v9999 美国纽约州纽约BuyVM 45
+      - 🇺🇸 https://git.io/v9999 美国纽约州纽约BuyVM 43
+      - 🇺🇸 https://git.io/v9999 美国内华达州拉斯维加斯BuyVM 30
+      - 🇺🇸 https://git.io/v9999 美国内华达州拉斯维加斯BuyVM 28
+      - 🇺🇸 https://git.io/v9999 美国加利福尼亚州洛杉矶Zenlayer数据中心 15
+      - 🇺🇸 https://git.io/v9999 美国加利福尼亚州洛杉矶Psychz数据中心 34
+      - 🇺🇸 https://git.io/v9999 美国加利福尼亚州洛杉矶Psychz数据中心 16
+      - 🇦🇨 https://git.io/v9999 美国加利福尼亚州洛杉矶MULTACOM数据中心 40
+      - 🇺🇸 https://git.io/v9999 美国CloudFlare节点 58
+      - 🇺🇸 https://git.io/v9999 美国CloudFlare节点 47
+      - 🇺🇸 https://git.io/v9999 美国CloudFlare公司CDN节点 65
+      - 🇺🇸 https://git.io/v9999 美国CloudFlare公司CDN节点 41
+      - https://git.io/v9999 湖南省联通 31
       - https://git.io/v9999 河南省洛阳市移动 49
-      - 🇷🇺 https://git.io/v9999 俄罗斯新西伯利亚JustHost 52
-      - 🇷🇺 https://git.io/v9999 俄罗斯新西伯利亚
-      - 🇷🇺 https://git.io/v9999 俄罗斯新西伯利
-      - 🇷🇺 https://git.io/v9999 俄罗斯  56
-      - https://git.io/v9999 安徽省联通 59
+      - 🇨🇳 https://git.io/v9999 广东省广州市移动 33
+      - 🇷🇺 https://git.io/v9999 俄罗斯新西伯利亚JustHost 61
+      - 🇷🇺 https://git.io/v9999 俄罗斯新西伯利亚justhost 55
+      - 🇷🇺 https://git.io/v9999 俄罗斯新西伯利亚JustHost 44
+      - 🇷🇺 https://git.io/v9999 俄罗斯  60
+      - 🇷🇺 https://git.io/v9999 俄罗斯  53
       - https://git.io/v9999 clash ip3
       - https://git.io/v9999 clash ip3 2
       - https://git.io/v9999 clash ip3 3
@@ -91,10 +85,6 @@ proxy-groups:
       - https://git.io/v9999 clash ip3 9
       - https://git.io/v9999 clash ip3 10
       - https://git.io/v9999 clash ip3 11
-      - https://git.io/v9999 CDN
-      - https://git.io/v9999 CDN 2
-      - https://git.io/v9999 CDN 3
-      - https://git.io/v9999 CDN 4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -103,30 +93,29 @@ proxy-groups:
       - 🇨🇳 https://git.io/v9999 中国广东深圳
       - 🇨🇳 https://git.io/v9999 中国广东广州
       - 🇨🇳 https://git.io/v9999 中国广东广州 2
-      - 🇸🇬 https://git.io/v9999 新加坡
+      - 🇭🇰 https://git.io/v9999 香港香港宽频 21
+      - 🇭🇰 https://git.io/v9999 香港香港宽频 1
       - 🇭🇰 https://git.io/v9999 香港阿里云 16
-      - 🇭🇰 https://git.io/v9999 香港Microsoft数据中心 18
-      - 🇭🇰 https://git.io/v9999 香港Microsoft公司 17
-      - 🇯🇵 https://git.io/v9999 日本大阪府大阪Microsoft数据中心 19
-      - 🇯🇵 https://git.io/v9999 日本大阪府大阪
-      - 🇯🇵 https://git.io/v9999 日本大阪Amazon数据中心 29
-      - 🇺🇸 https://git.io/v9999 美国纽约州纽约BuyVM 42
-      - 🇺🇸 https://git.io/v9999 美国内华达州拉斯维加斯BuyVM 32
-      - 🇺🇸 https://git.io/v9999 美国内华达州拉斯维加斯BuyVM 31
-      - 🇺🇸 https://git.io/v9999 美国内华达州拉斯维加斯
-      - 🇺🇸 https://git.io/v9999 美国加利福尼亚州圣克拉拉Microsoft公司 20
-      - 🇦🇨 https://git.io/v9999 美国加利福尼亚州洛杉矶MULTACOM数据中心 41
-      - 🇨🇦 https://git.io/v9999 加拿大  51
-      - 🇨🇦 https://git.io/v9999 加拿大  48
-      - 🇨🇦 https://git.io/v9999 加拿大  46
-      - 🇨🇦 https://git.io/v9999 加拿大  43
-      - https://git.io/v9999 湖南省联通 34
+      - 🇺🇸 https://git.io/v9999 美国纽约州纽约BuyVM 45
+      - 🇺🇸 https://git.io/v9999 美国纽约州纽约BuyVM 43
+      - 🇺🇸 https://git.io/v9999 美国内华达州拉斯维加斯BuyVM 30
+      - 🇺🇸 https://git.io/v9999 美国内华达州拉斯维加斯BuyVM 28
+      - 🇺🇸 https://git.io/v9999 美国加利福尼亚州洛杉矶Zenlayer数据中心 15
+      - 🇺🇸 https://git.io/v9999 美国加利福尼亚州洛杉矶Psychz数据中心 34
+      - 🇺🇸 https://git.io/v9999 美国加利福尼亚州洛杉矶Psychz数据中心 16
+      - 🇦🇨 https://git.io/v9999 美国加利福尼亚州洛杉矶MULTACOM数据中心 40
+      - 🇺🇸 https://git.io/v9999 美国CloudFlare节点 58
+      - 🇺🇸 https://git.io/v9999 美国CloudFlare节点 47
+      - 🇺🇸 https://git.io/v9999 美国CloudFlare公司CDN节点 65
+      - 🇺🇸 https://git.io/v9999 美国CloudFlare公司CDN节点 41
+      - https://git.io/v9999 湖南省联通 31
       - https://git.io/v9999 河南省洛阳市移动 49
-      - 🇷🇺 https://git.io/v9999 俄罗斯新西伯利亚JustHost 52
-      - 🇷🇺 https://git.io/v9999 俄罗斯新西伯利亚
-      - 🇷🇺 https://git.io/v9999 俄罗斯新西伯利
-      - 🇷🇺 https://git.io/v9999 俄罗斯  56
-      - https://git.io/v9999 安徽省联通 59
+      - 🇨🇳 https://git.io/v9999 广东省广州市移动 33
+      - 🇷🇺 https://git.io/v9999 俄罗斯新西伯利亚JustHost 61
+      - 🇷🇺 https://git.io/v9999 俄罗斯新西伯利亚justhost 55
+      - 🇷🇺 https://git.io/v9999 俄罗斯新西伯利亚JustHost 44
+      - 🇷🇺 https://git.io/v9999 俄罗斯  60
+      - 🇷🇺 https://git.io/v9999 俄罗斯  53
       - https://git.io/v9999 clash ip3
       - https://git.io/v9999 clash ip3 2
       - https://git.io/v9999 clash ip3 3
@@ -138,10 +127,6 @@ proxy-groups:
       - https://git.io/v9999 clash ip3 9
       - https://git.io/v9999 clash ip3 10
       - https://git.io/v9999 clash ip3 11
-      - https://git.io/v9999 CDN
-      - https://git.io/v9999 CDN 2
-      - https://git.io/v9999 CDN 3
-      - https://git.io/v9999 CDN 4
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -151,30 +136,29 @@ proxy-groups:
       - 🇨🇳 https://git.io/v9999 中国广东深圳
       - 🇨🇳 https://git.io/v9999 中国广东广州
       - 🇨🇳 https://git.io/v9999 中国广东广州 2
-      - 🇸🇬 https://git.io/v9999 新加坡
+      - 🇭🇰 https://git.io/v9999 香港香港宽频 21
+      - 🇭🇰 https://git.io/v9999 香港香港宽频 1
       - 🇭🇰 https://git.io/v9999 香港阿里云 16
-      - 🇭🇰 https://git.io/v9999 香港Microsoft数据中心 18
-      - 🇭🇰 https://git.io/v9999 香港Microsoft公司 17
-      - 🇯🇵 https://git.io/v9999 日本大阪府大阪Microsoft数据中心 19
-      - 🇯🇵 https://git.io/v9999 日本大阪府大阪
-      - 🇯🇵 https://git.io/v9999 日本大阪Amazon数据中心 29
-      - 🇺🇸 https://git.io/v9999 美国纽约州纽约BuyVM 42
-      - 🇺🇸 https://git.io/v9999 美国内华达州拉斯维加斯BuyVM 32
-      - 🇺🇸 https://git.io/v9999 美国内华达州拉斯维加斯BuyVM 31
-      - 🇺🇸 https://git.io/v9999 美国内华达州拉斯维加斯
-      - 🇺🇸 https://git.io/v9999 美国加利福尼亚州圣克拉拉Microsoft公司 20
-      - 🇦🇨 https://git.io/v9999 美国加利福尼亚州洛杉矶MULTACOM数据中心 41
-      - 🇨🇦 https://git.io/v9999 加拿大  51
-      - 🇨🇦 https://git.io/v9999 加拿大  48
-      - 🇨🇦 https://git.io/v9999 加拿大  46
-      - 🇨🇦 https://git.io/v9999 加拿大  43
-      - https://git.io/v9999 湖南省联通 34
+      - 🇺🇸 https://git.io/v9999 美国纽约州纽约BuyVM 45
+      - 🇺🇸 https://git.io/v9999 美国纽约州纽约BuyVM 43
+      - 🇺🇸 https://git.io/v9999 美国内华达州拉斯维加斯BuyVM 30
+      - 🇺🇸 https://git.io/v9999 美国内华达州拉斯维加斯BuyVM 28
+      - 🇺🇸 https://git.io/v9999 美国加利福尼亚州洛杉矶Zenlayer数据中心 15
+      - 🇺🇸 https://git.io/v9999 美国加利福尼亚州洛杉矶Psychz数据中心 34
+      - 🇺🇸 https://git.io/v9999 美国加利福尼亚州洛杉矶Psychz数据中心 16
+      - 🇦🇨 https://git.io/v9999 美国加利福尼亚州洛杉矶MULTACOM数据中心 40
+      - 🇺🇸 https://git.io/v9999 美国CloudFlare节点 58
+      - 🇺🇸 https://git.io/v9999 美国CloudFlare节点 47
+      - 🇺🇸 https://git.io/v9999 美国CloudFlare公司CDN节点 65
+      - 🇺🇸 https://git.io/v9999 美国CloudFlare公司CDN节点 41
+      - https://git.io/v9999 湖南省联通 31
       - https://git.io/v9999 河南省洛阳市移动 49
-      - 🇷🇺 https://git.io/v9999 俄罗斯新西伯利亚JustHost 52
-      - 🇷🇺 https://git.io/v9999 俄罗斯新西伯利亚
-      - 🇷🇺 https://git.io/v9999 俄罗斯新西伯利
-      - 🇷🇺 https://git.io/v9999 俄罗斯  56
-      - https://git.io/v9999 安徽省联通 59
+      - 🇨🇳 https://git.io/v9999 广东省广州市移动 33
+      - 🇷🇺 https://git.io/v9999 俄罗斯新西伯利亚JustHost 61
+      - 🇷🇺 https://git.io/v9999 俄罗斯新西伯利亚justhost 55
+      - 🇷🇺 https://git.io/v9999 俄罗斯新西伯利亚JustHost 44
+      - 🇷🇺 https://git.io/v9999 俄罗斯  60
+      - 🇷🇺 https://git.io/v9999 俄罗斯  53
       - https://git.io/v9999 clash ip3
       - https://git.io/v9999 clash ip3 2
       - https://git.io/v9999 clash ip3 3
@@ -186,17 +170,13 @@ proxy-groups:
       - https://git.io/v9999 clash ip3 9
       - https://git.io/v9999 clash ip3 10
       - https://git.io/v9999 clash ip3 11
-      - https://git.io/v9999 CDN
-      - https://git.io/v9999 CDN 2
-      - https://git.io/v9999 CDN 3
-      - https://git.io/v9999 CDN 4
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 https://git.io/v9999 香港香港宽频 21
+      - 🇭🇰 https://git.io/v9999 香港香港宽频 1
       - 🇭🇰 https://git.io/v9999 香港阿里云 16
-      - 🇭🇰 https://git.io/v9999 香港Microsoft数据中心 18
-      - 🇭🇰 https://git.io/v9999 香港Microsoft公司 17
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -206,30 +186,29 @@ proxy-groups:
       - 🇨🇳 https://git.io/v9999 中国广东深圳
       - 🇨🇳 https://git.io/v9999 中国广东广州
       - 🇨🇳 https://git.io/v9999 中国广东广州 2
-      - 🇸🇬 https://git.io/v9999 新加坡
+      - 🇭🇰 https://git.io/v9999 香港香港宽频 21
+      - 🇭🇰 https://git.io/v9999 香港香港宽频 1
       - 🇭🇰 https://git.io/v9999 香港阿里云 16
-      - 🇭🇰 https://git.io/v9999 香港Microsoft数据中心 18
-      - 🇭🇰 https://git.io/v9999 香港Microsoft公司 17
-      - 🇯🇵 https://git.io/v9999 日本大阪府大阪Microsoft数据中心 19
-      - 🇯🇵 https://git.io/v9999 日本大阪府大阪
-      - 🇯🇵 https://git.io/v9999 日本大阪Amazon数据中心 29
-      - 🇺🇸 https://git.io/v9999 美国纽约州纽约BuyVM 42
-      - 🇺🇸 https://git.io/v9999 美国内华达州拉斯维加斯BuyVM 32
-      - 🇺🇸 https://git.io/v9999 美国内华达州拉斯维加斯BuyVM 31
-      - 🇺🇸 https://git.io/v9999 美国内华达州拉斯维加斯
-      - 🇺🇸 https://git.io/v9999 美国加利福尼亚州圣克拉拉Microsoft公司 20
-      - 🇦🇨 https://git.io/v9999 美国加利福尼亚州洛杉矶MULTACOM数据中心 41
-      - 🇨🇦 https://git.io/v9999 加拿大  51
-      - 🇨🇦 https://git.io/v9999 加拿大  48
-      - 🇨🇦 https://git.io/v9999 加拿大  46
-      - 🇨🇦 https://git.io/v9999 加拿大  43
-      - https://git.io/v9999 湖南省联通 34
+      - 🇺🇸 https://git.io/v9999 美国纽约州纽约BuyVM 45
+      - 🇺🇸 https://git.io/v9999 美国纽约州纽约BuyVM 43
+      - 🇺🇸 https://git.io/v9999 美国内华达州拉斯维加斯BuyVM 30
+      - 🇺🇸 https://git.io/v9999 美国内华达州拉斯维加斯BuyVM 28
+      - 🇺🇸 https://git.io/v9999 美国加利福尼亚州洛杉矶Zenlayer数据中心 15
+      - 🇺🇸 https://git.io/v9999 美国加利福尼亚州洛杉矶Psychz数据中心 34
+      - 🇺🇸 https://git.io/v9999 美国加利福尼亚州洛杉矶Psychz数据中心 16
+      - 🇦🇨 https://git.io/v9999 美国加利福尼亚州洛杉矶MULTACOM数据中心 40
+      - 🇺🇸 https://git.io/v9999 美国CloudFlare节点 58
+      - 🇺🇸 https://git.io/v9999 美国CloudFlare节点 47
+      - 🇺🇸 https://git.io/v9999 美国CloudFlare公司CDN节点 65
+      - 🇺🇸 https://git.io/v9999 美国CloudFlare公司CDN节点 41
+      - https://git.io/v9999 湖南省联通 31
       - https://git.io/v9999 河南省洛阳市移动 49
-      - 🇷🇺 https://git.io/v9999 俄罗斯新西伯利亚JustHost 52
-      - 🇷🇺 https://git.io/v9999 俄罗斯新西伯利亚
-      - 🇷🇺 https://git.io/v9999 俄罗斯新西伯利
-      - 🇷🇺 https://git.io/v9999 俄罗斯  56
-      - https://git.io/v9999 安徽省联通 59
+      - 🇨🇳 https://git.io/v9999 广东省广州市移动 33
+      - 🇷🇺 https://git.io/v9999 俄罗斯新西伯利亚JustHost 61
+      - 🇷🇺 https://git.io/v9999 俄罗斯新西伯利亚justhost 55
+      - 🇷🇺 https://git.io/v9999 俄罗斯新西伯利亚JustHost 44
+      - 🇷🇺 https://git.io/v9999 俄罗斯  60
+      - 🇷🇺 https://git.io/v9999 俄罗斯  53
       - https://git.io/v9999 clash ip3
       - https://git.io/v9999 clash ip3 2
       - https://git.io/v9999 clash ip3 3
@@ -241,10 +220,6 @@ proxy-groups:
       - https://git.io/v9999 clash ip3 9
       - https://git.io/v9999 clash ip3 10
       - https://git.io/v9999 clash ip3 11
-      - https://git.io/v9999 CDN
-      - https://git.io/v9999 CDN 2
-      - https://git.io/v9999 CDN 3
-      - https://git.io/v9999 CDN 4
   - name: 📲 电报信息
     type: select
     proxies:
@@ -253,30 +228,29 @@ proxy-groups:
       - 🇨🇳 https://git.io/v9999 中国广东深圳
       - 🇨🇳 https://git.io/v9999 中国广东广州
       - 🇨🇳 https://git.io/v9999 中国广东广州 2
-      - 🇸🇬 https://git.io/v9999 新加坡
+      - 🇭🇰 https://git.io/v9999 香港香港宽频 21
+      - 🇭🇰 https://git.io/v9999 香港香港宽频 1
       - 🇭🇰 https://git.io/v9999 香港阿里云 16
-      - 🇭🇰 https://git.io/v9999 香港Microsoft数据中心 18
-      - 🇭🇰 https://git.io/v9999 香港Microsoft公司 17
-      - 🇯🇵 https://git.io/v9999 日本大阪府大阪Microsoft数据中心 19
-      - 🇯🇵 https://git.io/v9999 日本大阪府大阪
-      - 🇯🇵 https://git.io/v9999 日本大阪Amazon数据中心 29
-      - 🇺🇸 https://git.io/v9999 美国纽约州纽约BuyVM 42
-      - 🇺🇸 https://git.io/v9999 美国内华达州拉斯维加斯BuyVM 32
-      - 🇺🇸 https://git.io/v9999 美国内华达州拉斯维加斯BuyVM 31
-      - 🇺🇸 https://git.io/v9999 美国内华达州拉斯维加斯
-      - 🇺🇸 https://git.io/v9999 美国加利福尼亚州圣克拉拉Microsoft公司 20
-      - 🇦🇨 https://git.io/v9999 美国加利福尼亚州洛杉矶MULTACOM数据中心 41
-      - 🇨🇦 https://git.io/v9999 加拿大  51
-      - 🇨🇦 https://git.io/v9999 加拿大  48
-      - 🇨🇦 https://git.io/v9999 加拿大  46
-      - 🇨🇦 https://git.io/v9999 加拿大  43
-      - https://git.io/v9999 湖南省联通 34
+      - 🇺🇸 https://git.io/v9999 美国纽约州纽约BuyVM 45
+      - 🇺🇸 https://git.io/v9999 美国纽约州纽约BuyVM 43
+      - 🇺🇸 https://git.io/v9999 美国内华达州拉斯维加斯BuyVM 30
+      - 🇺🇸 https://git.io/v9999 美国内华达州拉斯维加斯BuyVM 28
+      - 🇺🇸 https://git.io/v9999 美国加利福尼亚州洛杉矶Zenlayer数据中心 15
+      - 🇺🇸 https://git.io/v9999 美国加利福尼亚州洛杉矶Psychz数据中心 34
+      - 🇺🇸 https://git.io/v9999 美国加利福尼亚州洛杉矶Psychz数据中心 16
+      - 🇦🇨 https://git.io/v9999 美国加利福尼亚州洛杉矶MULTACOM数据中心 40
+      - 🇺🇸 https://git.io/v9999 美国CloudFlare节点 58
+      - 🇺🇸 https://git.io/v9999 美国CloudFlare节点 47
+      - 🇺🇸 https://git.io/v9999 美国CloudFlare公司CDN节点 65
+      - 🇺🇸 https://git.io/v9999 美国CloudFlare公司CDN节点 41
+      - https://git.io/v9999 湖南省联通 31
       - https://git.io/v9999 河南省洛阳市移动 49
-      - 🇷🇺 https://git.io/v9999 俄罗斯新西伯利亚JustHost 52
-      - 🇷🇺 https://git.io/v9999 俄罗斯新西伯利亚
-      - 🇷🇺 https://git.io/v9999 俄罗斯新西伯利
-      - 🇷🇺 https://git.io/v9999 俄罗斯  56
-      - https://git.io/v9999 安徽省联通 59
+      - 🇨🇳 https://git.io/v9999 广东省广州市移动 33
+      - 🇷🇺 https://git.io/v9999 俄罗斯新西伯利亚JustHost 61
+      - 🇷🇺 https://git.io/v9999 俄罗斯新西伯利亚justhost 55
+      - 🇷🇺 https://git.io/v9999 俄罗斯新西伯利亚JustHost 44
+      - 🇷🇺 https://git.io/v9999 俄罗斯  60
+      - 🇷🇺 https://git.io/v9999 俄罗斯  53
       - https://git.io/v9999 clash ip3
       - https://git.io/v9999 clash ip3 2
       - https://git.io/v9999 clash ip3 3
@@ -288,10 +262,6 @@ proxy-groups:
       - https://git.io/v9999 clash ip3 9
       - https://git.io/v9999 clash ip3 10
       - https://git.io/v9999 clash ip3 11
-      - https://git.io/v9999 CDN
-      - https://git.io/v9999 CDN 2
-      - https://git.io/v9999 CDN 3
-      - https://git.io/v9999 CDN 4
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -301,30 +271,29 @@ proxy-groups:
       - 🇨🇳 https://git.io/v9999 中国广东深圳
       - 🇨🇳 https://git.io/v9999 中国广东广州
       - 🇨🇳 https://git.io/v9999 中国广东广州 2
-      - 🇸🇬 https://git.io/v9999 新加坡
+      - 🇭🇰 https://git.io/v9999 香港香港宽频 21
+      - 🇭🇰 https://git.io/v9999 香港香港宽频 1
       - 🇭🇰 https://git.io/v9999 香港阿里云 16
-      - 🇭🇰 https://git.io/v9999 香港Microsoft数据中心 18
-      - 🇭🇰 https://git.io/v9999 香港Microsoft公司 17
-      - 🇯🇵 https://git.io/v9999 日本大阪府大阪Microsoft数据中心 19
-      - 🇯🇵 https://git.io/v9999 日本大阪府大阪
-      - 🇯🇵 https://git.io/v9999 日本大阪Amazon数据中心 29
-      - 🇺🇸 https://git.io/v9999 美国纽约州纽约BuyVM 42
-      - 🇺🇸 https://git.io/v9999 美国内华达州拉斯维加斯BuyVM 32
-      - 🇺🇸 https://git.io/v9999 美国内华达州拉斯维加斯BuyVM 31
-      - 🇺🇸 https://git.io/v9999 美国内华达州拉斯维加斯
-      - 🇺🇸 https://git.io/v9999 美国加利福尼亚州圣克拉拉Microsoft公司 20
-      - 🇦🇨 https://git.io/v9999 美国加利福尼亚州洛杉矶MULTACOM数据中心 41
-      - 🇨🇦 https://git.io/v9999 加拿大  51
-      - 🇨🇦 https://git.io/v9999 加拿大  48
-      - 🇨🇦 https://git.io/v9999 加拿大  46
-      - 🇨🇦 https://git.io/v9999 加拿大  43
-      - https://git.io/v9999 湖南省联通 34
+      - 🇺🇸 https://git.io/v9999 美国纽约州纽约BuyVM 45
+      - 🇺🇸 https://git.io/v9999 美国纽约州纽约BuyVM 43
+      - 🇺🇸 https://git.io/v9999 美国内华达州拉斯维加斯BuyVM 30
+      - 🇺🇸 https://git.io/v9999 美国内华达州拉斯维加斯BuyVM 28
+      - 🇺🇸 https://git.io/v9999 美国加利福尼亚州洛杉矶Zenlayer数据中心 15
+      - 🇺🇸 https://git.io/v9999 美国加利福尼亚州洛杉矶Psychz数据中心 34
+      - 🇺🇸 https://git.io/v9999 美国加利福尼亚州洛杉矶Psychz数据中心 16
+      - 🇦🇨 https://git.io/v9999 美国加利福尼亚州洛杉矶MULTACOM数据中心 40
+      - 🇺🇸 https://git.io/v9999 美国CloudFlare节点 58
+      - 🇺🇸 https://git.io/v9999 美国CloudFlare节点 47
+      - 🇺🇸 https://git.io/v9999 美国CloudFlare公司CDN节点 65
+      - 🇺🇸 https://git.io/v9999 美国CloudFlare公司CDN节点 41
+      - https://git.io/v9999 湖南省联通 31
       - https://git.io/v9999 河南省洛阳市移动 49
-      - 🇷🇺 https://git.io/v9999 俄罗斯新西伯利亚JustHost 52
-      - 🇷🇺 https://git.io/v9999 俄罗斯新西伯利亚
-      - 🇷🇺 https://git.io/v9999 俄罗斯新西伯利
-      - 🇷🇺 https://git.io/v9999 俄罗斯  56
-      - https://git.io/v9999 安徽省联通 59
+      - 🇨🇳 https://git.io/v9999 广东省广州市移动 33
+      - 🇷🇺 https://git.io/v9999 俄罗斯新西伯利亚JustHost 61
+      - 🇷🇺 https://git.io/v9999 俄罗斯新西伯利亚justhost 55
+      - 🇷🇺 https://git.io/v9999 俄罗斯新西伯利亚JustHost 44
+      - 🇷🇺 https://git.io/v9999 俄罗斯  60
+      - 🇷🇺 https://git.io/v9999 俄罗斯  53
       - https://git.io/v9999 clash ip3
       - https://git.io/v9999 clash ip3 2
       - https://git.io/v9999 clash ip3 3
@@ -336,10 +305,6 @@ proxy-groups:
       - https://git.io/v9999 clash ip3 9
       - https://git.io/v9999 clash ip3 10
       - https://git.io/v9999 clash ip3 11
-      - https://git.io/v9999 CDN
-      - https://git.io/v9999 CDN 2
-      - https://git.io/v9999 CDN 3
-      - https://git.io/v9999 CDN 4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -358,30 +323,29 @@ proxy-groups:
       - 🇨🇳 https://git.io/v9999 中国广东深圳
       - 🇨🇳 https://git.io/v9999 中国广东广州
       - 🇨🇳 https://git.io/v9999 中国广东广州 2
-      - 🇸🇬 https://git.io/v9999 新加坡
+      - 🇭🇰 https://git.io/v9999 香港香港宽频 21
+      - 🇭🇰 https://git.io/v9999 香港香港宽频 1
       - 🇭🇰 https://git.io/v9999 香港阿里云 16
-      - 🇭🇰 https://git.io/v9999 香港Microsoft数据中心 18
-      - 🇭🇰 https://git.io/v9999 香港Microsoft公司 17
-      - 🇯🇵 https://git.io/v9999 日本大阪府大阪Microsoft数据中心 19
-      - 🇯🇵 https://git.io/v9999 日本大阪府大阪
-      - 🇯🇵 https://git.io/v9999 日本大阪Amazon数据中心 29
-      - 🇺🇸 https://git.io/v9999 美国纽约州纽约BuyVM 42
-      - 🇺🇸 https://git.io/v9999 美国内华达州拉斯维加斯BuyVM 32
-      - 🇺🇸 https://git.io/v9999 美国内华达州拉斯维加斯BuyVM 31
-      - 🇺🇸 https://git.io/v9999 美国内华达州拉斯维加斯
-      - 🇺🇸 https://git.io/v9999 美国加利福尼亚州圣克拉拉Microsoft公司 20
-      - 🇦🇨 https://git.io/v9999 美国加利福尼亚州洛杉矶MULTACOM数据中心 41
-      - 🇨🇦 https://git.io/v9999 加拿大  51
-      - 🇨🇦 https://git.io/v9999 加拿大  48
-      - 🇨🇦 https://git.io/v9999 加拿大  46
-      - 🇨🇦 https://git.io/v9999 加拿大  43
-      - https://git.io/v9999 湖南省联通 34
+      - 🇺🇸 https://git.io/v9999 美国纽约州纽约BuyVM 45
+      - 🇺🇸 https://git.io/v9999 美国纽约州纽约BuyVM 43
+      - 🇺🇸 https://git.io/v9999 美国内华达州拉斯维加斯BuyVM 30
+      - 🇺🇸 https://git.io/v9999 美国内华达州拉斯维加斯BuyVM 28
+      - 🇺🇸 https://git.io/v9999 美国加利福尼亚州洛杉矶Zenlayer数据中心 15
+      - 🇺🇸 https://git.io/v9999 美国加利福尼亚州洛杉矶Psychz数据中心 34
+      - 🇺🇸 https://git.io/v9999 美国加利福尼亚州洛杉矶Psychz数据中心 16
+      - 🇦🇨 https://git.io/v9999 美国加利福尼亚州洛杉矶MULTACOM数据中心 40
+      - 🇺🇸 https://git.io/v9999 美国CloudFlare节点 58
+      - 🇺🇸 https://git.io/v9999 美国CloudFlare节点 47
+      - 🇺🇸 https://git.io/v9999 美国CloudFlare公司CDN节点 65
+      - 🇺🇸 https://git.io/v9999 美国CloudFlare公司CDN节点 41
+      - https://git.io/v9999 湖南省联通 31
       - https://git.io/v9999 河南省洛阳市移动 49
-      - 🇷🇺 https://git.io/v9999 俄罗斯新西伯利亚JustHost 52
-      - 🇷🇺 https://git.io/v9999 俄罗斯新西伯利亚
-      - 🇷🇺 https://git.io/v9999 俄罗斯新西伯利
-      - 🇷🇺 https://git.io/v9999 俄罗斯  56
-      - https://git.io/v9999 安徽省联通 59
+      - 🇨🇳 https://git.io/v9999 广东省广州市移动 33
+      - 🇷🇺 https://git.io/v9999 俄罗斯新西伯利亚JustHost 61
+      - 🇷🇺 https://git.io/v9999 俄罗斯新西伯利亚justhost 55
+      - 🇷🇺 https://git.io/v9999 俄罗斯新西伯利亚JustHost 44
+      - 🇷🇺 https://git.io/v9999 俄罗斯  60
+      - 🇷🇺 https://git.io/v9999 俄罗斯  53
       - https://git.io/v9999 clash ip3
       - https://git.io/v9999 clash ip3 2
       - https://git.io/v9999 clash ip3 3
@@ -393,10 +357,6 @@ proxy-groups:
       - https://git.io/v9999 clash ip3 9
       - https://git.io/v9999 clash ip3 10
       - https://git.io/v9999 clash ip3 11
-      - https://git.io/v9999 CDN
-      - https://git.io/v9999 CDN 2
-      - https://git.io/v9999 CDN 3
-      - https://git.io/v9999 CDN 4
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
