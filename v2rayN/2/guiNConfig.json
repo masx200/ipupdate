@@ -13,7 +13,7 @@
   "vmess": [
     {
       "configVersion": 2,
-      "address": "www.cybersource.com",
+      "address": "104.19.0.9",
       "port": 443,
       "id": "26f6c7fc-641f-4600-82c8-f29bf7f3bff9",
       "alterId": 0,
