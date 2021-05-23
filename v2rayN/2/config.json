@@ -44,25 +44,42 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "shadowsocks",
+      "protocol": "vless",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "207.244.67.149",
-            "method": "aes-256-gcm",
-            "ota": false,
-            "password": "NHwQTPLCfaTMSqTnU3mjcSxe",
-            "port": 33998,
-            "level": 1
+            "address": "us001.free3333.xyz",
+            "port": 443,
+            "users": [
+              {
+                "id": "8d0fbe63-b1bd-492c-becc-c5968aa3ea48",
+                "alterId": 0,
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp"
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "us001.free3333.xyz"
+        },
+        "wsSettings": {
+          "path": "/ray",
+          "headers": {
+            "Host": "us001.free3333.xyz"
+          }
+        }
       },
       "mux": {
-        "enabled": false,
-        "concurrency": -1
+        "enabled": true,
+        "concurrency": 8
       }
     },
     {
