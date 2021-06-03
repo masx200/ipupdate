@@ -5,6 +5,8 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: https://git.io/v9999 clash ss1, server: 140.82.17.121, port: 12345, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: https://git.io/v9999 clash ss2, server: 108.61.207.105, port: 12345, type: ss, cipher: chacha20-ietf-poly1305, password: dongtaiwang.com}
   - {name: https://git.io/v9999 clash ip1, server: 51.89.21.77, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: https://git.io/v9999 clash ip1 2, server: 194.150.167.42, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
   - {name: https://git.io/v9999 clash ip1 3, server: ss5.ssrsub.one, port: 9443, type: ss, cipher: aes-128-gcm, password: suo.yt/ssrsub}
@@ -42,6 +44,8 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - https://git.io/v9999 clash ss1
+      - https://git.io/v9999 clash ss2
       - https://git.io/v9999 clash ip1
       - https://git.io/v9999 clash ip1 2
       - https://git.io/v9999 clash ip1 3
@@ -78,6 +82,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - https://git.io/v9999 clash ss1
+      - https://git.io/v9999 clash ss2
       - https://git.io/v9999 clash ip1
       - https://git.io/v9999 clash ip1 2
       - https://git.io/v9999 clash ip1 3
@@ -115,6 +121,8 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - https://git.io/v9999 clash ss1
+      - https://git.io/v9999 clash ss2
       - https://git.io/v9999 clash ip1
       - https://git.io/v9999 clash ip1 2
       - https://git.io/v9999 clash ip1 3
@@ -156,6 +164,8 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - https://git.io/v9999 clash ss1
+      - https://git.io/v9999 clash ss2
       - https://git.io/v9999 clash ip1
       - https://git.io/v9999 clash ip1 2
       - https://git.io/v9999 clash ip1 3
@@ -192,6 +202,8 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - https://git.io/v9999 clash ss1
+      - https://git.io/v9999 clash ss2
       - https://git.io/v9999 clash ip1
       - https://git.io/v9999 clash ip1 2
       - https://git.io/v9999 clash ip1 3
@@ -229,6 +241,8 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - https://git.io/v9999 clash ss1
+      - https://git.io/v9999 clash ss2
       - https://git.io/v9999 clash ip1
       - https://git.io/v9999 clash ip1 2
       - https://git.io/v9999 clash ip1 3
@@ -275,6 +289,8 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - https://git.io/v9999 clash ss1
+      - https://git.io/v9999 clash ss2
       - https://git.io/v9999 clash ip1
       - https://git.io/v9999 clash ip1 2
       - https://git.io/v9999 clash ip1 3
