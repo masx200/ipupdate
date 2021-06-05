@@ -48,11 +48,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "us001.free3333.xyz",
+            "address": "www.digitalocean.com",
             "port": 443,
             "users": [
               {
-                "id": "8d0fbe63-b1bd-492c-becc-c5968aa3ea48",
+                "id": "90d1c3bc-eee0-4640-8b35-4ec9a80a0e4b",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -68,12 +68,12 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "us001.free3333.xyz"
+          "serverName": "adman10.free3333.xyz"
         },
         "wsSettings": {
           "path": "/ray",
           "headers": {
-            "Host": "us001.free3333.xyz"
+            "Host": "adman10.free3333.xyz"
           }
         }
       },
