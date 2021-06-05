@@ -13,15 +13,15 @@
   "vmess": [
     {
       "configVersion": 2,
-      "address": "104.19.0.9",
+      "address": "www.digitalocean.com",
       "port": 443,
-      "id": "26f6c7fc-641f-4600-82c8-f29bf7f3bff9",
+      "id": "90d1c3bc-eee0-4640-8b35-4ec9a80a0e4b",
       "alterId": 0,
       "security": "none",
       "network": "ws",
       "remarks": "https://github.com/Alvin9999/new-pac/wiki ip3莫斯科",
       "headerType": "none",
-      "requestHost": "adman04.free3333.xyz",
+      "requestHost": "adman10.free3333.xyz",
       "path": "/ray",
       "streamSecurity": "tls",
       "allowInsecure": "false",
