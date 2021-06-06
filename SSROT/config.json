@@ -1,10 +1,9 @@
-
 {
-    "password": "6hs9bFjz3wtDiNY4",
-    "method": "none",
-    "protocol": "auth_chain_f",
+    "password": "VCjABnUFVZxQeHFl",
+    "method": "chacha20-ietf",
+    "protocol": "auth_chain_b",
     "protocol_param": "",
-    "obfs": "tls1.2_ticket_fastauth",
+    "obfs": "tls1.2_ticket_auth",
     "obfs_param": "",
 
     "udp": true,
@@ -14,11 +13,11 @@
 
     "server_settings": {
         "listen_address": "0.0.0.0",
-        "listen_port": 18689
+        "listen_port": 18312
     },
 
     "client_settings": {
-        "server": "www.digitalocean.com",
+        "server": "1.0.0.0",
         "server_port": 443,
         "listen_address": "0.0.0.0",
         "listen_port": 1080
@@ -26,8 +25,8 @@
 
     "over_tls_settings": {
         "enable": true,
-        "server_domain": "ssrot3.free3333.xyz",
-        "path": "/jVLh8G5aSrCDgw9eKweB/",
+        "server_domain": "ssrot4.free3333.xyz",
+        "path": "/uXe0wxLaHz9cpVRHonyT/",
         "root_cert_file": ""
     }
 }
