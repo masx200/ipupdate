@@ -13,7 +13,7 @@
   "vmess": [
     {
       "configVersion": 2,
-      "address": "www.digitalocean.com",
+      "address": "1.1.1.0",
       "port": 443,
       "id": "90d1c3bc-eee0-4640-8b35-4ec9a80a0e4b",
       "alterId": 0,
