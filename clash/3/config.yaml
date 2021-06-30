@@ -5,8 +5,8 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇩🇪 https://git.io/v9999 clash ip5德国, server: 89.163.224.127, port: 52497, type: vmess, uuid: 86825607-80ec-436c-9833-519d1bfb4721, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 89.163.224.127}}
-  - {name: 🇩🇪 https://git.io/v9999 clash ip5德国 2, server: 89.163.224.92, port: 14328, type: vmess, uuid: 89ff2ba0-6b27-4dd2-9fb6-8391965d57b4, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇩🇪 https://git.io/v9999 clash ip5德国, server: 89.163.224.92, port: 47117, type: vmess, uuid: 7cefbac4-2a62-4b58-b6a6-ca55596352f8, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇩🇪 https://git.io/v9999 clash ip5德国 2, server: 89.163.224.127, port: 52497, type: vmess, uuid: 86825607-80ec-436c-9833-519d1bfb4721, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 89.163.224.127}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
