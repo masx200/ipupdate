@@ -48,11 +48,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.144.3.208",
-            "port": 58983,
+            "address": "45.147.200.214",
+            "port": 34113,
             "users": [
               {
-                "id": "ffaf2bf3-43a8-40ec-8e39-62b6f42bb8af",
+                "id": "f1f05279-ada9-4c06-be99-b101dddfef5a",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto"
@@ -62,7 +62,14 @@
         ]
       },
       "streamSettings": {
-        "network": "tcp"
+        "network": "quic",
+        "quicSettings": {
+          "security": "chacha20-poly1305",
+          "key": "ddaf1c42-9d18-4a8d-8259-d9bc694b17b7",
+          "header": {
+            "type": "none"
+          }
+        }
       },
       "mux": {
         "enabled": true,
