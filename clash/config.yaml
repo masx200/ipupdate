@@ -9,9 +9,9 @@ proxies:
   - {name: 🇺🇸 https://git.io/v9999 圣何塞sv2 1, server: 142.4.123.249, port: 26707, type: vmess, uuid: 8f7a28a6-002a-11ec-b64a-00163cf00cd9, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 https://git.io/v9999 圣何塞sv2, server: sv2.free3333.xyz, port: 26707, type: vmess, uuid: 8f7a28a6-002a-11ec-b64a-00163cf00cd9, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 https://git.io/v9999 圣何塞SS4, server: 137.175.30.248, port: 12345, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
-  - {name: 🇺🇸 https://git.io/v9999 圣何塞SS3, server: 107.148.200.187, port: 23456, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: 🇺🇸 https://git.io/v9999 圣何塞SS3, server: 107.148.200.187, port: 34567, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
   - {name: 🇺🇸 https://git.io/v9999 圣何塞SS2, server: 198.200.51.37, port: 12345, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
-  - {name: 🇺🇸 https://git.io/v9999 圣何塞SS1, server: 107.148.200.123, port: 12345, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: 🇺🇸 https://git.io/v9999 圣何塞SS1, server: 107.148.200.123, port: 34567, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
   - {name: 🇺🇸 https://git.io/v9999 圣何塞clash, server: 192.74.254.112, port: 58719, type: vmess, uuid: ae1048eb-a962-48f6-b15f-013d83d0b6c7, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 https://git.io/v9999 圣何塞clash 2, server: 192.74.254.167, port: 31277, type: vmess, uuid: fa535734-015a-11ec-a126-00163c9f4934, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 https://git.io/v9999 圣何塞clash 3, server: 198.200.51.34, port: 37221, type: vmess, uuid: c70c1895-22ab-4661-83e7-c437137273f9, alterId: 0, cipher: auto, tls: false}
