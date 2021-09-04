@@ -49,10 +49,10 @@
         "vnext": [
           {
             "address": "45.66.156.199",
-            "port": 23704,
+            "port": 56873,
             "users": [
               {
-                "id": "e0596c20-0636-45e8-a9aa-190d306d2317",
+                "id": "17d70dd8-0d8a-11ec-b4ad-00163c06ad53",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto"
@@ -62,7 +62,19 @@
         ]
       },
       "streamSettings": {
-        "network": "tcp"
+        "network": "kcp",
+        "kcpSettings": {
+          "mtu": 1350,
+          "tti": 50,
+          "uplinkCapacity": 12,
+          "downlinkCapacity": 100,
+          "congestion": false,
+          "readBufferSize": 2,
+          "writeBufferSize": 2,
+          "header": {
+            "type": "wechat-video"
+          }
+        }
       },
       "mux": {
         "enabled": true,
