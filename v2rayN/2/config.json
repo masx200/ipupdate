@@ -62,19 +62,7 @@
         ]
       },
       "streamSettings": {
-        "network": "kcp",
-        "kcpSettings": {
-          "mtu": 1350,
-          "tti": 50,
-          "uplinkCapacity": 12,
-          "downlinkCapacity": 100,
-          "congestion": false,
-          "readBufferSize": 2,
-          "writeBufferSize": 2,
-          "header": {
-            "type": "wechat-video"
-          }
-        }
+        "network": "tcp"
       },
       "mux": {
         "enabled": true,
