@@ -13,13 +13,13 @@
   "vmess": [
     {
       "configVersion": 2,
-      "address": "185.22.152.114",
-      "port": 1,
-      "id": "ca40ac64-1a9a-11ec-80fd-02ec3c2e9801",
+      "address": "45.144.178.97",
+      "port": 32231,
+      "id": "57a951d4-1c0b-11ec-8be6-365aa404540b",
       "alterId": 0,
       "security": "auto",
       "network": "tcp",
-      "remarks": "https://github.com/Alvin9999/new-pac/wiki ip1莫斯科",
+      "remarks": "https://github.com/Alvin9999/new-pac/wiki TTK",
       "headerType": "none",
       "requestHost": "",
       "path": "",
