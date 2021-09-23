@@ -13,13 +13,13 @@
   "vmess": [
     {
       "configVersion": 2,
-      "address": "45.144.178.97",
-      "port": 32231,
-      "id": "57a951d4-1c0b-11ec-8be6-365aa404540b",
+      "address": "45.144.179.182",
+      "port": 65200,
+      "id": "0c31c31c-1c24-11ec-b099-564642a5edef",
       "alterId": 0,
       "security": "auto",
       "network": "tcp",
-      "remarks": "https://github.com/Alvin9999/new-pac/wiki TTK",
+      "remarks": "https://github.com/Alvin9999/new-pac/wiki TTKip1",
       "headerType": "none",
       "requestHost": "",
       "path": "",
