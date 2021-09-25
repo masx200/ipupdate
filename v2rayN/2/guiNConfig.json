@@ -13,13 +13,13 @@
   "vmess": [
     {
       "configVersion": 2,
-      "address": "45.144.179.182",
-      "port": 65200,
-      "id": "0c31c31c-1c24-11ec-b099-564642a5edef",
+      "address": "45.66.157.195",
+      "port": 56873,
+      "id": "17d70dd8-0d8a-11ec-b4ad-00163c06ad53",
       "alterId": 0,
       "security": "auto",
       "network": "tcp",
-      "remarks": "https://github.com/Alvin9999/new-pac/wiki TTKip1",
+      "remarks": "https://github.com/Alvin9999/new-pac/wiki 洛杉矶ip3",
       "headerType": "none",
       "requestHost": "",
       "path": "",
