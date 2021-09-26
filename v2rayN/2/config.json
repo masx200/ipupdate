@@ -49,10 +49,10 @@
         "vnext": [
           {
             "address": "45.66.157.195",
-            "port": 56873,
+            "port": 7596,
             "users": [
               {
-                "id": "17d70dd8-0d8a-11ec-b4ad-00163c06ad53",
+                "id": "4cbb0ce4-1ec3-11ec-b76f-00163c06ad53",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto"
