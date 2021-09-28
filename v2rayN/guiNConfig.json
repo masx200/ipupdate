@@ -13,13 +13,13 @@
   "vmess": [
     {
       "configVersion": 2,
-      "address": "89.163.225.161",
-      "port": 63502,
-      "id": "ad57bc3a-1e89-11ec-9a79-38eaa70f7262",
+      "address": "216.105.168.138",
+      "port": 10964,
+      "id": "b874d3a8-1ff8-11ec-9fc6-0cc47a52170a",
       "alterId": 0,
       "security": "auto",
       "network": "tcp",
-      "remarks": "https://github.com/Alvin9999/new-pac/wiki 德国",
+      "remarks": "https://github.com/Alvin9999/new-pac/wiki 洛杉矶ip1",
       "headerType": "none",
       "requestHost": "",
       "path": "",
