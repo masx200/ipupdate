@@ -44,20 +44,16 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vmess",
+      "protocol": "shadowsocks",
       "settings": {
-        "vnext": [
+        "servers": [
           {
             "address": "216.105.168.138",
-            "port": 10099,
-            "users": [
-              {
-                "id": "b874d3a8-1ff8-11ec-9fc6-0cc47a52170a",
-                "alterId": 0,
-                "email": "t@t.tt",
-                "security": "auto"
-              }
-            ]
+            "method": "aes-256-gcm",
+            "ota": false,
+            "password": "dongtaiwang.com",
+            "port": 10011,
+            "level": 1
           }
         ]
       },
@@ -65,8 +61,8 @@
         "network": "tcp"
       },
       "mux": {
-        "enabled": true,
-        "concurrency": 8
+        "enabled": false,
+        "concurrency": -1
       }
     },
     {
