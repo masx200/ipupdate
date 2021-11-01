@@ -13,13 +13,13 @@
   "vmess": [
     {
       "configVersion": 2,
-      "address": "193.38.51.45",
-      "port": 12345,
+      "address": "192.74.228.10",
+      "port": 10011,
       "id": "dongtaiwang.com",
       "alterId": 0,
       "security": "aes-256-gcm",
       "network": "",
-      "remarks": "https://github.com/Alvin9999/new-pac/wiki 莫斯科ip3",
+      "remarks": "https://github.com/Alvin9999/new-pac/wiki 洛杉矶ip3",
       "headerType": "",
       "requestHost": "",
       "path": "",
