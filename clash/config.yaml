@@ -5,12 +5,12 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 https://git.io/v9999 圣何塞-洛杉矶v2ray, server: 216.105.168.139, port: 22580, type: vmess, uuid: 1b6db3a6-42d8-11ec-8237-0cc47a52170a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /Cznay5xb/, ws-headers: {Host: 216.105.168.139}}
-  - {name: 🇺🇸 https://git.io/v9999 圣何塞-洛杉矶v2ray 2, server: 216.105.168.139, port: 10000, type: vmess, uuid: 71871f34-42d8-11ec-bf21-0cc47a52170a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /H80Llhu4/, ws-headers: {Host: 216.105.168.139}}
-  - {name: 🇺🇸 https://git.io/v9999 圣何塞-洛杉矶v2ray 3, server: 216.105.168.139, port: 10001, type: vmess, uuid: 8a957b74-42d8-11ec-bf21-0cc47a52170a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /WfD1Y9uX/, ws-headers: {Host: 216.105.168.139}}
+  - {name: 🇺🇸 https://git.io/v9999 圣何塞-洛杉矶v2ray, server: 216.105.168.141, port: 22580, type: vmess, uuid: 1b6db3a6-42d8-11ec-8237-0cc47a52170a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /Cznay5xb/, ws-headers: {Host: 216.105.168.141}}
+  - {name: 🇺🇸 https://git.io/v9999 圣何塞-洛杉矶v2ray 2, server: 216.105.168.141, port: 10000, type: vmess, uuid: 71871f34-42d8-11ec-bf21-0cc47a52170a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /H80Llhu4/, ws-headers: {Host: 216.105.168.141}}
+  - {name: 🇺🇸 https://git.io/v9999 圣何塞-洛杉矶v2ray 3, server: 216.105.168.141, port: 10001, type: vmess, uuid: 8a957b74-42d8-11ec-bf21-0cc47a52170a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /WfD1Y9uX/, ws-headers: {Host: 216.105.168.141}}
   - {name: 🇺🇸 https://git.io/v9999 圣何塞-洛杉矶v2ray 4, server: 216.105.168.140, port: 10002, type: vmess, uuid: 9da578f4-42d8-11ec-bf21-0cc47a52170a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 https://git.io/v9999 圣何塞-洛杉矶v2ray 5, server: 216.105.168.139, port: 10003, type: vmess, uuid: c12bbf0e-42d8-11ec-bf21-0cc47a52170a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /E7jsIWrF/, ws-headers: {Host: 216.105.168.139}}
-  - {name: 🇺🇸 https://git.io/v9999 圣何塞-洛杉矶v2ray 6, server: 216.105.168.139, port: 10005, type: vmess, uuid: cf03c54a-42d8-11ec-bf21-0cc47a52170a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /3jhEQguD/, ws-headers: {Host: 216.105.168.139}}
+  - {name: 🇺🇸 https://git.io/v9999 圣何塞-洛杉矶v2ray 5, server: 216.105.168.141, port: 10003, type: vmess, uuid: c12bbf0e-42d8-11ec-bf21-0cc47a52170a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /E7jsIWrF/, ws-headers: {Host: 216.105.168.141}}
+  - {name: 🇺🇸 https://git.io/v9999 圣何塞-洛杉矶v2ray 6, server: 216.105.168.141, port: 10005, type: vmess, uuid: cf03c54a-42d8-11ec-bf21-0cc47a52170a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /3jhEQguD/, ws-headers: {Host: 216.105.168.141}}
   - {name: 🇺🇸 https://git.io/v9999 圣何塞v2ray, server: 137.175.30.251, port: 111, type: vmess, uuid: 77cd775c-1c0a-11ec-a1a8-00163c1393a8, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 https://git.io/v9999 圣何塞v2ray 2, server: 192.74.254.167, port: 500, type: vmess, uuid: 764e808a-115e-11ec-a88f-00163c9f4934, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 https://git.io/v9999 圣何塞v2ray 3, server: 192.74.254.112, port: 111, type: vmess, uuid: fe89e0f2-404d-11ec-81f4-00163c57bd9a, alterId: 0, cipher: auto, tls: false}
