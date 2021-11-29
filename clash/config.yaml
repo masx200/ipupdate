@@ -14,8 +14,7 @@ proxies:
   - {name: 🇺🇸 https://git.io/v9999 圣何塞v2ray 7, server: 198.200.51.189, port: 28811, type: vmess, uuid: 1f979f74-404d-11ec-9cc3-00163cb56238, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 https://git.io/v9999 圣何塞v2ray 8, server: 137.175.30.251, port: 111, type: vmess, uuid: 77cd775c-1c0a-11ec-a1a8-00163c1393a8, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇸 https://git.io/v9999 圣何塞v2ray 9, server: 192.74.254.112, port: 111, type: vmess, uuid: fe89e0f2-404d-11ec-81f4-00163c57bd9a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 https://git.io/v9999 圣何塞v2ray 10, server: 198.200.51.28, port: 600, type: vmess, uuid: 1d219570-0d1b-11ec-a57e-00163ca76936, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 https://git.io/v9999 圣何塞v2ray 11, server: 107.148.200.229, port: 10022, type: vmess, uuid: 6e6ce89a-42d5-11ec-ac9d-00163c0ad178, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 https://git.io/v9999 圣何塞v2ray 10, server: 107.148.200.229, port: 10022, type: vmess, uuid: 6e6ce89a-42d5-11ec-ac9d-00163c0ad178, alterId: 0, cipher: auto, tls: false}
   - {name: 🇷🇺 https://git.io/v9999 莫斯科v2ray, server: 2.56.241.192, port: 1964, type: vmess, uuid: 85921560-4805-11ec-a58e-56503998dcfb, alterId: 0, cipher: auto, tls: false}
   - {name: 🇷🇺 https://git.io/v9999 莫斯科v2ray 2, server: 2.56.241.192, port: 37722, type: vmess, uuid: 72116bda-4805-11ec-a58e-56503998dcfb, alterId: 0, cipher: auto, tls: false}
   - {name: 🇷🇺 https://git.io/v9999 莫斯科v2ray 3, server: 2.56.241.192, port: 2317, type: vmess, uuid: 8c2f34fc-4805-11ec-a58e-56503998dcfb, alterId: 0, cipher: auto, tls: false}
@@ -38,7 +37,6 @@ proxy-groups:
       - 🇺🇸 https://git.io/v9999 圣何塞v2ray 8
       - 🇺🇸 https://git.io/v9999 圣何塞v2ray 9
       - 🇺🇸 https://git.io/v9999 圣何塞v2ray 10
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 11
       - 🇷🇺 https://git.io/v9999 莫斯科v2ray
       - 🇷🇺 https://git.io/v9999 莫斯科v2ray 2
       - 🇷🇺 https://git.io/v9999 莫斯科v2ray 3
@@ -61,7 +59,6 @@ proxy-groups:
       - 🇺🇸 https://git.io/v9999 圣何塞v2ray 8
       - 🇺🇸 https://git.io/v9999 圣何塞v2ray 9
       - 🇺🇸 https://git.io/v9999 圣何塞v2ray 10
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 11
       - 🇷🇺 https://git.io/v9999 莫斯科v2ray
       - 🇷🇺 https://git.io/v9999 莫斯科v2ray 2
       - 🇷🇺 https://git.io/v9999 莫斯科v2ray 3
@@ -84,7 +81,6 @@ proxy-groups:
       - 🇺🇸 https://git.io/v9999 圣何塞v2ray 8
       - 🇺🇸 https://git.io/v9999 圣何塞v2ray 9
       - 🇺🇸 https://git.io/v9999 圣何塞v2ray 10
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 11
       - 🇷🇺 https://git.io/v9999 莫斯科v2ray
       - 🇷🇺 https://git.io/v9999 莫斯科v2ray 2
       - 🇷🇺 https://git.io/v9999 莫斯科v2ray 3
@@ -111,7 +107,6 @@ proxy-groups:
       - 🇺🇸 https://git.io/v9999 圣何塞v2ray 8
       - 🇺🇸 https://git.io/v9999 圣何塞v2ray 9
       - 🇺🇸 https://git.io/v9999 圣何塞v2ray 10
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 11
       - 🇷🇺 https://git.io/v9999 莫斯科v2ray
       - 🇷🇺 https://git.io/v9999 莫斯科v2ray 2
       - 🇷🇺 https://git.io/v9999 莫斯科v2ray 3
@@ -133,7 +128,6 @@ proxy-groups:
       - 🇺🇸 https://git.io/v9999 圣何塞v2ray 8
       - 🇺🇸 https://git.io/v9999 圣何塞v2ray 9
       - 🇺🇸 https://git.io/v9999 圣何塞v2ray 10
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 11
       - 🇷🇺 https://git.io/v9999 莫斯科v2ray
       - 🇷🇺 https://git.io/v9999 莫斯科v2ray 2
       - 🇷🇺 https://git.io/v9999 莫斯科v2ray 3
@@ -156,7 +150,6 @@ proxy-groups:
       - 🇺🇸 https://git.io/v9999 圣何塞v2ray 8
       - 🇺🇸 https://git.io/v9999 圣何塞v2ray 9
       - 🇺🇸 https://git.io/v9999 圣何塞v2ray 10
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 11
       - 🇷🇺 https://git.io/v9999 莫斯科v2ray
       - 🇷🇺 https://git.io/v9999 莫斯科v2ray 2
       - 🇷🇺 https://git.io/v9999 莫斯科v2ray 3
@@ -188,7 +181,6 @@ proxy-groups:
       - 🇺🇸 https://git.io/v9999 圣何塞v2ray 8
       - 🇺🇸 https://git.io/v9999 圣何塞v2ray 9
       - 🇺🇸 https://git.io/v9999 圣何塞v2ray 10
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 11
       - 🇷🇺 https://git.io/v9999 莫斯科v2ray
       - 🇷🇺 https://git.io/v9999 莫斯科v2ray 2
       - 🇷🇺 https://git.io/v9999 莫斯科v2ray 3
