@@ -5,88 +5,68 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 https://git.io/v9999 圣何塞v2ray, server: 142.4.123.135, port: 38899, type: vmess, uuid: 73e7a742-115c-11ec-bf5c-00163cdab24a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 https://git.io/v9999 圣何塞v2ray 2, server: 198.200.51.34, port: 10911, type: vmess, uuid: 53e483d4-1ea9-11ec-ad60-00163cc87418, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 https://git.io/v9999 圣何塞v2ray 3, server: 107.148.200.123, port: 30033, type: vmess, uuid: e85a81e0-12a0-11ec-bc90-00163c1b189e, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 https://git.io/v9999 圣何塞v2ray 4, server: 192.74.254.167, port: 500, type: vmess, uuid: 764e808a-115e-11ec-a88f-00163c9f4934, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 https://git.io/v9999 圣何塞v2ray 5, server: 198.200.51.18, port: 600, type: vmess, uuid: 42f7eabe-0d3f-11ec-859b-00163caf481c, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 https://git.io/v9999 圣何塞v2ray 6, server: 142.4.123.249, port: 500, type: vmess, uuid: 0dcea9f2-10ac-11ec-a0bc-00163cf00cd9, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 https://git.io/v9999 圣何塞v2ray 7, server: 198.200.51.189, port: 28811, type: vmess, uuid: 1f979f74-404d-11ec-9cc3-00163cb56238, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 https://git.io/v9999 圣何塞v2ray 8, server: 137.175.30.251, port: 111, type: vmess, uuid: 77cd775c-1c0a-11ec-a1a8-00163c1393a8, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 https://git.io/v9999 圣何塞v2ray 9, server: 192.74.254.112, port: 111, type: vmess, uuid: fe89e0f2-404d-11ec-81f4-00163c57bd9a, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇸 https://git.io/v9999 圣何塞v2ray 10, server: 107.148.200.229, port: 10022, type: vmess, uuid: 6e6ce89a-42d5-11ec-ac9d-00163c0ad178, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇷🇺 https://git.io/v9999 莫斯科v2ray, server: 2.56.241.192, port: 1964, type: vmess, uuid: 85921560-4805-11ec-a58e-56503998dcfb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇷🇺 https://git.io/v9999 莫斯科v2ray 2, server: 2.56.241.192, port: 37722, type: vmess, uuid: 72116bda-4805-11ec-a58e-56503998dcfb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇷🇺 https://git.io/v9999 莫斯科v2ray 3, server: 2.56.241.192, port: 2317, type: vmess, uuid: 8c2f34fc-4805-11ec-a58e-56503998dcfb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇷🇺 https://git.io/v9999 莫斯科v2ray 4, server: 2.56.241.192, port: 49491, type: vmess, uuid: 7f0c36ee-4805-11ec-a58e-56503998dcfb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇷🇺 https://git.io/v9999 莫斯科v2ray 5, server: 2.56.241.192, port: 36600, type: vmess, uuid: 6c66e818-4805-11ec-a58e-56503998dcfb, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇷🇺 https://git.io/v9999 莫斯科v2ray 6, server: 2.56.241.192, port: 3578, type: vmess, uuid: 78b2bdae-4805-11ec-a58e-56503998dcfb, alterId: 0, cipher: auto, tls: false}
+  - {name: https://git.io/v2free, server: v111.v2dns.xyz, port: 8080, type: vmess, uuid: cd94ffd8-ea74-3f17-a3b6-70982dc4a60f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v111rackndxd, ws-headers: {Host: v111.v2dns.xyz}}
+  - {name: https://git.io/v2free 2, server: ns2.v2dns.bar, port: 60005, type: vmess, uuid: cd94ffd8-ea74-3f17-a3b6-70982dc4a60f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v111rackndxd, ws-headers: {Host: ns2.v2dns.bar}}
+  - {name: https://git.io/v2free 3, server: v1t.v2dns.xyz, port: 8080, type: vmess, uuid: cd94ffd8-ea74-3f17-a3b6-70982dc4a60f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /xlsrN0yPy, ws-headers: {Host: v1t.v2dns.xyz}}
+  - {name: https://git.io/v2free 4, server: v103.v2dns.xyz, port: 80, type: vmess, uuid: cd94ffd8-ea74-3f17-a3b6-70982dc4a60f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v1032N9rN0yPy, ws-headers: {Host: v103.v2dns.xyz}}
+  - {name: https://git.io/v2free 5, server: v118a.v2dns.bar, port: 8080, type: vmess, uuid: cd94ffd8-ea74-3f17-a3b6-70982dc4a60f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /R3Mtzcskm3Fjy65, ws-headers: {Host: v118a.v2dns.bar}}
+  - {name: https://git.io/v2free 6, server: v117.v2dns.bar, port: 8080, type: vmess, uuid: cd94ffd8-ea74-3f17-a3b6-70982dc4a60f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /PLEcOvD, ws-headers: {Host: v117.v2dns.bar}}
+  - {name: https://git.io/v2free 7, server: 116a.v2dns.bar, port: 8080, type: vmess, uuid: cd94ffd8-ea74-3f17-a3b6-70982dc4a60f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v116-DtoEwAEX, ws-headers: {Host: 116a.v2dns.bar}}
+  - {name: https://git.io/v2free 8, server: 011.v2dns.bar, port: 80, type: vmess, uuid: cd94ffd8-ea74-3f17-a3b6-70982dc4a60f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /x110dowa199dCeBnloadPy, ws-headers: {Host: 011.v2dns.bar}}
+  - {name: https://git.io/v2free 9, server: v122.v2dns.bar, port: 8080, type: vmess, uuid: cd94ffd8-ea74-3f17-a3b6-70982dc4a60f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v112EtCE3uAcU, ws-headers: {Host: v122.v2dns.bar}}
+  - {name: https://git.io/v2free 10, server: v112.v2dns.xyz, port: 8080, type: vmess, uuid: cd94ffd8-ea74-3f17-a3b6-70982dc4a60f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v112EtCE3uAcU, ws-headers: {Host: v112.v2dns.xyz}}
+  - {name: https://git.io/v2free 11, server: v104b.v2dns.xyz, port: 2082, type: vmess, uuid: cd94ffd8-ea74-3f17-a3b6-70982dc4a60f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /v104-PLEcOvD, ws-headers: {Host: v104b.v2dns.xyz}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 2
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 3
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 4
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 5
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 6
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 7
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 8
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 9
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 10
-      - 🇷🇺 https://git.io/v9999 莫斯科v2ray
-      - 🇷🇺 https://git.io/v9999 莫斯科v2ray 2
-      - 🇷🇺 https://git.io/v9999 莫斯科v2ray 3
-      - 🇷🇺 https://git.io/v9999 莫斯科v2ray 4
-      - 🇷🇺 https://git.io/v9999 莫斯科v2ray 5
-      - 🇷🇺 https://git.io/v9999 莫斯科v2ray 6
+      - https://git.io/v2free
+      - https://git.io/v2free 2
+      - https://git.io/v2free 3
+      - https://git.io/v2free 4
+      - https://git.io/v2free 5
+      - https://git.io/v2free 6
+      - https://git.io/v2free 7
+      - https://git.io/v2free 8
+      - https://git.io/v2free 9
+      - https://git.io/v2free 10
+      - https://git.io/v2free 11
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 0
     proxies:
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 2
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 3
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 4
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 5
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 6
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 7
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 8
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 9
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 10
-      - 🇷🇺 https://git.io/v9999 莫斯科v2ray
-      - 🇷🇺 https://git.io/v9999 莫斯科v2ray 2
-      - 🇷🇺 https://git.io/v9999 莫斯科v2ray 3
-      - 🇷🇺 https://git.io/v9999 莫斯科v2ray 4
-      - 🇷🇺 https://git.io/v9999 莫斯科v2ray 5
-      - 🇷🇺 https://git.io/v9999 莫斯科v2ray 6
+      - https://git.io/v2free
+      - https://git.io/v2free 2
+      - https://git.io/v2free 3
+      - https://git.io/v2free 4
+      - https://git.io/v2free 5
+      - https://git.io/v2free 6
+      - https://git.io/v2free 7
+      - https://git.io/v2free 8
+      - https://git.io/v2free 9
+      - https://git.io/v2free 10
+      - https://git.io/v2free 11
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 2
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 3
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 4
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 5
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 6
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 7
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 8
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 9
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 10
-      - 🇷🇺 https://git.io/v9999 莫斯科v2ray
-      - 🇷🇺 https://git.io/v9999 莫斯科v2ray 2
-      - 🇷🇺 https://git.io/v9999 莫斯科v2ray 3
-      - 🇷🇺 https://git.io/v9999 莫斯科v2ray 4
-      - 🇷🇺 https://git.io/v9999 莫斯科v2ray 5
-      - 🇷🇺 https://git.io/v9999 莫斯科v2ray 6
+      - https://git.io/v2free
+      - https://git.io/v2free 2
+      - https://git.io/v2free 3
+      - https://git.io/v2free 4
+      - https://git.io/v2free 5
+      - https://git.io/v2free 6
+      - https://git.io/v2free 7
+      - https://git.io/v2free 8
+      - https://git.io/v2free 9
+      - https://git.io/v2free 10
+      - https://git.io/v2free 11
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -97,65 +77,50 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 2
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 3
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 4
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 5
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 6
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 7
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 8
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 9
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 10
-      - 🇷🇺 https://git.io/v9999 莫斯科v2ray
-      - 🇷🇺 https://git.io/v9999 莫斯科v2ray 2
-      - 🇷🇺 https://git.io/v9999 莫斯科v2ray 3
-      - 🇷🇺 https://git.io/v9999 莫斯科v2ray 4
-      - 🇷🇺 https://git.io/v9999 莫斯科v2ray 5
-      - 🇷🇺 https://git.io/v9999 莫斯科v2ray 6
+      - https://git.io/v2free
+      - https://git.io/v2free 2
+      - https://git.io/v2free 3
+      - https://git.io/v2free 4
+      - https://git.io/v2free 5
+      - https://git.io/v2free 6
+      - https://git.io/v2free 7
+      - https://git.io/v2free 8
+      - https://git.io/v2free 9
+      - https://git.io/v2free 10
+      - https://git.io/v2free 11
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 2
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 3
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 4
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 5
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 6
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 7
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 8
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 9
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 10
-      - 🇷🇺 https://git.io/v9999 莫斯科v2ray
-      - 🇷🇺 https://git.io/v9999 莫斯科v2ray 2
-      - 🇷🇺 https://git.io/v9999 莫斯科v2ray 3
-      - 🇷🇺 https://git.io/v9999 莫斯科v2ray 4
-      - 🇷🇺 https://git.io/v9999 莫斯科v2ray 5
-      - 🇷🇺 https://git.io/v9999 莫斯科v2ray 6
+      - https://git.io/v2free
+      - https://git.io/v2free 2
+      - https://git.io/v2free 3
+      - https://git.io/v2free 4
+      - https://git.io/v2free 5
+      - https://git.io/v2free 6
+      - https://git.io/v2free 7
+      - https://git.io/v2free 8
+      - https://git.io/v2free 9
+      - https://git.io/v2free 10
+      - https://git.io/v2free 11
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 2
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 3
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 4
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 5
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 6
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 7
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 8
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 9
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 10
-      - 🇷🇺 https://git.io/v9999 莫斯科v2ray
-      - 🇷🇺 https://git.io/v9999 莫斯科v2ray 2
-      - 🇷🇺 https://git.io/v9999 莫斯科v2ray 3
-      - 🇷🇺 https://git.io/v9999 莫斯科v2ray 4
-      - 🇷🇺 https://git.io/v9999 莫斯科v2ray 5
-      - 🇷🇺 https://git.io/v9999 莫斯科v2ray 6
+      - https://git.io/v2free
+      - https://git.io/v2free 2
+      - https://git.io/v2free 3
+      - https://git.io/v2free 4
+      - https://git.io/v2free 5
+      - https://git.io/v2free 6
+      - https://git.io/v2free 7
+      - https://git.io/v2free 8
+      - https://git.io/v2free 9
+      - https://git.io/v2free 10
+      - https://git.io/v2free 11
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -171,22 +136,17 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 2
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 3
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 4
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 5
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 6
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 7
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 8
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 9
-      - 🇺🇸 https://git.io/v9999 圣何塞v2ray 10
-      - 🇷🇺 https://git.io/v9999 莫斯科v2ray
-      - 🇷🇺 https://git.io/v9999 莫斯科v2ray 2
-      - 🇷🇺 https://git.io/v9999 莫斯科v2ray 3
-      - 🇷🇺 https://git.io/v9999 莫斯科v2ray 4
-      - 🇷🇺 https://git.io/v9999 莫斯科v2ray 5
-      - 🇷🇺 https://git.io/v9999 莫斯科v2ray 6
+      - https://git.io/v2free
+      - https://git.io/v2free 2
+      - https://git.io/v2free 3
+      - https://git.io/v2free 4
+      - https://git.io/v2free 5
+      - https://git.io/v2free 6
+      - https://git.io/v2free 7
+      - https://git.io/v2free 8
+      - https://git.io/v2free 9
+      - https://git.io/v2free 10
+      - https://git.io/v2free 11
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
