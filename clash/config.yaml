@@ -5,40 +5,36 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 https://git.io/v9999 洛杉矶ws ip3, server: 45.66.159.74, port: 18412, type: vmess, uuid: 2d23bc58-5110-11ec-a4b9-00163cbed88a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /5znKiuaW/, ws-headers: {Host: 45.66.159.74}}
-  - {name: 🇺🇸 https://git.io/v9999 洛杉矶ws ip3 2, server: 45.66.159.74, port: 34947, type: vmess, uuid: 32a7921c-5110-11ec-a4b9-00163cbed88a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /V1DBsEzr/, ws-headers: {Host: 45.66.159.74}}
-  - {name: 🇺🇸 https://git.io/v9999 洛杉矶ws ip3 3, server: 45.66.159.74, port: 45643, type: vmess, uuid: 365691ba-5110-11ec-a4b9-00163cbed88a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /b72MS9Wp/, ws-headers: {Host: 45.66.159.74}}
-  - {name: 🇺🇸 https://git.io/v9999 洛杉矶ws ip3 4, server: 45.66.159.74, port: 21890, type: vmess, uuid: 3a345af6-5110-11ec-a4b9-00163cbed88a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /5KHI4riw/, ws-headers: {Host: 45.66.159.74}}
+  - {name: 🇺🇸 https://git.io/v9999 洛杉矶ss ip1, server: 45.66.159.74, port: 10000, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: 🇺🇸 https://git.io/v9999 洛杉矶ss ip1 2, server: 45.66.159.74, port: 10001, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: 🇺🇸 https://git.io/v9999 洛杉矶ss ip1 3, server: 45.66.159.74, port: 10002, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 https://git.io/v9999 洛杉矶ws ip3
-      - 🇺🇸 https://git.io/v9999 洛杉矶ws ip3 2
-      - 🇺🇸 https://git.io/v9999 洛杉矶ws ip3 3
-      - 🇺🇸 https://git.io/v9999 洛杉矶ws ip3 4
+      - 🇺🇸 https://git.io/v9999 洛杉矶ss ip1
+      - 🇺🇸 https://git.io/v9999 洛杉矶ss ip1 2
+      - 🇺🇸 https://git.io/v9999 洛杉矶ss ip1 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 0
     proxies:
-      - 🇺🇸 https://git.io/v9999 洛杉矶ws ip3
-      - 🇺🇸 https://git.io/v9999 洛杉矶ws ip3 2
-      - 🇺🇸 https://git.io/v9999 洛杉矶ws ip3 3
-      - 🇺🇸 https://git.io/v9999 洛杉矶ws ip3 4
+      - 🇺🇸 https://git.io/v9999 洛杉矶ss ip1
+      - 🇺🇸 https://git.io/v9999 洛杉矶ss ip1 2
+      - 🇺🇸 https://git.io/v9999 洛杉矶ss ip1 3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 https://git.io/v9999 洛杉矶ws ip3
-      - 🇺🇸 https://git.io/v9999 洛杉矶ws ip3 2
-      - 🇺🇸 https://git.io/v9999 洛杉矶ws ip3 3
-      - 🇺🇸 https://git.io/v9999 洛杉矶ws ip3 4
+      - 🇺🇸 https://git.io/v9999 洛杉矶ss ip1
+      - 🇺🇸 https://git.io/v9999 洛杉矶ss ip1 2
+      - 🇺🇸 https://git.io/v9999 洛杉矶ss ip1 3
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -49,29 +45,26 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 https://git.io/v9999 洛杉矶ws ip3
-      - 🇺🇸 https://git.io/v9999 洛杉矶ws ip3 2
-      - 🇺🇸 https://git.io/v9999 洛杉矶ws ip3 3
-      - 🇺🇸 https://git.io/v9999 洛杉矶ws ip3 4
+      - 🇺🇸 https://git.io/v9999 洛杉矶ss ip1
+      - 🇺🇸 https://git.io/v9999 洛杉矶ss ip1 2
+      - 🇺🇸 https://git.io/v9999 洛杉矶ss ip1 3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 https://git.io/v9999 洛杉矶ws ip3
-      - 🇺🇸 https://git.io/v9999 洛杉矶ws ip3 2
-      - 🇺🇸 https://git.io/v9999 洛杉矶ws ip3 3
-      - 🇺🇸 https://git.io/v9999 洛杉矶ws ip3 4
+      - 🇺🇸 https://git.io/v9999 洛杉矶ss ip1
+      - 🇺🇸 https://git.io/v9999 洛杉矶ss ip1 2
+      - 🇺🇸 https://git.io/v9999 洛杉矶ss ip1 3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 https://git.io/v9999 洛杉矶ws ip3
-      - 🇺🇸 https://git.io/v9999 洛杉矶ws ip3 2
-      - 🇺🇸 https://git.io/v9999 洛杉矶ws ip3 3
-      - 🇺🇸 https://git.io/v9999 洛杉矶ws ip3 4
+      - 🇺🇸 https://git.io/v9999 洛杉矶ss ip1
+      - 🇺🇸 https://git.io/v9999 洛杉矶ss ip1 2
+      - 🇺🇸 https://git.io/v9999 洛杉矶ss ip1 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -87,10 +80,9 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 https://git.io/v9999 洛杉矶ws ip3
-      - 🇺🇸 https://git.io/v9999 洛杉矶ws ip3 2
-      - 🇺🇸 https://git.io/v9999 洛杉矶ws ip3 3
-      - 🇺🇸 https://git.io/v9999 洛杉矶ws ip3 4
+      - 🇺🇸 https://git.io/v9999 洛杉矶ss ip1
+      - 🇺🇸 https://git.io/v9999 洛杉矶ss ip1 2
+      - 🇺🇸 https://git.io/v9999 洛杉矶ss ip1 3
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
