@@ -13,23 +13,23 @@
   "vmess": [
     {
       "configVersion": 2,
-      "address": "198.2.203.85",
-      "port": 23659,
-      "id": "6e642eca-542e-11ec-ad66-002590d6941c",
+      "address": "45.66.159.27",
+      "port": 10101,
+      "id": "dongtaiwang.com",
       "alterId": 0,
-      "security": "auto",
-      "network": "ws",
+      "security": "aes-256-gcm",
+      "network": "",
       "remarks": "https://github.com/Alvin9999/new-pac/wiki 洛杉矶ip3",
-      "headerType": "none",
+      "headerType": "",
       "requestHost": "",
-      "path": "/nNj0CmuI/",
+      "path": "",
       "streamSecurity": "",
-      "allowInsecure": "false",
-      "configType": 1,
+      "allowInsecure": "",
+      "configType": 3,
       "testResult": "",
       "subid": "",
       "flow": "",
-      "sni": ""
+      "sni": null
     }
   ],
   "muxEnabled": true,
