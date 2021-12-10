@@ -63,9 +63,7 @@
       },
       "streamSettings": {
         "network": "ws",
-        "wsSettings": {
-          "path": "/bdaN91JP/"
-        }
+        "wsSettings": {}
       },
       "mux": {
         "enabled": true,
