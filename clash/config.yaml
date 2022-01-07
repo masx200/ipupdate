@@ -5,23 +5,15 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: https://git.io/v9999 _36, server: sh-hk-hgc-100m-tr.cdn.savoy.click, port: 20189, type: trojan, password: tswmqssAcdphWMRdDSPZbeVSzhRVbGdp, sni: sh-hk-hgc-100m-tr.cdn.savoy.click}
-  - {name: https://git.io/v9999  _69, server: s1.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s1.upyun.online}
   - {name: 🇺🇸 https://git.io/v9999++🇺🇸_US美国, server: 38.91.102.86, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: 🇺🇸 https://git.io/v9999+🇺🇸_US美国, server: 38.91.102.86, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: https://git.io/v9999 _108, server: jp11.holiganfan.com, port: 10088, type: trojan, password: 6a826c64-5b0a-4960-8de0-a4de86e71034, sni: jp11.holiganfan.com}
-  - {name: https://git.io/v9999 _9, server: 198.41.212.234, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /sakura/, ws-headers: {Host: 2022-world-1.a-yu.xyz}}
   - {name: 🇺🇸 https://git.io/v9999+🇺🇸_US美国 2, server: 38.91.102.86, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
   - {name: 🇺🇸 https://git.io/v9999+🇺🇸_US美国 3, server: 38.91.102.86, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: https://git.io/v9999 _103, server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-sanfrancisco.lvuft.com}}
   - {name: https://git.io/v9999+_93, server: 217.138.221.42, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw}
-  - {name: 🇩🇪 https://git.io/v9999  美国德克萨斯州达拉斯Psychz数据中心 24, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
   - {name: 🇺🇸 https://git.io/v9999+🇺🇸_US美国 4, server: 38.91.102.86, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: 🇺🇸 https://git.io/v9999+🇺🇸_US美国 5, server: 38.91.102.86, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: https://git.io/v9999 default_name, server: 104.17.170.210, port: 443, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: kycc, ws-headers: {Host: lsb.stupidfellow.cf}}
   - {name: 🇺🇸 https://git.io/v9999+🇺🇸_US美国 6, server: 38.91.102.86, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: 🇺🇸 https://git.io/v9999+🇺🇸_US美国 7, server: 38.91.102.86, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: https://git.io/v9999 _96, server: s4.upyun.online, port: 12340, type: trojan, password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219, sni: s4.upyun.online}
   - {name: 🇺🇸 https://git.io/v9999++🇺🇸_US美国 2, server: 169.197.142.39, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
   - {name: 🇫🇷 https://git.io/v9999+🇫🇷_FR法国, server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
   - {name: 🇺🇸 https://git.io/v9999+🇺🇸_US美国 8, server: 38.91.102.86, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
@@ -47,7 +39,6 @@ proxies:
   - {name: 🇺🇸 https://git.io/v9999+🇺🇸_US美国 12, server: 38.91.102.86, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
   - {name: 🇺🇸 https://git.io/v9999+🇺🇸_US美国 13, server: 38.91.102.86, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: 🇺🇸 https://git.io/v9999+🇺🇸_US美国 14, server: 38.91.102.86, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 🇺🇸 https://git.io/v9999 US, server: 209.58.139.41, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-sanfrancisco.lvuft.com}}
   - {name: 🇺🇸 https://git.io/v9999+🇺🇸_US美国 15, server: 38.91.102.86, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
   - {name: 🇺🇸 https://git.io/v9999+🇺🇸_US美国 16, server: 38.91.102.86, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
   - {name: https://git.io/v9999+_44, server: 212.199.61.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
@@ -62,14 +53,12 @@ proxies:
   - {name: https://git.io/v9999+_149, server: 172.105.180.227, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: 🇺🇸 https://git.io/v9999+US, server: 167.88.61.60, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: 🇺🇸 https://git.io/v9999+🇺🇸_US美国 20, server: 167.88.61.60, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇩🇪 https://git.io/v9999  美国德克萨斯州达拉斯Psychz数据中心 14, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
   - {name: 🇺🇸 https://git.io/v9999+🇺🇸_US美国 21, server: 167.88.61.60, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
   - {name: 🇪🇺 https://git.io/v9999+EU 4, server: 172.105.180.227, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: 🇺🇸 https://git.io/v9999+🇺🇸_US美国 22, server: 38.75.136.93, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
   - {name: 🇦🇺 https://git.io/v9999++🇦🇺_AU澳大利亚 2, server: 172.105.180.227, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: https://git.io/v9999+_222, server: 38.75.136.93, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: 🇺🇸 https://git.io/v9999+🇺🇸_US美国 23, server: 169.197.142.39, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 https://git.io/v9999 US 2, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
   - {name: 🇫🇷 https://git.io/v9999+🇫🇷_FR法国 2, server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: 🇪🇺 https://git.io/v9999+EU 5, server: 169.197.142.39, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: 🇺🇸 https://git.io/v9999++🇺🇸_US美国 6, server: 167.88.61.60, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
@@ -80,14 +69,11 @@ proxies:
   - {name: 🇺🇸 https://git.io/v9999+🇺🇸_US美国 27, server: 38.143.66.71, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
   - {name: 🇺🇸 https://git.io/v9999+🇺🇸_US美国 28, server: 167.88.61.60, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: 🇨🇦 https://git.io/v9999+🇨🇦_CA加拿大, server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 🇺🇸 https://git.io/v9999 US 3, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
   - {name: 🇺🇸 https://git.io/v9999+🇺🇸_US_美国, server: 167.88.61.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: 🇫🇷 https://git.io/v9999+🇫🇷_FR法国 3, server: 145.239.1.137, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: https://git.io/v9999+_216, server: 38.75.136.93, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇺🇸 https://git.io/v9999  美国蒙大拿州Sharktech公司 18, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: iesei1ei.com}}
   - {name: 🇺🇸 https://git.io/v9999++美国++12, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
   - {name: 🇫🇷 https://git.io/v9999+🇫🇷_FR法国 4, server: 145.239.1.137, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 https://git.io/v9999 US 4, server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-miami.lvuft.com}}
   - {name: 🇺🇸 https://git.io/v9999++🇺🇸_US美国 8, server: 38.143.66.71, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
   - {name: 🇺🇸 https://git.io/v9999++🇺🇸_US美国 9, server: 38.143.66.71, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
   - {name: 🇺🇸 https://git.io/v9999+🇺🇸_US美国 29, server: 169.197.142.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
@@ -98,7 +84,6 @@ proxies:
   - {name: 🇬🇧 https://git.io/v9999+🇬🇧_GB英国, server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: https://git.io/v9999+_30, server: 38.75.136.93, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
   - {name: 🇺🇸 https://git.io/v9999+US 2, server: 38.143.66.71, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇺🇸 https://git.io/v9999 US 5, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-washington.lvuft.com}}
   - {name: https://git.io/v9999+_81, server: 38.75.136.93, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
   - {name: https://git.io/v9999+_59, server: 38.75.136.93, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
   - {name: 🇫🇷 https://git.io/v9999+🇫🇷_FR法国 5, server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
@@ -125,29 +110,32 @@ proxies:
   - {name: 🇪🇺 https://git.io/v9999+EU 6, server: 169.197.142.39, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
   - {name: 🇨🇦 https://git.io/v9999+🇨🇦_CA加拿大 2, server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: 🇺🇸 https://git.io/v9999++🇺🇸_US美国 12, server: 38.143.66.71, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: https://git.io/v9999 _9, server: 198.41.212.234, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /sakura/, ws-headers: {Host: 2022-world-1.a-yu.xyz}}
+  - {name: https://git.io/v9999 _103, server: usa-sanfrancisco.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-sanfrancisco.lvuft.com}}
+  - {name: 🇩🇪 https://git.io/v9999  美国德克萨斯州达拉斯Psychz数据中心 24, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: https://git.io/v9999 default_name, server: 104.17.170.210, port: 443, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: kycc, ws-headers: {Host: lsb.stupidfellow.cf}}
+  - {name: 🇺🇸 https://git.io/v9999 US, server: 209.58.139.41, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-sanfrancisco.lvuft.com}}
+  - {name: 🇩🇪 https://git.io/v9999  美国德克萨斯州达拉斯Psychz数据中心 14, server: 45.35.84.162, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: 🇺🇸 https://git.io/v9999 US 2, server: usa-dallas.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-dallas.lvuft.com}}
+  - {name: 🇺🇸 https://git.io/v9999 US 3, server: usa-buffalo.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-buffalo.lvuft.com}}
+  - {name: 🇺🇸 https://git.io/v9999  美国蒙大拿州Sharktech公司 18, server: 208.98.48.2, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: iesei1ei.com}}
+  - {name: 🇺🇸 https://git.io/v9999 US 4, server: usa-miami.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-miami.lvuft.com}}
+  - {name: 🇺🇸 https://git.io/v9999 US 5, server: usa-washington.lvuft.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: usa-washington.lvuft.com}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - https://git.io/v9999 _36
-      - https://git.io/v9999  _69
       - 🇺🇸 https://git.io/v9999++🇺🇸_US美国
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国
-      - https://git.io/v9999 _108
-      - https://git.io/v9999 _9
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 2
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 3
-      - https://git.io/v9999 _103
       - https://git.io/v9999+_93
-      - 🇩🇪 https://git.io/v9999  美国德克萨斯州达拉斯Psychz数据中心 24
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 4
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 5
-      - https://git.io/v9999 default_name
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 6
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 7
-      - https://git.io/v9999 _96
       - 🇺🇸 https://git.io/v9999++🇺🇸_US美国 2
       - 🇫🇷 https://git.io/v9999+🇫🇷_FR法国
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 8
@@ -173,7 +161,6 @@ proxy-groups:
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 12
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 13
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 14
-      - 🇺🇸 https://git.io/v9999 US
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 15
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 16
       - https://git.io/v9999+_44
@@ -188,14 +175,12 @@ proxy-groups:
       - https://git.io/v9999+_149
       - 🇺🇸 https://git.io/v9999+US
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 20
-      - 🇩🇪 https://git.io/v9999  美国德克萨斯州达拉斯Psychz数据中心 14
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 21
       - 🇪🇺 https://git.io/v9999+EU 4
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 22
       - 🇦🇺 https://git.io/v9999++🇦🇺_AU澳大利亚 2
       - https://git.io/v9999+_222
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 23
-      - 🇺🇸 https://git.io/v9999 US 2
       - 🇫🇷 https://git.io/v9999+🇫🇷_FR法国 2
       - 🇪🇺 https://git.io/v9999+EU 5
       - 🇺🇸 https://git.io/v9999++🇺🇸_US美国 6
@@ -206,14 +191,11 @@ proxy-groups:
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 27
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 28
       - 🇨🇦 https://git.io/v9999+🇨🇦_CA加拿大
-      - 🇺🇸 https://git.io/v9999 US 3
       - 🇺🇸 https://git.io/v9999+🇺🇸_US_美国
       - 🇫🇷 https://git.io/v9999+🇫🇷_FR法国 3
       - https://git.io/v9999+_216
-      - 🇺🇸 https://git.io/v9999  美国蒙大拿州Sharktech公司 18
       - 🇺🇸 https://git.io/v9999++美国++12
       - 🇫🇷 https://git.io/v9999+🇫🇷_FR法国 4
-      - 🇺🇸 https://git.io/v9999 US 4
       - 🇺🇸 https://git.io/v9999++🇺🇸_US美国 8
       - 🇺🇸 https://git.io/v9999++🇺🇸_US美国 9
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 29
@@ -224,7 +206,6 @@ proxy-groups:
       - 🇬🇧 https://git.io/v9999+🇬🇧_GB英国
       - https://git.io/v9999+_30
       - 🇺🇸 https://git.io/v9999+US 2
-      - 🇺🇸 https://git.io/v9999 US 5
       - https://git.io/v9999+_81
       - https://git.io/v9999+_59
       - 🇫🇷 https://git.io/v9999+🇫🇷_FR法国 5
@@ -251,29 +232,32 @@ proxy-groups:
       - 🇪🇺 https://git.io/v9999+EU 6
       - 🇨🇦 https://git.io/v9999+🇨🇦_CA加拿大 2
       - 🇺🇸 https://git.io/v9999++🇺🇸_US美国 12
+      - https://git.io/v9999 _9
+      - https://git.io/v9999 _103
+      - 🇩🇪 https://git.io/v9999  美国德克萨斯州达拉斯Psychz数据中心 24
+      - https://git.io/v9999 default_name
+      - 🇺🇸 https://git.io/v9999 US
+      - 🇩🇪 https://git.io/v9999  美国德克萨斯州达拉斯Psychz数据中心 14
+      - 🇺🇸 https://git.io/v9999 US 2
+      - 🇺🇸 https://git.io/v9999 US 3
+      - 🇺🇸 https://git.io/v9999  美国蒙大拿州Sharktech公司 18
+      - 🇺🇸 https://git.io/v9999 US 4
+      - 🇺🇸 https://git.io/v9999 US 5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 0
     proxies:
-      - https://git.io/v9999 _36
-      - https://git.io/v9999  _69
       - 🇺🇸 https://git.io/v9999++🇺🇸_US美国
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国
-      - https://git.io/v9999 _108
-      - https://git.io/v9999 _9
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 2
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 3
-      - https://git.io/v9999 _103
       - https://git.io/v9999+_93
-      - 🇩🇪 https://git.io/v9999  美国德克萨斯州达拉斯Psychz数据中心 24
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 4
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 5
-      - https://git.io/v9999 default_name
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 6
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 7
-      - https://git.io/v9999 _96
       - 🇺🇸 https://git.io/v9999++🇺🇸_US美国 2
       - 🇫🇷 https://git.io/v9999+🇫🇷_FR法国
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 8
@@ -299,7 +283,6 @@ proxy-groups:
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 12
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 13
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 14
-      - 🇺🇸 https://git.io/v9999 US
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 15
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 16
       - https://git.io/v9999+_44
@@ -314,14 +297,12 @@ proxy-groups:
       - https://git.io/v9999+_149
       - 🇺🇸 https://git.io/v9999+US
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 20
-      - 🇩🇪 https://git.io/v9999  美国德克萨斯州达拉斯Psychz数据中心 14
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 21
       - 🇪🇺 https://git.io/v9999+EU 4
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 22
       - 🇦🇺 https://git.io/v9999++🇦🇺_AU澳大利亚 2
       - https://git.io/v9999+_222
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 23
-      - 🇺🇸 https://git.io/v9999 US 2
       - 🇫🇷 https://git.io/v9999+🇫🇷_FR法国 2
       - 🇪🇺 https://git.io/v9999+EU 5
       - 🇺🇸 https://git.io/v9999++🇺🇸_US美国 6
@@ -332,14 +313,11 @@ proxy-groups:
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 27
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 28
       - 🇨🇦 https://git.io/v9999+🇨🇦_CA加拿大
-      - 🇺🇸 https://git.io/v9999 US 3
       - 🇺🇸 https://git.io/v9999+🇺🇸_US_美国
       - 🇫🇷 https://git.io/v9999+🇫🇷_FR法国 3
       - https://git.io/v9999+_216
-      - 🇺🇸 https://git.io/v9999  美国蒙大拿州Sharktech公司 18
       - 🇺🇸 https://git.io/v9999++美国++12
       - 🇫🇷 https://git.io/v9999+🇫🇷_FR法国 4
-      - 🇺🇸 https://git.io/v9999 US 4
       - 🇺🇸 https://git.io/v9999++🇺🇸_US美国 8
       - 🇺🇸 https://git.io/v9999++🇺🇸_US美国 9
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 29
@@ -350,7 +328,6 @@ proxy-groups:
       - 🇬🇧 https://git.io/v9999+🇬🇧_GB英国
       - https://git.io/v9999+_30
       - 🇺🇸 https://git.io/v9999+US 2
-      - 🇺🇸 https://git.io/v9999 US 5
       - https://git.io/v9999+_81
       - https://git.io/v9999+_59
       - 🇫🇷 https://git.io/v9999+🇫🇷_FR法国 5
@@ -377,29 +354,32 @@ proxy-groups:
       - 🇪🇺 https://git.io/v9999+EU 6
       - 🇨🇦 https://git.io/v9999+🇨🇦_CA加拿大 2
       - 🇺🇸 https://git.io/v9999++🇺🇸_US美国 12
+      - https://git.io/v9999 _9
+      - https://git.io/v9999 _103
+      - 🇩🇪 https://git.io/v9999  美国德克萨斯州达拉斯Psychz数据中心 24
+      - https://git.io/v9999 default_name
+      - 🇺🇸 https://git.io/v9999 US
+      - 🇩🇪 https://git.io/v9999  美国德克萨斯州达拉斯Psychz数据中心 14
+      - 🇺🇸 https://git.io/v9999 US 2
+      - 🇺🇸 https://git.io/v9999 US 3
+      - 🇺🇸 https://git.io/v9999  美国蒙大拿州Sharktech公司 18
+      - 🇺🇸 https://git.io/v9999 US 4
+      - 🇺🇸 https://git.io/v9999 US 5
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - https://git.io/v9999 _36
-      - https://git.io/v9999  _69
       - 🇺🇸 https://git.io/v9999++🇺🇸_US美国
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国
-      - https://git.io/v9999 _108
-      - https://git.io/v9999 _9
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 2
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 3
-      - https://git.io/v9999 _103
       - https://git.io/v9999+_93
-      - 🇩🇪 https://git.io/v9999  美国德克萨斯州达拉斯Psychz数据中心 24
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 4
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 5
-      - https://git.io/v9999 default_name
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 6
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 7
-      - https://git.io/v9999 _96
       - 🇺🇸 https://git.io/v9999++🇺🇸_US美国 2
       - 🇫🇷 https://git.io/v9999+🇫🇷_FR法国
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 8
@@ -425,7 +405,6 @@ proxy-groups:
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 12
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 13
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 14
-      - 🇺🇸 https://git.io/v9999 US
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 15
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 16
       - https://git.io/v9999+_44
@@ -440,14 +419,12 @@ proxy-groups:
       - https://git.io/v9999+_149
       - 🇺🇸 https://git.io/v9999+US
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 20
-      - 🇩🇪 https://git.io/v9999  美国德克萨斯州达拉斯Psychz数据中心 14
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 21
       - 🇪🇺 https://git.io/v9999+EU 4
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 22
       - 🇦🇺 https://git.io/v9999++🇦🇺_AU澳大利亚 2
       - https://git.io/v9999+_222
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 23
-      - 🇺🇸 https://git.io/v9999 US 2
       - 🇫🇷 https://git.io/v9999+🇫🇷_FR法国 2
       - 🇪🇺 https://git.io/v9999+EU 5
       - 🇺🇸 https://git.io/v9999++🇺🇸_US美国 6
@@ -458,14 +435,11 @@ proxy-groups:
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 27
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 28
       - 🇨🇦 https://git.io/v9999+🇨🇦_CA加拿大
-      - 🇺🇸 https://git.io/v9999 US 3
       - 🇺🇸 https://git.io/v9999+🇺🇸_US_美国
       - 🇫🇷 https://git.io/v9999+🇫🇷_FR法国 3
       - https://git.io/v9999+_216
-      - 🇺🇸 https://git.io/v9999  美国蒙大拿州Sharktech公司 18
       - 🇺🇸 https://git.io/v9999++美国++12
       - 🇫🇷 https://git.io/v9999+🇫🇷_FR法国 4
-      - 🇺🇸 https://git.io/v9999 US 4
       - 🇺🇸 https://git.io/v9999++🇺🇸_US美国 8
       - 🇺🇸 https://git.io/v9999++🇺🇸_US美国 9
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 29
@@ -476,7 +450,6 @@ proxy-groups:
       - 🇬🇧 https://git.io/v9999+🇬🇧_GB英国
       - https://git.io/v9999+_30
       - 🇺🇸 https://git.io/v9999+US 2
-      - 🇺🇸 https://git.io/v9999 US 5
       - https://git.io/v9999+_81
       - https://git.io/v9999+_59
       - 🇫🇷 https://git.io/v9999+🇫🇷_FR法国 5
@@ -503,6 +476,17 @@ proxy-groups:
       - 🇪🇺 https://git.io/v9999+EU 6
       - 🇨🇦 https://git.io/v9999+🇨🇦_CA加拿大 2
       - 🇺🇸 https://git.io/v9999++🇺🇸_US美国 12
+      - https://git.io/v9999 _9
+      - https://git.io/v9999 _103
+      - 🇩🇪 https://git.io/v9999  美国德克萨斯州达拉斯Psychz数据中心 24
+      - https://git.io/v9999 default_name
+      - 🇺🇸 https://git.io/v9999 US
+      - 🇩🇪 https://git.io/v9999  美国德克萨斯州达拉斯Psychz数据中心 14
+      - 🇺🇸 https://git.io/v9999 US 2
+      - 🇺🇸 https://git.io/v9999 US 3
+      - 🇺🇸 https://git.io/v9999  美国蒙大拿州Sharktech公司 18
+      - 🇺🇸 https://git.io/v9999 US 4
+      - 🇺🇸 https://git.io/v9999 US 5
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -513,23 +497,15 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - https://git.io/v9999 _36
-      - https://git.io/v9999  _69
       - 🇺🇸 https://git.io/v9999++🇺🇸_US美国
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国
-      - https://git.io/v9999 _108
-      - https://git.io/v9999 _9
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 2
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 3
-      - https://git.io/v9999 _103
       - https://git.io/v9999+_93
-      - 🇩🇪 https://git.io/v9999  美国德克萨斯州达拉斯Psychz数据中心 24
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 4
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 5
-      - https://git.io/v9999 default_name
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 6
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 7
-      - https://git.io/v9999 _96
       - 🇺🇸 https://git.io/v9999++🇺🇸_US美国 2
       - 🇫🇷 https://git.io/v9999+🇫🇷_FR法国
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 8
@@ -555,7 +531,6 @@ proxy-groups:
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 12
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 13
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 14
-      - 🇺🇸 https://git.io/v9999 US
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 15
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 16
       - https://git.io/v9999+_44
@@ -570,14 +545,12 @@ proxy-groups:
       - https://git.io/v9999+_149
       - 🇺🇸 https://git.io/v9999+US
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 20
-      - 🇩🇪 https://git.io/v9999  美国德克萨斯州达拉斯Psychz数据中心 14
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 21
       - 🇪🇺 https://git.io/v9999+EU 4
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 22
       - 🇦🇺 https://git.io/v9999++🇦🇺_AU澳大利亚 2
       - https://git.io/v9999+_222
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 23
-      - 🇺🇸 https://git.io/v9999 US 2
       - 🇫🇷 https://git.io/v9999+🇫🇷_FR法国 2
       - 🇪🇺 https://git.io/v9999+EU 5
       - 🇺🇸 https://git.io/v9999++🇺🇸_US美国 6
@@ -588,14 +561,11 @@ proxy-groups:
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 27
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 28
       - 🇨🇦 https://git.io/v9999+🇨🇦_CA加拿大
-      - 🇺🇸 https://git.io/v9999 US 3
       - 🇺🇸 https://git.io/v9999+🇺🇸_US_美国
       - 🇫🇷 https://git.io/v9999+🇫🇷_FR法国 3
       - https://git.io/v9999+_216
-      - 🇺🇸 https://git.io/v9999  美国蒙大拿州Sharktech公司 18
       - 🇺🇸 https://git.io/v9999++美国++12
       - 🇫🇷 https://git.io/v9999+🇫🇷_FR法国 4
-      - 🇺🇸 https://git.io/v9999 US 4
       - 🇺🇸 https://git.io/v9999++🇺🇸_US美国 8
       - 🇺🇸 https://git.io/v9999++🇺🇸_US美国 9
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 29
@@ -606,7 +576,6 @@ proxy-groups:
       - 🇬🇧 https://git.io/v9999+🇬🇧_GB英国
       - https://git.io/v9999+_30
       - 🇺🇸 https://git.io/v9999+US 2
-      - 🇺🇸 https://git.io/v9999 US 5
       - https://git.io/v9999+_81
       - https://git.io/v9999+_59
       - 🇫🇷 https://git.io/v9999+🇫🇷_FR法国 5
@@ -633,28 +602,31 @@ proxy-groups:
       - 🇪🇺 https://git.io/v9999+EU 6
       - 🇨🇦 https://git.io/v9999+🇨🇦_CA加拿大 2
       - 🇺🇸 https://git.io/v9999++🇺🇸_US美国 12
+      - https://git.io/v9999 _9
+      - https://git.io/v9999 _103
+      - 🇩🇪 https://git.io/v9999  美国德克萨斯州达拉斯Psychz数据中心 24
+      - https://git.io/v9999 default_name
+      - 🇺🇸 https://git.io/v9999 US
+      - 🇩🇪 https://git.io/v9999  美国德克萨斯州达拉斯Psychz数据中心 14
+      - 🇺🇸 https://git.io/v9999 US 2
+      - 🇺🇸 https://git.io/v9999 US 3
+      - 🇺🇸 https://git.io/v9999  美国蒙大拿州Sharktech公司 18
+      - 🇺🇸 https://git.io/v9999 US 4
+      - 🇺🇸 https://git.io/v9999 US 5
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - https://git.io/v9999 _36
-      - https://git.io/v9999  _69
       - 🇺🇸 https://git.io/v9999++🇺🇸_US美国
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国
-      - https://git.io/v9999 _108
-      - https://git.io/v9999 _9
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 2
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 3
-      - https://git.io/v9999 _103
       - https://git.io/v9999+_93
-      - 🇩🇪 https://git.io/v9999  美国德克萨斯州达拉斯Psychz数据中心 24
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 4
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 5
-      - https://git.io/v9999 default_name
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 6
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 7
-      - https://git.io/v9999 _96
       - 🇺🇸 https://git.io/v9999++🇺🇸_US美国 2
       - 🇫🇷 https://git.io/v9999+🇫🇷_FR法国
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 8
@@ -680,7 +652,6 @@ proxy-groups:
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 12
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 13
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 14
-      - 🇺🇸 https://git.io/v9999 US
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 15
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 16
       - https://git.io/v9999+_44
@@ -695,14 +666,12 @@ proxy-groups:
       - https://git.io/v9999+_149
       - 🇺🇸 https://git.io/v9999+US
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 20
-      - 🇩🇪 https://git.io/v9999  美国德克萨斯州达拉斯Psychz数据中心 14
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 21
       - 🇪🇺 https://git.io/v9999+EU 4
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 22
       - 🇦🇺 https://git.io/v9999++🇦🇺_AU澳大利亚 2
       - https://git.io/v9999+_222
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 23
-      - 🇺🇸 https://git.io/v9999 US 2
       - 🇫🇷 https://git.io/v9999+🇫🇷_FR法国 2
       - 🇪🇺 https://git.io/v9999+EU 5
       - 🇺🇸 https://git.io/v9999++🇺🇸_US美国 6
@@ -713,14 +682,11 @@ proxy-groups:
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 27
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 28
       - 🇨🇦 https://git.io/v9999+🇨🇦_CA加拿大
-      - 🇺🇸 https://git.io/v9999 US 3
       - 🇺🇸 https://git.io/v9999+🇺🇸_US_美国
       - 🇫🇷 https://git.io/v9999+🇫🇷_FR法国 3
       - https://git.io/v9999+_216
-      - 🇺🇸 https://git.io/v9999  美国蒙大拿州Sharktech公司 18
       - 🇺🇸 https://git.io/v9999++美国++12
       - 🇫🇷 https://git.io/v9999+🇫🇷_FR法国 4
-      - 🇺🇸 https://git.io/v9999 US 4
       - 🇺🇸 https://git.io/v9999++🇺🇸_US美国 8
       - 🇺🇸 https://git.io/v9999++🇺🇸_US美国 9
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 29
@@ -731,7 +697,6 @@ proxy-groups:
       - 🇬🇧 https://git.io/v9999+🇬🇧_GB英国
       - https://git.io/v9999+_30
       - 🇺🇸 https://git.io/v9999+US 2
-      - 🇺🇸 https://git.io/v9999 US 5
       - https://git.io/v9999+_81
       - https://git.io/v9999+_59
       - 🇫🇷 https://git.io/v9999+🇫🇷_FR法国 5
@@ -758,29 +723,32 @@ proxy-groups:
       - 🇪🇺 https://git.io/v9999+EU 6
       - 🇨🇦 https://git.io/v9999+🇨🇦_CA加拿大 2
       - 🇺🇸 https://git.io/v9999++🇺🇸_US美国 12
+      - https://git.io/v9999 _9
+      - https://git.io/v9999 _103
+      - 🇩🇪 https://git.io/v9999  美国德克萨斯州达拉斯Psychz数据中心 24
+      - https://git.io/v9999 default_name
+      - 🇺🇸 https://git.io/v9999 US
+      - 🇩🇪 https://git.io/v9999  美国德克萨斯州达拉斯Psychz数据中心 14
+      - 🇺🇸 https://git.io/v9999 US 2
+      - 🇺🇸 https://git.io/v9999 US 3
+      - 🇺🇸 https://git.io/v9999  美国蒙大拿州Sharktech公司 18
+      - 🇺🇸 https://git.io/v9999 US 4
+      - 🇺🇸 https://git.io/v9999 US 5
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - https://git.io/v9999 _36
-      - https://git.io/v9999  _69
       - 🇺🇸 https://git.io/v9999++🇺🇸_US美国
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国
-      - https://git.io/v9999 _108
-      - https://git.io/v9999 _9
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 2
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 3
-      - https://git.io/v9999 _103
       - https://git.io/v9999+_93
-      - 🇩🇪 https://git.io/v9999  美国德克萨斯州达拉斯Psychz数据中心 24
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 4
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 5
-      - https://git.io/v9999 default_name
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 6
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 7
-      - https://git.io/v9999 _96
       - 🇺🇸 https://git.io/v9999++🇺🇸_US美国 2
       - 🇫🇷 https://git.io/v9999+🇫🇷_FR法国
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 8
@@ -806,7 +774,6 @@ proxy-groups:
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 12
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 13
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 14
-      - 🇺🇸 https://git.io/v9999 US
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 15
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 16
       - https://git.io/v9999+_44
@@ -821,14 +788,12 @@ proxy-groups:
       - https://git.io/v9999+_149
       - 🇺🇸 https://git.io/v9999+US
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 20
-      - 🇩🇪 https://git.io/v9999  美国德克萨斯州达拉斯Psychz数据中心 14
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 21
       - 🇪🇺 https://git.io/v9999+EU 4
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 22
       - 🇦🇺 https://git.io/v9999++🇦🇺_AU澳大利亚 2
       - https://git.io/v9999+_222
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 23
-      - 🇺🇸 https://git.io/v9999 US 2
       - 🇫🇷 https://git.io/v9999+🇫🇷_FR法国 2
       - 🇪🇺 https://git.io/v9999+EU 5
       - 🇺🇸 https://git.io/v9999++🇺🇸_US美国 6
@@ -839,14 +804,11 @@ proxy-groups:
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 27
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 28
       - 🇨🇦 https://git.io/v9999+🇨🇦_CA加拿大
-      - 🇺🇸 https://git.io/v9999 US 3
       - 🇺🇸 https://git.io/v9999+🇺🇸_US_美国
       - 🇫🇷 https://git.io/v9999+🇫🇷_FR法国 3
       - https://git.io/v9999+_216
-      - 🇺🇸 https://git.io/v9999  美国蒙大拿州Sharktech公司 18
       - 🇺🇸 https://git.io/v9999++美国++12
       - 🇫🇷 https://git.io/v9999+🇫🇷_FR法国 4
-      - 🇺🇸 https://git.io/v9999 US 4
       - 🇺🇸 https://git.io/v9999++🇺🇸_US美国 8
       - 🇺🇸 https://git.io/v9999++🇺🇸_US美国 9
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 29
@@ -857,7 +819,6 @@ proxy-groups:
       - 🇬🇧 https://git.io/v9999+🇬🇧_GB英国
       - https://git.io/v9999+_30
       - 🇺🇸 https://git.io/v9999+US 2
-      - 🇺🇸 https://git.io/v9999 US 5
       - https://git.io/v9999+_81
       - https://git.io/v9999+_59
       - 🇫🇷 https://git.io/v9999+🇫🇷_FR法国 5
@@ -884,6 +845,17 @@ proxy-groups:
       - 🇪🇺 https://git.io/v9999+EU 6
       - 🇨🇦 https://git.io/v9999+🇨🇦_CA加拿大 2
       - 🇺🇸 https://git.io/v9999++🇺🇸_US美国 12
+      - https://git.io/v9999 _9
+      - https://git.io/v9999 _103
+      - 🇩🇪 https://git.io/v9999  美国德克萨斯州达拉斯Psychz数据中心 24
+      - https://git.io/v9999 default_name
+      - 🇺🇸 https://git.io/v9999 US
+      - 🇩🇪 https://git.io/v9999  美国德克萨斯州达拉斯Psychz数据中心 14
+      - 🇺🇸 https://git.io/v9999 US 2
+      - 🇺🇸 https://git.io/v9999 US 3
+      - 🇺🇸 https://git.io/v9999  美国蒙大拿州Sharktech公司 18
+      - 🇺🇸 https://git.io/v9999 US 4
+      - 🇺🇸 https://git.io/v9999 US 5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -899,23 +871,15 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - https://git.io/v9999 _36
-      - https://git.io/v9999  _69
       - 🇺🇸 https://git.io/v9999++🇺🇸_US美国
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国
-      - https://git.io/v9999 _108
-      - https://git.io/v9999 _9
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 2
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 3
-      - https://git.io/v9999 _103
       - https://git.io/v9999+_93
-      - 🇩🇪 https://git.io/v9999  美国德克萨斯州达拉斯Psychz数据中心 24
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 4
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 5
-      - https://git.io/v9999 default_name
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 6
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 7
-      - https://git.io/v9999 _96
       - 🇺🇸 https://git.io/v9999++🇺🇸_US美国 2
       - 🇫🇷 https://git.io/v9999+🇫🇷_FR法国
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 8
@@ -941,7 +905,6 @@ proxy-groups:
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 12
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 13
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 14
-      - 🇺🇸 https://git.io/v9999 US
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 15
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 16
       - https://git.io/v9999+_44
@@ -956,14 +919,12 @@ proxy-groups:
       - https://git.io/v9999+_149
       - 🇺🇸 https://git.io/v9999+US
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 20
-      - 🇩🇪 https://git.io/v9999  美国德克萨斯州达拉斯Psychz数据中心 14
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 21
       - 🇪🇺 https://git.io/v9999+EU 4
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 22
       - 🇦🇺 https://git.io/v9999++🇦🇺_AU澳大利亚 2
       - https://git.io/v9999+_222
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 23
-      - 🇺🇸 https://git.io/v9999 US 2
       - 🇫🇷 https://git.io/v9999+🇫🇷_FR法国 2
       - 🇪🇺 https://git.io/v9999+EU 5
       - 🇺🇸 https://git.io/v9999++🇺🇸_US美国 6
@@ -974,14 +935,11 @@ proxy-groups:
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 27
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 28
       - 🇨🇦 https://git.io/v9999+🇨🇦_CA加拿大
-      - 🇺🇸 https://git.io/v9999 US 3
       - 🇺🇸 https://git.io/v9999+🇺🇸_US_美国
       - 🇫🇷 https://git.io/v9999+🇫🇷_FR法国 3
       - https://git.io/v9999+_216
-      - 🇺🇸 https://git.io/v9999  美国蒙大拿州Sharktech公司 18
       - 🇺🇸 https://git.io/v9999++美国++12
       - 🇫🇷 https://git.io/v9999+🇫🇷_FR法国 4
-      - 🇺🇸 https://git.io/v9999 US 4
       - 🇺🇸 https://git.io/v9999++🇺🇸_US美国 8
       - 🇺🇸 https://git.io/v9999++🇺🇸_US美国 9
       - 🇺🇸 https://git.io/v9999+🇺🇸_US美国 29
@@ -992,7 +950,6 @@ proxy-groups:
       - 🇬🇧 https://git.io/v9999+🇬🇧_GB英国
       - https://git.io/v9999+_30
       - 🇺🇸 https://git.io/v9999+US 2
-      - 🇺🇸 https://git.io/v9999 US 5
       - https://git.io/v9999+_81
       - https://git.io/v9999+_59
       - 🇫🇷 https://git.io/v9999+🇫🇷_FR法国 5
@@ -1019,6 +976,17 @@ proxy-groups:
       - 🇪🇺 https://git.io/v9999+EU 6
       - 🇨🇦 https://git.io/v9999+🇨🇦_CA加拿大 2
       - 🇺🇸 https://git.io/v9999++🇺🇸_US美国 12
+      - https://git.io/v9999 _9
+      - https://git.io/v9999 _103
+      - 🇩🇪 https://git.io/v9999  美国德克萨斯州达拉斯Psychz数据中心 24
+      - https://git.io/v9999 default_name
+      - 🇺🇸 https://git.io/v9999 US
+      - 🇩🇪 https://git.io/v9999  美国德克萨斯州达拉斯Psychz数据中心 14
+      - 🇺🇸 https://git.io/v9999 US 2
+      - 🇺🇸 https://git.io/v9999 US 3
+      - 🇺🇸 https://git.io/v9999  美国蒙大拿州Sharktech公司 18
+      - 🇺🇸 https://git.io/v9999 US 4
+      - 🇺🇸 https://git.io/v9999 US 5
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
