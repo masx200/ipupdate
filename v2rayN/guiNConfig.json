@@ -13,13 +13,13 @@
   "vmess": [
     {
       "configVersion": 2,
-      "address": "45.66.156.2",
-      "port": 19988,
+      "address": "209.209.115.22",
+      "port": 38644,
       "id": "dongtaiwang.com",
       "alterId": 0,
       "security": "aes-256-gcm",
       "network": "",
-      "remarks": "https://github.com/Alvin9999/new-pac/wiki 洛杉矶ip4",
+      "remarks": "https://github.com/Alvin9999/new-pac/wiki 达拉斯ip1",
       "headerType": "",
       "requestHost": "",
       "path": "",
