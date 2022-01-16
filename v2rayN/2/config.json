@@ -48,11 +48,11 @@
       "settings": {
         "servers": [
           {
-            "address": "45.66.159.31",
+            "address": "193.53.126.182",
             "method": "aes-256-gcm",
             "ota": false,
             "password": "dongtaiwang.com",
-            "port": 30055,
+            "port": 34567,
             "level": 1
           }
         ]
@@ -82,20 +82,23 @@
   ],
   "routing": {
     "domainStrategy": "IPIfNonMatch",
+    "domainMatcher": "linear",
     "rules": [
       {
         "type": "field",
         "inboundTag": [
           "api"
         ],
-        "outboundTag": "api"
+        "outboundTag": "api",
+        "enabled": true
       },
       {
         "type": "field",
         "outboundTag": "proxy",
         "domain": [
           "geosite:google"
-        ]
+        ],
+        "enabled": true
       },
       {
         "type": "field",
@@ -103,14 +106,16 @@
         "domain": [
           "domain:example-example.com",
           "domain:example-example2.com"
-        ]
+        ],
+        "enabled": true
       },
       {
         "type": "field",
         "outboundTag": "block",
         "domain": [
           "geosite:category-ads-all"
-        ]
+        ],
+        "enabled": true
       }
     ]
   }
