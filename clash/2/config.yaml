@@ -5,100 +5,244 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: 'CN_1', server: z0114.security-cloudfront-cdn.com, port: 44160, type: ssr, password: "wQ16gJrbBvvME3my", cipher: aes-256-cfb, protocol: origin, obfs: http_simple, obfs-param: www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive}
-  - {name: 'CN_2', server: z0113.security-cloudfront-cdn.com, port: 44160, type: ssr, password: "wQ16gJrbBvvME3my", cipher: aes-256-cfb, protocol: origin, obfs: http_simple, obfs-param: www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive}
-  - {name: 'CN_3', server: z00001.security-cloudfront-cdn.com, port: 44160, type: ssr, password: "wQ16gJrbBvvME3my", cipher: aes-256-cfb, protocol: origin, obfs: http_simple, obfs-param: www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive}
-  - {name: 'https://git.io/v9999 _CN_中国_4', server: 120.240.47.69, port: 17011, type: vmess, uuid: 0ca8100c-d6d7-3089-8f95-1565610ec3c2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/v2ray", host: 120.240.47.69 }}
-  - {name: 'https://git.io/v9999 _CN_中国_5', server: 120.197.85.39, port: 724, type: vmess, uuid: 0ca8100c-d6d7-3089-8f95-1565610ec3c2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/v2ray", host: t.me/vpnhat }}
-  - {name: 'https://git.io/v9999 _CN_中国_6', server: 120.197.85.39, port: 724, type: vmess, uuid: 0ca8100c-d6d7-3089-8f95-1565610ec3c2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/v2ray", host: 120.197.85.39 }}
-  - {name: 'https://git.io/v9999 _CN_中国_7', server: 120.197.85.39, port: 17011, type: vmess, uuid: 0ca8100c-d6d7-3089-8f95-1565610ec3c2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/v2ray", host: t.me/vpnhat }}
+  - {name: 'https://git.io/v9999 CN_1', server: 52.229.130.73, port: 52218, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: 'https://git.io/v9999 CN_2', server: 52.184.15.105, port: 52220, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: 'https://git.io/v9999 CN_3', server: 52.184.15.105, port: 52214, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: 'https://git.io/v9999 CN_4', server: 52.175.56.64, port: 52207, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: 'https://git.io/v9999 CN_5', server: 52.175.56.64, port: 52284, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: 'https://git.io/v9999 CN_6', server: 52.175.56.64, port: 52285, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: 'https://git.io/v9999 CN_7', server: 52.175.30.122, port: 52298, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: 'https://git.io/v9999 CN_8', server: 52.175.10.2, port: 52219, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: 'https://git.io/v9999 CN_9', server: 20.205.58.228, port: 11223, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: 'https://git.io/v9999 CN_10', server: 20.205.58.228, port: 52226, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: 'https://git.io/v9999 CN_11', server: 20.205.34.31, port: 11221, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: 'https://git.io/v9999 CN_12', server: 20.205.32.135, port: 11224, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: 'https://git.io/v9999 CN_13', server: 20.189.84.181, port: 52209, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: 'https://git.io/v9999 CN_14', server: 20.189.84.181, port: 52205, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: 'https://git.io/v9999 CN_15', server: 20.189.71.12, port: 52335, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: 'https://git.io/v9999 CN_16', server: 20.189.71.12, port: 52333, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: 'https://git.io/v9999 CN_17', server: 40.83.115.147, port: 52437, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: 'https://git.io/v9999 CN_18', server: 40.83.115.147, port: 52281, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, network: tcp}
+  - {name: 'https://git.io/v9999+CN_19', server: 5.253.204.194, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: qLzS7DF9qRYxJTHfckhC}
+  - {name: 'CN_20', server: z00001.security-cloudfront-cdn.com, port: 44160, type: ssr, password: "wQ16gJrbBvvME3my", cipher: aes-256-cfb, protocol: origin, obfs: http_simple, obfs-param: www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive}
+  - {name: 'CN_21', server: z0114.security-cloudfront-cdn.com, port: 44160, type: ssr, password: "wQ16gJrbBvvME3my", cipher: aes-256-cfb, protocol: origin, obfs: http_simple, obfs-param: www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive}
+  - {name: 'CN_22', server: z0113.security-cloudfront-cdn.com, port: 44160, type: ssr, password: "wQ16gJrbBvvME3my", cipher: aes-256-cfb, protocol: origin, obfs: http_simple, obfs-param: www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive}
+  - {name: 'https://git.io/v9999 圣-达拉斯1 ip3_23', server: 209.209.115.6, port: 56870, type: vmess, uuid: 579cbfde-7299-11ec-8511-c68119276ea3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: { path: "/JV06PzeO/" }}
+  - {name: 'https://git.io/v9999+圣-达拉斯+SS+ip3_24', server: 209.209.115.31, port: 34567, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
+  - {name: 'https://git.io/v9999+圣-达拉斯+ip3_25', server: 209.209.115.23, port: 27887, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN_1
-      - CN_2
-      - CN_3
-      - https://git.io/v9999 _CN_中国_4
-      - https://git.io/v9999 _CN_中国_5
-      - https://git.io/v9999 _CN_中国_6
-      - https://git.io/v9999 _CN_中国_7
+      - https://git.io/v9999 CN_1
+      - https://git.io/v9999 CN_2
+      - https://git.io/v9999 CN_3
+      - https://git.io/v9999 CN_4
+      - https://git.io/v9999 CN_5
+      - https://git.io/v9999 CN_6
+      - https://git.io/v9999 CN_7
+      - https://git.io/v9999 CN_8
+      - https://git.io/v9999 CN_9
+      - https://git.io/v9999 CN_10
+      - https://git.io/v9999 CN_11
+      - https://git.io/v9999 CN_12
+      - https://git.io/v9999 CN_13
+      - https://git.io/v9999 CN_14
+      - https://git.io/v9999 CN_15
+      - https://git.io/v9999 CN_16
+      - https://git.io/v9999 CN_17
+      - https://git.io/v9999 CN_18
+      - https://git.io/v9999+CN_19
+      - CN_20
+      - CN_21
+      - CN_22
+      - https://git.io/v9999 圣-达拉斯1 ip3_23
+      - https://git.io/v9999+圣-达拉斯+SS+ip3_24
+      - https://git.io/v9999+圣-达拉斯+ip3_25
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - CN_1
-      - CN_2
-      - CN_3
-      - https://git.io/v9999 _CN_中国_4
-      - https://git.io/v9999 _CN_中国_5
-      - https://git.io/v9999 _CN_中国_6
-      - https://git.io/v9999 _CN_中国_7
+      - https://git.io/v9999 CN_1
+      - https://git.io/v9999 CN_2
+      - https://git.io/v9999 CN_3
+      - https://git.io/v9999 CN_4
+      - https://git.io/v9999 CN_5
+      - https://git.io/v9999 CN_6
+      - https://git.io/v9999 CN_7
+      - https://git.io/v9999 CN_8
+      - https://git.io/v9999 CN_9
+      - https://git.io/v9999 CN_10
+      - https://git.io/v9999 CN_11
+      - https://git.io/v9999 CN_12
+      - https://git.io/v9999 CN_13
+      - https://git.io/v9999 CN_14
+      - https://git.io/v9999 CN_15
+      - https://git.io/v9999 CN_16
+      - https://git.io/v9999 CN_17
+      - https://git.io/v9999 CN_18
+      - https://git.io/v9999+CN_19
+      - CN_20
+      - CN_21
+      - CN_22
+      - https://git.io/v9999 圣-达拉斯1 ip3_23
+      - https://git.io/v9999+圣-达拉斯+SS+ip3_24
+      - https://git.io/v9999+圣-达拉斯+ip3_25
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN_1
-      - CN_2
-      - CN_3
-      - https://git.io/v9999 _CN_中国_4
-      - https://git.io/v9999 _CN_中国_5
-      - https://git.io/v9999 _CN_中国_6
-      - https://git.io/v9999 _CN_中国_7
+      - https://git.io/v9999 CN_1
+      - https://git.io/v9999 CN_2
+      - https://git.io/v9999 CN_3
+      - https://git.io/v9999 CN_4
+      - https://git.io/v9999 CN_5
+      - https://git.io/v9999 CN_6
+      - https://git.io/v9999 CN_7
+      - https://git.io/v9999 CN_8
+      - https://git.io/v9999 CN_9
+      - https://git.io/v9999 CN_10
+      - https://git.io/v9999 CN_11
+      - https://git.io/v9999 CN_12
+      - https://git.io/v9999 CN_13
+      - https://git.io/v9999 CN_14
+      - https://git.io/v9999 CN_15
+      - https://git.io/v9999 CN_16
+      - https://git.io/v9999 CN_17
+      - https://git.io/v9999 CN_18
+      - https://git.io/v9999+CN_19
+      - CN_20
+      - CN_21
+      - CN_22
+      - https://git.io/v9999 圣-达拉斯1 ip3_23
+      - https://git.io/v9999+圣-达拉斯+SS+ip3_24
+      - https://git.io/v9999+圣-达拉斯+ip3_25
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - CN_1
-      - CN_2
-      - CN_3
-      - https://git.io/v9999 _CN_中国_4
-      - https://git.io/v9999 _CN_中国_5
-      - https://git.io/v9999 _CN_中国_6
-      - https://git.io/v9999 _CN_中国_7
+      - https://git.io/v9999 CN_1
+      - https://git.io/v9999 CN_2
+      - https://git.io/v9999 CN_3
+      - https://git.io/v9999 CN_4
+      - https://git.io/v9999 CN_5
+      - https://git.io/v9999 CN_6
+      - https://git.io/v9999 CN_7
+      - https://git.io/v9999 CN_8
+      - https://git.io/v9999 CN_9
+      - https://git.io/v9999 CN_10
+      - https://git.io/v9999 CN_11
+      - https://git.io/v9999 CN_12
+      - https://git.io/v9999 CN_13
+      - https://git.io/v9999 CN_14
+      - https://git.io/v9999 CN_15
+      - https://git.io/v9999 CN_16
+      - https://git.io/v9999 CN_17
+      - https://git.io/v9999 CN_18
+      - https://git.io/v9999+CN_19
+      - CN_20
+      - CN_21
+      - CN_22
+      - https://git.io/v9999 圣-达拉斯1 ip3_23
+      - https://git.io/v9999+圣-达拉斯+SS+ip3_24
+      - https://git.io/v9999+圣-达拉斯+ip3_25
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - CN_1
-      - CN_2
-      - CN_3
-      - https://git.io/v9999 _CN_中国_4
-      - https://git.io/v9999 _CN_中国_5
-      - https://git.io/v9999 _CN_中国_6
-      - https://git.io/v9999 _CN_中国_7
+      - https://git.io/v9999 CN_1
+      - https://git.io/v9999 CN_2
+      - https://git.io/v9999 CN_3
+      - https://git.io/v9999 CN_4
+      - https://git.io/v9999 CN_5
+      - https://git.io/v9999 CN_6
+      - https://git.io/v9999 CN_7
+      - https://git.io/v9999 CN_8
+      - https://git.io/v9999 CN_9
+      - https://git.io/v9999 CN_10
+      - https://git.io/v9999 CN_11
+      - https://git.io/v9999 CN_12
+      - https://git.io/v9999 CN_13
+      - https://git.io/v9999 CN_14
+      - https://git.io/v9999 CN_15
+      - https://git.io/v9999 CN_16
+      - https://git.io/v9999 CN_17
+      - https://git.io/v9999 CN_18
+      - https://git.io/v9999+CN_19
+      - CN_20
+      - CN_21
+      - CN_22
+      - https://git.io/v9999 圣-达拉斯1 ip3_23
+      - https://git.io/v9999+圣-达拉斯+SS+ip3_24
+      - https://git.io/v9999+圣-达拉斯+ip3_25
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - CN_1
-      - CN_2
-      - CN_3
-      - https://git.io/v9999 _CN_中国_4
-      - https://git.io/v9999 _CN_中国_5
-      - https://git.io/v9999 _CN_中国_6
-      - https://git.io/v9999 _CN_中国_7
+      - https://git.io/v9999 CN_1
+      - https://git.io/v9999 CN_2
+      - https://git.io/v9999 CN_3
+      - https://git.io/v9999 CN_4
+      - https://git.io/v9999 CN_5
+      - https://git.io/v9999 CN_6
+      - https://git.io/v9999 CN_7
+      - https://git.io/v9999 CN_8
+      - https://git.io/v9999 CN_9
+      - https://git.io/v9999 CN_10
+      - https://git.io/v9999 CN_11
+      - https://git.io/v9999 CN_12
+      - https://git.io/v9999 CN_13
+      - https://git.io/v9999 CN_14
+      - https://git.io/v9999 CN_15
+      - https://git.io/v9999 CN_16
+      - https://git.io/v9999 CN_17
+      - https://git.io/v9999 CN_18
+      - https://git.io/v9999+CN_19
+      - CN_20
+      - CN_21
+      - CN_22
+      - https://git.io/v9999 圣-达拉斯1 ip3_23
+      - https://git.io/v9999+圣-达拉斯+SS+ip3_24
+      - https://git.io/v9999+圣-达拉斯+ip3_25
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN_1
-      - CN_2
-      - CN_3
-      - https://git.io/v9999 _CN_中国_4
-      - https://git.io/v9999 _CN_中国_5
-      - https://git.io/v9999 _CN_中国_6
-      - https://git.io/v9999 _CN_中国_7
+      - https://git.io/v9999 CN_1
+      - https://git.io/v9999 CN_2
+      - https://git.io/v9999 CN_3
+      - https://git.io/v9999 CN_4
+      - https://git.io/v9999 CN_5
+      - https://git.io/v9999 CN_6
+      - https://git.io/v9999 CN_7
+      - https://git.io/v9999 CN_8
+      - https://git.io/v9999 CN_9
+      - https://git.io/v9999 CN_10
+      - https://git.io/v9999 CN_11
+      - https://git.io/v9999 CN_12
+      - https://git.io/v9999 CN_13
+      - https://git.io/v9999 CN_14
+      - https://git.io/v9999 CN_15
+      - https://git.io/v9999 CN_16
+      - https://git.io/v9999 CN_17
+      - https://git.io/v9999 CN_18
+      - https://git.io/v9999+CN_19
+      - CN_20
+      - CN_21
+      - CN_22
+      - https://git.io/v9999 圣-达拉斯1 ip3_23
+      - https://git.io/v9999+圣-达拉斯+SS+ip3_24
+      - https://git.io/v9999+圣-达拉斯+ip3_25
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -114,13 +258,31 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN_1
-      - CN_2
-      - CN_3
-      - https://git.io/v9999 _CN_中国_4
-      - https://git.io/v9999 _CN_中国_5
-      - https://git.io/v9999 _CN_中国_6
-      - https://git.io/v9999 _CN_中国_7
+      - https://git.io/v9999 CN_1
+      - https://git.io/v9999 CN_2
+      - https://git.io/v9999 CN_3
+      - https://git.io/v9999 CN_4
+      - https://git.io/v9999 CN_5
+      - https://git.io/v9999 CN_6
+      - https://git.io/v9999 CN_7
+      - https://git.io/v9999 CN_8
+      - https://git.io/v9999 CN_9
+      - https://git.io/v9999 CN_10
+      - https://git.io/v9999 CN_11
+      - https://git.io/v9999 CN_12
+      - https://git.io/v9999 CN_13
+      - https://git.io/v9999 CN_14
+      - https://git.io/v9999 CN_15
+      - https://git.io/v9999 CN_16
+      - https://git.io/v9999 CN_17
+      - https://git.io/v9999 CN_18
+      - https://git.io/v9999+CN_19
+      - CN_20
+      - CN_21
+      - CN_22
+      - https://git.io/v9999 圣-达拉斯1 ip3_23
+      - https://git.io/v9999+圣-达拉斯+SS+ip3_24
+      - https://git.io/v9999+圣-达拉斯+ip3_25
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
@@ -10145,4 +10307,3 @@ rules:
   - DOMAIN-KEYWORD,XLLiveUD,🎯 全球直连
   - GEOIP,CN,🎯 全球直连
   - MATCH,🐟 漏网之鱼
-
