@@ -105,13 +105,12 @@ proxies:
   - {name: https://git.io/v9999 CN 79, server: 81.wgong.xyz, port: 52281, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: https://git.io/v9999 CN 80, server: 81.wgong.xyz, port: 52281, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: https://git.io/v9999 CN 81, server: 83.wgong.xyz, port: 52283, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 82, server: 20.205.96.84, port: 52331, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 CN 82, server: 131.wgong.xyz, port: 52331, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: https://git.io/v9999 CN 83, server: 131.wgong.xyz, port: 52331, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 84, server: 131.wgong.xyz, port: 52331, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 85, server: 136.wgong.xyz, port: 52436, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 CN 84, server: 136.wgong.xyz, port: 52436, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 CN 85, server: 137.wgong.xyz, port: 52437, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: https://git.io/v9999 CN 86, server: 137.wgong.xyz, port: 52437, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 87, server: 137.wgong.xyz, port: 52437, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 88, server: one.hmbiplc.com, port: 53894, type: vmess, uuid: 07d676a1-903d-4606-93bd-e3522089f951, alterId: 4, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 CN 87, server: one.hmbiplc.com, port: 53894, type: vmess, uuid: 07d676a1-903d-4606-93bd-e3522089f951, alterId: 4, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -224,7 +223,6 @@ proxy-groups:
       - https://git.io/v9999 CN 85
       - https://git.io/v9999 CN 86
       - https://git.io/v9999 CN 87
-      - https://git.io/v9999 CN 88
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -336,7 +334,6 @@ proxy-groups:
       - https://git.io/v9999 CN 85
       - https://git.io/v9999 CN 86
       - https://git.io/v9999 CN 87
-      - https://git.io/v9999 CN 88
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -449,7 +446,6 @@ proxy-groups:
       - https://git.io/v9999 CN 85
       - https://git.io/v9999 CN 86
       - https://git.io/v9999 CN 87
-      - https://git.io/v9999 CN 88
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -574,7 +570,6 @@ proxy-groups:
       - https://git.io/v9999 CN 85
       - https://git.io/v9999 CN 86
       - https://git.io/v9999 CN 87
-      - https://git.io/v9999 CN 88
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -691,7 +686,6 @@ proxy-groups:
       - https://git.io/v9999 CN 85
       - https://git.io/v9999 CN 86
       - https://git.io/v9999 CN 87
-      - https://git.io/v9999 CN 88
   - name: 📲 电报信息
     type: select
     proxies:
@@ -803,7 +797,6 @@ proxy-groups:
       - https://git.io/v9999 CN 85
       - https://git.io/v9999 CN 86
       - https://git.io/v9999 CN 87
-      - https://git.io/v9999 CN 88
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -916,7 +909,6 @@ proxy-groups:
       - https://git.io/v9999 CN 85
       - https://git.io/v9999 CN 86
       - https://git.io/v9999 CN 87
-      - https://git.io/v9999 CN 88
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1038,7 +1030,6 @@ proxy-groups:
       - https://git.io/v9999 CN 85
       - https://git.io/v9999 CN 86
       - https://git.io/v9999 CN 87
-      - https://git.io/v9999 CN 88
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
@@ -11240,3 +11231,4 @@ rules:
  - DOMAIN-KEYWORD,XLLiveUD,🎯 全球直连
  - GEOIP,CN,🎯 全球直连
  - MATCH,🐟 漏网之鱼
+
