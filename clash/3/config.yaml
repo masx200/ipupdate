@@ -5,107 +5,103 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: https://git.io/v9999 圣-达拉斯1 ip3, server: 209.209.115.6, port: 56870, type: vmess, uuid: 579cbfde-7299-11ec-8511-c68119276ea3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /JV06PzeO/, ws-headers: {Host: 209.209.115.6}, udp: true}
-  - {name: https://git.io/v9999 圣-达拉斯 SS ip3, server: 209.209.115.31, port: 34567, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, udp: true}
-  - {name: https://git.io/v9999 圣-达拉斯 ip3, server: 209.209.115.23, port: 27887, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, udp: true}
-  - {name: https://git.io/v9999 圣TTK SS ip2, server: 193.53.127.197, port: 45678, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, udp: true}
-  - {name: https://git.io/v9999 圣TTK SS ip2 2, server: 195.133.53.212, port: 34567, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, udp: true}
-  - {name: https://git.io/v9999 圣TTK SS i2, server: 45.137.154.126, port: 12345, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, udp: true}
-  - {name: https://git.io/v9999 圣TTK ip2, server: 195.133.52.144, port: 10091, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, udp: true}
-  - {name: https://git.io/v9999 圣RO2 ip4, server: 194.50.170.170, port: 21998, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, udp: true}
-  - {name: https://git.io/v9999 圣RO ip4, server: 194.5.79.99, port: 63054, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, udp: true}
-  - {name: https://git.io/v9999 SSR, server: z0113.security-cloudfront-cdn.com, port: 44160, type: ssr, cipher: aes-256-cfb, password: wQ16gJrbBvvME3my, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: "www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive", udp: true}
-  - {name: https://git.io/v9999 SSR 2, server: z0114.security-cloudfront-cdn.com, port: 44160, type: ssr, cipher: aes-256-cfb, password: wQ16gJrbBvvME3my, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: "www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive", udp: true}
-  - {name: https://git.io/v9999, server: sb.ballm.eu.org, port: 443, type: trojan, password: ebc3bf91-a087-41dc-966c-ac5bf14286b2, sni: sb.ballm.eu.org, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 2, server: azhk.relay.qchwnd.moe, port: 44602, type: trojan, password: ddcfe6cb-d001-430e-9781-427496e3ed1d, sni: azhk.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 3, server: azhk.relay.qchwnd.moe, port: 44602, type: trojan, password: ddcfe6cb-d001-430e-9781-427496e3ed1d, sni: azhk.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 4, server: azhk.relay.qchwnd.moe, port: 44603, type: trojan, password: ddcfe6cb-d001-430e-9781-427496e3ed1d, sni: azhk.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 5, server: azhk.relay.qchwnd.moe, port: 44604, type: trojan, password: ddcfe6cb-d001-430e-9781-427496e3ed1d, sni: azhk.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 6, server: azhk.relay.qchwnd.moe, port: 44605, type: trojan, password: ddcfe6cb-d001-430e-9781-427496e3ed1d, sni: azhk.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 7, server: azhk.relay.qchwnd.moe, port: 44606, type: trojan, password: ddcfe6cb-d001-430e-9781-427496e3ed1d, sni: azhk.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 8, server: azhk.relay.qchwnd.moe, port: 44608, type: trojan, password: ddcfe6cb-d001-430e-9781-427496e3ed1d, sni: azhk.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 9, server: azhk.node.qchwnd.moe, port: 44609, type: trojan, password: ddcfe6cb-d001-430e-9781-427496e3ed1d, sni: azhk.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 10, server: newgy.jidan666.com, port: 23034, type: trojan, password: ddcfe6cb-d001-430e-9781-427496e3ed1d, sni: newgy.jidan666.com, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 trojan, server: awsjp10.pluscloud.top, port: 443, type: trojan, password: 2a6eed53-4219-4cfa-a869-d9ae3991d9d7, sni: awsjp10.pluscloud.top, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 trojan 2, server: 3.vpnbro.ml, port: 9999, type: trojan, password: dcba4731-0d6c-41f7-9d33-026fa5bff514, sni: 3.vpnbro.ml, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 trojan 3, server: 2.vpnbro.ml, port: 9999, type: trojan, password: 1145416f-3b82-4cf6-8b84-96ba6e32e109, sni: 2.vpnbro.ml, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 trojan 4, server: 5g1.vpnbro.ml, port: 55555, type: trojan, password: 1145416f-3b82-4cf6-8b84-96ba6e32e109, sni: 5g1.vpnbro.ml, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 trojan 5, server: 3.vpnbro.ml, port: 9999, type: trojan, password: 1145416f-3b82-4cf6-8b84-96ba6e32e109, sni: 3.vpnbro.ml, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 trojan 6, server: azjp.pluscloud.top, port: 443, type: trojan, password: 2a6eed53-4219-4cfa-a869-d9ae3991d9d7, sni: azjp.pluscloud.top, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 trojan 7, server: 4.vpnbro.ml, port: 9999, type: trojan, password: 1145416f-3b82-4cf6-8b84-96ba6e32e109, sni: 4.vpnbro.ml, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 trojan 8, server: azhk.pluscloud.top, port: 443, type: trojan, password: 2a6eed53-4219-4cfa-a869-d9ae3991d9d7, sni: azhk.pluscloud.top, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 trojan 9, server: 5.vpnbro.ml, port: 9999, type: trojan, password: 1145416f-3b82-4cf6-8b84-96ba6e32e109, sni: 5.vpnbro.ml, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 trojan 10, server: 2.vpnbro.ml, port: 9999, type: trojan, password: dcba4731-0d6c-41f7-9d33-026fa5bff514, sni: 2.vpnbro.ml, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 trojan 11, server: azsg.pluscloud.top, port: 443, type: trojan, password: 2a6eed53-4219-4cfa-a869-d9ae3991d9d7, sni: azsg.pluscloud.top, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 trojan 12, server: 3.vpnbro.ml, port: 9999, type: trojan, password: ee8fb2c3-8d13-4954-81b8-3e68b8902f4a, sni: 3.vpnbro.ml, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 trojan 13, server: 2.vpnbro.ml, port: 9999, type: trojan, password: ee8fb2c3-8d13-4954-81b8-3e68b8902f4a, sni: 2.vpnbro.ml, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 trojan 14, server: 4.vpnbro.ml, port: 9999, type: trojan, password: ee8fb2c3-8d13-4954-81b8-3e68b8902f4a, sni: 4.vpnbro.ml, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 trojan 15, server: 5.vpnbro.ml, port: 9999, type: trojan, password: ee8fb2c3-8d13-4954-81b8-3e68b8902f4a, sni: 5.vpnbro.ml, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 trojan 16, server: 5g1.vpnbro.ml, port: 55555, type: trojan, password: ee8fb2c3-8d13-4954-81b8-3e68b8902f4a, sni: 5g1.vpnbro.ml, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 trojan 17, server: azus.pluscloud.top, port: 443, type: trojan, password: 2a6eed53-4219-4cfa-a869-d9ae3991d9d7, sni: azus.pluscloud.top, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 trojan 18, server: 5.vpnbro.ml, port: 9999, type: trojan, password: dcba4731-0d6c-41f7-9d33-026fa5bff514, sni: 5.vpnbro.ml, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 trojan 19, server: 4.vpnbro.ml, port: 9999, type: trojan, password: dcba4731-0d6c-41f7-9d33-026fa5bff514, sni: 4.vpnbro.ml, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 CN, server: 118.wgong.xyz, port: 52218, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - https://git.io/v9999 圣-达拉斯1 ip3
-      - https://git.io/v9999 圣-达拉斯 SS ip3
-      - https://git.io/v9999 圣-达拉斯 ip3
-      - https://git.io/v9999 圣TTK SS ip2
-      - https://git.io/v9999 圣TTK SS ip2 2
-      - https://git.io/v9999 圣TTK SS i2
-      - https://git.io/v9999 圣TTK ip2
-      - https://git.io/v9999 圣RO2 ip4
-      - https://git.io/v9999 圣RO ip4
-      - https://git.io/v9999 SSR
-      - https://git.io/v9999 SSR 2
-      - https://git.io/v9999
-      - https://git.io/v9999 2
-      - https://git.io/v9999 3
-      - https://git.io/v9999 4
-      - https://git.io/v9999 5
-      - https://git.io/v9999 6
-      - https://git.io/v9999 7
-      - https://git.io/v9999 8
-      - https://git.io/v9999 9
-      - https://git.io/v9999 10
+      - https://git.io/v9999 trojan
+      - https://git.io/v9999 trojan 2
+      - https://git.io/v9999 trojan 3
+      - https://git.io/v9999 trojan 4
+      - https://git.io/v9999 trojan 5
+      - https://git.io/v9999 trojan 6
+      - https://git.io/v9999 trojan 7
+      - https://git.io/v9999 trojan 8
+      - https://git.io/v9999 trojan 9
+      - https://git.io/v9999 trojan 10
+      - https://git.io/v9999 trojan 11
+      - https://git.io/v9999 trojan 12
+      - https://git.io/v9999 trojan 13
+      - https://git.io/v9999 trojan 14
+      - https://git.io/v9999 trojan 15
+      - https://git.io/v9999 trojan 16
+      - https://git.io/v9999 trojan 17
+      - https://git.io/v9999 trojan 18
+      - https://git.io/v9999 trojan 19
+      - https://git.io/v9999 CN
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - https://git.io/v9999 圣-达拉斯1 ip3
-      - https://git.io/v9999 圣-达拉斯 SS ip3
-      - https://git.io/v9999 圣-达拉斯 ip3
-      - https://git.io/v9999 圣TTK SS ip2
-      - https://git.io/v9999 圣TTK SS ip2 2
-      - https://git.io/v9999 圣TTK SS i2
-      - https://git.io/v9999 圣TTK ip2
-      - https://git.io/v9999 圣RO2 ip4
-      - https://git.io/v9999 圣RO ip4
-      - https://git.io/v9999 SSR
-      - https://git.io/v9999 SSR 2
-      - https://git.io/v9999
-      - https://git.io/v9999 2
-      - https://git.io/v9999 3
-      - https://git.io/v9999 4
-      - https://git.io/v9999 5
-      - https://git.io/v9999 6
-      - https://git.io/v9999 7
-      - https://git.io/v9999 8
-      - https://git.io/v9999 9
-      - https://git.io/v9999 10
+      - https://git.io/v9999 trojan
+      - https://git.io/v9999 trojan 2
+      - https://git.io/v9999 trojan 3
+      - https://git.io/v9999 trojan 4
+      - https://git.io/v9999 trojan 5
+      - https://git.io/v9999 trojan 6
+      - https://git.io/v9999 trojan 7
+      - https://git.io/v9999 trojan 8
+      - https://git.io/v9999 trojan 9
+      - https://git.io/v9999 trojan 10
+      - https://git.io/v9999 trojan 11
+      - https://git.io/v9999 trojan 12
+      - https://git.io/v9999 trojan 13
+      - https://git.io/v9999 trojan 14
+      - https://git.io/v9999 trojan 15
+      - https://git.io/v9999 trojan 16
+      - https://git.io/v9999 trojan 17
+      - https://git.io/v9999 trojan 18
+      - https://git.io/v9999 trojan 19
+      - https://git.io/v9999 CN
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - https://git.io/v9999 圣-达拉斯1 ip3
-      - https://git.io/v9999 圣-达拉斯 SS ip3
-      - https://git.io/v9999 圣-达拉斯 ip3
-      - https://git.io/v9999 圣TTK SS ip2
-      - https://git.io/v9999 圣TTK SS ip2 2
-      - https://git.io/v9999 圣TTK SS i2
-      - https://git.io/v9999 圣TTK ip2
-      - https://git.io/v9999 圣RO2 ip4
-      - https://git.io/v9999 圣RO ip4
-      - https://git.io/v9999 SSR
-      - https://git.io/v9999 SSR 2
-      - https://git.io/v9999
-      - https://git.io/v9999 2
-      - https://git.io/v9999 3
-      - https://git.io/v9999 4
-      - https://git.io/v9999 5
-      - https://git.io/v9999 6
-      - https://git.io/v9999 7
-      - https://git.io/v9999 8
-      - https://git.io/v9999 9
-      - https://git.io/v9999 10
+      - https://git.io/v9999 trojan
+      - https://git.io/v9999 trojan 2
+      - https://git.io/v9999 trojan 3
+      - https://git.io/v9999 trojan 4
+      - https://git.io/v9999 trojan 5
+      - https://git.io/v9999 trojan 6
+      - https://git.io/v9999 trojan 7
+      - https://git.io/v9999 trojan 8
+      - https://git.io/v9999 trojan 9
+      - https://git.io/v9999 trojan 10
+      - https://git.io/v9999 trojan 11
+      - https://git.io/v9999 trojan 12
+      - https://git.io/v9999 trojan 13
+      - https://git.io/v9999 trojan 14
+      - https://git.io/v9999 trojan 15
+      - https://git.io/v9999 trojan 16
+      - https://git.io/v9999 trojan 17
+      - https://git.io/v9999 trojan 18
+      - https://git.io/v9999 trojan 19
+      - https://git.io/v9999 CN
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -124,27 +120,26 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - https://git.io/v9999 圣-达拉斯1 ip3
-      - https://git.io/v9999 圣-达拉斯 SS ip3
-      - https://git.io/v9999 圣-达拉斯 ip3
-      - https://git.io/v9999 圣TTK SS ip2
-      - https://git.io/v9999 圣TTK SS ip2 2
-      - https://git.io/v9999 圣TTK SS i2
-      - https://git.io/v9999 圣TTK ip2
-      - https://git.io/v9999 圣RO2 ip4
-      - https://git.io/v9999 圣RO ip4
-      - https://git.io/v9999 SSR
-      - https://git.io/v9999 SSR 2
-      - https://git.io/v9999
-      - https://git.io/v9999 2
-      - https://git.io/v9999 3
-      - https://git.io/v9999 4
-      - https://git.io/v9999 5
-      - https://git.io/v9999 6
-      - https://git.io/v9999 7
-      - https://git.io/v9999 8
-      - https://git.io/v9999 9
-      - https://git.io/v9999 10
+      - https://git.io/v9999 trojan
+      - https://git.io/v9999 trojan 2
+      - https://git.io/v9999 trojan 3
+      - https://git.io/v9999 trojan 4
+      - https://git.io/v9999 trojan 5
+      - https://git.io/v9999 trojan 6
+      - https://git.io/v9999 trojan 7
+      - https://git.io/v9999 trojan 8
+      - https://git.io/v9999 trojan 9
+      - https://git.io/v9999 trojan 10
+      - https://git.io/v9999 trojan 11
+      - https://git.io/v9999 trojan 12
+      - https://git.io/v9999 trojan 13
+      - https://git.io/v9999 trojan 14
+      - https://git.io/v9999 trojan 15
+      - https://git.io/v9999 trojan 16
+      - https://git.io/v9999 trojan 17
+      - https://git.io/v9999 trojan 18
+      - https://git.io/v9999 trojan 19
+      - https://git.io/v9999 CN
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -155,80 +150,77 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - https://git.io/v9999 圣-达拉斯1 ip3
-      - https://git.io/v9999 圣-达拉斯 SS ip3
-      - https://git.io/v9999 圣-达拉斯 ip3
-      - https://git.io/v9999 圣TTK SS ip2
-      - https://git.io/v9999 圣TTK SS ip2 2
-      - https://git.io/v9999 圣TTK SS i2
-      - https://git.io/v9999 圣TTK ip2
-      - https://git.io/v9999 圣RO2 ip4
-      - https://git.io/v9999 圣RO ip4
-      - https://git.io/v9999 SSR
-      - https://git.io/v9999 SSR 2
-      - https://git.io/v9999
-      - https://git.io/v9999 2
-      - https://git.io/v9999 3
-      - https://git.io/v9999 4
-      - https://git.io/v9999 5
-      - https://git.io/v9999 6
-      - https://git.io/v9999 7
-      - https://git.io/v9999 8
-      - https://git.io/v9999 9
-      - https://git.io/v9999 10
+      - https://git.io/v9999 trojan
+      - https://git.io/v9999 trojan 2
+      - https://git.io/v9999 trojan 3
+      - https://git.io/v9999 trojan 4
+      - https://git.io/v9999 trojan 5
+      - https://git.io/v9999 trojan 6
+      - https://git.io/v9999 trojan 7
+      - https://git.io/v9999 trojan 8
+      - https://git.io/v9999 trojan 9
+      - https://git.io/v9999 trojan 10
+      - https://git.io/v9999 trojan 11
+      - https://git.io/v9999 trojan 12
+      - https://git.io/v9999 trojan 13
+      - https://git.io/v9999 trojan 14
+      - https://git.io/v9999 trojan 15
+      - https://git.io/v9999 trojan 16
+      - https://git.io/v9999 trojan 17
+      - https://git.io/v9999 trojan 18
+      - https://git.io/v9999 trojan 19
+      - https://git.io/v9999 CN
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - https://git.io/v9999 圣-达拉斯1 ip3
-      - https://git.io/v9999 圣-达拉斯 SS ip3
-      - https://git.io/v9999 圣-达拉斯 ip3
-      - https://git.io/v9999 圣TTK SS ip2
-      - https://git.io/v9999 圣TTK SS ip2 2
-      - https://git.io/v9999 圣TTK SS i2
-      - https://git.io/v9999 圣TTK ip2
-      - https://git.io/v9999 圣RO2 ip4
-      - https://git.io/v9999 圣RO ip4
-      - https://git.io/v9999 SSR
-      - https://git.io/v9999 SSR 2
-      - https://git.io/v9999
-      - https://git.io/v9999 2
-      - https://git.io/v9999 3
-      - https://git.io/v9999 4
-      - https://git.io/v9999 5
-      - https://git.io/v9999 6
-      - https://git.io/v9999 7
-      - https://git.io/v9999 8
-      - https://git.io/v9999 9
-      - https://git.io/v9999 10
+      - https://git.io/v9999 trojan
+      - https://git.io/v9999 trojan 2
+      - https://git.io/v9999 trojan 3
+      - https://git.io/v9999 trojan 4
+      - https://git.io/v9999 trojan 5
+      - https://git.io/v9999 trojan 6
+      - https://git.io/v9999 trojan 7
+      - https://git.io/v9999 trojan 8
+      - https://git.io/v9999 trojan 9
+      - https://git.io/v9999 trojan 10
+      - https://git.io/v9999 trojan 11
+      - https://git.io/v9999 trojan 12
+      - https://git.io/v9999 trojan 13
+      - https://git.io/v9999 trojan 14
+      - https://git.io/v9999 trojan 15
+      - https://git.io/v9999 trojan 16
+      - https://git.io/v9999 trojan 17
+      - https://git.io/v9999 trojan 18
+      - https://git.io/v9999 trojan 19
+      - https://git.io/v9999 CN
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - https://git.io/v9999 圣-达拉斯1 ip3
-      - https://git.io/v9999 圣-达拉斯 SS ip3
-      - https://git.io/v9999 圣-达拉斯 ip3
-      - https://git.io/v9999 圣TTK SS ip2
-      - https://git.io/v9999 圣TTK SS ip2 2
-      - https://git.io/v9999 圣TTK SS i2
-      - https://git.io/v9999 圣TTK ip2
-      - https://git.io/v9999 圣RO2 ip4
-      - https://git.io/v9999 圣RO ip4
-      - https://git.io/v9999 SSR
-      - https://git.io/v9999 SSR 2
-      - https://git.io/v9999
-      - https://git.io/v9999 2
-      - https://git.io/v9999 3
-      - https://git.io/v9999 4
-      - https://git.io/v9999 5
-      - https://git.io/v9999 6
-      - https://git.io/v9999 7
-      - https://git.io/v9999 8
-      - https://git.io/v9999 9
-      - https://git.io/v9999 10
+      - https://git.io/v9999 trojan
+      - https://git.io/v9999 trojan 2
+      - https://git.io/v9999 trojan 3
+      - https://git.io/v9999 trojan 4
+      - https://git.io/v9999 trojan 5
+      - https://git.io/v9999 trojan 6
+      - https://git.io/v9999 trojan 7
+      - https://git.io/v9999 trojan 8
+      - https://git.io/v9999 trojan 9
+      - https://git.io/v9999 trojan 10
+      - https://git.io/v9999 trojan 11
+      - https://git.io/v9999 trojan 12
+      - https://git.io/v9999 trojan 13
+      - https://git.io/v9999 trojan 14
+      - https://git.io/v9999 trojan 15
+      - https://git.io/v9999 trojan 16
+      - https://git.io/v9999 trojan 17
+      - https://git.io/v9999 trojan 18
+      - https://git.io/v9999 trojan 19
+      - https://git.io/v9999 CN
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -244,27 +236,26 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - https://git.io/v9999 圣-达拉斯1 ip3
-      - https://git.io/v9999 圣-达拉斯 SS ip3
-      - https://git.io/v9999 圣-达拉斯 ip3
-      - https://git.io/v9999 圣TTK SS ip2
-      - https://git.io/v9999 圣TTK SS ip2 2
-      - https://git.io/v9999 圣TTK SS i2
-      - https://git.io/v9999 圣TTK ip2
-      - https://git.io/v9999 圣RO2 ip4
-      - https://git.io/v9999 圣RO ip4
-      - https://git.io/v9999 SSR
-      - https://git.io/v9999 SSR 2
-      - https://git.io/v9999
-      - https://git.io/v9999 2
-      - https://git.io/v9999 3
-      - https://git.io/v9999 4
-      - https://git.io/v9999 5
-      - https://git.io/v9999 6
-      - https://git.io/v9999 7
-      - https://git.io/v9999 8
-      - https://git.io/v9999 9
-      - https://git.io/v9999 10
+      - https://git.io/v9999 trojan
+      - https://git.io/v9999 trojan 2
+      - https://git.io/v9999 trojan 3
+      - https://git.io/v9999 trojan 4
+      - https://git.io/v9999 trojan 5
+      - https://git.io/v9999 trojan 6
+      - https://git.io/v9999 trojan 7
+      - https://git.io/v9999 trojan 8
+      - https://git.io/v9999 trojan 9
+      - https://git.io/v9999 trojan 10
+      - https://git.io/v9999 trojan 11
+      - https://git.io/v9999 trojan 12
+      - https://git.io/v9999 trojan 13
+      - https://git.io/v9999 trojan 14
+      - https://git.io/v9999 trojan 15
+      - https://git.io/v9999 trojan 16
+      - https://git.io/v9999 trojan 17
+      - https://git.io/v9999 trojan 18
+      - https://git.io/v9999 trojan 19
+      - https://git.io/v9999 CN
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
