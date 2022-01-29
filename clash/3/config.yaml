@@ -5,89 +5,59 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: https://git.io/v9999 CN, server: 112.64.69.187, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 2, server: fa6.uuv2.co.uk, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 3, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 CN, server: shcu01a.iplc188.com, port: 10002, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 CN 2, server: shcu01a.iplc188.com, port: 10002, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 CN 3, server: 112.64.69.187, port: 10003, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: https://git.io/v9999 CN 4, server: one.hmbiplc.com, port: 53894, type: vmess, uuid: 07d676a1-903d-4606-93bd-e3522089f951, alterId: 4, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 5, server: 112.33.32.136, port: 10004, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 6, server: shcu01a.iplc188.com, port: 10002, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 7, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 8, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 9, server: 112.33.32.136, port: 10003, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 10, server: 112.33.32.136, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 CN 5, server: 112.33.32.136, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 CN 6, server: 112.33.32.136, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 CN 7, server: 112.64.69.187, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 CN 8, server: 112.33.32.136, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 CN 9, server: 112.64.69.187, port: 10002, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 CN 10, server: shcu01a.iplc188.com, port: 10003, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: https://git.io/v9999 CN 11, server: 112.33.32.136, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 12, server: 112.64.69.187, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 13, server: shcu01a.iplc188.com, port: 10001, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 14, server: 112.33.32.136, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 15, server: shcu01a.iplc188.com, port: 10003, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 16, server: 112.64.69.187, port: 10002, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 17, server: shcu01a.iplc188.com, port: 10003, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 18, server: shcu01a.iplc188.com, port: 10003, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 19, server: 101.wgong.xyz, port: 52201, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 20, server: 20.205.96.84, port: 52331, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 21, server: 137.wgong.xyz, port: 52437, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 CN 12, server: 112.64.69.187, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 CN 13, server: 112.33.32.136, port: 10004, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 CN 14, server: 112.64.69.187, port: 10002, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 CN 15, server: shcu01a.iplc188.com, port: 10002, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 CN 16, server: shcu01a.iplc188.com, port: 10003, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 CN 17, server: 112.33.32.136, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 CN 18, server: shcu01a.iplc188.com, port: 10001, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 CN 19, server: 112.64.69.187, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 CN 20, server: shcu01a.iplc188.com, port: 10003, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 CN 21, server: 112.64.69.187, port: 10002, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: https://git.io/v9999 CN 22, server: 112.33.32.136, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 23, server: 131.wgong.xyz, port: 52331, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 24, server: 112.64.69.187, port: 10002, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 25, server: 112.33.32.136, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 26, server: 112.33.32.136, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 27, server: 112.64.69.187, port: 10002, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 28, server: 131.wgong.xyz, port: 52331, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 29, server: 137.wgong.xyz, port: 52437, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 30, server: 112.64.69.187, port: 10002, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 31, server: 112.64.69.187, port: 10002, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 CN 23, server: 136.wgong.xyz, port: 52436, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 CN 24, server: 131.wgong.xyz, port: 52331, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 CN 25, server: shcu01a.iplc188.com, port: 10003, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 CN 26, server: 112.64.69.187, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 CN 27, server: 112.64.69.187, port: 10003, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 CN 28, server: 112.64.69.187, port: 10002, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 CN 29, server: 81.wgong.xyz, port: 52281, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 CN 30, server: 101.wgong.xyz, port: 52201, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 CN 31, server: 116.wgong.xyz, port: 52216, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: https://git.io/v9999 CN 32, server: 112.64.69.187, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 33, server: 136.wgong.xyz, port: 52436, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 34, server: 112.64.69.187, port: 10002, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 35, server: 112.64.69.187, port: 10002, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 36, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 37, server: 83.wgong.xyz, port: 52283, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 38, server: 81.wgong.xyz, port: 52281, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 39, server: 81.wgong.xyz, port: 52281, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 40, server: 117.wgong.xyz, port: 52217, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 41, server: fa6.uuv2.co.uk, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 42, server: 112.64.69.187, port: 10002, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 CN 33, server: 112.33.32.136, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 CN 34, server: 118.wgong.xyz, port: 52218, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 CN 35, server: 81.wgong.xyz, port: 52281, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 CN 36, server: 112.33.32.136, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 CN 37, server: 131.wgong.xyz, port: 52331, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 CN 38, server: 112.33.32.136, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 CN 39, server: 112.33.32.136, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 CN 40, server: 112.33.32.136, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 CN 41, server: 112.64.69.187, port: 10002, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 CN 42, server: 117.wgong.xyz, port: 52217, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: https://git.io/v9999 CN 43, server: 112.64.69.187, port: 10002, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 44, server: shcu01a.iplc188.com, port: 10002, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 45, server: 112.33.32.136, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 CN 44, server: 112.64.69.187, port: 10002, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 CN 45, server: 112.64.69.187, port: 10002, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: https://git.io/v9999 CN 46, server: 112.33.32.136, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 47, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 48, server: 112.33.32.136, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 49, server: 112.33.32.136, port: 10003, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 50, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 51, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 52, server: shcu01a.iplc188.com, port: 10002, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 53, server: 112.64.69.187, port: 10002, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 54, server: 118.wgong.xyz, port: 52218, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 55, server: 112.33.32.136, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 56, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 57, server: 116.wgong.xyz, port: 52216, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 58, server: 112.33.32.136, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 59, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 60, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 61, server: fa6.uuv2.co.uk, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 62, server: 112.33.32.136, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 63, server: 112.33.32.136, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 64, server: 112.33.32.136, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 65, server: 112.33.32.136, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 66, server: fa6.uuv2.co.uk, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 67, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 68, server: 112.33.32.136, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 69, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 70, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 71, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 72, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 73, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 74, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 75, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 76, server: 112.64.69.187, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 77, server: fa6.uuv2.co.uk, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 78, server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 79, server: 112.64.69.187, port: 10003, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 80, server: 112.64.69.187, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 81, server: shcu01a.iplc188.com, port: 10003, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 82, server: 112.64.69.187, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: https://git.io/v9999 CN 83, server: 112.64.69.187, port: 10003, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 CN 47, server: 112.64.69.187, port: 10002, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 CN 48, server: 112.33.32.136, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 CN 49, server: 112.33.32.136, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 CN 50, server: 112.64.69.187, port: 10002, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 CN 51, server: 112.64.69.187, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 CN 52, server: 112.33.32.136, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: https://git.io/v9999 CN 53, server: 112.33.32.136, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -147,36 +117,6 @@ proxy-groups:
       - https://git.io/v9999 CN 51
       - https://git.io/v9999 CN 52
       - https://git.io/v9999 CN 53
-      - https://git.io/v9999 CN 54
-      - https://git.io/v9999 CN 55
-      - https://git.io/v9999 CN 56
-      - https://git.io/v9999 CN 57
-      - https://git.io/v9999 CN 58
-      - https://git.io/v9999 CN 59
-      - https://git.io/v9999 CN 60
-      - https://git.io/v9999 CN 61
-      - https://git.io/v9999 CN 62
-      - https://git.io/v9999 CN 63
-      - https://git.io/v9999 CN 64
-      - https://git.io/v9999 CN 65
-      - https://git.io/v9999 CN 66
-      - https://git.io/v9999 CN 67
-      - https://git.io/v9999 CN 68
-      - https://git.io/v9999 CN 69
-      - https://git.io/v9999 CN 70
-      - https://git.io/v9999 CN 71
-      - https://git.io/v9999 CN 72
-      - https://git.io/v9999 CN 73
-      - https://git.io/v9999 CN 74
-      - https://git.io/v9999 CN 75
-      - https://git.io/v9999 CN 76
-      - https://git.io/v9999 CN 77
-      - https://git.io/v9999 CN 78
-      - https://git.io/v9999 CN 79
-      - https://git.io/v9999 CN 80
-      - https://git.io/v9999 CN 81
-      - https://git.io/v9999 CN 82
-      - https://git.io/v9999 CN 83
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -235,36 +175,6 @@ proxy-groups:
       - https://git.io/v9999 CN 51
       - https://git.io/v9999 CN 52
       - https://git.io/v9999 CN 53
-      - https://git.io/v9999 CN 54
-      - https://git.io/v9999 CN 55
-      - https://git.io/v9999 CN 56
-      - https://git.io/v9999 CN 57
-      - https://git.io/v9999 CN 58
-      - https://git.io/v9999 CN 59
-      - https://git.io/v9999 CN 60
-      - https://git.io/v9999 CN 61
-      - https://git.io/v9999 CN 62
-      - https://git.io/v9999 CN 63
-      - https://git.io/v9999 CN 64
-      - https://git.io/v9999 CN 65
-      - https://git.io/v9999 CN 66
-      - https://git.io/v9999 CN 67
-      - https://git.io/v9999 CN 68
-      - https://git.io/v9999 CN 69
-      - https://git.io/v9999 CN 70
-      - https://git.io/v9999 CN 71
-      - https://git.io/v9999 CN 72
-      - https://git.io/v9999 CN 73
-      - https://git.io/v9999 CN 74
-      - https://git.io/v9999 CN 75
-      - https://git.io/v9999 CN 76
-      - https://git.io/v9999 CN 77
-      - https://git.io/v9999 CN 78
-      - https://git.io/v9999 CN 79
-      - https://git.io/v9999 CN 80
-      - https://git.io/v9999 CN 81
-      - https://git.io/v9999 CN 82
-      - https://git.io/v9999 CN 83
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -324,36 +234,6 @@ proxy-groups:
       - https://git.io/v9999 CN 51
       - https://git.io/v9999 CN 52
       - https://git.io/v9999 CN 53
-      - https://git.io/v9999 CN 54
-      - https://git.io/v9999 CN 55
-      - https://git.io/v9999 CN 56
-      - https://git.io/v9999 CN 57
-      - https://git.io/v9999 CN 58
-      - https://git.io/v9999 CN 59
-      - https://git.io/v9999 CN 60
-      - https://git.io/v9999 CN 61
-      - https://git.io/v9999 CN 62
-      - https://git.io/v9999 CN 63
-      - https://git.io/v9999 CN 64
-      - https://git.io/v9999 CN 65
-      - https://git.io/v9999 CN 66
-      - https://git.io/v9999 CN 67
-      - https://git.io/v9999 CN 68
-      - https://git.io/v9999 CN 69
-      - https://git.io/v9999 CN 70
-      - https://git.io/v9999 CN 71
-      - https://git.io/v9999 CN 72
-      - https://git.io/v9999 CN 73
-      - https://git.io/v9999 CN 74
-      - https://git.io/v9999 CN 75
-      - https://git.io/v9999 CN 76
-      - https://git.io/v9999 CN 77
-      - https://git.io/v9999 CN 78
-      - https://git.io/v9999 CN 79
-      - https://git.io/v9999 CN 80
-      - https://git.io/v9999 CN 81
-      - https://git.io/v9999 CN 82
-      - https://git.io/v9999 CN 83
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -425,36 +305,6 @@ proxy-groups:
       - https://git.io/v9999 CN 51
       - https://git.io/v9999 CN 52
       - https://git.io/v9999 CN 53
-      - https://git.io/v9999 CN 54
-      - https://git.io/v9999 CN 55
-      - https://git.io/v9999 CN 56
-      - https://git.io/v9999 CN 57
-      - https://git.io/v9999 CN 58
-      - https://git.io/v9999 CN 59
-      - https://git.io/v9999 CN 60
-      - https://git.io/v9999 CN 61
-      - https://git.io/v9999 CN 62
-      - https://git.io/v9999 CN 63
-      - https://git.io/v9999 CN 64
-      - https://git.io/v9999 CN 65
-      - https://git.io/v9999 CN 66
-      - https://git.io/v9999 CN 67
-      - https://git.io/v9999 CN 68
-      - https://git.io/v9999 CN 69
-      - https://git.io/v9999 CN 70
-      - https://git.io/v9999 CN 71
-      - https://git.io/v9999 CN 72
-      - https://git.io/v9999 CN 73
-      - https://git.io/v9999 CN 74
-      - https://git.io/v9999 CN 75
-      - https://git.io/v9999 CN 76
-      - https://git.io/v9999 CN 77
-      - https://git.io/v9999 CN 78
-      - https://git.io/v9999 CN 79
-      - https://git.io/v9999 CN 80
-      - https://git.io/v9999 CN 81
-      - https://git.io/v9999 CN 82
-      - https://git.io/v9999 CN 83
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -518,36 +368,6 @@ proxy-groups:
       - https://git.io/v9999 CN 51
       - https://git.io/v9999 CN 52
       - https://git.io/v9999 CN 53
-      - https://git.io/v9999 CN 54
-      - https://git.io/v9999 CN 55
-      - https://git.io/v9999 CN 56
-      - https://git.io/v9999 CN 57
-      - https://git.io/v9999 CN 58
-      - https://git.io/v9999 CN 59
-      - https://git.io/v9999 CN 60
-      - https://git.io/v9999 CN 61
-      - https://git.io/v9999 CN 62
-      - https://git.io/v9999 CN 63
-      - https://git.io/v9999 CN 64
-      - https://git.io/v9999 CN 65
-      - https://git.io/v9999 CN 66
-      - https://git.io/v9999 CN 67
-      - https://git.io/v9999 CN 68
-      - https://git.io/v9999 CN 69
-      - https://git.io/v9999 CN 70
-      - https://git.io/v9999 CN 71
-      - https://git.io/v9999 CN 72
-      - https://git.io/v9999 CN 73
-      - https://git.io/v9999 CN 74
-      - https://git.io/v9999 CN 75
-      - https://git.io/v9999 CN 76
-      - https://git.io/v9999 CN 77
-      - https://git.io/v9999 CN 78
-      - https://git.io/v9999 CN 79
-      - https://git.io/v9999 CN 80
-      - https://git.io/v9999 CN 81
-      - https://git.io/v9999 CN 82
-      - https://git.io/v9999 CN 83
   - name: 📲 电报信息
     type: select
     proxies:
@@ -606,36 +426,6 @@ proxy-groups:
       - https://git.io/v9999 CN 51
       - https://git.io/v9999 CN 52
       - https://git.io/v9999 CN 53
-      - https://git.io/v9999 CN 54
-      - https://git.io/v9999 CN 55
-      - https://git.io/v9999 CN 56
-      - https://git.io/v9999 CN 57
-      - https://git.io/v9999 CN 58
-      - https://git.io/v9999 CN 59
-      - https://git.io/v9999 CN 60
-      - https://git.io/v9999 CN 61
-      - https://git.io/v9999 CN 62
-      - https://git.io/v9999 CN 63
-      - https://git.io/v9999 CN 64
-      - https://git.io/v9999 CN 65
-      - https://git.io/v9999 CN 66
-      - https://git.io/v9999 CN 67
-      - https://git.io/v9999 CN 68
-      - https://git.io/v9999 CN 69
-      - https://git.io/v9999 CN 70
-      - https://git.io/v9999 CN 71
-      - https://git.io/v9999 CN 72
-      - https://git.io/v9999 CN 73
-      - https://git.io/v9999 CN 74
-      - https://git.io/v9999 CN 75
-      - https://git.io/v9999 CN 76
-      - https://git.io/v9999 CN 77
-      - https://git.io/v9999 CN 78
-      - https://git.io/v9999 CN 79
-      - https://git.io/v9999 CN 80
-      - https://git.io/v9999 CN 81
-      - https://git.io/v9999 CN 82
-      - https://git.io/v9999 CN 83
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -695,36 +485,6 @@ proxy-groups:
       - https://git.io/v9999 CN 51
       - https://git.io/v9999 CN 52
       - https://git.io/v9999 CN 53
-      - https://git.io/v9999 CN 54
-      - https://git.io/v9999 CN 55
-      - https://git.io/v9999 CN 56
-      - https://git.io/v9999 CN 57
-      - https://git.io/v9999 CN 58
-      - https://git.io/v9999 CN 59
-      - https://git.io/v9999 CN 60
-      - https://git.io/v9999 CN 61
-      - https://git.io/v9999 CN 62
-      - https://git.io/v9999 CN 63
-      - https://git.io/v9999 CN 64
-      - https://git.io/v9999 CN 65
-      - https://git.io/v9999 CN 66
-      - https://git.io/v9999 CN 67
-      - https://git.io/v9999 CN 68
-      - https://git.io/v9999 CN 69
-      - https://git.io/v9999 CN 70
-      - https://git.io/v9999 CN 71
-      - https://git.io/v9999 CN 72
-      - https://git.io/v9999 CN 73
-      - https://git.io/v9999 CN 74
-      - https://git.io/v9999 CN 75
-      - https://git.io/v9999 CN 76
-      - https://git.io/v9999 CN 77
-      - https://git.io/v9999 CN 78
-      - https://git.io/v9999 CN 79
-      - https://git.io/v9999 CN 80
-      - https://git.io/v9999 CN 81
-      - https://git.io/v9999 CN 82
-      - https://git.io/v9999 CN 83
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -793,36 +553,6 @@ proxy-groups:
       - https://git.io/v9999 CN 51
       - https://git.io/v9999 CN 52
       - https://git.io/v9999 CN 53
-      - https://git.io/v9999 CN 54
-      - https://git.io/v9999 CN 55
-      - https://git.io/v9999 CN 56
-      - https://git.io/v9999 CN 57
-      - https://git.io/v9999 CN 58
-      - https://git.io/v9999 CN 59
-      - https://git.io/v9999 CN 60
-      - https://git.io/v9999 CN 61
-      - https://git.io/v9999 CN 62
-      - https://git.io/v9999 CN 63
-      - https://git.io/v9999 CN 64
-      - https://git.io/v9999 CN 65
-      - https://git.io/v9999 CN 66
-      - https://git.io/v9999 CN 67
-      - https://git.io/v9999 CN 68
-      - https://git.io/v9999 CN 69
-      - https://git.io/v9999 CN 70
-      - https://git.io/v9999 CN 71
-      - https://git.io/v9999 CN 72
-      - https://git.io/v9999 CN 73
-      - https://git.io/v9999 CN 74
-      - https://git.io/v9999 CN 75
-      - https://git.io/v9999 CN 76
-      - https://git.io/v9999 CN 77
-      - https://git.io/v9999 CN 78
-      - https://git.io/v9999 CN 79
-      - https://git.io/v9999 CN 80
-      - https://git.io/v9999 CN 81
-      - https://git.io/v9999 CN 82
-      - https://git.io/v9999 CN 83
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
@@ -11024,3 +10754,4 @@ rules:
  - DOMAIN-KEYWORD,XLLiveUD,🎯 全球直连
  - GEOIP,CN,🎯 全球直连
  - MATCH,🐟 漏网之鱼
+
