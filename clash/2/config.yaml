@@ -5,423 +5,127 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: https://git.io/v9999 151, server: 167.88.63.61, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: https://git.io/v9999 152, server: 169.197.141.187, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: https://git.io/v9999 153, server: 134.195.196.200, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: https://git.io/v9999 154, server: 134.195.196.43, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: https://git.io/v9999 155, server: 134.195.196.200, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: https://git.io/v9999 156, server: 134.195.196.147, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: https://git.io/v9999 157, server: 134.195.196.128, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: https://git.io/v9999 158, server: 134.195.196.200, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: https://git.io/v9999 159, server: 169.197.141.91, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: https://git.io/v9999 160, server: 134.195.196.193, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: https://git.io/v9999 161, server: 134.195.196.193, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: https://git.io/v9999 162, server: 142.202.48.34, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: https://git.io/v9999 163, server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: https://git.io/v9999 164, server: 38.121.43.91, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: https://git.io/v9999 165, server: 134.195.196.193, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: https://git.io/v9999 166, server: 167.88.63.61, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: https://git.io/v9999 167, server: 134.195.196.200, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: https://git.io/v9999 168, server: 134.195.196.81, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: https://git.io/v9999 169, server: 134.195.196.193, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: https://git.io/v9999 170, server: 169.197.141.187, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: https://git.io/v9999 171, server: 38.68.134.23, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: https://git.io/v9999 172, server: 167.88.63.28, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: https://git.io/v9999 173, server: 134.195.196.193, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: https://git.io/v9999 174, server: 169.197.141.91, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: https://git.io/v9999 175, server: 167.88.63.74, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: https://git.io/v9999 176, server: 134.195.196.43, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: https://git.io/v9999 177, server: 167.88.63.28, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: https://git.io/v9999 178, server: 134.195.196.200, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: https://git.io/v9999 179, server: 134.195.196.193, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: https://git.io/v9999 180, server: 169.197.141.109, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: https://git.io/v9999 181, server: 169.197.141.109, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: https://git.io/v9999 182, server: 134.195.196.81, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: https://git.io/v9999 183, server: 134.195.196.193, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: https://git.io/v9999 184, server: 134.195.196.200, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: https://git.io/v9999 185, server: 134.195.196.147, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: https://git.io/v9999 186, server: 134.195.196.43, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: https://git.io/v9999 187, server: 134.195.196.227, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: https://git.io/v9999 188, server: 134.195.196.227, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: https://git.io/v9999 189, server: 134.195.196.193, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: https://git.io/v9999 190, server: 134.195.196.81, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: https://git.io/v9999 191, server: 198.57.27.188, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: https://git.io/v9999 192, server: 167.88.63.28, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: https://git.io/v9999 193, server: 134.195.196.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: https://git.io/v9999 194, server: 198.57.27.184, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: https://git.io/v9999 195, server: 134.195.196.71, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: https://git.io/v9999 196, server: 167.88.63.61, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: https://git.io/v9999 197, server: 198.57.27.241, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: https://git.io/v9999 198, server: 134.195.196.71, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: https://git.io/v9999 199, server: 134.195.196.81, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: https://git.io/v9999 200, server: 134.195.196.81, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: https://git.io/v9999 201, server: 198.57.27.188, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: https://git.io/v9999 202, server: 134.195.196.193, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: https://git.io/v9999 203, server: 198.57.27.241, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: https://git.io/v9999 204, server: 167.88.63.74, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: https://git.io/v9999 205, server: 198.57.27.184, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: https://git.io/v9999 206, server: 167.88.63.61, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: https://git.io/v9999 207, server: 134.195.196.193, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: https://git.io/v9999 208, server: 134.195.196.200, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: https://git.io/v9999 209, server: 167.88.63.74, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: https://git.io/v9999 210, server: 167.88.63.74, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: https://git.io/v9999 211, server: 167.88.63.28, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: https://git.io/v9999 212, server: 198.57.27.241, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: https://git.io/v9999 213, server: 134.195.196.193, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: https://git.io/v9999 214, server: 134.195.196.193, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: https://git.io/v9999 215, server: 169.197.141.15, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: https://git.io/v9999 216, server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: https://git.io/v9999 217, server: 134.195.196.193, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: https://git.io/v9999 218, server: 134.195.196.193, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: https://git.io/v9999 219, server: 198.57.27.188, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: https://git.io/v9999 220, server: 134.195.196.147, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: https://git.io/v9999 221, server: 167.88.63.61, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: https://git.io/v9999 222, server: 142.202.48.34, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: https://git.io/v9999 223, server: 198.57.27.241, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: https://git.io/v9999 224, server: 198.57.27.241, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: https://git.io/v9999 225, server: 198.57.27.188, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: https://git.io/v9999 226, server: 134.195.196.81, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: https://git.io/v9999 227, server: 134.195.196.43, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: https://git.io/v9999 228, server: 198.57.27.172, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: https://git.io/v9999 229, server: 167.88.63.74, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: https://git.io/v9999 230, server: 38.86.135.169, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: https://git.io/v9999 231, server: 198.57.27.188, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: https://git.io/v9999 232, server: 167.88.63.74, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: https://git.io/v9999 233, server: 198.57.27.172, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: https://git.io/v9999 234, server: 38.86.135.169, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: https://git.io/v9999 235, server: 38.121.43.71, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: https://git.io/v9999 236, server: 167.88.63.28, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: https://git.io/v9999 237, server: 167.88.63.61, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: https://git.io/v9999 238, server: 134.195.196.147, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: https://git.io/v9999 239, server: 167.88.63.28, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: https://git.io/v9999 240, server: 198.57.27.241, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: https://git.io/v9999 241, server: 134.195.196.147, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: https://git.io/v9999 242, server: 134.195.196.147, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: https://git.io/v9999 243, server: 167.88.63.28, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: https://git.io/v9999 244, server: 198.57.27.184, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: https://git.io/v9999 245, server: 134.195.196.193, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: https://git.io/v9999 246, server: 142.202.48.34, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: https://git.io/v9999 247, server: 169.197.141.187, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: https://git.io/v9999 248, server: 167.88.63.28, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: https://git.io/v9999 249, server: 198.57.27.172, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: https://git.io/v9999 250, server: 198.57.27.172, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: https://git.io/v9999 SSR_1, server: 120.233.10.182, port: 4003, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62538:pzmWXd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: https://git.io/v9999 SSR_2, server: 120.233.10.182, port: 4001, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62538:pzmWXd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: https://git.io/v9999 SSR_3, server: 120.233.10.182, port: 2706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62538:pzmWXd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: https://git.io/v9999 SSR_4, server: 120.233.10.182, port: 2702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62538:pzmWXd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: https://git.io/v9999 SSR_5, server: 120.233.10.182, port: 2703, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62538:pzmWXd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: https://git.io/v9999 SSR_6, server: sg-am11.eqnode.net, port: 8181, type: ssr, cipher: aes-256-cfb, password: kKdNNt2HZ, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: releases.ubuntu.com, udp: true}
+  - {name: https://git.io/v9999 SSR_7, server: 120.233.10.182, port: 3708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62538:pzmWXd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: https://git.io/v9999 SSR_8, server: 120.233.10.182, port: 2707, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62538:pzmWXd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: https://git.io/v9999 SSR_9, server: 120.233.10.182, port: 3706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62538:pzmWXd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: https://git.io/v9999 SSR_10, server: 120.233.10.182, port: 2705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62538:pzmWXd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: https://git.io/v9999 SSR_11, server: 120.233.10.182, port: 2704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62538:pzmWXd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: https://git.io/v9999 SSR_12, server: 120.233.10.182, port: 6701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62538:pzmWXd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: https://git.io/v9999 SSR_13, server: 120.233.10.182, port: 6709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62538:pzmWXd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: https://git.io/v9999 SSR_14, server: 120.233.10.182, port: 4002, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62538:pzmWXd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: https://git.io/v9999 SSR_15, server: 120.233.10.182, port: 6702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62538:pzmWXd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: https://git.io/v9999 SSR_16, server: in-am2.eqnode.net, port: 8080, type: ssr, cipher: aes-256-cfb, password: fD0KP8PWA, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: https://git.io/v9999 SSR_17, server: 120.233.10.182, port: 3705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62538:pzmWXd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: https://git.io/v9999 SSR_18, server: 120.233.10.182, port: 2708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62538:pzmWXd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: https://git.io/v9999 SSR_19, server: 120.233.10.182, port: 3709, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62538:pzmWXd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: https://git.io/v9999 SSR_20, server: 120.233.10.182, port: 3704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62538:pzmWXd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: https://git.io/v9999 SSR_21, server: 120.233.10.182, port: 3707, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62538:pzmWXd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: https://git.io/v9999 SSR_22, server: 120.233.10.182, port: 7705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62538:pzmWXd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: https://git.io/v9999 SSR_23, server: 120.233.10.182, port: 3700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62538:pzmWXd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: https://git.io/v9999 SSR_24, server: 120.233.10.182, port: 7706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62538:pzmWXd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: https://git.io/v9999 SSR_25, server: 120.233.10.182, port: 3702, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62538:pzmWXd, obfs-param: t.me/vpnhat, udp: true}
+  - {name: https://git.io/v9999 SSR_26, server: 120.233.10.182, port: 3701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 62538:pzmWXd, obfs-param: t.me/vpnhat, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - https://git.io/v9999 151
-      - https://git.io/v9999 152
-      - https://git.io/v9999 153
-      - https://git.io/v9999 154
-      - https://git.io/v9999 155
-      - https://git.io/v9999 156
-      - https://git.io/v9999 157
-      - https://git.io/v9999 158
-      - https://git.io/v9999 159
-      - https://git.io/v9999 160
-      - https://git.io/v9999 161
-      - https://git.io/v9999 162
-      - https://git.io/v9999 163
-      - https://git.io/v9999 164
-      - https://git.io/v9999 165
-      - https://git.io/v9999 166
-      - https://git.io/v9999 167
-      - https://git.io/v9999 168
-      - https://git.io/v9999 169
-      - https://git.io/v9999 170
-      - https://git.io/v9999 171
-      - https://git.io/v9999 172
-      - https://git.io/v9999 173
-      - https://git.io/v9999 174
-      - https://git.io/v9999 175
-      - https://git.io/v9999 176
-      - https://git.io/v9999 177
-      - https://git.io/v9999 178
-      - https://git.io/v9999 179
-      - https://git.io/v9999 180
-      - https://git.io/v9999 181
-      - https://git.io/v9999 182
-      - https://git.io/v9999 183
-      - https://git.io/v9999 184
-      - https://git.io/v9999 185
-      - https://git.io/v9999 186
-      - https://git.io/v9999 187
-      - https://git.io/v9999 188
-      - https://git.io/v9999 189
-      - https://git.io/v9999 190
-      - https://git.io/v9999 191
-      - https://git.io/v9999 192
-      - https://git.io/v9999 193
-      - https://git.io/v9999 194
-      - https://git.io/v9999 195
-      - https://git.io/v9999 196
-      - https://git.io/v9999 197
-      - https://git.io/v9999 198
-      - https://git.io/v9999 199
-      - https://git.io/v9999 200
-      - https://git.io/v9999 201
-      - https://git.io/v9999 202
-      - https://git.io/v9999 203
-      - https://git.io/v9999 204
-      - https://git.io/v9999 205
-      - https://git.io/v9999 206
-      - https://git.io/v9999 207
-      - https://git.io/v9999 208
-      - https://git.io/v9999 209
-      - https://git.io/v9999 210
-      - https://git.io/v9999 211
-      - https://git.io/v9999 212
-      - https://git.io/v9999 213
-      - https://git.io/v9999 214
-      - https://git.io/v9999 215
-      - https://git.io/v9999 216
-      - https://git.io/v9999 217
-      - https://git.io/v9999 218
-      - https://git.io/v9999 219
-      - https://git.io/v9999 220
-      - https://git.io/v9999 221
-      - https://git.io/v9999 222
-      - https://git.io/v9999 223
-      - https://git.io/v9999 224
-      - https://git.io/v9999 225
-      - https://git.io/v9999 226
-      - https://git.io/v9999 227
-      - https://git.io/v9999 228
-      - https://git.io/v9999 229
-      - https://git.io/v9999 230
-      - https://git.io/v9999 231
-      - https://git.io/v9999 232
-      - https://git.io/v9999 233
-      - https://git.io/v9999 234
-      - https://git.io/v9999 235
-      - https://git.io/v9999 236
-      - https://git.io/v9999 237
-      - https://git.io/v9999 238
-      - https://git.io/v9999 239
-      - https://git.io/v9999 240
-      - https://git.io/v9999 241
-      - https://git.io/v9999 242
-      - https://git.io/v9999 243
-      - https://git.io/v9999 244
-      - https://git.io/v9999 245
-      - https://git.io/v9999 246
-      - https://git.io/v9999 247
-      - https://git.io/v9999 248
-      - https://git.io/v9999 249
-      - https://git.io/v9999 250
+      - https://git.io/v9999 SSR_1
+      - https://git.io/v9999 SSR_2
+      - https://git.io/v9999 SSR_3
+      - https://git.io/v9999 SSR_4
+      - https://git.io/v9999 SSR_5
+      - https://git.io/v9999 SSR_6
+      - https://git.io/v9999 SSR_7
+      - https://git.io/v9999 SSR_8
+      - https://git.io/v9999 SSR_9
+      - https://git.io/v9999 SSR_10
+      - https://git.io/v9999 SSR_11
+      - https://git.io/v9999 SSR_12
+      - https://git.io/v9999 SSR_13
+      - https://git.io/v9999 SSR_14
+      - https://git.io/v9999 SSR_15
+      - https://git.io/v9999 SSR_16
+      - https://git.io/v9999 SSR_17
+      - https://git.io/v9999 SSR_18
+      - https://git.io/v9999 SSR_19
+      - https://git.io/v9999 SSR_20
+      - https://git.io/v9999 SSR_21
+      - https://git.io/v9999 SSR_22
+      - https://git.io/v9999 SSR_23
+      - https://git.io/v9999 SSR_24
+      - https://git.io/v9999 SSR_25
+      - https://git.io/v9999 SSR_26
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - https://git.io/v9999 151
-      - https://git.io/v9999 152
-      - https://git.io/v9999 153
-      - https://git.io/v9999 154
-      - https://git.io/v9999 155
-      - https://git.io/v9999 156
-      - https://git.io/v9999 157
-      - https://git.io/v9999 158
-      - https://git.io/v9999 159
-      - https://git.io/v9999 160
-      - https://git.io/v9999 161
-      - https://git.io/v9999 162
-      - https://git.io/v9999 163
-      - https://git.io/v9999 164
-      - https://git.io/v9999 165
-      - https://git.io/v9999 166
-      - https://git.io/v9999 167
-      - https://git.io/v9999 168
-      - https://git.io/v9999 169
-      - https://git.io/v9999 170
-      - https://git.io/v9999 171
-      - https://git.io/v9999 172
-      - https://git.io/v9999 173
-      - https://git.io/v9999 174
-      - https://git.io/v9999 175
-      - https://git.io/v9999 176
-      - https://git.io/v9999 177
-      - https://git.io/v9999 178
-      - https://git.io/v9999 179
-      - https://git.io/v9999 180
-      - https://git.io/v9999 181
-      - https://git.io/v9999 182
-      - https://git.io/v9999 183
-      - https://git.io/v9999 184
-      - https://git.io/v9999 185
-      - https://git.io/v9999 186
-      - https://git.io/v9999 187
-      - https://git.io/v9999 188
-      - https://git.io/v9999 189
-      - https://git.io/v9999 190
-      - https://git.io/v9999 191
-      - https://git.io/v9999 192
-      - https://git.io/v9999 193
-      - https://git.io/v9999 194
-      - https://git.io/v9999 195
-      - https://git.io/v9999 196
-      - https://git.io/v9999 197
-      - https://git.io/v9999 198
-      - https://git.io/v9999 199
-      - https://git.io/v9999 200
-      - https://git.io/v9999 201
-      - https://git.io/v9999 202
-      - https://git.io/v9999 203
-      - https://git.io/v9999 204
-      - https://git.io/v9999 205
-      - https://git.io/v9999 206
-      - https://git.io/v9999 207
-      - https://git.io/v9999 208
-      - https://git.io/v9999 209
-      - https://git.io/v9999 210
-      - https://git.io/v9999 211
-      - https://git.io/v9999 212
-      - https://git.io/v9999 213
-      - https://git.io/v9999 214
-      - https://git.io/v9999 215
-      - https://git.io/v9999 216
-      - https://git.io/v9999 217
-      - https://git.io/v9999 218
-      - https://git.io/v9999 219
-      - https://git.io/v9999 220
-      - https://git.io/v9999 221
-      - https://git.io/v9999 222
-      - https://git.io/v9999 223
-      - https://git.io/v9999 224
-      - https://git.io/v9999 225
-      - https://git.io/v9999 226
-      - https://git.io/v9999 227
-      - https://git.io/v9999 228
-      - https://git.io/v9999 229
-      - https://git.io/v9999 230
-      - https://git.io/v9999 231
-      - https://git.io/v9999 232
-      - https://git.io/v9999 233
-      - https://git.io/v9999 234
-      - https://git.io/v9999 235
-      - https://git.io/v9999 236
-      - https://git.io/v9999 237
-      - https://git.io/v9999 238
-      - https://git.io/v9999 239
-      - https://git.io/v9999 240
-      - https://git.io/v9999 241
-      - https://git.io/v9999 242
-      - https://git.io/v9999 243
-      - https://git.io/v9999 244
-      - https://git.io/v9999 245
-      - https://git.io/v9999 246
-      - https://git.io/v9999 247
-      - https://git.io/v9999 248
-      - https://git.io/v9999 249
-      - https://git.io/v9999 250
+      - https://git.io/v9999 SSR_1
+      - https://git.io/v9999 SSR_2
+      - https://git.io/v9999 SSR_3
+      - https://git.io/v9999 SSR_4
+      - https://git.io/v9999 SSR_5
+      - https://git.io/v9999 SSR_6
+      - https://git.io/v9999 SSR_7
+      - https://git.io/v9999 SSR_8
+      - https://git.io/v9999 SSR_9
+      - https://git.io/v9999 SSR_10
+      - https://git.io/v9999 SSR_11
+      - https://git.io/v9999 SSR_12
+      - https://git.io/v9999 SSR_13
+      - https://git.io/v9999 SSR_14
+      - https://git.io/v9999 SSR_15
+      - https://git.io/v9999 SSR_16
+      - https://git.io/v9999 SSR_17
+      - https://git.io/v9999 SSR_18
+      - https://git.io/v9999 SSR_19
+      - https://git.io/v9999 SSR_20
+      - https://git.io/v9999 SSR_21
+      - https://git.io/v9999 SSR_22
+      - https://git.io/v9999 SSR_23
+      - https://git.io/v9999 SSR_24
+      - https://git.io/v9999 SSR_25
+      - https://git.io/v9999 SSR_26
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - https://git.io/v9999 151
-      - https://git.io/v9999 152
-      - https://git.io/v9999 153
-      - https://git.io/v9999 154
-      - https://git.io/v9999 155
-      - https://git.io/v9999 156
-      - https://git.io/v9999 157
-      - https://git.io/v9999 158
-      - https://git.io/v9999 159
-      - https://git.io/v9999 160
-      - https://git.io/v9999 161
-      - https://git.io/v9999 162
-      - https://git.io/v9999 163
-      - https://git.io/v9999 164
-      - https://git.io/v9999 165
-      - https://git.io/v9999 166
-      - https://git.io/v9999 167
-      - https://git.io/v9999 168
-      - https://git.io/v9999 169
-      - https://git.io/v9999 170
-      - https://git.io/v9999 171
-      - https://git.io/v9999 172
-      - https://git.io/v9999 173
-      - https://git.io/v9999 174
-      - https://git.io/v9999 175
-      - https://git.io/v9999 176
-      - https://git.io/v9999 177
-      - https://git.io/v9999 178
-      - https://git.io/v9999 179
-      - https://git.io/v9999 180
-      - https://git.io/v9999 181
-      - https://git.io/v9999 182
-      - https://git.io/v9999 183
-      - https://git.io/v9999 184
-      - https://git.io/v9999 185
-      - https://git.io/v9999 186
-      - https://git.io/v9999 187
-      - https://git.io/v9999 188
-      - https://git.io/v9999 189
-      - https://git.io/v9999 190
-      - https://git.io/v9999 191
-      - https://git.io/v9999 192
-      - https://git.io/v9999 193
-      - https://git.io/v9999 194
-      - https://git.io/v9999 195
-      - https://git.io/v9999 196
-      - https://git.io/v9999 197
-      - https://git.io/v9999 198
-      - https://git.io/v9999 199
-      - https://git.io/v9999 200
-      - https://git.io/v9999 201
-      - https://git.io/v9999 202
-      - https://git.io/v9999 203
-      - https://git.io/v9999 204
-      - https://git.io/v9999 205
-      - https://git.io/v9999 206
-      - https://git.io/v9999 207
-      - https://git.io/v9999 208
-      - https://git.io/v9999 209
-      - https://git.io/v9999 210
-      - https://git.io/v9999 211
-      - https://git.io/v9999 212
-      - https://git.io/v9999 213
-      - https://git.io/v9999 214
-      - https://git.io/v9999 215
-      - https://git.io/v9999 216
-      - https://git.io/v9999 217
-      - https://git.io/v9999 218
-      - https://git.io/v9999 219
-      - https://git.io/v9999 220
-      - https://git.io/v9999 221
-      - https://git.io/v9999 222
-      - https://git.io/v9999 223
-      - https://git.io/v9999 224
-      - https://git.io/v9999 225
-      - https://git.io/v9999 226
-      - https://git.io/v9999 227
-      - https://git.io/v9999 228
-      - https://git.io/v9999 229
-      - https://git.io/v9999 230
-      - https://git.io/v9999 231
-      - https://git.io/v9999 232
-      - https://git.io/v9999 233
-      - https://git.io/v9999 234
-      - https://git.io/v9999 235
-      - https://git.io/v9999 236
-      - https://git.io/v9999 237
-      - https://git.io/v9999 238
-      - https://git.io/v9999 239
-      - https://git.io/v9999 240
-      - https://git.io/v9999 241
-      - https://git.io/v9999 242
-      - https://git.io/v9999 243
-      - https://git.io/v9999 244
-      - https://git.io/v9999 245
-      - https://git.io/v9999 246
-      - https://git.io/v9999 247
-      - https://git.io/v9999 248
-      - https://git.io/v9999 249
-      - https://git.io/v9999 250
+      - https://git.io/v9999 SSR_1
+      - https://git.io/v9999 SSR_2
+      - https://git.io/v9999 SSR_3
+      - https://git.io/v9999 SSR_4
+      - https://git.io/v9999 SSR_5
+      - https://git.io/v9999 SSR_6
+      - https://git.io/v9999 SSR_7
+      - https://git.io/v9999 SSR_8
+      - https://git.io/v9999 SSR_9
+      - https://git.io/v9999 SSR_10
+      - https://git.io/v9999 SSR_11
+      - https://git.io/v9999 SSR_12
+      - https://git.io/v9999 SSR_13
+      - https://git.io/v9999 SSR_14
+      - https://git.io/v9999 SSR_15
+      - https://git.io/v9999 SSR_16
+      - https://git.io/v9999 SSR_17
+      - https://git.io/v9999 SSR_18
+      - https://git.io/v9999 SSR_19
+      - https://git.io/v9999 SSR_20
+      - https://git.io/v9999 SSR_21
+      - https://git.io/v9999 SSR_22
+      - https://git.io/v9999 SSR_23
+      - https://git.io/v9999 SSR_24
+      - https://git.io/v9999 SSR_25
+      - https://git.io/v9999 SSR_26
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -440,106 +144,32 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - https://git.io/v9999 151
-      - https://git.io/v9999 152
-      - https://git.io/v9999 153
-      - https://git.io/v9999 154
-      - https://git.io/v9999 155
-      - https://git.io/v9999 156
-      - https://git.io/v9999 157
-      - https://git.io/v9999 158
-      - https://git.io/v9999 159
-      - https://git.io/v9999 160
-      - https://git.io/v9999 161
-      - https://git.io/v9999 162
-      - https://git.io/v9999 163
-      - https://git.io/v9999 164
-      - https://git.io/v9999 165
-      - https://git.io/v9999 166
-      - https://git.io/v9999 167
-      - https://git.io/v9999 168
-      - https://git.io/v9999 169
-      - https://git.io/v9999 170
-      - https://git.io/v9999 171
-      - https://git.io/v9999 172
-      - https://git.io/v9999 173
-      - https://git.io/v9999 174
-      - https://git.io/v9999 175
-      - https://git.io/v9999 176
-      - https://git.io/v9999 177
-      - https://git.io/v9999 178
-      - https://git.io/v9999 179
-      - https://git.io/v9999 180
-      - https://git.io/v9999 181
-      - https://git.io/v9999 182
-      - https://git.io/v9999 183
-      - https://git.io/v9999 184
-      - https://git.io/v9999 185
-      - https://git.io/v9999 186
-      - https://git.io/v9999 187
-      - https://git.io/v9999 188
-      - https://git.io/v9999 189
-      - https://git.io/v9999 190
-      - https://git.io/v9999 191
-      - https://git.io/v9999 192
-      - https://git.io/v9999 193
-      - https://git.io/v9999 194
-      - https://git.io/v9999 195
-      - https://git.io/v9999 196
-      - https://git.io/v9999 197
-      - https://git.io/v9999 198
-      - https://git.io/v9999 199
-      - https://git.io/v9999 200
-      - https://git.io/v9999 201
-      - https://git.io/v9999 202
-      - https://git.io/v9999 203
-      - https://git.io/v9999 204
-      - https://git.io/v9999 205
-      - https://git.io/v9999 206
-      - https://git.io/v9999 207
-      - https://git.io/v9999 208
-      - https://git.io/v9999 209
-      - https://git.io/v9999 210
-      - https://git.io/v9999 211
-      - https://git.io/v9999 212
-      - https://git.io/v9999 213
-      - https://git.io/v9999 214
-      - https://git.io/v9999 215
-      - https://git.io/v9999 216
-      - https://git.io/v9999 217
-      - https://git.io/v9999 218
-      - https://git.io/v9999 219
-      - https://git.io/v9999 220
-      - https://git.io/v9999 221
-      - https://git.io/v9999 222
-      - https://git.io/v9999 223
-      - https://git.io/v9999 224
-      - https://git.io/v9999 225
-      - https://git.io/v9999 226
-      - https://git.io/v9999 227
-      - https://git.io/v9999 228
-      - https://git.io/v9999 229
-      - https://git.io/v9999 230
-      - https://git.io/v9999 231
-      - https://git.io/v9999 232
-      - https://git.io/v9999 233
-      - https://git.io/v9999 234
-      - https://git.io/v9999 235
-      - https://git.io/v9999 236
-      - https://git.io/v9999 237
-      - https://git.io/v9999 238
-      - https://git.io/v9999 239
-      - https://git.io/v9999 240
-      - https://git.io/v9999 241
-      - https://git.io/v9999 242
-      - https://git.io/v9999 243
-      - https://git.io/v9999 244
-      - https://git.io/v9999 245
-      - https://git.io/v9999 246
-      - https://git.io/v9999 247
-      - https://git.io/v9999 248
-      - https://git.io/v9999 249
-      - https://git.io/v9999 250
+      - https://git.io/v9999 SSR_1
+      - https://git.io/v9999 SSR_2
+      - https://git.io/v9999 SSR_3
+      - https://git.io/v9999 SSR_4
+      - https://git.io/v9999 SSR_5
+      - https://git.io/v9999 SSR_6
+      - https://git.io/v9999 SSR_7
+      - https://git.io/v9999 SSR_8
+      - https://git.io/v9999 SSR_9
+      - https://git.io/v9999 SSR_10
+      - https://git.io/v9999 SSR_11
+      - https://git.io/v9999 SSR_12
+      - https://git.io/v9999 SSR_13
+      - https://git.io/v9999 SSR_14
+      - https://git.io/v9999 SSR_15
+      - https://git.io/v9999 SSR_16
+      - https://git.io/v9999 SSR_17
+      - https://git.io/v9999 SSR_18
+      - https://git.io/v9999 SSR_19
+      - https://git.io/v9999 SSR_20
+      - https://git.io/v9999 SSR_21
+      - https://git.io/v9999 SSR_22
+      - https://git.io/v9999 SSR_23
+      - https://git.io/v9999 SSR_24
+      - https://git.io/v9999 SSR_25
+      - https://git.io/v9999 SSR_26
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -550,317 +180,95 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - https://git.io/v9999 151
-      - https://git.io/v9999 152
-      - https://git.io/v9999 153
-      - https://git.io/v9999 154
-      - https://git.io/v9999 155
-      - https://git.io/v9999 156
-      - https://git.io/v9999 157
-      - https://git.io/v9999 158
-      - https://git.io/v9999 159
-      - https://git.io/v9999 160
-      - https://git.io/v9999 161
-      - https://git.io/v9999 162
-      - https://git.io/v9999 163
-      - https://git.io/v9999 164
-      - https://git.io/v9999 165
-      - https://git.io/v9999 166
-      - https://git.io/v9999 167
-      - https://git.io/v9999 168
-      - https://git.io/v9999 169
-      - https://git.io/v9999 170
-      - https://git.io/v9999 171
-      - https://git.io/v9999 172
-      - https://git.io/v9999 173
-      - https://git.io/v9999 174
-      - https://git.io/v9999 175
-      - https://git.io/v9999 176
-      - https://git.io/v9999 177
-      - https://git.io/v9999 178
-      - https://git.io/v9999 179
-      - https://git.io/v9999 180
-      - https://git.io/v9999 181
-      - https://git.io/v9999 182
-      - https://git.io/v9999 183
-      - https://git.io/v9999 184
-      - https://git.io/v9999 185
-      - https://git.io/v9999 186
-      - https://git.io/v9999 187
-      - https://git.io/v9999 188
-      - https://git.io/v9999 189
-      - https://git.io/v9999 190
-      - https://git.io/v9999 191
-      - https://git.io/v9999 192
-      - https://git.io/v9999 193
-      - https://git.io/v9999 194
-      - https://git.io/v9999 195
-      - https://git.io/v9999 196
-      - https://git.io/v9999 197
-      - https://git.io/v9999 198
-      - https://git.io/v9999 199
-      - https://git.io/v9999 200
-      - https://git.io/v9999 201
-      - https://git.io/v9999 202
-      - https://git.io/v9999 203
-      - https://git.io/v9999 204
-      - https://git.io/v9999 205
-      - https://git.io/v9999 206
-      - https://git.io/v9999 207
-      - https://git.io/v9999 208
-      - https://git.io/v9999 209
-      - https://git.io/v9999 210
-      - https://git.io/v9999 211
-      - https://git.io/v9999 212
-      - https://git.io/v9999 213
-      - https://git.io/v9999 214
-      - https://git.io/v9999 215
-      - https://git.io/v9999 216
-      - https://git.io/v9999 217
-      - https://git.io/v9999 218
-      - https://git.io/v9999 219
-      - https://git.io/v9999 220
-      - https://git.io/v9999 221
-      - https://git.io/v9999 222
-      - https://git.io/v9999 223
-      - https://git.io/v9999 224
-      - https://git.io/v9999 225
-      - https://git.io/v9999 226
-      - https://git.io/v9999 227
-      - https://git.io/v9999 228
-      - https://git.io/v9999 229
-      - https://git.io/v9999 230
-      - https://git.io/v9999 231
-      - https://git.io/v9999 232
-      - https://git.io/v9999 233
-      - https://git.io/v9999 234
-      - https://git.io/v9999 235
-      - https://git.io/v9999 236
-      - https://git.io/v9999 237
-      - https://git.io/v9999 238
-      - https://git.io/v9999 239
-      - https://git.io/v9999 240
-      - https://git.io/v9999 241
-      - https://git.io/v9999 242
-      - https://git.io/v9999 243
-      - https://git.io/v9999 244
-      - https://git.io/v9999 245
-      - https://git.io/v9999 246
-      - https://git.io/v9999 247
-      - https://git.io/v9999 248
-      - https://git.io/v9999 249
-      - https://git.io/v9999 250
+      - https://git.io/v9999 SSR_1
+      - https://git.io/v9999 SSR_2
+      - https://git.io/v9999 SSR_3
+      - https://git.io/v9999 SSR_4
+      - https://git.io/v9999 SSR_5
+      - https://git.io/v9999 SSR_6
+      - https://git.io/v9999 SSR_7
+      - https://git.io/v9999 SSR_8
+      - https://git.io/v9999 SSR_9
+      - https://git.io/v9999 SSR_10
+      - https://git.io/v9999 SSR_11
+      - https://git.io/v9999 SSR_12
+      - https://git.io/v9999 SSR_13
+      - https://git.io/v9999 SSR_14
+      - https://git.io/v9999 SSR_15
+      - https://git.io/v9999 SSR_16
+      - https://git.io/v9999 SSR_17
+      - https://git.io/v9999 SSR_18
+      - https://git.io/v9999 SSR_19
+      - https://git.io/v9999 SSR_20
+      - https://git.io/v9999 SSR_21
+      - https://git.io/v9999 SSR_22
+      - https://git.io/v9999 SSR_23
+      - https://git.io/v9999 SSR_24
+      - https://git.io/v9999 SSR_25
+      - https://git.io/v9999 SSR_26
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - https://git.io/v9999 151
-      - https://git.io/v9999 152
-      - https://git.io/v9999 153
-      - https://git.io/v9999 154
-      - https://git.io/v9999 155
-      - https://git.io/v9999 156
-      - https://git.io/v9999 157
-      - https://git.io/v9999 158
-      - https://git.io/v9999 159
-      - https://git.io/v9999 160
-      - https://git.io/v9999 161
-      - https://git.io/v9999 162
-      - https://git.io/v9999 163
-      - https://git.io/v9999 164
-      - https://git.io/v9999 165
-      - https://git.io/v9999 166
-      - https://git.io/v9999 167
-      - https://git.io/v9999 168
-      - https://git.io/v9999 169
-      - https://git.io/v9999 170
-      - https://git.io/v9999 171
-      - https://git.io/v9999 172
-      - https://git.io/v9999 173
-      - https://git.io/v9999 174
-      - https://git.io/v9999 175
-      - https://git.io/v9999 176
-      - https://git.io/v9999 177
-      - https://git.io/v9999 178
-      - https://git.io/v9999 179
-      - https://git.io/v9999 180
-      - https://git.io/v9999 181
-      - https://git.io/v9999 182
-      - https://git.io/v9999 183
-      - https://git.io/v9999 184
-      - https://git.io/v9999 185
-      - https://git.io/v9999 186
-      - https://git.io/v9999 187
-      - https://git.io/v9999 188
-      - https://git.io/v9999 189
-      - https://git.io/v9999 190
-      - https://git.io/v9999 191
-      - https://git.io/v9999 192
-      - https://git.io/v9999 193
-      - https://git.io/v9999 194
-      - https://git.io/v9999 195
-      - https://git.io/v9999 196
-      - https://git.io/v9999 197
-      - https://git.io/v9999 198
-      - https://git.io/v9999 199
-      - https://git.io/v9999 200
-      - https://git.io/v9999 201
-      - https://git.io/v9999 202
-      - https://git.io/v9999 203
-      - https://git.io/v9999 204
-      - https://git.io/v9999 205
-      - https://git.io/v9999 206
-      - https://git.io/v9999 207
-      - https://git.io/v9999 208
-      - https://git.io/v9999 209
-      - https://git.io/v9999 210
-      - https://git.io/v9999 211
-      - https://git.io/v9999 212
-      - https://git.io/v9999 213
-      - https://git.io/v9999 214
-      - https://git.io/v9999 215
-      - https://git.io/v9999 216
-      - https://git.io/v9999 217
-      - https://git.io/v9999 218
-      - https://git.io/v9999 219
-      - https://git.io/v9999 220
-      - https://git.io/v9999 221
-      - https://git.io/v9999 222
-      - https://git.io/v9999 223
-      - https://git.io/v9999 224
-      - https://git.io/v9999 225
-      - https://git.io/v9999 226
-      - https://git.io/v9999 227
-      - https://git.io/v9999 228
-      - https://git.io/v9999 229
-      - https://git.io/v9999 230
-      - https://git.io/v9999 231
-      - https://git.io/v9999 232
-      - https://git.io/v9999 233
-      - https://git.io/v9999 234
-      - https://git.io/v9999 235
-      - https://git.io/v9999 236
-      - https://git.io/v9999 237
-      - https://git.io/v9999 238
-      - https://git.io/v9999 239
-      - https://git.io/v9999 240
-      - https://git.io/v9999 241
-      - https://git.io/v9999 242
-      - https://git.io/v9999 243
-      - https://git.io/v9999 244
-      - https://git.io/v9999 245
-      - https://git.io/v9999 246
-      - https://git.io/v9999 247
-      - https://git.io/v9999 248
-      - https://git.io/v9999 249
-      - https://git.io/v9999 250
+      - https://git.io/v9999 SSR_1
+      - https://git.io/v9999 SSR_2
+      - https://git.io/v9999 SSR_3
+      - https://git.io/v9999 SSR_4
+      - https://git.io/v9999 SSR_5
+      - https://git.io/v9999 SSR_6
+      - https://git.io/v9999 SSR_7
+      - https://git.io/v9999 SSR_8
+      - https://git.io/v9999 SSR_9
+      - https://git.io/v9999 SSR_10
+      - https://git.io/v9999 SSR_11
+      - https://git.io/v9999 SSR_12
+      - https://git.io/v9999 SSR_13
+      - https://git.io/v9999 SSR_14
+      - https://git.io/v9999 SSR_15
+      - https://git.io/v9999 SSR_16
+      - https://git.io/v9999 SSR_17
+      - https://git.io/v9999 SSR_18
+      - https://git.io/v9999 SSR_19
+      - https://git.io/v9999 SSR_20
+      - https://git.io/v9999 SSR_21
+      - https://git.io/v9999 SSR_22
+      - https://git.io/v9999 SSR_23
+      - https://git.io/v9999 SSR_24
+      - https://git.io/v9999 SSR_25
+      - https://git.io/v9999 SSR_26
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - https://git.io/v9999 151
-      - https://git.io/v9999 152
-      - https://git.io/v9999 153
-      - https://git.io/v9999 154
-      - https://git.io/v9999 155
-      - https://git.io/v9999 156
-      - https://git.io/v9999 157
-      - https://git.io/v9999 158
-      - https://git.io/v9999 159
-      - https://git.io/v9999 160
-      - https://git.io/v9999 161
-      - https://git.io/v9999 162
-      - https://git.io/v9999 163
-      - https://git.io/v9999 164
-      - https://git.io/v9999 165
-      - https://git.io/v9999 166
-      - https://git.io/v9999 167
-      - https://git.io/v9999 168
-      - https://git.io/v9999 169
-      - https://git.io/v9999 170
-      - https://git.io/v9999 171
-      - https://git.io/v9999 172
-      - https://git.io/v9999 173
-      - https://git.io/v9999 174
-      - https://git.io/v9999 175
-      - https://git.io/v9999 176
-      - https://git.io/v9999 177
-      - https://git.io/v9999 178
-      - https://git.io/v9999 179
-      - https://git.io/v9999 180
-      - https://git.io/v9999 181
-      - https://git.io/v9999 182
-      - https://git.io/v9999 183
-      - https://git.io/v9999 184
-      - https://git.io/v9999 185
-      - https://git.io/v9999 186
-      - https://git.io/v9999 187
-      - https://git.io/v9999 188
-      - https://git.io/v9999 189
-      - https://git.io/v9999 190
-      - https://git.io/v9999 191
-      - https://git.io/v9999 192
-      - https://git.io/v9999 193
-      - https://git.io/v9999 194
-      - https://git.io/v9999 195
-      - https://git.io/v9999 196
-      - https://git.io/v9999 197
-      - https://git.io/v9999 198
-      - https://git.io/v9999 199
-      - https://git.io/v9999 200
-      - https://git.io/v9999 201
-      - https://git.io/v9999 202
-      - https://git.io/v9999 203
-      - https://git.io/v9999 204
-      - https://git.io/v9999 205
-      - https://git.io/v9999 206
-      - https://git.io/v9999 207
-      - https://git.io/v9999 208
-      - https://git.io/v9999 209
-      - https://git.io/v9999 210
-      - https://git.io/v9999 211
-      - https://git.io/v9999 212
-      - https://git.io/v9999 213
-      - https://git.io/v9999 214
-      - https://git.io/v9999 215
-      - https://git.io/v9999 216
-      - https://git.io/v9999 217
-      - https://git.io/v9999 218
-      - https://git.io/v9999 219
-      - https://git.io/v9999 220
-      - https://git.io/v9999 221
-      - https://git.io/v9999 222
-      - https://git.io/v9999 223
-      - https://git.io/v9999 224
-      - https://git.io/v9999 225
-      - https://git.io/v9999 226
-      - https://git.io/v9999 227
-      - https://git.io/v9999 228
-      - https://git.io/v9999 229
-      - https://git.io/v9999 230
-      - https://git.io/v9999 231
-      - https://git.io/v9999 232
-      - https://git.io/v9999 233
-      - https://git.io/v9999 234
-      - https://git.io/v9999 235
-      - https://git.io/v9999 236
-      - https://git.io/v9999 237
-      - https://git.io/v9999 238
-      - https://git.io/v9999 239
-      - https://git.io/v9999 240
-      - https://git.io/v9999 241
-      - https://git.io/v9999 242
-      - https://git.io/v9999 243
-      - https://git.io/v9999 244
-      - https://git.io/v9999 245
-      - https://git.io/v9999 246
-      - https://git.io/v9999 247
-      - https://git.io/v9999 248
-      - https://git.io/v9999 249
-      - https://git.io/v9999 250
+      - https://git.io/v9999 SSR_1
+      - https://git.io/v9999 SSR_2
+      - https://git.io/v9999 SSR_3
+      - https://git.io/v9999 SSR_4
+      - https://git.io/v9999 SSR_5
+      - https://git.io/v9999 SSR_6
+      - https://git.io/v9999 SSR_7
+      - https://git.io/v9999 SSR_8
+      - https://git.io/v9999 SSR_9
+      - https://git.io/v9999 SSR_10
+      - https://git.io/v9999 SSR_11
+      - https://git.io/v9999 SSR_12
+      - https://git.io/v9999 SSR_13
+      - https://git.io/v9999 SSR_14
+      - https://git.io/v9999 SSR_15
+      - https://git.io/v9999 SSR_16
+      - https://git.io/v9999 SSR_17
+      - https://git.io/v9999 SSR_18
+      - https://git.io/v9999 SSR_19
+      - https://git.io/v9999 SSR_20
+      - https://git.io/v9999 SSR_21
+      - https://git.io/v9999 SSR_22
+      - https://git.io/v9999 SSR_23
+      - https://git.io/v9999 SSR_24
+      - https://git.io/v9999 SSR_25
+      - https://git.io/v9999 SSR_26
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -876,106 +284,32 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - https://git.io/v9999 151
-      - https://git.io/v9999 152
-      - https://git.io/v9999 153
-      - https://git.io/v9999 154
-      - https://git.io/v9999 155
-      - https://git.io/v9999 156
-      - https://git.io/v9999 157
-      - https://git.io/v9999 158
-      - https://git.io/v9999 159
-      - https://git.io/v9999 160
-      - https://git.io/v9999 161
-      - https://git.io/v9999 162
-      - https://git.io/v9999 163
-      - https://git.io/v9999 164
-      - https://git.io/v9999 165
-      - https://git.io/v9999 166
-      - https://git.io/v9999 167
-      - https://git.io/v9999 168
-      - https://git.io/v9999 169
-      - https://git.io/v9999 170
-      - https://git.io/v9999 171
-      - https://git.io/v9999 172
-      - https://git.io/v9999 173
-      - https://git.io/v9999 174
-      - https://git.io/v9999 175
-      - https://git.io/v9999 176
-      - https://git.io/v9999 177
-      - https://git.io/v9999 178
-      - https://git.io/v9999 179
-      - https://git.io/v9999 180
-      - https://git.io/v9999 181
-      - https://git.io/v9999 182
-      - https://git.io/v9999 183
-      - https://git.io/v9999 184
-      - https://git.io/v9999 185
-      - https://git.io/v9999 186
-      - https://git.io/v9999 187
-      - https://git.io/v9999 188
-      - https://git.io/v9999 189
-      - https://git.io/v9999 190
-      - https://git.io/v9999 191
-      - https://git.io/v9999 192
-      - https://git.io/v9999 193
-      - https://git.io/v9999 194
-      - https://git.io/v9999 195
-      - https://git.io/v9999 196
-      - https://git.io/v9999 197
-      - https://git.io/v9999 198
-      - https://git.io/v9999 199
-      - https://git.io/v9999 200
-      - https://git.io/v9999 201
-      - https://git.io/v9999 202
-      - https://git.io/v9999 203
-      - https://git.io/v9999 204
-      - https://git.io/v9999 205
-      - https://git.io/v9999 206
-      - https://git.io/v9999 207
-      - https://git.io/v9999 208
-      - https://git.io/v9999 209
-      - https://git.io/v9999 210
-      - https://git.io/v9999 211
-      - https://git.io/v9999 212
-      - https://git.io/v9999 213
-      - https://git.io/v9999 214
-      - https://git.io/v9999 215
-      - https://git.io/v9999 216
-      - https://git.io/v9999 217
-      - https://git.io/v9999 218
-      - https://git.io/v9999 219
-      - https://git.io/v9999 220
-      - https://git.io/v9999 221
-      - https://git.io/v9999 222
-      - https://git.io/v9999 223
-      - https://git.io/v9999 224
-      - https://git.io/v9999 225
-      - https://git.io/v9999 226
-      - https://git.io/v9999 227
-      - https://git.io/v9999 228
-      - https://git.io/v9999 229
-      - https://git.io/v9999 230
-      - https://git.io/v9999 231
-      - https://git.io/v9999 232
-      - https://git.io/v9999 233
-      - https://git.io/v9999 234
-      - https://git.io/v9999 235
-      - https://git.io/v9999 236
-      - https://git.io/v9999 237
-      - https://git.io/v9999 238
-      - https://git.io/v9999 239
-      - https://git.io/v9999 240
-      - https://git.io/v9999 241
-      - https://git.io/v9999 242
-      - https://git.io/v9999 243
-      - https://git.io/v9999 244
-      - https://git.io/v9999 245
-      - https://git.io/v9999 246
-      - https://git.io/v9999 247
-      - https://git.io/v9999 248
-      - https://git.io/v9999 249
-      - https://git.io/v9999 250
+      - https://git.io/v9999 SSR_1
+      - https://git.io/v9999 SSR_2
+      - https://git.io/v9999 SSR_3
+      - https://git.io/v9999 SSR_4
+      - https://git.io/v9999 SSR_5
+      - https://git.io/v9999 SSR_6
+      - https://git.io/v9999 SSR_7
+      - https://git.io/v9999 SSR_8
+      - https://git.io/v9999 SSR_9
+      - https://git.io/v9999 SSR_10
+      - https://git.io/v9999 SSR_11
+      - https://git.io/v9999 SSR_12
+      - https://git.io/v9999 SSR_13
+      - https://git.io/v9999 SSR_14
+      - https://git.io/v9999 SSR_15
+      - https://git.io/v9999 SSR_16
+      - https://git.io/v9999 SSR_17
+      - https://git.io/v9999 SSR_18
+      - https://git.io/v9999 SSR_19
+      - https://git.io/v9999 SSR_20
+      - https://git.io/v9999 SSR_21
+      - https://git.io/v9999 SSR_22
+      - https://git.io/v9999 SSR_23
+      - https://git.io/v9999 SSR_24
+      - https://git.io/v9999 SSR_25
+      - https://git.io/v9999 SSR_26
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
