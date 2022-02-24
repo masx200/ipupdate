@@ -36,8 +36,13 @@ proxies:
   - {name: 🇬🇧 https://git.io/v9999_ip1_英国_11, server: 172.99.190.149, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
   - {name: 🇬🇧 https://git.io/v9999_ip1_英国_1, server: 172.99.190.149, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: 🇬🇧 https://git.io/v9999_ip1_英国_1 2, server: 172.99.190.205, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇭🇰 https://git.io/v9999_ip1_香港_9, server: 113.wowogg.cyou, port: 52213, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 https://git.io/v9999_ip1_香港_26, server: 88.wowogg.cyou, port: 52288, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 https://git.io/v9999_ip1_香港_23, server: 110.wowogg.cyou, port: 52210, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
   - {name: 🇭🇰 https://git.io/v9999_ip1_香港_20, server: 111.wowogg.cyou, port: 52211, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
   - {name: 🇭🇰 https://git.io/v9999_ip1_香港_19, server: 107.wowogg.cyou, port: 52207, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 https://git.io/v9999_ip1_香港_176, server: 89.wowogg.cyou, port: 52289, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
+  - {name: 🇭🇰 https://git.io/v9999_ip1_香港_12, server: 88.wowogg.cyou, port: 52288, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
   - {name: 🇨🇳 https://git.io/v9999_ip1_台湾_22, server: tw.tcpbbr.net, port: 443, type: trojan, password: b155c2a4-ee79-11eb-a8bf-f23c91cfbbc9, sni: tw.tcpbbr.net}
   - {name: 🇺🇸 https://git.io/v9999_ip1_美国_9, server: 169.197.142.47, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: 🇺🇸 https://git.io/v9999_ip1_美国_8, server: 169.197.142.47, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
@@ -163,8 +168,13 @@ proxy-groups:
       - 🇬🇧 https://git.io/v9999_ip1_英国_11
       - 🇬🇧 https://git.io/v9999_ip1_英国_1
       - 🇬🇧 https://git.io/v9999_ip1_英国_1 2
+      - 🇭🇰 https://git.io/v9999_ip1_香港_9
+      - 🇭🇰 https://git.io/v9999_ip1_香港_26
+      - 🇭🇰 https://git.io/v9999_ip1_香港_23
       - 🇭🇰 https://git.io/v9999_ip1_香港_20
       - 🇭🇰 https://git.io/v9999_ip1_香港_19
+      - 🇭🇰 https://git.io/v9999_ip1_香港_176
+      - 🇭🇰 https://git.io/v9999_ip1_香港_12
       - 🇨🇳 https://git.io/v9999_ip1_台湾_22
       - 🇺🇸 https://git.io/v9999_ip1_美国_9
       - 🇺🇸 https://git.io/v9999_ip1_美国_8
@@ -289,8 +299,13 @@ proxy-groups:
       - 🇬🇧 https://git.io/v9999_ip1_英国_11
       - 🇬🇧 https://git.io/v9999_ip1_英国_1
       - 🇬🇧 https://git.io/v9999_ip1_英国_1 2
+      - 🇭🇰 https://git.io/v9999_ip1_香港_9
+      - 🇭🇰 https://git.io/v9999_ip1_香港_26
+      - 🇭🇰 https://git.io/v9999_ip1_香港_23
       - 🇭🇰 https://git.io/v9999_ip1_香港_20
       - 🇭🇰 https://git.io/v9999_ip1_香港_19
+      - 🇭🇰 https://git.io/v9999_ip1_香港_176
+      - 🇭🇰 https://git.io/v9999_ip1_香港_12
       - 🇨🇳 https://git.io/v9999_ip1_台湾_22
       - 🇺🇸 https://git.io/v9999_ip1_美国_9
       - 🇺🇸 https://git.io/v9999_ip1_美国_8
@@ -415,8 +430,13 @@ proxy-groups:
       - 🇬🇧 https://git.io/v9999_ip1_英国_11
       - 🇬🇧 https://git.io/v9999_ip1_英国_1
       - 🇬🇧 https://git.io/v9999_ip1_英国_1 2
+      - 🇭🇰 https://git.io/v9999_ip1_香港_9
+      - 🇭🇰 https://git.io/v9999_ip1_香港_26
+      - 🇭🇰 https://git.io/v9999_ip1_香港_23
       - 🇭🇰 https://git.io/v9999_ip1_香港_20
       - 🇭🇰 https://git.io/v9999_ip1_香港_19
+      - 🇭🇰 https://git.io/v9999_ip1_香港_176
+      - 🇭🇰 https://git.io/v9999_ip1_香港_12
       - 🇨🇳 https://git.io/v9999_ip1_台湾_22
       - 🇺🇸 https://git.io/v9999_ip1_美国_9
       - 🇺🇸 https://git.io/v9999_ip1_美国_8
@@ -542,8 +562,13 @@ proxy-groups:
       - 🇬🇧 https://git.io/v9999_ip1_英国_11
       - 🇬🇧 https://git.io/v9999_ip1_英国_1
       - 🇬🇧 https://git.io/v9999_ip1_英国_1 2
+      - 🇭🇰 https://git.io/v9999_ip1_香港_9
+      - 🇭🇰 https://git.io/v9999_ip1_香港_26
+      - 🇭🇰 https://git.io/v9999_ip1_香港_23
       - 🇭🇰 https://git.io/v9999_ip1_香港_20
       - 🇭🇰 https://git.io/v9999_ip1_香港_19
+      - 🇭🇰 https://git.io/v9999_ip1_香港_176
+      - 🇭🇰 https://git.io/v9999_ip1_香港_12
       - 🇨🇳 https://git.io/v9999_ip1_台湾_22
       - 🇺🇸 https://git.io/v9999_ip1_美国_9
       - 🇺🇸 https://git.io/v9999_ip1_美国_8
