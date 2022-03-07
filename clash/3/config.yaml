@@ -12,7 +12,18 @@ proxies:
   - {name: 🇭🇰 https://git.io/v9999_ip5_香港_3, server: azure-f4s-hk-1.forwardserver.xyz, port: 32434, type: vmess, uuid: 3b07447e-94cf-4d72-96c6-d0a539098049, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: azure-f4s-hk-1.forwardserver.xyz}}}
   - {name: 🇭🇰 https://git.io/v9999_ip5_香港_2, server: azure-f4s-hk-1.forwardserver.xyz, port: 30585, type: vmess, uuid: 3b07447e-94cf-4d72-96c6-d0a539098049, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: azure-f4s-hk-1.forwardserver.xyz}}}
   - {name: 🇯🇵 https://git.io/v9999_ip5_日本_6, server: 172.105.222.98, port: 80, type: vmess, uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 172.105.222.98}}}
+  - {name: https://git.io/v9999_ip5_免费共享, server: hkcn2.2kz.top, port: 33316, type: vmess, uuid: 44868eaa-988c-4886-f63e-1b761c4994ba, alterId: 0, cipher: auto, tls: true}
   - {name: 🇺🇸 https://git.io/v9999_ip5_美国_3, server: azure.bp2022.top, port: 10080, type: vmess, uuid: f11a81c0-3d8d-48f4-bdcf-6bf599844ded, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: linodemx0303.moonfree.top}}}
+  - {name: 🇨🇦 https://git.io/v9999_ip5_加拿大_25, server: 134.195.196.68, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇭🇰 https://git.io/v9999_ip5_V03|香港|IPLC|01, server: 116.163.31.59, port: 47031, type: vmess, uuid: a650656a-2e7d-3d88-8f88-d6a96a985886, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇸🇬 https://git.io/v9999_ip5_V01|新加坡|中转|02, server: 116.163.31.59, port: 47006, type: vmess, uuid: a650656a-2e7d-3d88-8f88-d6a96a985886, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇸🇬 https://git.io/v9999_ip5_V01|新加坡|中转|01, server: 116.163.31.59, port: 47018, type: vmess, uuid: a650656a-2e7d-3d88-8f88-d6a96a985886, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇨🇳 https://git.io/v9999_ip5_V01|台湾|中转|流媒体|03, server: 116.163.31.59, port: 47042, type: vmess, uuid: a650656a-2e7d-3d88-8f88-d6a96a985886, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇨🇳 https://git.io/v9999_ip5_V01|台湾|中转|流媒体|01, server: 116.163.31.59, port: 47033, type: vmess, uuid: a650656a-2e7d-3d88-8f88-d6a96a985886, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇺🇸 https://git.io/v9999_ip5_V01|美国|中转|04, server: 116.163.31.59, port: 47012, type: vmess, uuid: a650656a-2e7d-3d88-8f88-d6a96a985886, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇺🇸 https://git.io/v9999_ip5_V01|美国|中转|01, server: 116.163.31.59, port: 47009, type: vmess, uuid: a650656a-2e7d-3d88-8f88-d6a96a985886, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇺🇸 https://git.io/v9999_ip5_V01|美国|负载|03, server: 116.163.31.59, port: 47010, type: vmess, uuid: a650656a-2e7d-3d88-8f88-d6a96a985886, alterId: 0, cipher: auto, tls: true}
+  - {name: 🇭🇰 https://git.io/v9999_ip5_V0|香港|中转|02, server: 116.163.31.59, port: 47001, type: vmess, uuid: a650656a-2e7d-3d88-8f88-d6a96a985886, alterId: 0, cipher: auto, tls: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -26,7 +37,18 @@ proxy-groups:
       - 🇭🇰 https://git.io/v9999_ip5_香港_3
       - 🇭🇰 https://git.io/v9999_ip5_香港_2
       - 🇯🇵 https://git.io/v9999_ip5_日本_6
+      - https://git.io/v9999_ip5_免费共享
       - 🇺🇸 https://git.io/v9999_ip5_美国_3
+      - 🇨🇦 https://git.io/v9999_ip5_加拿大_25
+      - 🇭🇰 https://git.io/v9999_ip5_V03|香港|IPLC|01
+      - 🇸🇬 https://git.io/v9999_ip5_V01|新加坡|中转|02
+      - 🇸🇬 https://git.io/v9999_ip5_V01|新加坡|中转|01
+      - 🇨🇳 https://git.io/v9999_ip5_V01|台湾|中转|流媒体|03
+      - 🇨🇳 https://git.io/v9999_ip5_V01|台湾|中转|流媒体|01
+      - 🇺🇸 https://git.io/v9999_ip5_V01|美国|中转|04
+      - 🇺🇸 https://git.io/v9999_ip5_V01|美国|中转|01
+      - 🇺🇸 https://git.io/v9999_ip5_V01|美国|负载|03
+      - 🇭🇰 https://git.io/v9999_ip5_V0|香港|中转|02
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -39,7 +61,18 @@ proxy-groups:
       - 🇭🇰 https://git.io/v9999_ip5_香港_3
       - 🇭🇰 https://git.io/v9999_ip5_香港_2
       - 🇯🇵 https://git.io/v9999_ip5_日本_6
+      - https://git.io/v9999_ip5_免费共享
       - 🇺🇸 https://git.io/v9999_ip5_美国_3
+      - 🇨🇦 https://git.io/v9999_ip5_加拿大_25
+      - 🇭🇰 https://git.io/v9999_ip5_V03|香港|IPLC|01
+      - 🇸🇬 https://git.io/v9999_ip5_V01|新加坡|中转|02
+      - 🇸🇬 https://git.io/v9999_ip5_V01|新加坡|中转|01
+      - 🇨🇳 https://git.io/v9999_ip5_V01|台湾|中转|流媒体|03
+      - 🇨🇳 https://git.io/v9999_ip5_V01|台湾|中转|流媒体|01
+      - 🇺🇸 https://git.io/v9999_ip5_V01|美国|中转|04
+      - 🇺🇸 https://git.io/v9999_ip5_V01|美国|中转|01
+      - 🇺🇸 https://git.io/v9999_ip5_V01|美国|负载|03
+      - 🇭🇰 https://git.io/v9999_ip5_V0|香港|中转|02
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -52,7 +85,18 @@ proxy-groups:
       - 🇭🇰 https://git.io/v9999_ip5_香港_3
       - 🇭🇰 https://git.io/v9999_ip5_香港_2
       - 🇯🇵 https://git.io/v9999_ip5_日本_6
+      - https://git.io/v9999_ip5_免费共享
       - 🇺🇸 https://git.io/v9999_ip5_美国_3
+      - 🇨🇦 https://git.io/v9999_ip5_加拿大_25
+      - 🇭🇰 https://git.io/v9999_ip5_V03|香港|IPLC|01
+      - 🇸🇬 https://git.io/v9999_ip5_V01|新加坡|中转|02
+      - 🇸🇬 https://git.io/v9999_ip5_V01|新加坡|中转|01
+      - 🇨🇳 https://git.io/v9999_ip5_V01|台湾|中转|流媒体|03
+      - 🇨🇳 https://git.io/v9999_ip5_V01|台湾|中转|流媒体|01
+      - 🇺🇸 https://git.io/v9999_ip5_V01|美国|中转|04
+      - 🇺🇸 https://git.io/v9999_ip5_V01|美国|中转|01
+      - 🇺🇸 https://git.io/v9999_ip5_V01|美国|负载|03
+      - 🇭🇰 https://git.io/v9999_ip5_V0|香港|中转|02
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -66,7 +110,18 @@ proxy-groups:
       - 🇭🇰 https://git.io/v9999_ip5_香港_3
       - 🇭🇰 https://git.io/v9999_ip5_香港_2
       - 🇯🇵 https://git.io/v9999_ip5_日本_6
+      - https://git.io/v9999_ip5_免费共享
       - 🇺🇸 https://git.io/v9999_ip5_美国_3
+      - 🇨🇦 https://git.io/v9999_ip5_加拿大_25
+      - 🇭🇰 https://git.io/v9999_ip5_V03|香港|IPLC|01
+      - 🇸🇬 https://git.io/v9999_ip5_V01|新加坡|中转|02
+      - 🇸🇬 https://git.io/v9999_ip5_V01|新加坡|中转|01
+      - 🇨🇳 https://git.io/v9999_ip5_V01|台湾|中转|流媒体|03
+      - 🇨🇳 https://git.io/v9999_ip5_V01|台湾|中转|流媒体|01
+      - 🇺🇸 https://git.io/v9999_ip5_V01|美国|中转|04
+      - 🇺🇸 https://git.io/v9999_ip5_V01|美国|中转|01
+      - 🇺🇸 https://git.io/v9999_ip5_V01|美国|负载|03
+      - 🇭🇰 https://git.io/v9999_ip5_V0|香港|中转|02
   - name: 🎯 直连
     type: select
     proxies:
