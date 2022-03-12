@@ -6,14 +6,12 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: 🇺🇸 https://git.io/v9999_ip3_美国_9, server: 198.148.101.44, port: 443, type: vmess, uuid: 072471aa-3266-46ce-8400-a142212ad2b4, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/120306182525, headers: {Host: www.30821104.xyz}}}
-  - {name: 🇺🇸 https://git.io/v9999_ip3_美国_9-clone, server: 198.148.101.44, port: 443, type: vmess, uuid: 072471aa-3266-46ce-8400-a142212ad2b4, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/120306182525, headers: {Host: www.30821104.xyz}}}
   - {name: 🇺🇸 https://git.io/v9999_ip3_美国_8, server: 198.148.124.173, port: 443, type: vmess, uuid: 8665542a-60ec-427f-96a0-f2a5065aadae, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/120306182525, headers: {Host: www.56818267.xyz}}}
   - {name: 🇺🇸 https://git.io/v9999_ip3_美国_7, server: hk18.nb818.xyz, port: 22135, type: vmess, uuid: b6937af2-769f-44a5-bf2f-2976878e94ef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk18.nb818.xyz}}}
   - {name: 🇺🇸 https://git.io/v9999_ip3_美国_6, server: 169.197.142.99, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
   - {name: 🇺🇸 https://git.io/v9999_ip3_美国_6 2, server: hk15.nb818.xyz, port: 22121, type: vmess, uuid: b6937af2-769f-44a5-bf2f-2976878e94ef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk15.nb818.xyz}}}
   - {name: 🇺🇸 https://git.io/v9999_ip3_美国_5, server: 169.197.142.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
   - {name: 🇺🇸 https://git.io/v9999_ip3_美国_5 2, server: hk14.nb818.xyz, port: 22167, type: vmess, uuid: b6937af2-769f-44a5-bf2f-2976878e94ef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk14.nb818.xyz}}}
-  - {name: 🇺🇸 https://git.io/v9999_ip3_美国_4, server: 204.15.74.166, port: 443, type: vmess, uuid: 9d4a87f1-0aa3-410d-a743-52fe8d2826de, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/120306182525, headers: {Host: www.35570838.xyz}}}
   - {name: 🇺🇸 https://git.io/v9999_ip3_美国_3, server: hk12.nb818.xyz, port: 22135, type: vmess, uuid: b6937af2-769f-44a5-bf2f-2976878e94ef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk12.nb818.xyz}}}
   - {name: 🇺🇸 https://git.io/v9999_ip3_美国_2, server: 169.197.142.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: 🇺🇸 https://git.io/v9999_ip3_美国_2 2, server: hk11.nb818.xyz, port: 22111, type: vmess, uuid: b6937af2-769f-44a5-bf2f-2976878e94ef, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk11.nb818.xyz}}}
@@ -42,14 +40,12 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 直连
       - 🇺🇸 https://git.io/v9999_ip3_美国_9
-      - 🇺🇸 https://git.io/v9999_ip3_美国_9-clone
       - 🇺🇸 https://git.io/v9999_ip3_美国_8
       - 🇺🇸 https://git.io/v9999_ip3_美国_7
       - 🇺🇸 https://git.io/v9999_ip3_美国_6
       - 🇺🇸 https://git.io/v9999_ip3_美国_6 2
       - 🇺🇸 https://git.io/v9999_ip3_美国_5
       - 🇺🇸 https://git.io/v9999_ip3_美国_5 2
-      - 🇺🇸 https://git.io/v9999_ip3_美国_4
       - 🇺🇸 https://git.io/v9999_ip3_美国_3
       - 🇺🇸 https://git.io/v9999_ip3_美国_2
       - 🇺🇸 https://git.io/v9999_ip3_美国_2 2
@@ -77,14 +73,12 @@ proxy-groups:
     interval: 300
     proxies:
       - 🇺🇸 https://git.io/v9999_ip3_美国_9
-      - 🇺🇸 https://git.io/v9999_ip3_美国_9-clone
       - 🇺🇸 https://git.io/v9999_ip3_美国_8
       - 🇺🇸 https://git.io/v9999_ip3_美国_7
       - 🇺🇸 https://git.io/v9999_ip3_美国_6
       - 🇺🇸 https://git.io/v9999_ip3_美国_6 2
       - 🇺🇸 https://git.io/v9999_ip3_美国_5
       - 🇺🇸 https://git.io/v9999_ip3_美国_5 2
-      - 🇺🇸 https://git.io/v9999_ip3_美国_4
       - 🇺🇸 https://git.io/v9999_ip3_美国_3
       - 🇺🇸 https://git.io/v9999_ip3_美国_2
       - 🇺🇸 https://git.io/v9999_ip3_美国_2 2
@@ -112,14 +106,12 @@ proxy-groups:
       - 🎯 直连
       - 🔰 节点选择
       - 🇺🇸 https://git.io/v9999_ip3_美国_9
-      - 🇺🇸 https://git.io/v9999_ip3_美国_9-clone
       - 🇺🇸 https://git.io/v9999_ip3_美国_8
       - 🇺🇸 https://git.io/v9999_ip3_美国_7
       - 🇺🇸 https://git.io/v9999_ip3_美国_6
       - 🇺🇸 https://git.io/v9999_ip3_美国_6 2
       - 🇺🇸 https://git.io/v9999_ip3_美国_5
       - 🇺🇸 https://git.io/v9999_ip3_美国_5 2
-      - 🇺🇸 https://git.io/v9999_ip3_美国_4
       - 🇺🇸 https://git.io/v9999_ip3_美国_3
       - 🇺🇸 https://git.io/v9999_ip3_美国_2
       - 🇺🇸 https://git.io/v9999_ip3_美国_2 2
@@ -148,14 +140,12 @@ proxy-groups:
       - 🎯 直连
       - ♻️ 自动选择
       - 🇺🇸 https://git.io/v9999_ip3_美国_9
-      - 🇺🇸 https://git.io/v9999_ip3_美国_9-clone
       - 🇺🇸 https://git.io/v9999_ip3_美国_8
       - 🇺🇸 https://git.io/v9999_ip3_美国_7
       - 🇺🇸 https://git.io/v9999_ip3_美国_6
       - 🇺🇸 https://git.io/v9999_ip3_美国_6 2
       - 🇺🇸 https://git.io/v9999_ip3_美国_5
       - 🇺🇸 https://git.io/v9999_ip3_美国_5 2
-      - 🇺🇸 https://git.io/v9999_ip3_美国_4
       - 🇺🇸 https://git.io/v9999_ip3_美国_3
       - 🇺🇸 https://git.io/v9999_ip3_美国_2
       - 🇺🇸 https://git.io/v9999_ip3_美国_2 2
