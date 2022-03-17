@@ -99,7 +99,6 @@ proxies:
   - {name: 🇳🇱 https://git.io/v9999_ip1_荷兰_4, server: 154.84.1.118, port: 443, type: vmess, uuid: 20b30916-e203-412e-8ec0-900f3acd5128, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/120306182525, headers: {Host: www.73345741.xyz}}}
   - {name: 🇳🇱 https://git.io/v9999_ip1_荷兰_24, server: 45.147.160.86, port: 813, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017}
   - {name: 🇳🇱 https://git.io/v9999_ip1_荷兰_1, server: 154.84.1.5, port: 443, type: vmess, uuid: 1d474f0b-e78d-4af9-bc4a-a467467bc7a7, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/120306182525, headers: {Host: www.86718563.xyz}}}
-  - {name: 🇰🇷 https://git.io/v9999_ip1_韩国_25, server: 20.196.209.91, port: 1208, type: vmess, uuid: eb8cc172-24ff-46c7-8c17-8e55fe21094a, alterId: 0, cipher: auto, tls: false}
   - {name: 🇫🇷 https://git.io/v9999_ip1_法国_28, server: 51.255.66.185, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
   - {name: 🇫🇷 https://git.io/v9999_ip1_法国_27, server: fr-trojan.bonds.id, port: 443, type: trojan, password: 63224a20-984f-11ec-90de-1239d0255272, sni: fr-trojan.bonds.id}
   - {name: 🇫🇷 https://git.io/v9999_ip1_法国_26, server: 62.210.140.163, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
@@ -213,7 +212,6 @@ proxy-groups:
       - 🇳🇱 https://git.io/v9999_ip1_荷兰_4
       - 🇳🇱 https://git.io/v9999_ip1_荷兰_24
       - 🇳🇱 https://git.io/v9999_ip1_荷兰_1
-      - 🇰🇷 https://git.io/v9999_ip1_韩国_25
       - 🇫🇷 https://git.io/v9999_ip1_法国_28
       - 🇫🇷 https://git.io/v9999_ip1_法国_27
       - 🇫🇷 https://git.io/v9999_ip1_法国_26
@@ -326,7 +324,6 @@ proxy-groups:
       - 🇳🇱 https://git.io/v9999_ip1_荷兰_4
       - 🇳🇱 https://git.io/v9999_ip1_荷兰_24
       - 🇳🇱 https://git.io/v9999_ip1_荷兰_1
-      - 🇰🇷 https://git.io/v9999_ip1_韩国_25
       - 🇫🇷 https://git.io/v9999_ip1_法国_28
       - 🇫🇷 https://git.io/v9999_ip1_法国_27
       - 🇫🇷 https://git.io/v9999_ip1_法国_26
@@ -439,7 +436,6 @@ proxy-groups:
       - 🇳🇱 https://git.io/v9999_ip1_荷兰_4
       - 🇳🇱 https://git.io/v9999_ip1_荷兰_24
       - 🇳🇱 https://git.io/v9999_ip1_荷兰_1
-      - 🇰🇷 https://git.io/v9999_ip1_韩国_25
       - 🇫🇷 https://git.io/v9999_ip1_法国_28
       - 🇫🇷 https://git.io/v9999_ip1_法国_27
       - 🇫🇷 https://git.io/v9999_ip1_法国_26
@@ -553,7 +549,6 @@ proxy-groups:
       - 🇳🇱 https://git.io/v9999_ip1_荷兰_4
       - 🇳🇱 https://git.io/v9999_ip1_荷兰_24
       - 🇳🇱 https://git.io/v9999_ip1_荷兰_1
-      - 🇰🇷 https://git.io/v9999_ip1_韩国_25
       - 🇫🇷 https://git.io/v9999_ip1_法国_28
       - 🇫🇷 https://git.io/v9999_ip1_法国_27
       - 🇫🇷 https://git.io/v9999_ip1_法国_26
