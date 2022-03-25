@@ -5,123 +5,33 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 https://git.io/v9999_ip3_香港_43, server: 47.52.59.79, port: 443, type: vmess, uuid: 6d11b475-dab4-4411-bc58-031f8402e70d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /sztjvws, headers: {Host: me.nimen.ml}}}
-  - {name: 🇺🇸 https://git.io/v9999_ip3_美国_37, server: 38.75.137.66, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 🇺🇸 https://git.io/v9999_ip3_美国_21, server: 38.75.137.187, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇨🇦 https://git.io/v9999_ip3_加拿大_9, server: 134.195.196.3, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 🇨🇦 https://git.io/v9999_ip3_加拿大_6, server: 134.195.196.3, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇨🇦 https://git.io/v9999_ip3_加拿大_3, server: 134.195.196.187, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 🇨🇦 https://git.io/v9999_ip3_加拿大_23, server: 134.195.196.187, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇨🇦 https://git.io/v9999_ip3_加拿大_2 2, server: 134.195.196.68, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: 🇨🇦 https://git.io/v9999_ip3_加拿大_19, server: 134.195.196.187, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 🇨🇦 https://git.io/v9999_ip3_加拿大_18, server: 134.195.196.3, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇨🇦 https://git.io/v9999_ip3_加拿大_17, server: 134.195.196.68, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇨🇦 https://git.io/v9999_ip3_加拿大_16, server: 134.195.196.3, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇨🇦 https://git.io/v9999_ip3_加拿大_15, server: 134.195.196.187, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇨🇦 https://git.io/v9999_ip3_加拿大_13, server: 134.195.196.3, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 🇨🇦 https://git.io/v9999_ip3_加拿大_12, server: 134.195.196.187, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 🇰🇷 https://git.io/v9999_ip3_韩国_17, server: 146.56.133.242, port: 28343, type: vmess, uuid: 1e0927ff-a391-4323-f753-52a696832e96, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇰🇷 https://git.io/v9999_ip3_韩国_16, server: 132.145.92.147, port: 29660, type: vmess, uuid: 2c02504a-1067-4835-9235-5d50840b4530, alterId: 64, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 132.145.92.147}}}
-  - {name: 🇰🇷 https://git.io/v9999_ip3_韩国_12, server: 146.56.133.242, port: 28343, type: vmess, uuid: 1e0927ff-a391-4323-f753-52a696832e96, alterId: 0, cipher: auto, tls: false}
-  - {name: https://git.io/v9999_ip3, server: fri.ncugo.cf, port: 443, type: vmess, uuid: de0eb598-2cea-43a0-c5fe-77335fb07a35, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: fri.ncugo.cf}}}
+  - {name: https://git.io/v9999 clash ip3, server: 45.66.157.194, port: 25179, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 直连
-      - 🇭🇰 https://git.io/v9999_ip3_香港_43
-      - 🇺🇸 https://git.io/v9999_ip3_美国_37
-      - 🇺🇸 https://git.io/v9999_ip3_美国_21
-      - 🇨🇦 https://git.io/v9999_ip3_加拿大_9
-      - 🇨🇦 https://git.io/v9999_ip3_加拿大_6
-      - 🇨🇦 https://git.io/v9999_ip3_加拿大_3
-      - 🇨🇦 https://git.io/v9999_ip3_加拿大_23
-      - 🇨🇦 https://git.io/v9999_ip3_加拿大_2 2
-      - 🇨🇦 https://git.io/v9999_ip3_加拿大_19
-      - 🇨🇦 https://git.io/v9999_ip3_加拿大_18
-      - 🇨🇦 https://git.io/v9999_ip3_加拿大_17
-      - 🇨🇦 https://git.io/v9999_ip3_加拿大_16
-      - 🇨🇦 https://git.io/v9999_ip3_加拿大_15
-      - 🇨🇦 https://git.io/v9999_ip3_加拿大_13
-      - 🇨🇦 https://git.io/v9999_ip3_加拿大_12
-      - 🇰🇷 https://git.io/v9999_ip3_韩国_17
-      - 🇰🇷 https://git.io/v9999_ip3_韩国_16
-      - 🇰🇷 https://git.io/v9999_ip3_韩国_12
-      - https://git.io/v9999_ip3
+      - https://git.io/v9999 clash ip3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 https://git.io/v9999_ip3_香港_43
-      - 🇺🇸 https://git.io/v9999_ip3_美国_37
-      - 🇺🇸 https://git.io/v9999_ip3_美国_21
-      - 🇨🇦 https://git.io/v9999_ip3_加拿大_9
-      - 🇨🇦 https://git.io/v9999_ip3_加拿大_6
-      - 🇨🇦 https://git.io/v9999_ip3_加拿大_3
-      - 🇨🇦 https://git.io/v9999_ip3_加拿大_23
-      - 🇨🇦 https://git.io/v9999_ip3_加拿大_2 2
-      - 🇨🇦 https://git.io/v9999_ip3_加拿大_19
-      - 🇨🇦 https://git.io/v9999_ip3_加拿大_18
-      - 🇨🇦 https://git.io/v9999_ip3_加拿大_17
-      - 🇨🇦 https://git.io/v9999_ip3_加拿大_16
-      - 🇨🇦 https://git.io/v9999_ip3_加拿大_15
-      - 🇨🇦 https://git.io/v9999_ip3_加拿大_13
-      - 🇨🇦 https://git.io/v9999_ip3_加拿大_12
-      - 🇰🇷 https://git.io/v9999_ip3_韩国_17
-      - 🇰🇷 https://git.io/v9999_ip3_韩国_16
-      - 🇰🇷 https://git.io/v9999_ip3_韩国_12
-      - https://git.io/v9999_ip3
+      - https://git.io/v9999 clash ip3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 直连
       - 🔰 节点选择
-      - 🇭🇰 https://git.io/v9999_ip3_香港_43
-      - 🇺🇸 https://git.io/v9999_ip3_美国_37
-      - 🇺🇸 https://git.io/v9999_ip3_美国_21
-      - 🇨🇦 https://git.io/v9999_ip3_加拿大_9
-      - 🇨🇦 https://git.io/v9999_ip3_加拿大_6
-      - 🇨🇦 https://git.io/v9999_ip3_加拿大_3
-      - 🇨🇦 https://git.io/v9999_ip3_加拿大_23
-      - 🇨🇦 https://git.io/v9999_ip3_加拿大_2 2
-      - 🇨🇦 https://git.io/v9999_ip3_加拿大_19
-      - 🇨🇦 https://git.io/v9999_ip3_加拿大_18
-      - 🇨🇦 https://git.io/v9999_ip3_加拿大_17
-      - 🇨🇦 https://git.io/v9999_ip3_加拿大_16
-      - 🇨🇦 https://git.io/v9999_ip3_加拿大_15
-      - 🇨🇦 https://git.io/v9999_ip3_加拿大_13
-      - 🇨🇦 https://git.io/v9999_ip3_加拿大_12
-      - 🇰🇷 https://git.io/v9999_ip3_韩国_17
-      - 🇰🇷 https://git.io/v9999_ip3_韩国_16
-      - 🇰🇷 https://git.io/v9999_ip3_韩国_12
-      - https://git.io/v9999_ip3
+      - https://git.io/v9999 clash ip3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 直连
       - ♻️ 自动选择
-      - 🇭🇰 https://git.io/v9999_ip3_香港_43
-      - 🇺🇸 https://git.io/v9999_ip3_美国_37
-      - 🇺🇸 https://git.io/v9999_ip3_美国_21
-      - 🇨🇦 https://git.io/v9999_ip3_加拿大_9
-      - 🇨🇦 https://git.io/v9999_ip3_加拿大_6
-      - 🇨🇦 https://git.io/v9999_ip3_加拿大_3
-      - 🇨🇦 https://git.io/v9999_ip3_加拿大_23
-      - 🇨🇦 https://git.io/v9999_ip3_加拿大_2 2
-      - 🇨🇦 https://git.io/v9999_ip3_加拿大_19
-      - 🇨🇦 https://git.io/v9999_ip3_加拿大_18
-      - 🇨🇦 https://git.io/v9999_ip3_加拿大_17
-      - 🇨🇦 https://git.io/v9999_ip3_加拿大_16
-      - 🇨🇦 https://git.io/v9999_ip3_加拿大_15
-      - 🇨🇦 https://git.io/v9999_ip3_加拿大_13
-      - 🇨🇦 https://git.io/v9999_ip3_加拿大_12
-      - 🇰🇷 https://git.io/v9999_ip3_韩国_17
-      - 🇰🇷 https://git.io/v9999_ip3_韩国_16
-      - 🇰🇷 https://git.io/v9999_ip3_韩国_12
-      - https://git.io/v9999_ip3
+      - https://git.io/v9999 clash ip3
   - name: 🎯 直连
     type: select
     proxies:
