@@ -48,11 +48,11 @@
       "settings": {
         "servers": [
           {
-            "address": "88.218.94.66",
-            "method": "aes-256-gcm",
+            "address": "88.218.92.124",
+            "method": "chacha20-ietf-poly1305",
             "ota": false,
             "password": "dongtaiwang.com",
-            "port": 22222,
+            "port": 13355,
             "level": 1
           }
         ]
