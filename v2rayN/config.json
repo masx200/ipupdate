@@ -52,7 +52,7 @@
             "method": "chacha20-ietf-poly1305",
             "ota": false,
             "password": "dongtaiwang.com",
-            "port": 13355,
+            "port": 24466,
             "level": 1
           }
         ]
