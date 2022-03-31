@@ -52,7 +52,7 @@
             "method": "aes-256-gcm",
             "ota": false,
             "password": "dongtaiwang.com",
-            "port": 11111,
+            "port": 29988,
             "level": 1
           }
         ]
