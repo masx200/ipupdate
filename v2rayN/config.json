@@ -48,11 +48,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "88.218.92.134",
-            "port": 10011,
+            "address": "ws2.free4444.xyz",
+            "port": 20022,
             "users": [
               {
-                "id": "788e9c38-b0ad-11ec-b018-00163cb76514",
+                "id": "ebab8a44-b4b5-11ec-b1a3-00163cb76514",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto"
@@ -62,7 +62,13 @@
         ]
       },
       "streamSettings": {
-        "network": "tcp"
+        "network": "ws",
+        "wsSettings": {
+          "path": "/Q5OUT2iJ/",
+          "headers": {
+            "Host": "ws2.free4444.xyz"
+          }
+        }
       },
       "mux": {
         "enabled": true,
