@@ -48,7 +48,7 @@
       "settings": {
         "servers": [
           {
-            "address": "trojan3.free4444.xyz",
+            "address": "trojan2.free4444.xyz",
             "method": "chacha20",
             "ota": false,
             "password": "dongtaiwang.com",
