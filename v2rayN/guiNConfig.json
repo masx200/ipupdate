@@ -14,7 +14,7 @@
     {
       "indexId": "5061130144352468180",
       "configVersion": 2,
-      "address": "trojan2.free4444.xyz",
+      "address": "trojan3.free4444.xyz",
       "port": 443,
       "id": "dongtaiwang.com",
       "alterId": 0,
@@ -27,10 +27,10 @@
       "streamSecurity": "tls",
       "allowInsecure": "false",
       "configType": 6,
-      "testResult": "   245ms",
+      "testResult": "",
       "subid": "",
       "flow": "",
-      "sni": "trojan2.free4444.xyz",
+      "sni": "trojan3.free4444.xyz",
       "alpn": []
     }
   ],
