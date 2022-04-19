@@ -48,7 +48,7 @@
       "settings": {
         "servers": [
           {
-            "address": "trojan2.free4444.xyz",
+            "address": "trojan3.free4444.xyz",
             "method": "chacha20",
             "ota": false,
             "password": "dongtaiwang.com",
@@ -63,7 +63,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "trojan2.free4444.xyz"
+          "serverName": "trojan3.free4444.xyz"
         }
       },
       "mux": {
