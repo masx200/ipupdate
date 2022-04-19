@@ -12,7 +12,7 @@
   "index": 0,
   "vmess": [
     {
-      "indexId": "5531915909257718002",
+      "indexId": "5061130144352468180",
       "configVersion": 2,
       "address": "trojan2.free4444.xyz",
       "port": 443,
@@ -27,10 +27,10 @@
       "streamSecurity": "tls",
       "allowInsecure": "false",
       "configType": 6,
-      "testResult": "",
+      "testResult": "   245ms",
       "subid": "",
       "flow": "",
-      "sni": "",
+      "sni": "trojan2.free4444.xyz",
       "alpn": []
     }
   ],
