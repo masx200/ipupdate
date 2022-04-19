@@ -62,7 +62,8 @@
         "network": "tcp",
         "security": "tls",
         "tlsSettings": {
-          "allowInsecure": false
+          "allowInsecure": false,
+          "serverName": "trojan2.free4444.xyz"
         }
       },
       "mux": {
