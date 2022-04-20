@@ -44,32 +44,31 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vmess",
+      "protocol": "trojan",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "108.61.220.185",
-            "port": 58331,
-            "users": [
-              {
-                "id": "d5bd6706-bfe7-11ec-ba8a-560003f45782",
-                "alterId": 0,
-                "email": "t@t.tt",
-                "security": "auto"
-              }
-            ]
+            "address": "trojan13.free4444.xyz",
+            "method": "chacha20",
+            "ota": false,
+            "password": "dongtaiwang.com",
+            "port": 443,
+            "level": 1,
+            "flow": ""
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "path": "/RUs2Cyh9/"
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "trojan13.free4444.xyz"
         }
       },
       "mux": {
-        "enabled": true,
-        "concurrency": 8
+        "enabled": false,
+        "concurrency": -1
       }
     },
     {
