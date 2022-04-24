@@ -1,4 +1,24 @@
 {
+  "logEnabled": false,
+  "loglevel": "warning",
+  "index": 0,
+  "muxEnabled": true,
+  "sysProxyType": 0,
+  "allowLANConn": false,
+  "enableStatistics": false,
+  "keepOlderDedupl": false,
+  "statisticsFreshRate": 1000,
+  "remoteDNS": "",
+  "defAllowInsecure": false,
+  "domainStrategy": "IPIfNonMatch",
+  "domainMatcher": "linear",
+  "routingIndex": 0,
+  "enableRoutingAdvanced": false,
+  "coreType": 0,
+  "ignoreGeoUpdateCore": false,
+  "systemProxyExceptions": null,
+  "autoUpdateInterval": 0,
+  "enableSecurityProtocolTls13": false,
   "inbound": [
     {
       "localPort": 10808,
@@ -7,34 +27,30 @@
       "sniffingEnabled": false
     }
   ],
-  "logEnabled": false,
-  "loglevel": "warning",
-  "index": 0,
   "vmess": [
     {
-      "indexId": "5360728294262172467",
+      "indexId": "5397892929243323172",
       "configVersion": 2,
-      "address": "161.8.149.7",
-      "port": 38822,
-      "id": "1dab5094-c29c-11ec-83d0-e0db55fccaf9",
+      "address": "vless1.free4444.xyz",
+      "port": 443,
+      "id": "a6d88752-c36d-11ec-a1c5-e0db55fccaf9",
       "alterId": 0,
-      "security": "auto",
-      "network": "ws",
+      "security": "none",
+      "network": "tcp",
       "remarks": "https://github.com/Alvin9999/new-pac/wiki 洛杉矶ip1",
       "headerType": "none",
       "requestHost": "",
-      "path": "/ZXfq8Vm7/",
-      "streamSecurity": "",
-      "allowInsecure": "false",
-      "configType": 1,
+      "path": "",
+      "streamSecurity": "xtls",
+      "allowInsecure": "False",
+      "configType": 5,
       "testResult": "",
       "subid": "",
-      "flow": "",
+      "flow": "xtls-rprx-direct",
       "sni": "",
       "alpn": []
     }
   ],
-  "muxEnabled": true,
   "kcpItem": {
     "mtu": 1350,
     "tti": 50,
@@ -44,18 +60,10 @@
     "readBufferSize": 2,
     "writeBufferSize": 2
   },
-  "sysProxyType": 0,
-  "speedTestUrl": "http://speedtest-sgp1.digitalocean.com/10mb.test",
-  "speedPingTestUrl": "https://www.google.com/generate_204",
-  "allowLANConn": false,
-  "enableStatistics": false,
-  "keepOlderDedupl": false,
-  "statisticsFreshRate": 1000,
-  "remoteDNS": "",
-  "defAllowInsecure": false,
   "subItem": [],
   "uiItem": {
-    "mainSize": "968, 632",
+    "enableAutoAdjustMainLvColWidth": false,
+    "mainSize": "1938, 1038",
     "mainLvColWidth": {
       "def": 30,
       "configType": 80,
@@ -65,11 +73,10 @@
       "security": 90,
       "network": 70,
       "subRemarks": 50,
-      "testResult": 70
+      "testResult": 70,
+      "streamSecurity": 100
     }
   },
-  "domainStrategy": "IPIfNonMatch",
-  "routingIndex": 0,
   "routings": [
     {
       "remarks": "绕过大陆(Whitelist)",
@@ -85,7 +92,8 @@
             "domain:example-example.com",
             "domain:example-example2.com"
           ],
-          "protocol": null
+          "protocol": null,
+          "enabled": true
         },
         {
           "type": null,
@@ -96,7 +104,8 @@
           "domain": [
             "geosite:category-ads-all"
           ],
-          "protocol": null
+          "protocol": null,
+          "enabled": true
         },
         {
           "type": null,
@@ -107,7 +116,8 @@
           "domain": [
             "geosite:cn"
           ],
-          "protocol": null
+          "protocol": null,
+          "enabled": true
         },
         {
           "type": null,
@@ -119,7 +129,8 @@
             "geoip:cn"
           ],
           "domain": null,
-          "protocol": null
+          "protocol": null,
+          "enabled": true
         },
         {
           "type": null,
@@ -128,11 +139,13 @@
           "outboundTag": "proxy",
           "ip": null,
           "domain": null,
-          "protocol": null
+          "protocol": null,
+          "enabled": true
         }
       ],
       "enabled": true,
-      "locked": false
+      "locked": false,
+      "customIcon": null
     },
     {
       "remarks": "locked",
@@ -147,7 +160,8 @@
           "domain": [
             "geosite:google"
           ],
-          "protocol": null
+          "protocol": null,
+          "enabled": true
         },
         {
           "type": null,
@@ -159,7 +173,8 @@
             "domain:example-example.com",
             "domain:example-example2.com"
           ],
-          "protocol": null
+          "protocol": null,
+          "enabled": true
         },
         {
           "type": null,
@@ -170,14 +185,19 @@
           "domain": [
             "geosite:category-ads-all"
           ],
-          "protocol": null
+          "protocol": null,
+          "enabled": true
         }
       ],
       "enabled": true,
-      "locked": true
+      "locked": true,
+      "customIcon": null
     }
   ],
-  "enableRoutingAdvanced": false,
-  "coreType": 0,
-  "ignoreGeoUpdateCore": false
+  "constItem": {
+    "speedTestUrl": "http://cachefly.cachefly.net/10mb.test",
+    "speedPingTestUrl": "https://www.google.com/generate_204",
+    "defIEProxyExceptions": "localhost;127.*;10.*;172.16.*;172.17.*;172.18.*;172.19.*;172.20.*;172.21.*;172.22.*;172.23.*;172.24.*;172.25.*;172.26.*;172.27.*;172.28.*;172.29.*;172.30.*;172.31.*;192.168.*"
+  },
+  "globalHotkeys": null
 }
