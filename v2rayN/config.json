@@ -25,7 +25,7 @@
     },
     {
       "tag": "http",
-      "port": 1081,
+      "port": 10809,
       "listen": "127.0.0.1",
       "protocol": "http",
       "sniffing": {
@@ -44,32 +44,35 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vmess",
+      "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "161.8.149.7",
-            "port": 38822,
+            "address": "vless1.free4444.xyz",
+            "port": 443,
             "users": [
               {
-                "id": "1dab5094-c29c-11ec-83d0-e0db55fccaf9",
+                "id": "a6d88752-c36d-11ec-a1c5-e0db55fccaf9",
                 "alterId": 0,
                 "email": "t@t.tt",
-                "security": "auto"
+                "security": "auto",
+                "encryption": "none",
+                "flow": "xtls-rprx-direct"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "path": "/ZXfq8Vm7/"
+        "network": "tcp",
+        "security": "xtls",
+        "xtlsSettings": {
+          "allowInsecure": false
         }
       },
       "mux": {
-        "enabled": true,
-        "concurrency": 8
+        "enabled": false,
+        "concurrency": -1
       }
     },
     {
