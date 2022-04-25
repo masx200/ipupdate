@@ -7,6 +7,7 @@ external-controller: :9090
 proxies:
   - {name: https://github.com/Alvin9999/new-pac/wiki clash ip3 trojan2, server: trojan2.free4444.xyz, port: 443, type: trojan, password: dongtaiwang.com, sni: trojan2.free4444.xyz}
   - {name: https://github.com/Alvin9999/new-pac/wiki clash ip3 trojan1, server: trojan12.free4444.xyz, port: 443, type: trojan, password: dongtaiwang.com, sni: trojan12.free4444.xyz}
+  - {name: https://github.com/Alvin9999/new-pac/wiki clash ip3 trojan3, server: trojan33.free4444.xyz, port: 443, type: trojan, password: dongtaiwang.com, sni: trojan33.free4444.xyz}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -15,6 +16,7 @@ proxy-groups:
       - 🎯 全球直连
       - https://github.com/Alvin9999/new-pac/wiki clash ip3 trojan2
       - https://github.com/Alvin9999/new-pac/wiki clash ip3 trojan1
+      - https://github.com/Alvin9999/new-pac/wiki clash ip3 trojan3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -22,6 +24,7 @@ proxy-groups:
     proxies:
       - https://github.com/Alvin9999/new-pac/wiki clash ip3 trojan2
       - https://github.com/Alvin9999/new-pac/wiki clash ip3 trojan1
+      - https://github.com/Alvin9999/new-pac/wiki clash ip3 trojan3
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -30,6 +33,7 @@ proxy-groups:
       - 🎯 全球直连
       - https://github.com/Alvin9999/new-pac/wiki clash ip3 trojan2
       - https://github.com/Alvin9999/new-pac/wiki clash ip3 trojan1
+      - https://github.com/Alvin9999/new-pac/wiki clash ip3 trojan3
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -42,6 +46,7 @@ proxy-groups:
       - 🔰 节点选择
       - https://github.com/Alvin9999/new-pac/wiki clash ip3 trojan2
       - https://github.com/Alvin9999/new-pac/wiki clash ip3 trojan1
+      - https://github.com/Alvin9999/new-pac/wiki clash ip3 trojan3
   - name: 📲 电报信息
     type: select
     proxies:
@@ -49,6 +54,7 @@ proxy-groups:
       - 🎯 全球直连
       - https://github.com/Alvin9999/new-pac/wiki clash ip3 trojan2
       - https://github.com/Alvin9999/new-pac/wiki clash ip3 trojan1
+      - https://github.com/Alvin9999/new-pac/wiki clash ip3 trojan3
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -57,6 +63,7 @@ proxy-groups:
       - ♻️ 自动选择
       - https://github.com/Alvin9999/new-pac/wiki clash ip3 trojan2
       - https://github.com/Alvin9999/new-pac/wiki clash ip3 trojan1
+      - https://github.com/Alvin9999/new-pac/wiki clash ip3 trojan3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -74,6 +81,7 @@ proxy-groups:
       - ♻️ 自动选择
       - https://github.com/Alvin9999/new-pac/wiki clash ip3 trojan2
       - https://github.com/Alvin9999/new-pac/wiki clash ip3 trojan1
+      - https://github.com/Alvin9999/new-pac/wiki clash ip3 trojan3
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
