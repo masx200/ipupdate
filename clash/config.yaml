@@ -5,9 +5,9 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1洛杉矶1SSR, server: 88.218.94.230, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1洛杉矶1SSR, server: clash1.free4444.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
   - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1洛杉矶3SSR, server: clash3.free4444.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
-  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1洛杉矶5SSR, server: 45.66.159.29, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip1洛杉矶5SSR, server: clash5.free4444.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
