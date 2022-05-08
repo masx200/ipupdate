@@ -48,11 +48,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.32.68.130",
-            "port": 45167,
+            "address": "161.8.149.7",
+            "port": 38822,
             "users": [
               {
-                "id": "8ba7f63a-18e8-4b35-8342-ea34ccc4f412",
+                "id": "1dab5094-c29c-11ec-83d0-e0db55fccaf9",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto"
@@ -64,7 +64,7 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "path": "/iNyEkrhL/"
+          "path": "/ZXfq8Vm7/"
         }
       },
       "mux": {
