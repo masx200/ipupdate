@@ -44,27 +44,28 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vless",
+      "protocol": "vmess",
       "settings": {
         "vnext": [
           {
-            "address": "161.8.149.7",
-            "port": 37765,
+            "address": "198.2.215.22",
+            "port": 27516,
             "users": [
               {
-                "id": "42609fa4-c637-11ec-bb85-e0db55fccaf9",
+                "id": "d091ce26-d495-4fa0-8ff1-c89a77fa27b7",
                 "alterId": 0,
                 "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": ""
+                "security": "auto"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp"
+        "network": "ws",
+        "wsSettings": {
+          "path": "/K09rYbyP/"
+        }
       },
       "mux": {
         "enabled": true,
