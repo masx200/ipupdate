@@ -6,7 +6,7 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki clash ip3 洛杉矶less SSR, server: ssr111.free4444.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
-  - {name: https://github.com/Alvin9999/new-pac/wiki clash ip3 trojan3, server: trojan33.free4444.xyz, port: 443, type: trojan, password: dongtaiwang.com, sni: trojan33.free4444.xyz}
+  - {name: https://github.com/Alvin9999/new-pac/wiki clash ip3 trojan3, server: trojan33.free4444.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
   - {name: https://github.com/Alvin9999/new-pac/wiki clash ip3 trojan2, server: trojan2.free4444.xyz, port: 443, type: trojan, password: dongtaiwang.com, sni: trojan2.free4444.xyz}
 proxy-groups:
   - name: 🔰 节点选择
