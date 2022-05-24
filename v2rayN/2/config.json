@@ -44,20 +44,18 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vless",
+      "protocol": "vmess",
       "settings": {
         "vnext": [
           {
-            "address": "trojan-clash11.free4444.xyz",
-            "port": 443,
+            "address": "45.66.159.35",
+            "port": 37254,
             "users": [
               {
-                "id": "d2ee35cb-d94a-4f74-a767-39da20d665de",
+                "id": "5e1ff1d8-9dec-4a98-a731-3e4f6694026b",
                 "alterId": 0,
                 "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": ""
+                "security": "auto"
               }
             ]
           }
@@ -65,12 +63,8 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false
-        },
         "wsSettings": {
-          "path": "/ray"
+          "path": "/hXnCjf7U/"
         }
       },
       "mux": {
