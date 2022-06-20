@@ -5,7 +5,6 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 洛杉矶SSR, server: clash-ssr1.free4444.xyz, port: 12345, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
   - {name: https://github.com/Alvin9999/new-pac/wiki clash ip1_1, server: cm-gz.okvpn.xyz, port: 20000, type: trojan, password: 604c3e18-a40a-434e-bcc1-d810845bf034, sni: cm-gz.okvpn.xyz}
   - {name: https://github.com/Alvin9999/new-pac/wiki clash ip1_2, server: cm-gz.okvpn.xyz, port: 20000, type: trojan, password: 604c3e18-a40a-434e-bcc1-d810845bf034, sni: cm-gz.okvpn.xyz}
   - {name: https://github.com/Alvin9999/new-pac/wiki clash ip1_3, server: cm-gz.okvpn.xyz, port: 20000, type: trojan, password: 604c3e18-a40a-434e-bcc1-d810845bf034, sni: cm-gz.okvpn.xyz}
@@ -38,7 +37,6 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 洛杉矶SSR
       - https://github.com/Alvin9999/new-pac/wiki clash ip1_1
       - https://github.com/Alvin9999/new-pac/wiki clash ip1_2
       - https://github.com/Alvin9999/new-pac/wiki clash ip1_3
@@ -70,7 +68,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 洛杉矶SSR
       - https://github.com/Alvin9999/new-pac/wiki clash ip1_1
       - https://github.com/Alvin9999/new-pac/wiki clash ip1_2
       - https://github.com/Alvin9999/new-pac/wiki clash ip1_3
@@ -103,7 +100,6 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 洛杉矶SSR
       - https://github.com/Alvin9999/new-pac/wiki clash ip1_1
       - https://github.com/Alvin9999/new-pac/wiki clash ip1_2
       - https://github.com/Alvin9999/new-pac/wiki clash ip1_3
@@ -140,7 +136,6 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 洛杉矶SSR
       - https://github.com/Alvin9999/new-pac/wiki clash ip1_1
       - https://github.com/Alvin9999/new-pac/wiki clash ip1_2
       - https://github.com/Alvin9999/new-pac/wiki clash ip1_3
@@ -172,7 +167,6 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 洛杉矶SSR
       - https://github.com/Alvin9999/new-pac/wiki clash ip1_1
       - https://github.com/Alvin9999/new-pac/wiki clash ip1_2
       - https://github.com/Alvin9999/new-pac/wiki clash ip1_3
@@ -205,7 +199,6 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 洛杉矶SSR
       - https://github.com/Alvin9999/new-pac/wiki clash ip1_1
       - https://github.com/Alvin9999/new-pac/wiki clash ip1_2
       - https://github.com/Alvin9999/new-pac/wiki clash ip1_3
@@ -247,7 +240,6 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 洛杉矶SSR
       - https://github.com/Alvin9999/new-pac/wiki clash ip1_1
       - https://github.com/Alvin9999/new-pac/wiki clash ip1_2
       - https://github.com/Alvin9999/new-pac/wiki clash ip1_3
