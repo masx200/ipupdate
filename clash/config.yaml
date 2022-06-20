@@ -5,31 +5,131 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 洛杉矶1SSR, server: clash5.free4444.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
-  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 洛杉矶2SSR, server: clash3.free4444.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 洛杉矶SSR, server: clash-ssr1.free4444.xyz, port: 12345, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: https://github.com/Alvin9999/new-pac/wiki clash ip1_1, server: cm-gz.okvpn.xyz, port: 20000, type: trojan, password: 604c3e18-a40a-434e-bcc1-d810845bf034, sni: cm-gz.okvpn.xyz}
+  - {name: https://github.com/Alvin9999/new-pac/wiki clash ip1_2, server: cm-gz.okvpn.xyz, port: 20000, type: trojan, password: 604c3e18-a40a-434e-bcc1-d810845bf034, sni: cm-gz.okvpn.xyz}
+  - {name: https://github.com/Alvin9999/new-pac/wiki clash ip1_3, server: cm-gz.okvpn.xyz, port: 20000, type: trojan, password: 604c3e18-a40a-434e-bcc1-d810845bf034, sni: cm-gz.okvpn.xyz}
+  - {name: https://github.com/Alvin9999/new-pac/wiki clash ip1_4, server: cu-cs.okvpn.xyz, port: 20000, type: trojan, password: 604c3e18-a40a-434e-bcc1-d810845bf034, sni: cu-cs.okvpn.xyz}
+  - {name: https://github.com/Alvin9999/new-pac/wiki clash ip1_5, server: cu-cs.okvpn.xyz, port: 20000, type: trojan, password: 604c3e18-a40a-434e-bcc1-d810845bf034, sni: cu-cs.okvpn.xyz}
+  - {name: https://github.com/Alvin9999/new-pac/wiki clash ip1_6, server: cm-gz.okvpn.xyz, port: 20005, type: trojan, password: 604c3e18-a40a-434e-bcc1-d810845bf034, sni: cm-gz.okvpn.xyz}
+  - {name: https://github.com/Alvin9999/new-pac/wiki clash ip1_7, server: cm-gz.okvpn.xyz, port: 20005, type: trojan, password: 604c3e18-a40a-434e-bcc1-d810845bf034, sni: cm-gz.okvpn.xyz}
+  - {name: https://github.com/Alvin9999/new-pac/wiki clash ip1_8, server: cm-gz.okvpn.xyz, port: 20005, type: trojan, password: 604c3e18-a40a-434e-bcc1-d810845bf034, sni: cm-gz.okvpn.xyz}
+  - {name: https://github.com/Alvin9999/new-pac/wiki clash ip1_9, server: cm-gz.okvpn.xyz, port: 20005, type: trojan, password: 604c3e18-a40a-434e-bcc1-d810845bf034, sni: cm-gz.okvpn.xyz}
+  - {name: https://github.com/Alvin9999/new-pac/wiki clash ip1_10, server: cm-gz.okvpn.xyz, port: 20005, type: trojan, password: 604c3e18-a40a-434e-bcc1-d810845bf034, sni: cm-gz.okvpn.xyz}
+  - {name: https://github.com/Alvin9999/new-pac/wiki clash ip1_11, server: cu-cs.okvpn.xyz, port: 20003, type: trojan, password: 604c3e18-a40a-434e-bcc1-d810845bf034, sni: cu-cs.okvpn.xyz}
+  - {name: https://github.com/Alvin9999/new-pac/wiki clash ip1_12, server: cu-cs.okvpn.xyz, port: 20004, type: trojan, password: 604c3e18-a40a-434e-bcc1-d810845bf034, sni: cu-cs.okvpn.xyz}
+  - {name: https://github.com/Alvin9999/new-pac/wiki clash ip1_13, server: cu-cs.okvpn.xyz, port: 20004, type: trojan, password: 604c3e18-a40a-434e-bcc1-d810845bf034, sni: cu-cs.okvpn.xyz}
+  - {name: https://github.com/Alvin9999/new-pac/wiki clash ip1_14, server: cu-cs.okvpn.xyz, port: 20004, type: trojan, password: 604c3e18-a40a-434e-bcc1-d810845bf034, sni: cu-cs.okvpn.xyz}
+  - {name: https://github.com/Alvin9999/new-pac/wiki clash ip1_15, server: cu-cs.okvpn.xyz, port: 20004, type: trojan, password: 604c3e18-a40a-434e-bcc1-d810845bf034, sni: cu-cs.okvpn.xyz}
+  - {name: https://github.com/Alvin9999/new-pac/wiki clash ip1_16, server: cu-cs.okvpn.xyz, port: 20004, type: trojan, password: 604c3e18-a40a-434e-bcc1-d810845bf034, sni: cu-cs.okvpn.xyz}
+  - {name: https://github.com/Alvin9999/new-pac/wiki clash ip1_17, server: cm-gz.okvpn.xyz, port: 20006, type: trojan, password: 604c3e18-a40a-434e-bcc1-d810845bf034, sni: cm-gz.okvpn.xyz}
+  - {name: https://github.com/Alvin9999/new-pac/wiki clash ip1_18, server: cm-gz.okvpn.xyz, port: 20006, type: trojan, password: 604c3e18-a40a-434e-bcc1-d810845bf034, sni: cm-gz.okvpn.xyz}
+  - {name: https://github.com/Alvin9999/new-pac/wiki clash ip1_19, server: cu-cs.okvpn.xyz, port: 20006, type: trojan, password: 604c3e18-a40a-434e-bcc1-d810845bf034, sni: cu-cs.okvpn.xyz}
+  - {name: https://github.com/Alvin9999/new-pac/wiki clash ip1_20, server: cm-gz.okvpn.xyz, port: 20006, type: trojan, password: 604c3e18-a40a-434e-bcc1-d810845bf034, sni: cm-gz.okvpn.xyz}
+  - {name: https://github.com/Alvin9999/new-pac/wiki clash ip1_21, server: cm-gz.okvpn.xyz, port: 20009, type: trojan, password: 604c3e18-a40a-434e-bcc1-d810845bf034, sni: cm-gz.okvpn.xyz}
+  - {name: https://github.com/Alvin9999/new-pac/wiki clash ip1_22, server: cu-cs.okvpn.xyz, port: 20006, type: trojan, password: 604c3e18-a40a-434e-bcc1-d810845bf034, sni: cu-cs.okvpn.xyz}
+  - {name: https://github.com/Alvin9999/new-pac/wiki clash ip1_23, server: cu-cs.okvpn.xyz, port: 20009, type: trojan, password: 604c3e18-a40a-434e-bcc1-d810845bf034, sni: cu-cs.okvpn.xyz}
+  - {name: https://github.com/Alvin9999/new-pac/wiki clash ip1_24, server: cm-gz.okvpn.xyz, port: 20009, type: trojan, password: 604c3e18-a40a-434e-bcc1-d810845bf034, sni: cm-gz.okvpn.xyz}
+  - {name: https://github.com/Alvin9999/new-pac/wiki clash ip1_25, server: cu-cs.okvpn.xyz, port: 20009, type: trojan, password: 604c3e18-a40a-434e-bcc1-d810845bf034, sni: cu-cs.okvpn.xyz}
+  - {name: https://github.com/Alvin9999/new-pac/wiki clash ip1_26, server: cm-gz.okvpn.xyz, port: 20009, type: trojan, password: 604c3e18-a40a-434e-bcc1-d810845bf034, sni: cm-gz.okvpn.xyz}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 洛杉矶1SSR
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 洛杉矶2SSR
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 洛杉矶SSR
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_1
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_2
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_3
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_4
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_5
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_6
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_7
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_8
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_9
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_10
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_11
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_12
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_13
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_14
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_15
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_16
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_17
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_18
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_19
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_20
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_21
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_22
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_23
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_24
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_25
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_26
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 洛杉矶1SSR
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 洛杉矶2SSR
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 洛杉矶SSR
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_1
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_2
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_3
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_4
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_5
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_6
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_7
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_8
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_9
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_10
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_11
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_12
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_13
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_14
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_15
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_16
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_17
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_18
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_19
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_20
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_21
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_22
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_23
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_24
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_25
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_26
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 洛杉矶1SSR
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 洛杉矶2SSR
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 洛杉矶SSR
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_1
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_2
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_3
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_4
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_5
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_6
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_7
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_8
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_9
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_10
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_11
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_12
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_13
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_14
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_15
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_16
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_17
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_18
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_19
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_20
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_21
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_22
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_23
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_24
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_25
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_26
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -40,23 +140,98 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 洛杉矶1SSR
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 洛杉矶2SSR
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 洛杉矶SSR
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_1
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_2
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_3
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_4
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_5
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_6
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_7
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_8
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_9
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_10
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_11
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_12
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_13
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_14
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_15
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_16
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_17
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_18
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_19
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_20
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_21
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_22
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_23
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_24
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_25
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_26
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 洛杉矶1SSR
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 洛杉矶2SSR
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 洛杉矶SSR
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_1
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_2
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_3
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_4
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_5
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_6
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_7
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_8
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_9
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_10
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_11
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_12
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_13
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_14
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_15
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_16
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_17
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_18
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_19
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_20
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_21
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_22
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_23
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_24
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_25
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_26
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 洛杉矶1SSR
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 洛杉矶2SSR
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 洛杉矶SSR
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_1
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_2
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_3
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_4
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_5
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_6
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_7
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_8
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_9
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_10
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_11
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_12
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_13
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_14
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_15
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_16
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_17
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_18
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_19
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_20
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_21
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_22
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_23
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_24
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_25
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_26
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -72,8 +247,33 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 洛杉矶1SSR
-      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 洛杉矶2SSR
+      - 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 洛杉矶SSR
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_1
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_2
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_3
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_4
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_5
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_6
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_7
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_8
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_9
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_10
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_11
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_12
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_13
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_14
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_15
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_16
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_17
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_18
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_19
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_20
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_21
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_22
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_23
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_24
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_25
+      - https://github.com/Alvin9999/new-pac/wiki clash ip1_26
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
