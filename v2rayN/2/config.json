@@ -48,11 +48,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "23.19.26.198",
-            "port": 48210,
+            "address": "clash20.free4444.xyz",
+            "port": 3559,
             "users": [
               {
-                "id": "2448fff3-bb63-4982-addb-ac9faff5ef41",
+                "id": "66a50813-f594-499e-9ba3-d0f50fbdc7dd",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto"
@@ -64,7 +64,10 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "path": "/kpUxnuYL/"
+          "path": "/gNuhocbH/",
+          "headers": {
+            "Host": "clash20.free4444.xyz"
+          }
         }
       },
       "mux": {
