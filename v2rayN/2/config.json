@@ -48,11 +48,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "clash20.free4444.xyz",
-            "port": 3559,
+            "address": "v2ray22.free4444.xyz",
+            "port": 443,
             "users": [
               {
-                "id": "66a50813-f594-499e-9ba3-d0f50fbdc7dd",
+                "id": "92e933a1-bca9-4368-9c4e-8922c0d5e5eb",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto"
@@ -63,11 +63,12 @@
       },
       "streamSettings": {
         "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false
+        },
         "wsSettings": {
-          "path": "/gNuhocbH/",
-          "headers": {
-            "Host": "clash20.free4444.xyz"
-          }
+          "path": "/ray"
         }
       },
       "mux": {
