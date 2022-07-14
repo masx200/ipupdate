@@ -12,11 +12,11 @@
   "index": 0,
   "vmess": [
     {
-      "indexId": "5550371287011141875",
+      "indexId": "5228230284985027316",
       "configVersion": 2,
       "address": "v2ray22.free4444.xyz",
       "port": 443,
-      "id": "f82c4b2b-4c8d-4b88-af45-aac79fc65bf7",
+      "id": "cedb75af-caeb-4845-b8d5-37fc54f7b8c0",
       "alterId": 0,
       "security": "auto",
       "network": "ws",
