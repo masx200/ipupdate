@@ -48,11 +48,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "v2ray30.free4444.xyz",
+            "address": "v2ray32.free4444.xyz",
             "port": 443,
             "users": [
               {
-                "id": "e96f4f23-f56a-4265-8470-118f0faacb4e",
+                "id": "dfb45633-7841-4cf2-93d6-3a27c9234d67",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto"
