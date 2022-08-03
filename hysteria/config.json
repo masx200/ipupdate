@@ -1,6 +1,6 @@
 {
-  "server": "170.178.183.210:3333",
-  "obfs": "love me till the daylight",
+  "server": "170.178.183.210:10001",
+  "obfs": "dongtaiwang.com 123abc",
   "up_mbps": 5,
   "down_mbps": 10,
   "insecure": true,
