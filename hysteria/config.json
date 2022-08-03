@@ -1,9 +1,8 @@
-
  {
-  "server": "170.178.183.210:11122",
+  "server": "170.178.183.210:11123",
   "obfs": "dongtaiwang.com",
-  "up_mbps": 5,
-  "down_mbps": 100,
+  "up_mbps": 3,
+  "down_mbps": 3,
   "insecure": true,
   "socks5": {
     "listen": "127.0.0.1:1080"
