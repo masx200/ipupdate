@@ -1,6 +1,6 @@
 {
-  "server": "hy2.free4444.xyz:11527",
-  "obfs": "dongtaiwang.com",
+  "server": "170.178.183.210:3333",
+  "obfs": "love me till the daylight",
   "up_mbps": 5,
   "down_mbps": 10,
   "insecure": true,
@@ -11,3 +11,4 @@
     "listen": "127.0.0.1:1081"
   }
 }
+
