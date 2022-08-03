@@ -1,8 +1,9 @@
-{
-  "server": "hy2.free4444.xyz:11527",
+
+ {
+  "server": "170.178.183.210:11122",
   "obfs": "dongtaiwang.com",
   "up_mbps": 5,
-  "down_mbps": 5,
+  "down_mbps": 100,
   "insecure": true,
   "socks5": {
     "listen": "127.0.0.1:1080"
