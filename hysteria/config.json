@@ -1,8 +1,8 @@
 {
-"server": "89.163.224.104:65233",
-"protocol": "udp",
-"up_mbps": 6,
-"down_mbps": 12,
+"server": "89.163.224.104:41899",
+"protocol": "wechat-video",
+"up_mbps": 4,
+"down_mbps": 8,
 "http": {
 "listen": "127.0.0.1:1081",
 "timeout" : 300,
