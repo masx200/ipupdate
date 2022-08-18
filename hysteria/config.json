@@ -21,7 +21,7 @@
 "recv_window_conn": 5767168,
 "recv_window": 23068672,
 "disable_mtu_discovery": true,
-"resolver": "https://223.5.5.5:443/dns-query",
+"resolver": "https://8.8.8.8:443/dns-query",
 "retry": 3,
 "retry_interval": 3
 }
