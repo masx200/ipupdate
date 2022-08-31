@@ -44,18 +44,20 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vmess",
+      "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "v2ray40.free4444.xyz",
+            "address": "v2ray3.v2rayfree2.xyz",
             "port": 443,
             "users": [
               {
-                "id": "782ca179-1483-42b6-ae32-1a1a23d82763",
+                "id": "2bb11e29-5ce0-4f1f-98e8-3994f0953013",
                 "alterId": 0,
                 "email": "t@t.tt",
-                "security": "auto"
+                "security": "auto",
+                "encryption": "none",
+                "flow": ""
               }
             ]
           }
@@ -68,7 +70,7 @@
           "allowInsecure": false
         },
         "wsSettings": {
-          "path": "/ray"
+          "path": "/XNCO97"
         }
       },
       "mux": {
