@@ -44,20 +44,18 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vless",
+      "protocol": "vmess",
       "settings": {
         "vnext": [
           {
-            "address": "v2ray34.free4444.xyz",
+            "address": "v2ray40.free4444.xyz",
             "port": 443,
             "users": [
               {
-                "id": "9b9353d4-87f2-40ce-8e02-d147064a8949",
+                "id": "782ca179-1483-42b6-ae32-1a1a23d82763",
                 "alterId": 0,
                 "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": ""
+                "security": "auto"
               }
             ]
           }
