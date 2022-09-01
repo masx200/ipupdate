@@ -12,11 +12,13 @@
   "index": 0,
   "vmess": [
     {
-      "indexId": "4750234013323830062",
+      "indexId": "5047518896106413708",
+      "configType": 5,
       "configVersion": 2,
-      "address": "ssr7.free4444.xyz",
+      "sort": 110,
+      "address": "v2ray5.v2rayfree2.xyz",
       "port": 443,
-      "id": "6885e31c-4ec8-4979-a905-eddcc5e6ae47",
+      "id": "3dbf8df2-452d-49af-92de-a1789775de9f",
       "alterId": 0,
       "security": "none",
       "network": "ws",
@@ -26,12 +28,14 @@
       "path": "/ray",
       "streamSecurity": "tls",
       "allowInsecure": "false",
-      "configType": 5,
       "testResult": "",
       "subid": "",
       "flow": "",
       "sni": "",
-      "alpn": []
+      "alpn": [],
+      "groupId": "",
+      "coreType": null,
+      "preSocksPort": 0
     }
   ],
   "muxEnabled": true,
