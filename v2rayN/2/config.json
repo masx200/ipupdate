@@ -29,13 +29,14 @@
       "listen": "127.0.0.1",
       "protocol": "http",
       "sniffing": {
-        "enabled": true,
+        "enabled": false,
         "destOverride": [
           "http",
           "tls"
         ]
       },
       "settings": {
+        "auth": "noauth",
         "udp": false,
         "allowTransparent": false
       }
@@ -48,11 +49,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "v2ray3.v2rayfree2.xyz",
+            "address": "v2ray6.v2rayfree2.xyz",
             "port": 443,
             "users": [
               {
-                "id": "2bb11e29-5ce0-4f1f-98e8-3994f0953013",
+                "id": "af8626d4-ec1c-4f9e-8992-b48947cdf681",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -67,10 +68,14 @@
         "network": "ws",
         "security": "tls",
         "tlsSettings": {
-          "allowInsecure": false
+          "allowInsecure": false,
+          "serverName": "v2ray6.v2rayfree2.xyz"
         },
         "wsSettings": {
-          "path": "/XNCO97"
+          "path": "/9FM9P8",
+          "headers": {
+            "Host": "v2ray6.v2rayfree2.xyz"
+          }
         }
       },
       "mux": {
