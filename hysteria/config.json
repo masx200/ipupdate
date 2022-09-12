@@ -2,7 +2,7 @@
 "server": "185.216.72.15:28306",
 "protocol": "wechat-video",
 "up_mbps": 3,
-"down_mbps": 10,
+"down_mbps": 13,
 "http": {
 "listen": "127.0.0.1:1081",
 "timeout" : 200,
