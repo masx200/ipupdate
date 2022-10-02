@@ -45,20 +45,18 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vless",
+      "protocol": "vmess",
       "settings": {
         "vnext": [
           {
-            "address": "v2ray6.v2rayfree2.xyz",
+            "address": "141.101.114.111",
             "port": 443,
             "users": [
               {
-                "id": "af8626d4-ec1c-4f9e-8992-b48947cdf681",
+                "id": "0c99bba8-7821-4bd4-b215-629ab2df977a",
                 "alterId": 0,
                 "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": ""
+                "security": "auto"
               }
             ]
           }
@@ -69,12 +67,12 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "v2ray6.v2rayfree2.xyz"
+          "serverName": "kr1.zhujicn2.org"
         },
         "wsSettings": {
-          "path": "/9FM9P8",
+          "path": "/dongtaiwang.com",
           "headers": {
-            "Host": "v2ray6.v2rayfree2.xyz"
+            "Host": "kr1.zhujicn2.org"
           }
         }
       },
