@@ -49,11 +49,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "141.101.114.111",
+            "address": "141.101.115.200",
             "port": 443,
             "users": [
               {
-                "id": "0c99bba8-7821-4bd4-b215-629ab2df977a",
+                "id": "438ac153-c828-4d18-906f-092446432a82",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto"
@@ -67,12 +67,12 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "kr1.zhujicn2.org"
+          "serverName": "v2ray2.v2rayfree1.xyz"
         },
         "wsSettings": {
           "path": "/dongtaiwang.com",
           "headers": {
-            "Host": "kr1.zhujicn2.org"
+            "Host": "v2ray2.v2rayfree1.xyz"
           }
         }
       },
