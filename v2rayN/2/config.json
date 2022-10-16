@@ -53,7 +53,7 @@
             "port": 443,
             "users": [
               {
-                "id": "438ac153-c828-4d18-906f-092446432a82",
+                "id": "0479eb9d-999d-4bff-ae3f-4f7cc440ce46",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto"
@@ -67,12 +67,12 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "v2ray2.v2rayfree1.xyz"
+          "serverName": "v2ray2.ssr-free2.xyz"
         },
         "wsSettings": {
           "path": "/dongtaiwang.com",
           "headers": {
-            "Host": "v2ray2.v2rayfree1.xyz"
+            "Host": "v2ray2.ssr-free2.xyz"
           }
         }
       },
