@@ -45,20 +45,18 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vless",
+      "protocol": "vmess",
       "settings": {
         "vnext": [
           {
-            "address": "lgss3.cfcdn2.xyz",
+            "address": "141.101.115.100",
             "port": 443,
             "users": [
               {
-                "id": "0d2f2df9-5dc6-49d5-aecc-b4c669b39d04",
+                "id": "0479eb9d-999d-4bff-ae3f-4f7cc440ce46",
                 "alterId": 0,
                 "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": ""
+                "security": "auto"
               }
             ]
           }
@@ -68,10 +66,14 @@
         "network": "ws",
         "security": "tls",
         "tlsSettings": {
-          "allowInsecure": false
+          "allowInsecure": false,
+          "serverName": "v2ray2.ssr-free2.xyz"
         },
         "wsSettings": {
-          "path": "/QPIOHH"
+          "path": "/dongtaiwang.com",
+          "headers": {
+            "Host": "v2ray2.ssr-free2.xyz"
+          }
         }
       },
       "mux": {
