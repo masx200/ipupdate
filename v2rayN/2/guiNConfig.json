@@ -12,11 +12,11 @@
   "index": 0,
   "vmess": [
     {
-      "indexId": "5562119469523574076",
+      "indexId": "5103158001027230974",
       "configType": 1,
       "configVersion": 2,
-      "sort": 50,
-      "address": "141.101.115.100",
+      "sort": 60,
+      "address": "104.29.64.2",
       "port": 443,
       "id": "0479eb9d-999d-4bff-ae3f-4f7cc440ce46",
       "alterId": 0,
