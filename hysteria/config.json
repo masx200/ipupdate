@@ -1,5 +1,5 @@
 {
-"server": "1.hysteria1.xyz:23786",
+"server": "1.hysteria1.xyz:58810",
 "protocol": "wechat-video",
 "up_mbps": 11,
 "down_mbps": 55,
@@ -16,7 +16,7 @@
 "obfs": "",
 "auth_str": "dongtaiwang.com",
 "alpn": "h3",
-"server_name": "www.bilibili.com",
+"server_name": "1.hysteria1.xyz",
 "insecure": true,
 "recv_window_conn": 5767168,
 "recv_window": 23068672,
