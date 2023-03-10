@@ -1,5 +1,5 @@
 {
-"server": "104.149.139.189:60621,47000-48000",
+"server": "104.149.139.189:34684",
 "protocol": "udp",
 "up_mbps": 11,
 "down_mbps": 55,
@@ -14,9 +14,9 @@
 "disable_udp": false
 },
 "obfs": "",
-"auth_str": "nX90BimbmTlZnw1cSL2ocBM74Gw1WvMdOMdCALW6kVfuv67gtS",
+"auth_str": "cg5j9lwpLA4MRIAqfgezBC7fRGcVstk0fJO2tJtTRuZTjAgr2m",
 "alpn": "h3",
-"server_name": "qq.com",
+"server_name": "youku.com",
 "insecure": true,
 "recv_window_conn": 5767168,
 "recv_window": 23068672,
