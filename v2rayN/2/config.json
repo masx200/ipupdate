@@ -67,7 +67,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "fr1.trump2023.org"
+          "serverName": "fr1.v2ray5.xyz"
         },
         "wsSettings": {
           "path": "/9JZFDTKE",
