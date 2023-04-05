@@ -12,21 +12,21 @@
   "index": 0,
   "vmess": [
     {
-      "indexId": "5756541691085978603",
+      "indexId": "4654039635431257911",
       "configType": 1,
       "configVersion": 2,
-      "sort": 10,
-      "address": "23.227.38.111",
-      "port": 443,
+      "sort": 40,
+      "address": "203.30.188.121",
+      "port": 80,
       "id": "2b214122-1906-428a-bbb7-a039cbb7cd5c",
       "alterId": 0,
       "security": "auto",
       "network": "ws",
       "remarks": "https://github.com/Alvin9999/new-pac/wiki 洛杉矶ip3",
       "headerType": "none",
-      "requestHost": "fr1.v2ray5.xyz",
-      "path": "/9JZFDTKE",
-      "streamSecurity": "tls",
+      "requestHost": "fr.v2ray9.xyz",
+      "path": "",
+      "streamSecurity": "",
       "allowInsecure": "false",
       "testResult": "",
       "subid": "",
@@ -35,7 +35,8 @@
       "alpn": [],
       "groupId": "",
       "coreType": null,
-      "preSocksPort": 0
+      "preSocksPort": 0,
+      "fingerprint": ""
     }
   ],
   "muxEnabled": true,
