@@ -49,8 +49,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "23.227.38.111",
-            "port": 443,
+            "address": "203.30.188.121",
+            "port": 80,
             "users": [
               {
                 "id": "2b214122-1906-428a-bbb7-a039cbb7cd5c",
@@ -64,15 +64,9 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "fr1.v2ray5.xyz"
-        },
         "wsSettings": {
-          "path": "/9JZFDTKE",
           "headers": {
-            "Host": "fr1.trump2023.org"
+            "Host": "fr.v2ray9.xyz"
           }
         }
       },
