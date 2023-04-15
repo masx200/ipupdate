@@ -49,11 +49,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "kr1.v2ray13.xyz",
-            "port": 443,
+            "address": "kr3.v2ray13.xyz",
+            "port": 80,
             "users": [
               {
-                "id": "fd102519-3342-4faa-8bdf-42252518068b",
+                "id": "0a7c3db3-98d2-4f3d-a932-97b47e30574d",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto"
@@ -63,14 +63,34 @@
         ]
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": ""
-        },
-        "wsSettings": {
-          "path": "/0HHFJP16"
+        "network": "tcp",
+        "tcpSettings": {
+          "header": {
+            "type": "http",
+            "request": {
+              "version": "1.1",
+              "method": "GET",
+              "path": [
+                "/"
+              ],
+              "headers": {
+                "Host": [
+                  ""
+                ],
+                "User-Agent": [
+                  "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.75 Safari/537.36",
+                  "Mozilla/5.0 (iPhone; CPU iPhone OS 10_0_2 like Mac OS X) AppleWebKit/601.1 (KHTML, like Gecko) CriOS/53.0.2785.109 Mobile/14A456 Safari/601.1.46"
+                ],
+                "Accept-Encoding": [
+                  "gzip, deflate"
+                ],
+                "Connection": [
+                  "keep-alive"
+                ],
+                "Pragma": "no-cache"
+              }
+            }
+          }
         }
       },
       "mux": {
