@@ -49,11 +49,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.70.11",
+            "address": "103.160.204.14",
             "port": 80,
             "users": [
               {
-                "id": "2b214122-1906-428a-bbb7-a039cbb7cd5c",
+                "id": "17b2a313-37a0-4945-a8e4-e63375506b4a",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto"
@@ -66,7 +66,7 @@
         "network": "ws",
         "wsSettings": {
           "headers": {
-            "Host": "fr.v2ray9.xyz"
+            "Host": "lg.cfcdn2.xyz"
           }
         }
       },
@@ -91,7 +91,7 @@
     }
   ],
   "routing": {
-    "domainStrategy": "IPIfNonMatch",
+    "domainStrategy": "AsIs",
     "domainMatcher": "linear",
     "rules": [
       {
