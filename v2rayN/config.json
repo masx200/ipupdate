@@ -49,11 +49,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "23.227.38.100",
-            "port": 8880,
+            "address": "1.freeb1.xyz",
+            "port": 443,
             "users": [
               {
-                "id": "627b1212-424d-420b-83e9-3c4c913e2619",
+                "id": "fd102519-3342-4faa-8bdf-42252518068b",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto"
@@ -64,9 +64,16 @@
       },
       "streamSettings": {
         "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "1.freeb1.xyz",
+          "fingerprint": ""
+        },
         "wsSettings": {
+          "path": "/0HHDA16",
           "headers": {
-            "Host": "lg.v2ray18.xyz"
+            "Host": "1.freeb1.xyz"
           }
         }
       },
