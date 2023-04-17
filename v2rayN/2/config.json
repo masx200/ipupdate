@@ -49,11 +49,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "103.160.204.14",
-            "port": 80,
+            "address": "198.41.212.100",
+            "port": 8880,
             "users": [
               {
-                "id": "17b2a313-37a0-4945-a8e4-e63375506b4a",
+                "id": "627b1212-424d-420b-83e9-3c4c913e2619",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto"
@@ -66,7 +66,7 @@
         "network": "ws",
         "wsSettings": {
           "headers": {
-            "Host": "lg.v2ray17.xyz"
+            "Host": "lg.v2ray18.xyz"
           }
         }
       },
