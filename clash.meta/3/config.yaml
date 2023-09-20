@@ -12,7 +12,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"ip","type":"vmess","server":"upload.yunzhongzhuan.com","port":8880,"cipher":"auto","uuid":"208d8c18-4f63-4013-bd67-a39f62301132","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/YGhTwaEU/","headers":{"host":"cf1.freeh1.xyz"}}}
+  - {"name":"ip","type":"vless","server":"download.yunzhongzhuan.com","port":443,"uuid":"6bd2d2f3-ac76-4a48-93c0-8e58154a03d9","tls":true,"servername":"cf108.freek1.xyz","network":"ws","ws-opts":{"path":"/xjefws","headers":{"host":"cf108.freek1.xyz"}},"client-fingerprint":"chrome"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
