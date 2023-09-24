@@ -47,36 +47,21 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vless",
+      "protocol": "shadowsocks",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "173.234.25.51",
-            "port": 29295,
-            "users": [
-              {
-                "id": "9e2626df-3467-4393-9f7c-aaca6fe4336c",
-                "alterId": 0,
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
+            "address": "45.145.72.139",
+            "method": "2022-blake3-chacha20-poly1305",
+            "ota": false,
+            "password": "cLx2LnkqgE8HgI4GDsRvBm1Q10QtuC1sl4HltvhLhLg=",
+            "port": 12213,
+            "level": 1
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "m.media-amazon.com",
-          "fingerprint": "chrome",
-          "show": false,
-          "publicKey": "LN86WNkTPKjU0rSHPg1X7TGZy1ba9vGwnt_MukdZOB8",
-          "shortId": "",
-          "spiderX": ""
-        }
+        "network": "tcp"
       },
       "mux": {
         "enabled": false,
