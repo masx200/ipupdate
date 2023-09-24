@@ -1,3 +1,4 @@
+secret: dongtaiwang.com
 mixed-port: 7890
 allow-lan: false
 log-level: info
@@ -12,7 +13,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {"name":"ip","type":"vless","server":"download.yunzhongzhuan.com","port":443,"uuid":"6bd2d2f3-ac76-4a48-93c0-8e58154a03d9","tls":true,"servername":"cf108.freek1.xyz","network":"ws","ws-opts":{"path":"/xjefws","headers":{"host":"cf108.freek1.xyz"}},"client-fingerprint":"chrome"}
+  - {"name":"ip","type":"tuic","server":"tuic1.dtku47.xyz","port":23788,"udp":true,"uuid":"ae02b441-c64b-46d3-bdc4-c0f578b1db22","password":xLDZTVuo3cjI,"alpn":["h3"],"disable-sni":true,"reduce-rtt":true,"udp-relay-mode":native,"congestion-controller":"bbr"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
