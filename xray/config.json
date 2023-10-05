@@ -47,21 +47,40 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "shadowsocks",
+      "protocol": "vless",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "www3.dtku49.xyz",
-            "method": "2022-blake3-chacha20-poly1305",
-            "ota": false,
-            "password": "x3jy8UXDQj6OPEL/MLXqqtPqmidNFNbHzXo91Wd8tiw=",
-            "port": 10088,
-            "level": 1
+            "address": "dongtaiwang2.com",
+            "port": 443,
+            "users": [
+              {
+                "id": "0773256c-d020-436d-afea-6eee7cb6c872",
+                "alterId": 0,
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp"
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "xray1.freegradely.xyz",
+          "fingerprint": "chrome",
+          "show": false
+        },
+        "wsSettings": {
+          "path": "/bodhws",
+          "headers": {
+            "Host": "xray1.freegradely.xyz"
+          }
+        }
       },
       "mux": {
         "enabled": false,
