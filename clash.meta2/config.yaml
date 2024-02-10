@@ -13,6 +13,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
+  - {"name":"freenode_0","type":"ss","server":"lg3.dtku41.xyz","port":44672,"password":"dongtaiwang.com","cipher":"chacha20-ietf-poly1305"}
   - {"name":"freenode_1","type":"ss","server":"foshan.chiguayun.shop","port":27103,"password":"f4b81edb-73a5-41fa-9086-6f446061815d","cipher":"chacha20-ietf-poly1305"}
   - {"name":"freenode_2","type":"ss","server":"yd.qianggewangluo.buzz","port":10809,"password":"6f35bc86-d226-4dd0-8f4c-708f23077d24","cipher":"chacha20-ietf-poly1305"}
   - {"name":"freenode_3","type":"ss","server":"yd.qianggewangluo.buzz","port":10813,"password":"6f35bc86-d226-4dd0-8f4c-708f23077d24","cipher":"chacha20-ietf-poly1305"}
@@ -29,6 +30,7 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - freenode_0
       - freenode_1
       - freenode_2
       - freenode_3
@@ -45,6 +47,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - freenode_0
       - freenode_1
       - freenode_2
       - freenode_3
@@ -61,6 +64,7 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - freenode_0
       - freenode_1
       - freenode_2
       - freenode_3
@@ -76,6 +80,7 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - freenode_0
       - freenode_1
       - freenode_2
       - freenode_3
@@ -91,6 +96,7 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - freenode_0
       - freenode_1
       - freenode_2
       - freenode_3
@@ -106,6 +112,7 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - freenode_0
       - freenode_1
       - freenode_2
       - freenode_3
@@ -138,6 +145,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - freenode_0
       - freenode_1
       - freenode_2
       - freenode_3
