@@ -47,25 +47,40 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vmess",
+      "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "62.210.100.235",
-            "port": 20138,
+            "address": "23.227.39.88",
+            "port": 443,
             "users": [
               {
-                "id": "3de3fd56-cc9f-42bc-a7e3-608c8990c75f",
+                "id": "ebfdccb6-7416-4b6e-860d-98587344d500",
                 "alterId": 0,
                 "email": "t@t.tt",
-                "security": "auto"
+                "security": "auto",
+                "encryption": "none",
+                "flow": ""
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp"
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "lg1.freessr2.xyz",
+          "fingerprint": "chrome",
+          "show": false
+        },
+        "wsSettings": {
+          "path": "/xyakws",
+          "headers": {
+            "Host": "lg1.freessr2.xyz"
+          }
+        }
       },
       "mux": {
         "enabled": false,
