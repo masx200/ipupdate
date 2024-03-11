@@ -14,7 +14,7 @@
       "type": "shadowsocks",
       "tag": "ss-6120",
       "method": "2022-blake3-chacha20-poly1305", 
-      "password": "mtIQn1hVOMm/+Zp182hwzHVzcACgAqUr0y5pg9+SVZQ=",
+      "password": "cNoeQiREIlGx+U/pFoRG126lD9U1RT1zkXjei2UaT2w=",
       "detour": "dongtaiwang.com",
       "multiplex": {
         "enabled": true,
@@ -30,7 +30,7 @@
       "server": "172.83.156.157", 
       "server_port": 33221,
       "version": 3, 
-      "password": "BYKXLWNDdLk8GyZEYANQna70Ttlpij9Hgh0M+nPMZNc=", 
+      "password": "lhWGKo/dJHvvMKzuhWX2v1GRIoUOuFb6wCkPLxR2uIk=", 
       "tls": {
         "enabled": true,
         "server_name": "nijigen-works.jp", 
