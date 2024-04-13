@@ -1,22 +1,23 @@
+
 {
-"server": "173.234.25.51:48919",
+"server": "51.159.79.103:55396",
 "protocol": "udp",
 "up_mbps": 11,
 "down_mbps": 55,
 "http": {
 "listen": "127.0.0.1:1081",
-"timeout" : 300,
+"timeout" : 250,
 "disable_udp": false
 },
 "socks5": {
 "listen": "127.0.0.1:1080",
-"timeout": 300,
+"timeout": 250,
 "disable_udp": false
 },
 "obfs": "",
 "auth_str": "dongtaiwang.com",
 "alpn": "h3",
-"server_name": "bing.com",
+"server_name": "youku.com",
 "insecure": true,
 "recv_window_conn": 115343360,
 "recv_window": 461373440,
