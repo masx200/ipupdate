@@ -11,13 +11,13 @@
   ],
   "outbounds": [
     {
-      "type": "hysteria2",
-      "tag": "Hysteria2-dongtaiwang.com",
+      "type": "hysteria",
+      "tag": "dongtaiwang.com",
       "server": "104.192.224.139", 
-      "server_port": 33440,
+      "server_port": 55118,
       "up_mbps": 11, 
       "down_mbps": 55,
-      "password": "dongtaiwang.com",
+      "auth_str": "dongtaiwang.com",
       "tls": {
         "enabled": true,
         "insecure": true,
