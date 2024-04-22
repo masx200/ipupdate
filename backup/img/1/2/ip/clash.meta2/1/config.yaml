@@ -13,7 +13,17 @@ dns:
       - 240.0.0.0/4
       - 0.0.0.0/32
 proxies:
-  - {"name":"dongtaiwang.com_0","type":"hysteria2","server":"51.159.199.102","port":33491,"password":"dongtaiwang.com","sni":"bing.com","skip-cert-verify":true}
+  - name: dongtaiwang.com_0
+    server: 51.159.199.102
+    port: 33008
+    type: tuic
+    uuid: df19a216-8317-4890-829c-a8b7717d53d6
+    password: dongtaiwang.com
+    alpn: [h3]
+    disable-sni: true
+    reduce-rtt: true
+    udp-relay-mode: native
+    congestion-controller: bbr
 proxy-groups:
   - name: 🚀 节点选择
     type: select
