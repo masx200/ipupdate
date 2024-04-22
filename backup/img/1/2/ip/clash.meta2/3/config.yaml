@@ -13,28 +13,7 @@ dns:
       - 240.0.0.0/4
       - 0.0.0.0/32
 proxies:
-  - name: dongtaiwang.com_1                   
-    type: hysteria2
-    server: 108.181.5.21
-    port: 17644
-    password: dongtaiwang.com
-    alpn:
-      - h3
-    sni: www.bing.com
-    skip-cert-verify: true
-    up: "100 Mbps"
-    down: "100 Mbps"
-  - name: dongtaiwang.com_2
-    type: ss
-    server: www2.dtku48.xyz
-    port: 33001
-    cipher: 2022-blake3-chacha20-poly1305
-    password: "vidC9EcfzKzc/zx9iu8VkKTA0xXTJoWTX/90IvHAHtU="
-    plugin: shadow-tls
-    plugin-opts:
-      host: "nijigen-works.jp"
-      password: "q2t9sUj+7N5CztGHJCKvfWbfCRD0qOg2ZEKOb0h7+7k="
-      version: 3
+  - {"name":"dongtaiwang.com_1","type":"hysteria","server":"108.181.5.21","port":44550,"sni":"bing.com","skip-cert-verify":true,"alpn":["h3"],"protocol":"udp","auth_str":"dongtaiwang.com","up":11,"down":55,"hop_interval":10}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -42,7 +21,6 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - dongtaiwang.com_1
-      - dongtaiwang.com_2
   - name: ♻️ 自动选择
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -50,7 +28,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - dongtaiwang.com_1
-      - dongtaiwang.com_2
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -58,28 +35,24 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - dongtaiwang.com_1
-      - dongtaiwang.com_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - dongtaiwang.com_1
-      - dongtaiwang.com_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - dongtaiwang.com_1
-      - dongtaiwang.com_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - dongtaiwang.com_1
-      - dongtaiwang.com_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -103,7 +76,6 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - dongtaiwang.com_1
-      - dongtaiwang.com_2
 
 rules:
   - MATCH,🚀 节点选择
