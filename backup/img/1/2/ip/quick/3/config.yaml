@@ -14,10 +14,10 @@ dns:
     - tls://dns.google:853
 proxies:
   - name: ip 
-    server: www.dtku50.xyz
-    port: 22335
+    server: 64.110.25.12
+    port: 22447
     type: tuic
-    uuid: ef634e71-99e1-4a08-ac38-a3a5d1db4188
+    uuid: 6681e414-d1ad-49e8-8a1a-3cf8707059bd
     password: dongtaiwang.com
     alpn: [h3]
     disable-sni: true
