@@ -1,43 +1,165 @@
-{
-  "inbounds": [
-    {
-      "type": "mixed",
-      "tag": "mixed-in",
-      "listen": "::",
-      "listen_port": 1080,
-      "sniff": true,
-      "set_system_proxy": false
-    }
-  ],
-  "outbounds": [
-    {
-            "server": "fbi.gov",
-            "server_port": 2052,
-            "tag": "dongtaiwang.com",
-            "tls": {
-                "enabled": false,
-                "server_name": "ip003.dtku47.xyz",
-                "insecure": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "packet_encoding": "packetaddr",
-            "transport": {
-                "headers": {
-                    "Host": [
-                        "ip003.dtku47.xyz"
-                    ]
-                },
-                "path": "ef8c954e-014f-4b36-8273-9b5086afab34-vm",
-                "type": "ws"
-            },
-            "type": "vmess",
-            "security": "auto",
-            "uuid": "ef8c954e-014f-4b36-8273-9b5086afab34"
+secret: dongtaiwang.com
+mixed-port: 7890
+allow-lan: false
+log-level: info
+dns:
+  enabled: true
+  nameserver:
+    - 119.29.29.29
+    - 223.5.5.5
+  fallback-filter:
+    geoip: false
+    ipcidr:
+      - 240.0.0.0/4
+      - 0.0.0.0/32
+proxies:
+- name: dongtaiwang.com_0                     
+  type: vmess
+  server: 162.159.129.111                      
+  port: 2095                                     
+  uuid: e9555d84-a146-4e36-9c23-eac28387be48       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip5.freegradely.xyz                    
+  ws-opts:
+    path: "/WNh8bXQv/"                             
+    headers:
+      Host: ip5.freegradely.xyz
 
-        }
- ]
-  }
-  
+- name: dongtaiwang.com_1                    
+  type: vmess
+  server: 162.159.136.208                   
+  port: 2095                                     
+  uuid: e9555d84-a146-4e36-9c23-eac28387be48       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip5.freegradely.xyz                    
+  ws-opts:
+    path: "/WNh8bXQv/"                             
+    headers:
+      Host: ip5.freegradely.xyz 
+
+- name: dongtaiwang.com_2
+  type: vmess
+  server: 172.64.144.66               
+  port: 2095                                     
+  uuid: e9555d84-a146-4e36-9c23-eac28387be48       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip5.freegradely.xyz                    
+  ws-opts:
+    path: "/WNh8bXQv/"                             
+    headers:
+      Host: ip5.freegradely.xyz
+
+- name: dongtaiwang.com_3           
+  type: vmess
+  server: 104.19.38.88                
+  port: 2095                                     
+  uuid: e9555d84-a146-4e36-9c23-eac28387be48       
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip5.freegradely.xyz                    
+  ws-opts:
+    path: "/WNh8bXQv/"                             
+    headers:
+      Host: ip5.freegradely.xyz 
+
+
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - DIRECT
+      - dongtaiwang.com_0
+      - dongtaiwang.com_1
+      - dongtaiwang.com_2
+      - dongtaiwang.com_3
+  - name: ♻️ 自动选择
+    type: url-test
+    url: https://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - dongtaiwang.com_0
+      - dongtaiwang.com_1
+      - dongtaiwang.com_2
+      - dongtaiwang.com_3
+  - name: 🌍 国外媒体
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🎯 全球直连
+      - dongtaiwang.com_0
+      - dongtaiwang.com_1
+      - dongtaiwang.com_2
+      - dongtaiwang.com_3
+  - name: 📲 电报信息
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - dongtaiwang.com_0
+      - dongtaiwang.com_1
+      - dongtaiwang.com_2
+      - dongtaiwang.com_3
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 节点选择
+      - dongtaiwang.com_0
+      - dongtaiwang.com_1
+      - dongtaiwang.com_2
+      - dongtaiwang.com_3
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - dongtaiwang.com_0
+      - dongtaiwang.com_1
+      - dongtaiwang.com_2
+      - dongtaiwang.com_3
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - ♻️ 自动选择
+  - name: 🛑 全球拦截
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🍃 应用净化
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - dongtaiwang.com_0
+      - dongtaiwang.com_1
+      - dongtaiwang.com_2
+      - dongtaiwang.com_3
+rules:
+  - MATCH,🚀 节点选择
