@@ -15,7 +15,7 @@ dns:
 proxies:
 - name: dongtaiwang.com_0                     
   type: vmess
-  server: 104.16.148.244                      
+  server: 104.16.148.244                 
   port: 8080                                     
   uuid: ffaba3ee-4070-4590-9959-d863f9a4c6de       
   alterId: 0
@@ -23,11 +23,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip001.freegradely.xyz                    
+  servername: ip10.freegradely.xyz                    
   ws-opts:
     path: "/9aqOiXD2/"                             
     headers:
-      Host: ip001.freegradely.xyz
+      Host: ip10.freegradely.xyz
 
 - name: dongtaiwang.com_1                    
   type: vmess
@@ -39,11 +39,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip001.freegradely.xyz                    
+  servername: ip10.freegradely.xyz                    
   ws-opts:
     path: "/9aqOiXD2/"                             
     headers:
-      Host: ip001.freegradely.xyz 
+      Host: ip10.freegradely.xyz 
 
 - name: dongtaiwang.com_2
   type: vmess
@@ -55,11 +55,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip001.freegradely.xyz                    
+  servername: ip10.freegradely.xyz                    
   ws-opts:
     path: "/9aqOiXD2/"                             
     headers:
-      Host: ip001.freegradely.xyz
+      Host: ip10.freegradely.xyz
 
 - name: dongtaiwang.com_3           
   type: vmess
@@ -71,11 +71,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip001.freegradely.xyz                    
+  servername: ip10.freegradely.xyz                    
   ws-opts:
     path: "/9aqOiXD2/"                             
     headers:
-      Host: ip001.freegradely.xyz 
+      Host: ip10.freegradely.xyz 
 
 
 proxy-groups:
