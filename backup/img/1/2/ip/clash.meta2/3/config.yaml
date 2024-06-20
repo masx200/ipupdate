@@ -15,7 +15,7 @@ dns:
 proxies:
 - name: dongtaiwang.com_0                     
   type: vmess
-  server: fbi.gov               
+  server: 104.16.149.222                 
   port: 2095                                     
   uuid: e9555d84-a146-4e36-9c23-eac28387be48       
   alterId: 0
@@ -23,15 +23,15 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.dtku47.xyz                    
+  servername: ip5-3.freegradely.xyz                    
   ws-opts:
     path: "/WNh8bXQv/"                             
     headers:
-      Host: ip5.dtku47.xyz
+      Host: ip5-3.freegradely.xyz
 
 - name: dongtaiwang.com_1                    
   type: vmess
-  server: 23.227.38.9               
+  server: 23.227.38.8               
   port: 2095                                     
   uuid: e9555d84-a146-4e36-9c23-eac28387be48       
   alterId: 0
@@ -39,15 +39,15 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.dtku47.xyz                    
+  servername: ip5-3.freegradely.xyz                    
   ws-opts:
     path: "/WNh8bXQv/"                             
     headers:
-      Host: ip5.dtku47.xyz 
+      Host: ip5-3.freegradely.xyz 
 
 - name: dongtaiwang.com_2
   type: vmess
-  server: 104.16.149.111
+  server: 172.64.144.66               
   port: 2095                                     
   uuid: e9555d84-a146-4e36-9c23-eac28387be48       
   alterId: 0
@@ -55,11 +55,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.dtku47.xyz                    
+  servername: ip5-3.freegradely.xyz                    
   ws-opts:
     path: "/WNh8bXQv/"                             
     headers:
-      Host: ip5.dtku47.xyz
+      Host: ip5-3.freegradely.xyz
 
 - name: dongtaiwang.com_3           
   type: vmess
@@ -71,11 +71,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip5.dtku47.xyz                    
+  servername: ip5-3.freegradely.xyz                    
   ws-opts:
     path: "/WNh8bXQv/"                             
     headers:
-      Host: ip5.dtku47.xyz 
+      Host: ip5-2.freegradely.xyz 
 
 
 proxy-groups:
