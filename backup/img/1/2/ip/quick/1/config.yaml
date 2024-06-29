@@ -14,7 +14,7 @@ dns:
       - 0.0.0.0/32
 proxies:
   - {"name":"dongtaiwang.com_0","type":"hysteria","server":"62.204.54.81","port":34555,"sni":"bing.com","skip-cert-verify":true,"alpn":["h3"],"protocol":"udp","auth_str":"dongtaiwang.com","up":11,"down":55,"hop_interval":10}
-  - {"name":"dongtaiwang.com_1","type":"hysteria","server":"104.192.224.139","port":55118,"sni":"bing.com","skip-cert-verify":true,"alpn":["h3"],"protocol":"udp","auth_str":"dongtaiwang.com","up":11,"down":55,"hop_interval":10}
+  - {"name":"dongtaiwang.com_1","type":"hysteria","server":"104.192.224.139","port":42113,"sni":"bing.com","skip-cert-verify":true,"alpn":["h3"],"protocol":"udp","auth_str":"dongtaiwang.com","up":11,"down":55,"hop_interval":10}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
