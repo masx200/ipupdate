@@ -13,8 +13,7 @@ dns:
       - 240.0.0.0/4
       - 0.0.0.0/32
 proxies:
-  - {"name":"dongtaiwang.com_0","type":"hysteria","server":"64.42.176.181","port":41604,"sni":"bing.com","skip-cert-verify":true,"alpn":["h3"],"protocol":"udp","auth_str":"dongtaiwang.com","up":11,"down":55,"hop_interval":10}
-  - {"name":"dongtaiwang.com_1","type":"hysteria","server":"62.204.54.81","port":34555,"sni":"bing.com","skip-cert-verify":true,"alpn":["h3"],"protocol":"udp","auth_str":"dongtaiwang.com","up":11,"down":55,"hop_interval":10}
+  - {"name":"dongtaiwang.com_0","type":"hysteria","server":"64.42.176.182","port":41604,"sni":"bing.com","skip-cert-verify":true,"alpn":["h3"],"protocol":"udp","auth_str":"dongtaiwang.com","up":11,"down":55,"hop_interval":10}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -22,7 +21,6 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - dongtaiwang.com_0
-      - dongtaiwang.com_1
   - name: ♻️ 自动选择
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -30,7 +28,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - dongtaiwang.com_0
-      - dongtaiwang.com_1
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -38,28 +35,24 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - dongtaiwang.com_0
-      - dongtaiwang.com_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - dongtaiwang.com_0
-      - dongtaiwang.com_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - dongtaiwang.com_0
-      - dongtaiwang.com_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - dongtaiwang.com_0
-      - dongtaiwang.com_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -83,6 +76,5 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - dongtaiwang.com_0
-      - dongtaiwang.com_1
 rules:
   - MATCH,🚀 节点选择
