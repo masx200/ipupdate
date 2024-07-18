@@ -13,56 +13,59 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - name: ip 
-    server: 64.110.25.12
-    port: 22447
-    type: tuic
-    uuid: 6681e414-d1ad-49e8-8a1a-3cf8707059bd
-    password: dongtaiwang.com
-    alpn: [h3]
-    disable-sni: true
-    reduce-rtt: true
-    udp-relay-mode: native
-    congestion-controller: bbr
+- name: dongtaiwang.com_0         
+  type: vless
+  server: 45.150.165.121                      
+  port: 7885                                
+  uuid: 82f6a148-5c4a-48f9-931a-e3b26777ffa2   
+  network: tcp
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: www.yahoo.com                 
+  reality-opts: 
+    public-key: cauu7I7nFMqzwMDdULVRJam0T04U4knX8koK0OG5dC8    
+    short-id: '40cb281a'                    
+  client-fingerprint: chrome 
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - ip
+      - dongtaiwang.com_0
   - name: ♻️ 自动选择
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - ip
+      - dongtaiwang.com_0
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ip
+      - dongtaiwang.com_0
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ip
+      - dongtaiwang.com_0
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - ip
+      - dongtaiwang.com_0
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ip
+      - dongtaiwang.com_0
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -85,7 +88,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ip
-
+      - dongtaiwang.com_0
 rules:
   - MATCH,🚀 节点选择
