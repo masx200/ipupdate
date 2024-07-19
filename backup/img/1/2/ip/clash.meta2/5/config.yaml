@@ -1,3 +1,4 @@
+
 secret: dongtaiwang.com
 mixed-port: 7890
 allow-lan: false
@@ -14,16 +15,18 @@ dns:
       - 0.0.0.0/32
 proxies:
   - name: dongtaiwang.com_0
-    server: www.dtku40.xyz
-    port: 33098
-    type: tuic
-    uuid: fef3d3c2-ab3e-4134-a2f3-0c2d83e0a76d
+    type: hysteria2
+    server: 51.159.34.216
+    port: 7571
+    ports: 20000-30000
     password: dongtaiwang.com
-    alpn: [h3]
-    disable-sni: true
-    reduce-rtt: true
-    udp-relay-mode: native
-    congestion-controller: bbr
+    alpn:
+      - h3
+    sni: www.bing.com
+    skip-cert-verify: true
+    up: "11 Mbps"
+    down: "55 Mbps"
+
 proxy-groups:
   - name: 🚀 节点选择
     type: select
