@@ -23,7 +23,7 @@ proxies:
       - h3
     sni: www.bing.com
     skip-cert-verify: true
-    up: "100 Mbps"
+    up: "11 Mbps"
     down: "100 Mbps"
 
 proxy-groups:
