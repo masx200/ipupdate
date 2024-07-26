@@ -8,11 +8,11 @@
             },
             "servers": [
                 {
-                    "ipAddress": "51.159.77.198",
+                    "ipAddress": "166.1.18.56",
                     "domainName": "",
                     "portBindings": [
                         {
-                            "port": 54321,
+                            "port": 33388,
                             "protocol": "TCP"
                         }
                     ]
@@ -26,3 +26,4 @@
     "socks5Port": 3080,
     "loggingLevel": "INFO"
 }
+
