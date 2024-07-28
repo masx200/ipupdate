@@ -21,7 +21,7 @@ proxies:
     obfs: dongtaiwang.com
     alpn:
       - h3
-    sni: www.bing.com
+    sni: bing.com
     skip-cert-verify: true
     up: "11 Mbps"
     down: "55 Mbps"
