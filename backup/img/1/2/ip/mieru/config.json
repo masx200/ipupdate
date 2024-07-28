@@ -8,11 +8,11 @@
             },
             "servers": [
                 {
-                    "ipAddress": "45.145.72.183",
+                    "ipAddress": "46.29.166.206",
                     "domainName": "",
                     "portBindings": [
                         {
-                            "port": 54321,
+                            "port": 12345,
                             "protocol": "TCP"
                         }
                     ]
