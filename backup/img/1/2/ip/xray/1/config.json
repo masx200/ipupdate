@@ -47,35 +47,35 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vmess",
+      "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "104.21.238.105",
-            "port": 8443,
+            "address": "166.1.221.22",
+            "port": 35933,
             "users": [
               {
-                "id": "87f9926a-546d-4185-aaba-3cc483d4730d",
+                "id": "f3d3f306-87e8-42ce-90b4-8b333fcfa1b2",
                 "alterId": 0,
                 "email": "t@t.tt",
-                "security": "auto"
+                "security": "auto",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "xray.5173605.xyz"
-        },
-        "wsSettings": {
-          "path": "dongtaiwang.com",
-          "headers": {
-            "Host": "xray.5173605.xyz"
-          }
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "addons.mozilla.org",
+          "fingerprint": "chrome",
+          "show": false,
+          "publicKey": "dtLQotOntHw_ULRf7spOS8tdqvJn4kdLlJrywjubYFE",
+          "shortId": "",
+          "spiderX": ""
         }
       },
       "mux": {
