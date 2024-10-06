@@ -13,19 +13,21 @@ dns:
       - 240.0.0.0/4
       - 0.0.0.0/32
 proxies:
-  - name: dongtaiwang.com_0
-    type: hysteria
-    server: 64.42.176.179
-    port: 19513
-    ports: 20000-30000
-    auth_str: dongtaiwang.com
-    alpn:
-      - h3
-    sni: www.bing.com
-    skip-cert-verify: true
-    up: "11 Mbps"
-    down: "55 Mbps"
-
+- name: dongtaiwang.com_0                     
+  type: vmess
+  server: 104.21.238.201            
+  port: 8880                                     
+  uuid: 57d2d9f2-f1d3-490c-acc5-108e8a8e17ca
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  servername: ip3.9375943.xyz            
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip3.9375943.xyz
 proxy-groups:
   - name: 🚀 节点选择
     type: select
