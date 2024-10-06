@@ -13,20 +13,21 @@ dns:
       - 240.0.0.0/4
       - 0.0.0.0/32
 proxies:
-- name: dongtaiwang.com_0
-  type: vless
-  server: 46.29.166.206                           
-  port: 54491                                
-  uuid: e5ea22f9-2e13-4aa4-a57a-73805c7dfe48   
-  network: tcp
+- name: dongtaiwang.com_0                     
+  type: vmess
+  server: 104.21.238.203             
+  port: 2095                                     
+  uuid: 8ce8196e-28fe-4154-b33d-76e237b1e1e8    
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: www.yahoo.com                 
-  reality-opts: 
-    public-key: O57ybvboLKcwCRHHlv9UOu5nM9JI-pew2vcwG-7dAE4    
-    short-id: '50662bd4'                    
-  client-fingerprint: chrome   
+  tls: false
+  network: ws
+  servername: ip3.9290254.xyz                
+  ws-opts:
+    path: "github.com/Alvin9999"                             
+    headers:
+      Host: ip3.9290254.xyz
 
 proxy-groups:
   - name: 🚀 节点选择
