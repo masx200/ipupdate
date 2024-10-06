@@ -47,35 +47,35 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vmess",
+      "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "104.19.45.50",
-            "port": 8443,
+            "address": "108.181.23.41",
+            "port": 57252,
             "users": [
               {
-                "id": "87f9926a-546d-4185-aaba-3cc483d4730d",
+                "id": "25d1b318-87e8-4c1e-a784-69783be4b30a",
                 "alterId": 0,
                 "email": "t@t.tt",
-                "security": "auto"
+                "security": "auto",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "xray.5173605.xyz"
-        },
-        "wsSettings": {
-          "path": "dongtaiwang.com",
-          "headers": {
-            "Host": "xray.5173605.xyz"
-          }
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "www.yahoo.com",
+          "fingerprint": "chrome",
+          "show": false,
+          "publicKey": "OArr7bhbdqsdhd1RT_lm0-OSrtcgje4kEXiQ-QMHmm8",
+          "shortId": "5bfc684c",
+          "spiderX": ""
         }
       },
       "mux": {
