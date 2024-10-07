@@ -7,7 +7,7 @@
   "inbounds": [
     {
       "tag": "socks",
-      "port": 1080,
+      "port": 10808,
       "listen": "127.0.0.1",
       "protocol": "socks",
       "sniffing": {
@@ -51,31 +51,38 @@
       "settings": {
         "vnext": [
           {
-            "address": "108.181.23.41",
-            "port": 65289,
+            "address": "108.181.22.213",
+            "port": 13675,
             "users": [
               {
-                "id": "d473881b-6ea7-4e32-aeb1-4ca78e29b63a",
+                "id": "e0c7d644-2377-4d90-b012-215f89444c54",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
+                "encryption": "none"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "grpc",
         "security": "reality",
         "realitySettings": {
-          "serverName": "www.yahoo.com",
+          "serverName": "addons.mozilla.org",
           "fingerprint": "chrome",
           "show": false,
-          "publicKey": "COPC6FtgEtofYW84xoShRYzFK8TTgdGkA0UafZiji3Y",
-          "shortId": "9fa47a63",
+          "publicKey": "oKW5-LN1F4tbrSCdUH-ySdp4cgDlBiAn4_5GbqpPOgE",
+          "shortId": "",
           "spiderX": ""
+        },
+        "grpcSettings": {
+          "serviceName": "grpc",
+          "multiMode": false,
+          "idle_timeout": 60,
+          "health_check_timeout": 20,
+          "permit_without_stream": false,
+          "initial_windows_size": 0
         }
       },
       "mux": {
