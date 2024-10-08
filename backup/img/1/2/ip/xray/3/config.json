@@ -7,7 +7,7 @@
   "inbounds": [
     {
       "tag": "socks",
-      "port": 10808,
+      "port": 1080,
       "listen": "127.0.0.1",
       "protocol": "socks",
       "sniffing": {
@@ -47,42 +47,30 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vless",
+      "protocol": "vmess",
       "settings": {
         "vnext": [
           {
-            "address": "108.181.22.213",
-            "port": 13675,
+            "address": "104.21.238.212",
+            "port": 8880,
             "users": [
               {
-                "id": "e0c7d644-2377-4d90-b012-215f89444c54",
+                "id": "57d2d9f2-f1d3-490c-acc5-108e8a8e17ca",
                 "alterId": 0,
                 "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
+                "security": "auto"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "grpc",
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "addons.mozilla.org",
-          "fingerprint": "chrome",
-          "show": false,
-          "publicKey": "oKW5-LN1F4tbrSCdUH-ySdp4cgDlBiAn4_5GbqpPOgE",
-          "shortId": "",
-          "spiderX": ""
-        },
-        "grpcSettings": {
-          "serviceName": "grpc",
-          "multiMode": false,
-          "idle_timeout": 60,
-          "health_check_timeout": 20,
-          "permit_without_stream": false,
-          "initial_windows_size": 0
+        "network": "ws",
+        "wsSettings": {
+          "path": "github.com/Alvin9999",
+          "headers": {
+            "Host": "ip5.9375943.xyz"
+          }
         }
       },
       "mux": {
