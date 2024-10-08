@@ -47,35 +47,30 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vless",
+      "protocol": "vmess",
       "settings": {
         "vnext": [
           {
-            "address": "46.29.166.206",
-            "port": 12345,
+            "address": "104.21.238.210",
+            "port": 8880,
             "users": [
               {
-                "id": "d473881b-6ea7-4e32-aeb1-4ca78e29b63a",
+                "id": "57d2d9f2-f1d3-490c-acc5-108e8a8e17ca",
                 "alterId": 0,
                 "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
+                "security": "auto"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "www.yahoo.com",
-          "fingerprint": "chrome",
-          "show": false,
-          "publicKey": "COPC6FtgEtofYW84xoShRYzFK8TTgdGkA0UafZiji3Y",
-          "shortId": "9fa47a63",
-          "spiderX": ""
+        "network": "ws",
+        "wsSettings": {
+          "path": "github.com/Alvin9999",
+          "headers": {
+            "Host": "ip5.9375943.xyz"
+          }
         }
       },
       "mux": {
