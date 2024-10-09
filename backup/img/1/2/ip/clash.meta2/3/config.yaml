@@ -23,11 +23,11 @@ proxies:
   udp: true
   tls: false
   network: ws
-  servername: ip4.9290254.xyz                
+  servername: ip5.9290254.xyz                
   ws-opts:
     path: "github.com/Alvin9999"                             
     headers:
-      Host: ip4.9290254.xyz
+      Host: ip5.9290254.xyz
 
 proxy-groups:
   - name: 🚀 节点选择
