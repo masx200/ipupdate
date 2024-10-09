@@ -51,7 +51,7 @@
       "settings": {
         "servers": [
           {
-            "address": "1.170.203.208",
+            "address": "1.168.165.116",
             "method": "2022-blake3-chacha20-poly1305",
             "ota": false,
             "password": "ogGLC9bUBVsISTGL7fs\u002BWXUjgO0wzdr3Sl2kGFktP64=",
