@@ -47,21 +47,31 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "shadowsocks",
+      "protocol": "vmess",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "1.168.165.116",
-            "method": "2022-blake3-chacha20-poly1305",
-            "ota": false,
-            "password": "ogGLC9bUBVsISTGL7fs\u002BWXUjgO0wzdr3Sl2kGFktP64=",
-            "port": 3456,
-            "level": 1
+            "address": "104.21.238.213",
+            "port": 8880,
+            "users": [
+              {
+                "id": "57d2d9f2-f1d3-490c-acc5-108e8a8e17ca",
+                "alterId": 0,
+                "email": "t@t.tt",
+                "security": "auto"
+              }
+            ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp"
+        "network": "ws",
+        "wsSettings": {
+          "path": "github.com/Alvin9999",
+          "headers": {
+            "Host": "ip6.9375943.xyz"
+          }
+        }
       },
       "mux": {
         "enabled": false,
