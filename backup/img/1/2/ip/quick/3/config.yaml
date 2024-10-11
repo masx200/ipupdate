@@ -15,9 +15,10 @@ dns:
 proxies:
   - name: dongtaiwang.com_0                     
     type: hysteria
-    server: 1.0035961.xyz
-    port: 100
+    server: 2.0035961.xyz
+    port: 400
     auth_str: dongtaiwang.com
+    obfs: dongtaiwang.com
     alpn:
       - h3
     sni: www.bing.com
