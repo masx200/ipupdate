@@ -52,10 +52,10 @@
         "vnext": [
           {
             "address": "154.64.243.6",
-            "port": 100,
+            "port": 400,
             "users": [
               {
-                "id": "ee420fda-efb7-48a8-9249-8987e36ebd9e",
+                "id": "ff7b0d54-ecdf-4ff1-be04-f8fd11693ba2",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -70,11 +70,11 @@
         "network": "tcp",
         "security": "reality",
         "realitySettings": {
-          "serverName": "www.yahoo.com",
+          "serverName": "www.paypal.com",
           "fingerprint": "chrome",
           "show": false,
-          "publicKey": "Xev91qiyfdEKc828i_-D-lWBYiiTb7VMsFN-RE8LUE4",
-          "shortId": "adc1bbc8",
+          "publicKey": "bzpKT_Fgsm2k0oAe5SXJmbQN8OxK4AA4NR42yqM-hnI",
+          "shortId": "",
           "spiderX": ""
         }
       },
