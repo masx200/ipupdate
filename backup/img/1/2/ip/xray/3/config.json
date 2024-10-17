@@ -47,7 +47,7 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vless",
+      "protocol": "vmess",
       "settings": {
         "vnext": [
           {
@@ -55,11 +55,10 @@
             "port": 443,
             "users": [
               {
-                "id": "835c494d-0995-404d-b04b-87d21d8172f6",
+                "id": "2c15ec31-54f6-4cc7-aa9b-e906c6889bab",
                 "alterId": 0,
                 "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
+                "security": "auto"
               }
             ]
           }
@@ -73,7 +72,7 @@
           "serverName": "xray2.6016725.xyz"
         },
         "httpupgradeSettings": {
-          "path": "/835c494d-0995-404d-b04b-87d21d8172f6",
+          "path": "github.com/Alvin9999",
           "host": "xray2.6016725.xyz"
         }
       },
