@@ -16,7 +16,7 @@ proxies:
   - name: dongtaiwang.com_0
     type: ss
     server: 91.149.239.179
-    port: 12345
+    port: 23456
     cipher: 2022-blake3-chacha20-poly1305
     password: "ASXmhqODZasnV777P2m33eQ9mCU5KXY86dXJQTuWFW8="
     plugin: shadow-tls
