@@ -52,10 +52,10 @@
         "vnext": [
           {
             "address": "104.21.238.100",
-            "port": 443,
+            "port": 8080,
             "users": [
               {
-                "id": "2c15ec31-54f6-4cc7-aa9b-e906c6889bab",
+                "id": "6845dc56-dc23-4bc5-9dfb-aaf54c03637b",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto"
@@ -66,14 +66,9 @@
       },
       "streamSettings": {
         "network": "httpupgrade",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "serverName": "xray2.6016725.xyz"
-        },
         "httpupgradeSettings": {
           "path": "github.com/Alvin9999",
-          "host": "xray2.6016725.xyz"
+          "host": "http1.8084726.xyz"
         }
       },
       "mux": {
