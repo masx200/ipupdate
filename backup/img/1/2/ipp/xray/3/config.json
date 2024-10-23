@@ -51,11 +51,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.21.238.100",
+            "address": "xray1.9290254.xyz",
             "port": 8080,
             "users": [
               {
-                "id": "6845dc56-dc23-4bc5-9dfb-aaf54c03637b",
+                "id": "9ff7254c-669e-4321-9500-fce9b3bc2619",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto"
@@ -65,10 +65,12 @@
         ]
       },
       "streamSettings": {
-        "network": "httpupgrade",
-        "httpupgradeSettings": {
+        "network": "splithttp",
+        "splithttpSettings": {
           "path": "github.com/Alvin9999",
-          "host": "http1.8084726.xyz"
+          "host": "xray1.9290254.xyz",
+          "maxUploadSize": 1000000,
+          "maxConcurrentUploads": 10
         }
       },
       "mux": {
@@ -97,6 +99,12 @@
       "proxy.example.com": "127.0.0.1"
     },
     "servers": [
+      {
+        "address": "223.5.5.5",
+        "domains": [
+          "xray1.9290254.xyz"
+        ]
+      },
       {
         "address": "223.5.5.5",
         "domains": [
