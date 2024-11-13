@@ -1,6 +1,6 @@
 {
   "listen": "127.0.0.1:1080",
-  "server": "46.29.166.206:456",
+  "server": "51.15.10.149:12345",
   "uuid": "efc5b266-95fd-258e-a0bb-7a666cdf3ebb",
   "password": "dongtaiwang.com",
   "sni": "bing.com",
