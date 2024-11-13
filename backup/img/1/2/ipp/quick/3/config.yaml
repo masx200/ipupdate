@@ -16,9 +16,8 @@ proxies:
   - name: dongtaiwang.com_0                     
     type: hysteria
     server: 2.0035961.xyz
-    port: 400
+    port: 19627
     auth_str: dongtaiwang.com
-    obfs: dongtaiwang.com
     alpn:
       - h3
     sni: www.bing.com
@@ -89,4 +88,3 @@ proxy-groups:
       - dongtaiwang.com_0
 rules:
   - MATCH,🚀 节点选择
-
