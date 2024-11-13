@@ -26,7 +26,7 @@
     },
     {
       "tag": "http",
-      "port": 10809,
+      "port": 1081,
       "listen": "127.0.0.1",
       "protocol": "http",
       "sniffing": {
@@ -47,36 +47,33 @@
   "outbounds": [
     {
       "tag": "proxy",
-      "protocol": "vless",
+      "protocol": "vmess",
       "settings": {
         "vnext": [
           {
-            "address": "91.149.239.179",
-            "port": 8443,
+            "address": "104.21.238.101",
+            "port": 443,
             "users": [
               {
-                "id": "ede13fc6-7a89-4853-9004-81f2a72aa0b1",
+                "id": "2c15ec31-54f6-4cc7-aa9b-e906c6889bab",
                 "alterId": 0,
                 "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
+                "security": "auto"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "splithttp",
+        "network": "httpupgrade",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "serverName": "2.3196772.xyz"
+          "serverName": "xray2.6016725.xyz"
         },
-        "splithttpSettings": {
-          "path": "/ede13fc6-7a89-4853-9004-81f2a72aa0b1",
-          "host": "2.3196772.xyz",
-          "maxUploadSize": 1000000,
-          "maxConcurrentUploads": 10
+        "httpupgradeSettings": {
+          "path": "github.com/Alvin9999",
+          "host": "xray2.6016725.xyz"
         }
       },
       "mux": {
