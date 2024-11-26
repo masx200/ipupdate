@@ -15,15 +15,18 @@ dns:
 proxies:
   - name: dongtaiwang.com_0                     
     type: hysteria
-    server: 2.0035961.xyz
-    port: 19627
-    auth_str: dongtaiwang.com
+    server: 195.154.217.220
+    port: 41934
+    auth-str: dongtaiwang.com
+    obfs: dongtaiwang.com
+    sni: bing.com
+    skip-cert-verify: true
     alpn:
       - h3
-    sni: www.bing.com
-    skip-cert-verify: true
-    up: "11 Mbps"
-    down: "55 Mbps"
+    protocol: udp
+    up: "100 Mbps"
+    down: "50 Mbps"
+
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -88,4 +91,3 @@ proxy-groups:
       - dongtaiwang.com_0
 rules:
   - MATCH,🚀 节点选择
-
