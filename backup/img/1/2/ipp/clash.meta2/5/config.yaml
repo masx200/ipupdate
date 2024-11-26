@@ -15,8 +15,8 @@ dns:
 proxies:
   - name: dongtaiwang.com_0                     
     type: hysteria
-    server: 195.154.217.220
-    port: 41934
+    server: 195.154.200.178
+    port: 10312
     auth-str: dongtaiwang.com
     obfs: dongtaiwang.com
     sni: bing.com
@@ -24,8 +24,8 @@ proxies:
     alpn:
       - h3
     protocol: udp
-    up: "100 Mbps"
-    down: "50 Mbps"
+    up: "11 Mbps"
+    down: "55 Mbps"
 
 proxy-groups:
   - name: 🚀 节点选择
