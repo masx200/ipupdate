@@ -14,23 +14,19 @@ dns:
       - 0.0.0.0/32
 proxies:
   - name: dongtaiwang.com_0                     
-    type: vmess
-    server: 104.21.238.100
-    port: 443
-    uuid: 2c15ec31-54f6-4cc7-aa9b-e906c6889bab
-    alterId: 0
-    cipher: auto
-    udp: true
-    tls: true
-    servername: xray2.6016725.xyz
-    network: ws
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        Host: xray2.6016725.xyz
-      early-data-header-name: Sec-WebSocket-Protocol
-      v2ray-http-upgrade: true
-      v2ray-http-upgrade-fast-open: true
+    type: hysteria
+    server: 195.154.217.220
+    port: 41934
+    auth-str: dongtaiwang.com
+    obfs: dongtaiwang.com
+    sni: bing.com
+    skip-cert-verify: true
+    alpn:
+      - h3
+    protocol: udp
+    up: "100 Mbps"
+    down: "50 Mbps"
+
 proxy-groups:
   - name: 🚀 节点选择
     type: select
