@@ -23,8 +23,8 @@ proxies:
       - h3
     sni: www.bing.com
     skip-cert-verify: true
-    up: "2 Mbps"
-    down: "2 Mbps"
+    up: "11 Mbps"
+    down: "55 Mbps"
 proxy-groups:
   - name: 🚀 节点选择
     type: select
