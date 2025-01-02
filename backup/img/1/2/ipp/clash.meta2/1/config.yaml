@@ -14,24 +14,17 @@ dns:
       - 0.0.0.0/32
 proxies:
   - name: dongtaiwang.com_0
-    type: vmess
-    server: http1.6016725.xyz
-    port: 8443
-    uuid: 34b4ecd1-777b-404a-dff5-ac15abb3a72d
-    alterId: 0
-    cipher: auto
-    udp: true
-    tls: true
-    servername: http1.6016725.xyz
-    network: ws
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        Host: http1.6016725.xyz
-      early-data-header-name: Sec-WebSocket-Protocol
-      v2ray-http-upgrade: true
-      v2ray-http-upgrade-fast-open: true
-      
+    type: hysteria2
+    server: 202.5.31.3
+    port: 38654
+    ports: 10000-20000
+    password: dongtaiwang.com
+    alpn:
+      - h3
+    sni: www.bing.com
+    skip-cert-verify: true
+    up: "11 Mbps"
+    down: "55 Mbps"
 proxy-groups:
   - name: 🚀 节点选择
     type: select
