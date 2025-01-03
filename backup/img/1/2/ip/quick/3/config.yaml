@@ -13,18 +13,20 @@ dns:
       - 240.0.0.0/4
       - 0.0.0.0/32
 proxies:
-  - name: dongtaiwang.com_0                     
-    type: hysteria
-    server: 2.0035961.xyz
-    port: 10045
-    ports: 15000-24000
-    auth_str: dongtaiwang.com
-    alpn:
-      - h3
-    sni: www.bing.com
-    skip-cert-verify: true
-    up: "11 Mbps"
-    down: "55 Mbps"
+- name: dongtaiwang.com_0
+  type: vless
+  server: 202.5.31.3                          
+  port: 62040                                
+  uuid: 1f6cd5c6-72bf-49ed-83c2-45927917d61c
+  network: tcp
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: aws.amazon.com
+  reality-opts: 
+    public-key: KHT5S9-5o09n62WtNLu1Amep9371kIi0rYHnnVgCPVY
+  client-fingerprint: chrome
+      
 proxy-groups:
   - name: 🚀 节点选择
     type: select
