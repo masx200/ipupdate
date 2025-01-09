@@ -13,12 +13,12 @@ dns:
       - 240.0.0.0/4
       - 0.0.0.0/32
 proxies:
-  - name: dongtaiwang.com_0
-    type: hysteria2
-    server: 202.5.31.3
-    port: 38654
+  - name: dongtaiwang.com_0                     
+    type: hysteria
+    server: 208.87.243.151
+    port: 38670
     ports: 10000-20000
-    password: dongtaiwang.com
+    auth_str: dongtaiwang.com
     alpn:
       - h3
     sni: www.bing.com
