@@ -51,11 +51,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "202.5.31.3",
-            "port": 9160,
+            "address": "185.22.153.75",
+            "port": 21315,
             "users": [
               {
-                "id": "86b79227-7943-4a4e-aead-03f7537f5215",
+                "id": "095ad0e3-9ed9-4346-9108-58b40e664f5c",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -70,11 +70,11 @@
         "network": "tcp",
         "security": "reality",
         "realitySettings": {
-          "serverName": "dash.cloudflare.com",
+          "serverName": "www.yahoo.com",
           "fingerprint": "chrome",
           "show": false,
-          "publicKey": "fdZm7k4wrEvoWimsdcS7IJvMA_8GHHXZokgfmpodx0s",
-          "shortId": "",
+          "publicKey": "YySncDZNohAu8pygK6hAG2OcptADdEJBwArHe4amnm8",
+          "shortId": "d019a9ad",
           "spiderX": ""
         }
       },
