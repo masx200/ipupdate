@@ -9,11 +9,11 @@
             },
             "servers": [
                 {
-                    "ipAddress": "202.5.31.3",
+                    "ipAddress": "202.5.31.18",
                     "domainName": "",
                     "portBindings": [
                         {
-                            "port": 57760,
+                            "port": 29633,
                             "protocol": "TCP"
                         }
                     ]
