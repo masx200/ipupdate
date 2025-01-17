@@ -13,22 +13,7 @@ dns:
       - 240.0.0.0/4
       - 0.0.0.0/32
 proxies:
-  - name: dongtaiwang.com_0         
-    type: vless
-    server: 195.154.200.40
-    port: 47980                                
-    uuid: 53044dba-93ee-43d5-b944-be34271a209e
-    network: tcp
-    udp: true
-    tls: true
-    flow: xtls-rprx-vision
-    servername: www.ebay.com              
-    reality-opts: 
-      public-key: IEvQvREKzPsLnipyFxjHjc7ayJpQIZwrqTtwLi2LgHI
-      short-id:                   
-    client-fingerprint: chrome 
-    
-  - name: dongtaiwang.com_1                     
+  - name: dongtaiwang.com_0                   
     type: hysteria
     server: 195.154.200.178
     port: 10312
@@ -49,7 +34,6 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - dongtaiwang.com_0
-      - dongtaiwang.com_1
   - name: ♻️ 自动选择
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -57,7 +41,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - dongtaiwang.com_0
-      - dongtaiwang.com_1
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -65,28 +48,24 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - dongtaiwang.com_0
-      - dongtaiwang.com_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - dongtaiwang.com_0
-      - dongtaiwang.com_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - dongtaiwang.com_0
-      - dongtaiwang.com_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - dongtaiwang.com_0
-      - dongtaiwang.com_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -110,6 +89,5 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - dongtaiwang.com_0
-      - dongtaiwang.com_1
 rules:
   - MATCH,🚀 节点选择
