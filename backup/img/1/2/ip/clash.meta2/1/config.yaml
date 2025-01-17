@@ -13,31 +13,19 @@ dns:
       - 240.0.0.0/4
       - 0.0.0.0/32
 proxies:
-  - name: dongtaiwang.com_0
-    type: ss
-    server: 195.154.184.5
-    port: 443
-    cipher: 2022-blake3-chacha20-poly1305
-    password: "zcusjF2p7k2nogcIKtVQJ0J4oKM6uJZedy3xPENJScQ="
-    plugin: shadow-tls
-    plugin-opts:
-      host: "nijigen-works.jp"
-      password: "h4vzmf4QZyJgTYAAn5ZHQnfKFUwjCph9VXMSj5o9DCU="
-      version: 3
-      
-  - name: dongtaiwang.com_1                  
+  - name: dongtaiwang.com_0                     
     type: hysteria
-    server: 195.154.200.178
-    port: 10312
-    auth-str: dongtaiwang.com
-    obfs: dongtaiwang.com
-    sni: bing.com
-    skip-cert-verify: true
+    server: 195.154.184.5
+    port: 22787
+    ports: 30000-40000
+    auth_str: dongtaiwang.com
     alpn:
       - h3
-    protocol: udp
+    sni: bing.com
+    skip-cert-verify: true
     up: "11 Mbps"
     down: "55 Mbps"
+    
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -45,7 +33,6 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - dongtaiwang.com_0
-      - dongtaiwang.com_1
   - name: ♻️ 自动选择
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -53,7 +40,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - dongtaiwang.com_0
-      - dongtaiwang.com_1
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -61,27 +47,24 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - dongtaiwang.com_0
-      - dongtaiwang.com_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
+      - 🎯 全球直连
       - dongtaiwang.com_0
-      - dongtaiwang.com_1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - dongtaiwang.com_0
-      - dongtaiwang.com_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - dongtaiwang.com_0
-      - dongtaiwang.com_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -105,6 +88,5 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - dongtaiwang.com_0
-      - dongtaiwang.com_1
 rules:
   - MATCH,🚀 节点选择
