@@ -16,10 +16,10 @@ proxies:
   - name: dongtaiwang.com_0                     
     type: hysteria
     server: 195.154.200.178
-    port: 10312
+    port: 34911
     auth-str: dongtaiwang.com
     obfs: dongtaiwang.com
-    sni: bing.com
+    sni: apple.com
     skip-cert-verify: true
     alpn:
       - h3
