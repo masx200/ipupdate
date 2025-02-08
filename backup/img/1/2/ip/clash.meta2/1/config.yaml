@@ -16,18 +16,16 @@ proxies:
   - name: dongtaiwang.com_0                     
     type: hysteria
     server: 108.181.24.77
-    port: 35862
-    ports: 40000-50000
+    port: 11512
+    ports: 20000-30000
     auth-str: dongtaiwang.com
-    sni: bing.com
+    sni: apple.com
     skip-cert-verify: true
     alpn:
       - h3
     protocol: udp
     up: "11 Mbps"
     down: "55 Mbps"
-
-
 proxy-groups:
   - name: 🚀 节点选择
     type: select
