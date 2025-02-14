@@ -21,7 +21,7 @@ proxies:
     password: f3ba3679-f2f4-465f-92a5-de320b775a88
     alpn: [h3]
     sni: www.bing.com
-    disable-sni: true
+    skip-cert-verify: true
     reduce-rtt: true
     udp-relay-mode: native
     congestion-controller: bbr
