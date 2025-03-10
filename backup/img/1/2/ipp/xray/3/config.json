@@ -51,11 +51,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "38.135.55.202",
-            "port": 37375,
+            "address": "185.22.155.105",
+            "port": 42632,
             "users": [
               {
-                "id": "b1be3720-e235-4529-b91f-a79d80f0ce63",
+                "id": "f3ba3679-f2f4-465f-92a5-de320b775a88",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -73,8 +73,8 @@
           "serverName": "www.yahoo.com",
           "fingerprint": "chrome",
           "show": false,
-          "publicKey": "0HXzoGZ2vM-Lqo0szgCx_wdXSLmg2Fuv_XRkLOCRIyE",
-          "shortId": "4797387b",
+          "publicKey": "qtqcKrPLXaN-jpo7Zs1_80QDmA2uvCZKFGanJLJFFXA",
+          "shortId": "1f8b5201",
           "spiderX": ""
         }
       },
