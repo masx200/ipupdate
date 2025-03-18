@@ -14,17 +14,17 @@ dns:
       - 0.0.0.0/32
 proxies:
   - name: dongtaiwang.com_0                     
-    server: 185.22.155.105
-    port: 43516
-    type: tuic
-    uuid: f3ba3679-f2f4-465f-92a5-de320b775a88
-    password: f3ba3679-f2f4-465f-92a5-de320b775a88
-    alpn: [h3]
-    sni: www.bing.com
+    type: hysteria
+    server: 51.158.205.126
+    port: 36194
+    auth-str: dongtaiwang.com
+    sni: apple.com
     skip-cert-verify: true
-    reduce-rtt: true
-    udp-relay-mode: native
-    congestion-controller: bbr
+    alpn:
+      - h3
+    protocol: udp
+    up: "11 Mbps"
+    down: "55 Mbps"
 proxy-groups:
   - name: 🚀 节点选择
     type: select
