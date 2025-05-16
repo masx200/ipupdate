@@ -1,12 +1,12 @@
 {
-  "server": "hy2-1.694463.xyz:4489",
+  "server": "51.159.111.32:31180",
   "auth": "dongtaiwang.com",
   "bandwidth": {
     "up": "11 mbps",
     "down": "55 mbps"
   },
   "tls": {
-    "sni": "www.bing.com",
+    "sni": "apple.com",
     "insecure": true
   },
   "quic": {
