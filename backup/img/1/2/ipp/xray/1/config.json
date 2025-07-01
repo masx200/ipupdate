@@ -51,11 +51,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "185.22.155.105",
-            "port": 62750,
+            "address": "tw-2.534582.xyz",
+            "port": 49226,
             "users": [
               {
-                "id": "fdd2d176-2602-46f2-b694-ce247de88b22",
+                "id": "9244d7a3-6c74-4035-b64f-a90f3ee6e173",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "auto",
@@ -70,10 +70,10 @@
         "network": "tcp",
         "security": "reality",
         "realitySettings": {
-          "serverName": "www.paypal.com",
+          "serverName": "dash.cloudflare.com",
           "fingerprint": "chrome",
           "show": false,
-          "publicKey": "_E_YXE_gOkDrffe4t6gcajtnjFZAJ3g7ZwTJbL3IOHA",
+          "publicKey": "vyqO2y1XKUzVQNuOAtBpYPaZJWxuvfA9CTVuoF9RClQ",
           "shortId": "",
           "spiderX": ""
         }
