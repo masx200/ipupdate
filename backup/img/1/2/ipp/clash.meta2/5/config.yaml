@@ -15,8 +15,8 @@ dns:
 proxies:
 - name: dongtaiwang.com_0                     
   type: anytls
-  server: 208.87.243.187
-  port: 61289
+  server: tw.534582.xyz
+  port: 8443
   password: dongtaiwang.com
   client-fingerprint: chrome
   udp: true
