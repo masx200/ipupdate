@@ -12,20 +12,14 @@ dns:
     ipcidr:
       - 240.0.0.0/4
       - 0.0.0.0/32
-proxies:
+proxies:                    
   - name: dongtaiwang.com_0                     
-    type: hysteria
-    server: 195.154.33.70
-    port: 15010
-    auth-str: dongtaiwang.com
-    sni: apple.com
-    skip-cert-verify: true
-    alpn:
-      - h3
-    protocol: udp
-    up: "11 Mbps"
-    down: "55 Mbps"
-
+    type: mieru
+    server: 108.181.23.41
+    port: 28676
+    transport: TCP
+    username: dongtaiwang.com
+    password: dongtaiwang.com
 proxy-groups:
   - name: 🚀 节点选择
     type: select
