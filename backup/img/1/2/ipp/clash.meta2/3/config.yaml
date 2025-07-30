@@ -16,7 +16,7 @@ proxies:
   - name: dongtaiwang.com_0                     
     type: mieru
     server: 108.181.23.41
-    port: 28676
+    port: 50223
     transport: TCP
     username: dongtaiwang.com
     password: dongtaiwang.com
