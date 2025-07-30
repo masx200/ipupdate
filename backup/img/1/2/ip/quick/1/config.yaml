@@ -15,9 +15,9 @@ dns:
 proxies:
   - name: dongtaiwang.com_0                     
     server: 62.210.10.113
-    port: 22457
+    port: 33998
     type: tuic
-    uuid: 083c4304-78e8-4702-b2ff-7dc899f74d90
+    uuid: 909212b8-5d67-4532-885e-7a6b5e724ab8
     password: dongtaiwang.com
     alpn: [h3]
     sni: bing.com
