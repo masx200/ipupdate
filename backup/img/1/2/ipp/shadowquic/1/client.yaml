@@ -4,7 +4,7 @@ inbound:
 
 outbound:
   type: shadowquic
-  addr: "51.159.226.1:1443"
+  addr: "163.172.126.108:1443"
   username: "dongtaiwang.com"
   password: "dongtaiwang.com"
   server-name: "www.cloudflare.com"
