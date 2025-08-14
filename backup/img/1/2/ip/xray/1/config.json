@@ -59,11 +59,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "fan.683024.xyz",
-            "port": 42348,
+            "address": "109.104.154.108",
+            "port": 34288,
             "users": [
               {
-                "id": "68ea0080-62e5-4b84-95a9-8d6bec2fe3fe",
+                "id": "69af8d2d-435e-4d4f-a0e7-4556dc7e9ed5",
                 "email": "t@t.tt",
                 "security": "auto",
                 "encryption": "none"
@@ -76,14 +76,14 @@
         "network": "xhttp",
         "security": "reality",
         "xhttpSettings": {
-          "path": "68ea0080-62e5-4b84-95a9-8d6bec2fe3fe-xh"
+          "path": "69af8d2d-435e-4d4f-a0e7-4556dc7e9ed5-xh"
         },
         "realitySettings": {
           "serverName": "www.yahoo.com",
           "fingerprint": "chrome",
           "show": false,
-          "publicKey": "k4XAXur_dLeMaXuxxJcBM_0zEI5KDj9BWazoZ0yi53I",
-          "shortId": "fac09bb3",
+          "publicKey": "61o28fH6Wm4QFW29xn7DI8s2kCx3wpQPsactbIC2Xzg",
+          "shortId": "15c47aba",
           "spiderX": ""
         }
       },
