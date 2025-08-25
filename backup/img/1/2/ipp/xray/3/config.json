@@ -18,11 +18,11 @@
   "outbounds": [
     {
       "tag": "proxy", "protocol": "vless",
-      "settings": { "vnext": [{ "address": "109.104.154.108", "port": 34288, "users": [{ "id": "69af8d2d-435e-4d4f-a0e7-4556dc7e9ed5", "email": "t@t.tt", "security": "auto", "encryption": "none" }] }] },
+      "settings": { "vnext": [{ "address": "108.181.3.66", "port": 55392, "users": [{ "id": "68191152-0cf8-4b4c-bdb9-08c75df6455d", "email": "t@t.tt", "security": "auto", "encryption": "none" }] }] },
       "streamSettings": {
         "network": "xhttp", "security": "reality",
-        "xhttpSettings": { "path": "69af8d2d-435e-4d4f-a0e7-4556dc7e9ed5-xh" },
-        "realitySettings": { "serverName": "www.yahoo.com", "fingerprint": "chrome", "show": false, "publicKey": "61o28fH6Wm4QFW29xn7DI8s2kCx3wpQPsactbIC2Xzg", "shortId": "15c47aba", "spiderX": "" }
+        "xhttpSettings": { "path": "68191152-0cf8-4b4c-bdb9-08c75df6455d-xh" },
+        "realitySettings": { "serverName": "www.yahoo.com", "fingerprint": "chrome", "show": false, "publicKey": "sKMivX1dvd_x0khhZW6D6ex3KH9Cso__DyZUIqBcyQI", "shortId": "8e9024a0", "spiderX": "" }
       },
       "mux": { "enabled": false, "concurrency": -1 }
     },
