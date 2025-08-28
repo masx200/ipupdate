@@ -16,7 +16,7 @@ proxies:
   - name: dongtaiwang.com_0                     
     type: hysteria
     server: 62.210.10.113
-    port: 13767
+    port: 14801
     auth-str: dongtaiwang.com
     sni: apple.com
     skip-cert-verify: true
@@ -28,7 +28,7 @@ proxies:
   - name: dongtaiwang.com_1                     
     type: hysteria
     server: 2001:bc8:32d7:306::123
-    port: 13767
+    port: 14801
     auth-str: dongtaiwang.com
     sni: apple.com
     skip-cert-verify: true
@@ -40,7 +40,7 @@ proxies:
   - name: dongtaiwang.com_2                     
     type: hysteria
     server: 2001:bc8:32d7:306::124
-    port: 13767
+    port: 14801
     auth-str: dongtaiwang.com
     sni: apple.com
     skip-cert-verify: true
@@ -52,7 +52,7 @@ proxies:
   - name: dongtaiwang.com_3                     
     type: hysteria
     server: 2001:bc8:32d7:306::125
-    port: 13767
+    port: 14801
     auth-str: dongtaiwang.com
     sni: apple.com
     skip-cert-verify: true
@@ -64,7 +64,7 @@ proxies:
   - name: dongtaiwang.com_4                     
     type: hysteria
     server: 2001:bc8:32d7:306::126
-    port: 13767
+    port: 14801
     auth-str: dongtaiwang.com
     sni: apple.com
     skip-cert-verify: true
