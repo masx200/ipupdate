@@ -85,10 +85,9 @@ proxy-groups:
       - dongtaiwang.com_3
       - dongtaiwang.com_4
   - name: ♻️ 自动选择
-    type: url-test
-    url: https://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
+    type: fallback              
+    url: "https://www.gstatic.com/generate_204"
+    interval: 5
     proxies:
       - dongtaiwang.com_0
       - dongtaiwang.com_1
