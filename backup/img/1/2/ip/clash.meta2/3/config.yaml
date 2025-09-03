@@ -14,10 +14,10 @@ dns:
       - 0.0.0.0/32
 proxies:
   - name: dongtaiwang.com_0                     
-    server: 108.181.5.131
-    port: 22998
+    server: 2001:bc8:32d7:312::2
+    port: 23556
     type: tuic
-    uuid: f350ada4-7d6a-46d0-bc44-27f93436286f
+    uuid: e732a82b-612f-415d-a9f8-e4b1df37d066
     password: dongtaiwang.com
     alpn: [h3]
     sni: bing.com
@@ -33,9 +33,10 @@ proxy-groups:
       - DIRECT
       - dongtaiwang.com_0
   - name: ♻️ 自动选择
-    type: fallback              
-    url: "https://www.gstatic.com/generate_204"
-    interval: 5
+    type: url-test
+    url: https://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
     proxies:
       - dongtaiwang.com_0
   - name: 🌍 国外媒体
