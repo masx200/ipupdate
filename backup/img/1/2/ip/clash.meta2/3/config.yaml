@@ -14,7 +14,7 @@ dns:
       - 0.0.0.0/32
 proxies:
   - name: dongtaiwang.com_0                     
-    server: 2001:bc8:32d7:312::2
+    server: 62.210.10.140
     port: 23556
     type: tuic
     uuid: e732a82b-612f-415d-a9f8-e4b1df37d066
