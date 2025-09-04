@@ -1,30 +1,91 @@
-{
-  "log": { "loglevel": "warning" },
-  "inbounds": [
-    {
-      "tag": "socks", "port": 1080, "listen": "127.0.0.1", "protocol": "socks",
-      "sniffing": { "enabled": true, "destOverride": ["http", "tls"] },
-      "settings": { "auth": "noauth", "udp": true }
-    }
-  ],
-  "outbounds": [
-    {
-      "tag": "proxy", "protocol": "vless",
-      "settings": { "vnext": [{ "address": "2001:bc8:32d7:158::6", "port": 10033, "users": [{ "id": "56618bde-5a09-4ef8-ae56-6e7a8d69ec67", "encryption": "none" }] }] },
-      "streamSettings": {
-        "network": "grpc", "security": "reality",
-        "realitySettings": { "serverName": "nijigen-works.jp", "publicKey": "m1ORavmKKsF8kn6JfNF1m35wRORu8c6YLyxpSfyiYQ0", "shortId": "dfdfb0e2e2d400c4", "fingerprint": "chrome" },
-        "grpcSettings": { "serviceName": "FhwHiFzK" }
-      }
-    },
-    { "tag": "direct", "protocol": "freedom" },
-    { "tag": "block", "protocol": "blackhole" }
-  ],
-  "routing": {
-    "domainStrategy": "AsIs",
-    "rules": [
-      { "type": "field", "ip": ["geoip:private"], "outboundTag": "direct" },
-      { "type": "field", "protocol": ["bittorrent"], "outboundTag": "block" }
-    ]
-  }
-}
+secret: dongtaiwang.com
+mixed-port: 7890
+allow-lan: false
+log-level: info
+dns:
+  enabled: true
+  nameserver:
+    - 119.29.29.29
+    - 223.5.5.5
+  fallback-filter:
+    geoip: false
+    ipcidr:
+      - 240.0.0.0/4
+      - 0.0.0.0/32
+proxies:
+  - name: dongtaiwang.com_0                     
+    type: hysteria
+    server: 2001:bc8:32d7:158::4
+    port: 50011
+    auth-str: dongtaiwang.com
+    sni: apple.com
+    skip-cert-verify: true
+    alpn:
+      - h3
+    protocol: udp
+    up: "11 Mbps"
+    down: "55 Mbps"
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - DIRECT
+      - dongtaiwang.com_0
+  - name: ♻️ 自动选择
+    type: url-test
+    url: https://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - dongtaiwang.com_0
+  - name: 🌍 国外媒体
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🎯 全球直连
+      - dongtaiwang.com_0
+  - name: 📲 电报信息
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - dongtaiwang.com_0
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 节点选择
+      - dongtaiwang.com_0
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - dongtaiwang.com_0
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - ♻️ 自动选择
+  - name: 🛑 全球拦截
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🍃 应用净化
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - dongtaiwang.com_0
+rules:
+  - MATCH,🚀 节点选择
