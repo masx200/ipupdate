@@ -14,14 +14,15 @@ dns:
       - 0.0.0.0/32
 proxies:
   - name: dongtaiwang.com_0  
-    type: hysteria2
-    server: 51.158.194.63
-    port: 32952
-    password: dongtaiwang.com
+    type: hysteria  
+    server: ipv4-2.758733.xyz
+    port: 30077
+    auth-str: dongtaiwang.com
+    sni: apple.com
+    skip-cert-verify: true
     alpn:
       - h3
-    sni: www.microsoft.com
-    skip-cert-verify: true
+    protocol: udp
     up: "11 Mbps"
     down: "55 Mbps"
   - name: dongtaiwang.com_1                     
