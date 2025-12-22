@@ -4,7 +4,7 @@ inbound:
 
 outbound:
   type: shadowquic
-  addr: "5.178.101.106:1443"
+  addr: "157.254.223.43:1443"
   username: "dongtaiwang.com"
   password: "dongtaiwang.com"
   server-name: "www.yahoo.com"
