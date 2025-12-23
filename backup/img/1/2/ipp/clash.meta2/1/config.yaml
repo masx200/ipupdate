@@ -13,7 +13,7 @@ dns:
       - 240.0.0.0/4
       - 0.0.0.0/32
 proxies:
-  - name: dongtaiwang.com_0  
+  - name: https://github.com/Alvin9999-newpac/fanqiang/wiki  
     type: hysteria  
     server: 5.178.101.33
     port: 23008
@@ -91,7 +91,7 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - dongtaiwang.com_0
+      - https://github.com/Alvin9999-newpac/fanqiang/wiki
       - dongtaiwang.com_1
       - dongtaiwang.com_2
       - dongtaiwang.com_3
@@ -101,7 +101,7 @@ proxy-groups:
     url: "https://www.gstatic.com/generate_204"
     interval: 5
     proxies:
-      - dongtaiwang.com_0
+      - https://github.com/Alvin9999-newpac/fanqiang/wiki
       - dongtaiwang.com_1
       - dongtaiwang.com_2
       - dongtaiwang.com_3
@@ -112,7 +112,7 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - dongtaiwang.com_0
+      - https://github.com/Alvin9999-newpac/fanqiang/wiki
       - dongtaiwang.com_1
       - dongtaiwang.com_2
       - dongtaiwang.com_3
@@ -122,7 +122,7 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - dongtaiwang.com_0
+      - https://github.com/Alvin9999-newpac/fanqiang/wiki
       - dongtaiwang.com_1
       - dongtaiwang.com_2
       - dongtaiwang.com_3
@@ -132,7 +132,7 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - dongtaiwang.com_0
+      - https://github.com/Alvin9999-newpac/fanqiang/wiki
       - dongtaiwang.com_1
       - dongtaiwang.com_2
       - dongtaiwang.com_3
@@ -142,7 +142,7 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - dongtaiwang.com_0
+      - https://github.com/Alvin9999-newpac/fanqiang/wiki
       - dongtaiwang.com_1
       - dongtaiwang.com_2
       - dongtaiwang.com_3
@@ -169,7 +169,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - dongtaiwang.com_0
+      - https://github.com/Alvin9999-newpac/fanqiang/wiki
       - dongtaiwang.com_1
       - dongtaiwang.com_2
       - dongtaiwang.com_3
