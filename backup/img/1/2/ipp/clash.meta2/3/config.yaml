@@ -13,7 +13,7 @@ dns:
       - 240.0.0.0/4
       - 0.0.0.0/32
 proxies:
-  - name: dongtaiwang.com_0                     
+  - name: https://github.com/Alvin9999-newpac/fanqiang/wiki
     type: vless
     server: 195.154.200.13
     port: 17401
@@ -91,7 +91,7 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - dongtaiwang.com_0
+      - https://github.com/Alvin9999-newpac/fanqiang/wiki
       - dongtaiwang.com_1
       - dongtaiwang.com_2
   - name: ♻️ 自动选择
@@ -100,7 +100,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - dongtaiwang.com_0
+      - https://github.com/Alvin9999-newpac/fanqiang/wiki
       - dongtaiwang.com_1
       - dongtaiwang.com_2
   - name: 🌍 国外媒体
@@ -109,7 +109,7 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - dongtaiwang.com_0
+      - https://github.com/Alvin9999-newpac/fanqiang/wiki
       - dongtaiwang.com_1
       - dongtaiwang.com_2
   - name: 📲 电报信息
@@ -117,7 +117,7 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - dongtaiwang.com_0
+      - https://github.com/Alvin9999-newpac/fanqiang/wiki
       - dongtaiwang.com_1
       - dongtaiwang.com_2
   - name: Ⓜ️ 微软服务
@@ -125,7 +125,7 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - dongtaiwang.com_0
+      - https://github.com/Alvin9999-newpac/fanqiang/wiki
       - dongtaiwang.com_1
       - dongtaiwang.com_2
   - name: 🍎 苹果服务
@@ -133,7 +133,7 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - dongtaiwang.com_0
+      - https://github.com/Alvin9999-newpac/fanqiang/wiki
       - dongtaiwang.com_1
       - dongtaiwang.com_2
   - name: 🎯 全球直连
@@ -158,7 +158,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - dongtaiwang.com_0
+      - https://github.com/Alvin9999-newpac/fanqiang/wiki
       - dongtaiwang.com_1
       - dongtaiwang.com_2
 rules:
