@@ -13,10 +13,10 @@
     {
       "type": "vless",
       "tag": "https://github.com/Alvin9999-newpac/fanqiang/wiki",
-      "uuid": "582d6615-b8a3-4674-96c1-5b087563b091",
+      "uuid": "d0b3e27d-bbfc-4a3b-8e60-6973de8fcefa",
       "packet_encoding": "xudp",
-      "server": "62.210.123.16",
-      "server_port": 12618,
+      "server": "157.254.223.44",
+      "server_port": 18959,
       "flow": "",
       "tls": {
         "enabled": true,
@@ -27,8 +27,8 @@
         },
         "reality": {
           "enabled": true,
-          "public_key": "Y3mEtIPC1rjwUrwJ4UsqX6QeZnJUoBN6hG2rRSQx4Rw",
-          "short_id": "8c4e4d7198e3631c"
+          "public_key": "-hwVEdgFkvjku8ESuDoAA7id5yGGv_zXBvBW_RdhmHA",
+          "short_id": "d557c6895d014075"
         }
       },
     "multiplex": {
@@ -39,9 +39,8 @@
         "padding": true,
         "brutal": {
             "enabled": true,
-            "up_mbps": 50,
+            "up_mbps": 50, 
             "down_mbps": 100
-
         }
     }
     }
