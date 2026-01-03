@@ -15,7 +15,7 @@ dns:
 proxies:
   - name: https://github.com/Alvin9999-newpac/fanqiang/wiki  
     type: hysteria  
-    server: 5.178.101.33
+    server: 89.144.35.30
     port: 23008
     auth-str: dongtaiwang.com
     sni: apple.com
@@ -26,6 +26,18 @@ proxies:
     up: "11 Mbps"
     down: "55 Mbps"
   - name: dongtaiwang.com_1                     
+    type: hysteria
+    server: 5.178.101.33
+    port: 23008
+    auth-str: dongtaiwang.com
+    sni: apple.com
+    skip-cert-verify: true
+    alpn:
+      - h3
+    protocol: udp
+    up: "11 Mbps"
+    down: "55 Mbps"
+  - name: dongtaiwang.com_2                     
     type: vless
     server: 195.154.200.13
     port: 17401
@@ -49,18 +61,6 @@ proxies:
         enabled: true
         up: 50
         down: 100
-  - name: dongtaiwang.com_2                     
-    type: hysteria
-    server: ipv4.758733.xyz
-    port: 20001
-    auth-str: dongtaiwang.com
-    sni: apple.com
-    skip-cert-verify: true
-    alpn:
-      - h3
-    protocol: udp
-    up: "11 Mbps"
-    down: "55 Mbps"
   - name: dongtaiwang.com_3                     
     type: hysteria
     server: 2001:bc8:32d7:402::3
