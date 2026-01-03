@@ -12,11 +12,11 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "https://alvin9999.com",
-      "uuid": "939db115-dea1-4806-a9fc-bd4e6c0213a4",
+      "tag": "https://github.com/Alvin9999-newpac/fanqiang/wiki",
+      "uuid": "d3fd3b3c-f8d4-4894-b91e-5a6a53923a95",
       "packet_encoding": "xudp",
       "server": "89.144.35.232",
-      "server_port": 18952,
+      "server_port": 15531,
       "flow": "",
       "tls": {
         "enabled": true,
@@ -27,8 +27,8 @@
         },
         "reality": {
           "enabled": true,
-          "public_key": "cbE6Dwv3-JG7qTLa1QC0nDo33cS0jyeMOkp5pHL65wg",
-          "short_id": "650002d03178115e"
+          "public_key": "o4gXQf1n5YOoLo6OnyHykodK1ZShHvDqu1FgxNHe6n8",
+          "short_id": "8346964417a2552b"
         }
       },
     "multiplex": {
