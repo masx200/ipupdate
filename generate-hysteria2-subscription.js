@@ -143,7 +143,13 @@ function convertToHysteria2URI(config) {
   // 添加路径和查询参数
   uri += "/";
   if (params.length > 0) {
-    uri += "?" + params.join("&");
+    // uri += "?" + params.join("&");
+    let urlobj = new URL(uri);
+    urlobj.search = new URLSearchParams(
+      Object.entries(Object.fromEntries(params.map((a) => a.split("=")))),
+    )
+      .toString();
+    uri = urlobj.href;
   }
 
   return uri;
