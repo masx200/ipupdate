@@ -1,0 +1,17 @@
+{
+  "name": "ipupdate-master",
+  "version": "1.0.0",
+  "description": "[![GitLab CI/CD](https://img.shields.io/badge/GitLab-CI%2FCD-blue.svg)](https://gitlab.com/masx200/ipupdate) [![License: GPL-3.0](https://img.shields.io/badge/License-GPL--3.0-green.svg)](COPYING) [![代理配置](https://img.shields.io/badge/代理配置-30+-orange.svg)](#支持的代理协议)",
+  "main": "index.js",
+  "scripts": {
+    "format": "deno fmt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/masx200/ipupdate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
