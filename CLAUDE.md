@@ -1,10 +1,12 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+This file provides guidance to Claude Code (claude.ai/code) when working with
+code in this repository.
 
 ## 项目概述
 
-这是一个代理配置管理项目，包含多种代理协议的客户端配置文件。项目主要用于组织和管理不同代理客户端（Clash、V2RayN、Xray、Singbox 等）的配置。
+这是一个代理配置管理项目，包含多种代理协议的客户端配置文件。项目主要用于组织和管理不同代理客户端（Clash、V2RayN、Xray、Singbox
+等）的配置。
 
 ## 项目结构
 
@@ -29,7 +31,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - **backup/img/1/2/ip/** - 历史代理配置备份
 - **backup/img/1/2/ipp/** - 另一套配置备份
 
-每个备份子目录包含完整的客户端配置（clash.meta2, hysteria, hysteria2, juicity, mieru, naiveproxy, quick, shadowquic, singbox, xray 等）
+每个备份子目录包含完整的客户端配置（clash.meta2, hysteria, hysteria2, juicity,
+mieru, naiveproxy, quick, shadowquic, singbox, xray 等）
 
 ### 配置摘要文件
 
@@ -70,6 +73,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ### Clash 配置（YAML）
 
 典型的 Clash 配置结构：
+
 ```yaml
 port: 7890
 socks-port: 7891
@@ -96,6 +100,7 @@ rules:
 ### JSON 配置格式
 
 大多数其他客户端使用 JSON 格式，包含：
+
 - **inbounds** - 入站连接配置
 - **outbounds** - 出站代理配置
 - **routing** - 路由规则
@@ -124,6 +129,7 @@ rules:
 ## 多路复用
 
 部分配置启用了多路复用以提升性能：
+
 - **h2mux** - HTTP/2 多路复用
 - **smux** - SMUX 多路复用
 
@@ -132,6 +138,7 @@ rules:
 ### 搜索特定协议配置
 
 使用 Grep 工具搜索特定协议：
+
 ```bash
 # 搜索所有 Hysteria 配置
 grep -r "type: hysteria" .
@@ -145,7 +152,8 @@ grep -A 10 "type: vmess" . | grep -B 5 "tls: true"
 
 ### 提取配置信息
 
-参考现有的摘要文件（hysteria-tuic-proxy_configs.yaml 等），它们展示了如何从多个配置文件中提取和汇总特定协议的配置。
+参考现有的摘要文件（hysteria-tuic-proxy_configs.yaml
+等），它们展示了如何从多个配置文件中提取和汇总特定协议的配置。
 
 ### 配置验证
 
