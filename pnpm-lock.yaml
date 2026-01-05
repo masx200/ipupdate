@@ -1,0 +1,74 @@
+lockfileVersion: "9.0"
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+  .:
+    dependencies:
+      "@types/node":
+        specifier: ^25.0.3
+        version: 25.0.3
+      js-yaml:
+        specifier: ^4.1.1
+        version: 4.1.1
+      typescript:
+        specifier: ^5.9.3
+        version: 5.9.3
+      yaml:
+        specifier: ^2.8.2
+        version: 2.8.2
+
+packages:
+  "@types/node@25.0.3":
+    resolution: {
+      integrity: sha512-W609buLVRVmeW693xKfzHeIV6nJGGz98uCPfeXI1ELMLXVeKYZ9m15fAMSaUPBHYLGFsVRcMmSCksQOrZV9BYA==,
+    }
+
+  argparse@2.0.1:
+    resolution: {
+      integrity: sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==,
+    }
+
+  js-yaml@4.1.1:
+    resolution: {
+      integrity: sha512-qQKT4zQxXl8lLwBtHMWwaTcGfFOZviOJet3Oy/xmGk2gZH677CJM9EvtfdSkgWcATZhj/55JZ0rmy3myCT5lsA==,
+    }
+    hasBin: true
+
+  typescript@5.9.3:
+    resolution: {
+      integrity: sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==,
+    }
+    engines: { node: ">=14.17" }
+    hasBin: true
+
+  undici-types@7.16.0:
+    resolution: {
+      integrity: sha512-Zz+aZWSj8LE6zoxD+xrjh4VfkIG8Ya6LvYkZqtUQGJPZjYl53ypCaUwWqo7eI0x66KBGeRo+mlBEkMSeSZ38Nw==,
+    }
+
+  yaml@2.8.2:
+    resolution: {
+      integrity: sha512-mplynKqc1C2hTVYxd0PU2xQAc22TI1vShAYGksCCfxbn/dFwnHTNi1bvYsBTkhdUNtGIf5xNOg938rrSSYvS9A==,
+    }
+    engines: { node: ">= 14.6" }
+    hasBin: true
+
+snapshots:
+  "@types/node@25.0.3":
+    dependencies:
+      undici-types: 7.16.0
+
+  argparse@2.0.1: {}
+
+  js-yaml@4.1.1:
+    dependencies:
+      argparse: 2.0.1
+
+  typescript@5.9.3: {}
+
+  undici-types@7.16.0: {}
+
+  yaml@2.8.2: {}
