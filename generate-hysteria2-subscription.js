@@ -102,8 +102,15 @@ function convertToHysteria2URI(config) {
     (config.tls && config.tls.insecure === true)
   ) {
     params.push("insecure=1");
-  } else {
+  }
+  if (
+    config.skip_cert_verify === false ||
+    config.skip_cert_verify === "false" ||
+    (config.tls && config.tls.insecure === false)
+  ) {
     params.push("insecure=0");
+  } else {
+    params.push("insecure=1");
   }
 
   // 添加混淆 (obfs) - Hysteria 2 支持 salamander 混淆
