@@ -149,6 +149,7 @@ function convertToHysteria2URI(config) {
       Object.entries(Object.fromEntries(params.map((a) => a.split("=")))),
     )
       .toString();
+    urlobj.hash = server;
     uri = urlobj.href;
   }
 
