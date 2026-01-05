@@ -69,6 +69,8 @@ function generateTuicLink(proxy) {
     // 转换布尔值为 0 或 1
     const insecure = skip_cert_verify ? "1" : "0";
     params.push(`insecure=${insecure}`);
+    params.push(`allowInsecure=${insecure}`);
+    params.push(`allow_insecure=${insecure}`);
   }
 
   if (reduce_rtt !== undefined) {
