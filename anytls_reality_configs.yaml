@@ -1,0 +1,646 @@
+# 项目中所有的 AnyTLS 和 Reality 配置汇总
+# 生成时间: 2025-01-05
+
+# ========================================
+# ANYTLS 配置 (6个文件)
+# ========================================
+
+anytls_configs:
+  # backup/img/1/2/ip/clash.meta2/2/config.yaml
+  - file: "backup/img/1/2/ip/clash.meta2/2/config.yaml"
+    proxies:
+      - name: dongtaiwang.com_0
+        type: anytls
+        server: 45.221.98.14
+        port: 59901
+        password: dongtaiwang.com
+        client-fingerprint: chrome
+        udp: true
+        idle-session-check-interval: 30
+        idle-session-timeout: 30
+        min-idle-session: 0
+        alpn: [h2, http/1.1]
+        skip-cert-verify: true
+
+  # backup/img/1/2/ip/quick/1/config.yaml
+  - file: "backup/img/1/2/ip/quick/1/config.yaml"
+    proxies:
+      - name: dongtaiwang.com_1
+        type: anytls
+        server: fan3.394615.xyz
+        port: 8443
+        password: dongtaiwang.com
+        client-fingerprint: chrome
+        udp: true
+        idle-session-check-interval: 30
+        idle-session-timeout: 30
+        min-idle-session: 0
+        alpn: [h2, http/1.1]
+        skip-cert-verify: true
+
+  # backup/img/1/2/ip/quick/4/config.yaml
+  - file: "backup/img/1/2/ip/quick/4/config.yaml"
+    proxies:
+      - name: dongtaiwang.com_0
+        type: anytls
+        server: fan2.856098.xyz
+        port: 8443
+        password: dongtaiwang.com
+        client-fingerprint: chrome
+        udp: true
+        idle-session-check-interval: 30
+        idle-session-timeout: 30
+        min-idle-session: 0
+        alpn: [h2, http/1.1]
+        skip-cert-verify: true
+
+  # backup/img/1/2/ipp/clash.meta2/2/config.yaml
+  - file: "backup/img/1/2/ipp/clash.meta2/2/config.yaml"
+    proxies:
+      - name: dongtaiwang.com_0
+        type: anytls
+        server: 45.221.98.14
+        port: 59901
+        password: dongtaiwang.com
+        client-fingerprint: chrome
+        udp: true
+        idle-session-check-interval: 30
+        idle-session-timeout: 30
+        min-idle-session: 0
+        alpn: [h2, http/1.1]
+        skip-cert-verify: true
+
+  # backup/img/1/2/ipp/quick/1/config.yaml
+  - file: "backup/img/1/2/ipp/quick/1/config.yaml"
+    proxies:
+      - name: dongtaiwang.com_1
+        type: anytls
+        server: fan3.394615.xyz
+        port: 8443
+        password: dongtaiwang.com
+        client-fingerprint: chrome
+        udp: true
+        idle-session-check-interval: 30
+        idle-session-timeout: 30
+        min-idle-session: 0
+        alpn: [h2, http/1.1]
+        skip-cert-verify: true
+
+  # backup/img/1/2/ipp/quick/4/config.yaml
+  - file: "backup/img/1/2/ipp/quick/4/config.yaml"
+    proxies:
+      - name: dongtaiwang.com_0
+        type: anytls
+        server: fan2.856098.xyz
+        port: 8443
+        password: dongtaiwang.com
+        client-fingerprint: chrome
+        udp: true
+        idle-session-check-interval: 30
+        idle-session-timeout: 30
+        min-idle-session: 0
+        alpn: [h2, http/1.1]
+        skip-cert-verify: true
+
+# ========================================
+# REALITY 配置 (17个文件)
+# ========================================
+
+reality_configs:
+  # backup/img/1/2/ip/clash.meta2/1/config.yaml
+  - file: "backup/img/1/2/ip/clash.meta2/1/config.yaml"
+    proxies:
+      - name: dongtaiwang.com_2
+        type: vless
+        server: 195.154.200.13
+        port: 17401
+        uuid: add14a5b-f648-4423-8a1f-8b8f54c0daef
+        network: tcp
+        udp: true
+        tls: true
+        flow: ""
+        servername: itunes.apple.com
+        client-fingerprint: chrome
+        reality-opts:
+          public-key: IXcXrT_Y0ATTZlGOhPnSmKo-cuGr4yMKV9Rz4-nA3yU
+          short-id: 8ef4455ba637425b
+        smux:
+          enabled: true
+          protocol: h2mux
+          max-connections: 1
+          min-streams: 4
+          padding: true
+          brutal-opts:
+            enabled: true
+            up: 50
+            down: 100
+
+  # backup/img/1/2/ip/clash.meta2/3/config.yaml
+  - file: "backup/img/1/2/ip/clash.meta2/3/config.yaml"
+    proxies:
+      - name: dongtaiwang.com_0
+        type: vless
+        server: 2001:bc8:32d7:181::2
+        port: 443
+        uuid: 2460b5d1-0d74-427d-ad6c-bbe2aaab65cf
+        network: tcp
+        udp: true
+        tls: true
+        flow: ""
+        servername: itunes.apple.com
+        client-fingerprint: chrome
+        reality-opts:
+          public-key: IXcXrT_Y0ATTZlGOhPnSmKo-cuGr4yMKV9Rz4-nA3yU
+          short-id: 8ef4455ba637425b
+        smux:
+          enabled: true
+          protocol: h2mux
+          max-connections: 1
+          min-streams: 4
+          padding: true
+          brutal-opts:
+            enabled: true
+            up: 50
+            down: 100
+
+      - name: dongtaiwang.com_1
+        type: vless
+        server: 2001:bc8:32d7:181::2
+        port: 443
+        uuid: 2460b5d1-0d74-427d-ad6c-bbe2aaab65cf
+        network: tcp
+        udp: true
+        tls: true
+        flow: ""
+        servername: itunes.apple.com
+        client-fingerprint: chrome
+        reality-opts:
+          public-key: IXcXrT_Y0ATTZlGOhPnSmKo-cuGr4yMKV9Rz4-nA3yU
+          short-id: 8ef4455ba637425b
+        smux:
+          enabled: true
+          protocol: h2mux
+          max-connections: 1
+          min-streams: 4
+          padding: true
+          brutal-opts:
+            enabled: true
+            up: 50
+            down: 100
+
+      - name: dongtaiwang.com_2
+        type: vless
+        server: 2001:bc8:32d7:181::3
+        port: 443
+        uuid: 2460b5d1-0d74-427d-ad6c-bbe2aaab65cf
+        network: tcp
+        udp: true
+        tls: true
+        flow: ""
+        servername: itunes.apple.com
+        client-fingerprint: chrome
+        reality-opts:
+          public-key: IXcXrT_Y0ATTZlGOhPnSmKo-cuGr4yMKV9Rz4-nA3yU
+          short-id: 8ef4455ba637425b
+        smux:
+          enabled: true
+          protocol: h2mux
+          max-connections: 1
+          min-streams: 4
+          padding: true
+          brutal-opts:
+            enabled: true
+            up: 50
+            down: 100
+
+  # backup/img/1/2/ip/singbox/1/config.json
+  - file: "backup/img/1/2/ip/singbox/1/config.json"
+    format: json
+    outbounds:
+      - tag: "https://github.com/Alvin9999-newpac/fanqiang/wiki"
+        type: vless
+        uuid: d0b3e27d-bbfc-4a3b-8e60-6973de8fcefa
+        packet_encoding: xudp
+        server: 157.254.223.44
+        server_port: 18959
+        flow: ""
+        tls:
+          enabled: true
+          server_name: itunes.apple.com
+          utls:
+            enabled: true
+            fingerprint: chrome
+          reality:
+            enabled: true
+            public_key: -hwVEdgFkvjku8ESuDoAA7id5yGGv_zXBvBW_RdhmHA
+            short_id: d557c6895d014075
+        multiplex:
+          enabled: true
+          protocol: h2mux
+          max_connections: 1
+          min_streams: 4
+          padding: true
+          brutal:
+            enabled: true
+            up_mbps: 50
+            down_mbps: 100
+
+  # backup/img/1/2/ip/singbox/2/config.json
+  - file: "backup/img/1/2/ip/singbox/2/config.json"
+    format: json
+    outbounds:
+      - tag: proxy
+        type: vless
+        uuid: 2460b5d1-0d74-427d-ad6c-bbe2aaab65cf
+        packet_encoding: xudp
+        server: 62.210.10.113
+        server_port: 18958
+        flow: ""
+        tls:
+          enabled: true
+          server_name: itunes.apple.com
+          utls:
+            enabled: true
+            fingerprint: chrome
+          reality:
+            enabled: true
+            public_key: o4gXQf1n5YOoLo6OnyHykodK1ZShHvDqu1FgxNHe6n8
+            short_id: 8346964417a2552b
+        multiplex:
+          enabled: true
+          protocol: h2mux
+          max_connections: 1
+          min_streams: 4
+          padding: true
+          brutal:
+            enabled: true
+            up_mbps: 50
+            down_mbps: 100
+
+  # backup/img/1/2/ip/singbox/config.json
+  - file: "backup/img/1/2/ip/singbox/config.json"
+    format: json
+    outbounds:
+      - tag: "https://github.com/Alvin9999-newpac/fanqiang/wiki"
+        type: vless
+        uuid: d0b3e27d-bbfc-4a3b-8e60-6973de8fcefa
+        packet_encoding: xudp
+        server: 157.254.223.44
+        server_port: 18959
+        flow: ""
+        tls:
+          enabled: true
+          server_name: itunes.apple.com
+          utls:
+            enabled: true
+            fingerprint: chrome
+          reality:
+            enabled: true
+            public_key: -hwVEdgFkvjku8ESuDoAA7id5yGGv_zXBvBW_RdhmHA
+            short_id: d557c6895d014075
+        multiplex:
+          enabled: true
+          protocol: h2mux
+          max_connections: 1
+          min_streams: 4
+          padding: true
+          brutal:
+            enabled: true
+            up_mbps: 50
+            down_mbps: 100
+
+  # backup/img/1/2/ip/xray/1/config.json
+  - file: "backup/img/1/2/ip/xray/1/config.json"
+    format: json
+    outbounds:
+      - tag: proxy
+        protocol: vless
+        address: 89.144.35.231
+        port: 23889
+        uuid: 2460b5d1-0d74-427d-ad6c-bbe2aaab65cf
+        email: t@t.tt
+        network: xhttp
+        security: reality
+        xhttpSettings:
+          path: /github.com/Alvin9999
+        realitySettings:
+          serverName: www.sky.com
+          fingerprint: chrome
+          show: false
+          publicKey: JNcfkAqeuYew3pxXliMPe8vDro8JmzbJynQobOipGn4
+          shortId: 8f589d63440b23a0
+          spiderX: /
+
+  # backup/img/1/2/ip/xray/2/config.json
+  - file: "backup/img/1/2/ip/xray/2/config.json"
+    format: json
+    outbounds:
+      - tag: proxy
+        protocol: vless
+        address: fan3.394615.xyz
+        port: 34500
+        uuid: 8b66e552-e89d-4c4f-bb5a-e3d37bf151b8
+        email: t@t.tt
+        network: xhttp
+        security: reality
+        xhttpSettings:
+          path: /ZTWhzkrWeLnk5ARp8SsoVlVMGn6cSDq8CElbAniRQ9dMR
+        realitySettings:
+          serverName: www.lovelive-anime.jp
+          fingerprint: chrome
+          show: false
+          publicKey: Yg6kOijRv1IbFcwhY0WmwJ8KW7YTtux4QlQhekEzNEQ
+          shortId: 3a1381d1b2cc9e19
+          spiderX: /
+
+  # backup/img/1/2/ip/xray/3/config.json
+  - file: "backup/img/1/2/ip/xray/3/config.json"
+    format: json
+    outbounds:
+      - tag: proxy
+        protocol: vless
+        address: 89.144.35.231
+        port: 28667
+        uuid: 2460b5d1-0d74-427d-ad6c-bbe2aaab65cf
+        email: t@t.tt
+        network: xhttp
+        security: reality
+        xhttpSettings:
+          path: 5cfc52bc-e701-4160-89df-930a0c040576-xh
+          mode: auto
+        realitySettings:
+          serverName: apple.com
+          fingerprint: chrome
+          show: false
+          publicKey: kfw5DgkyKiovC3dzb-o2PUYnZPnbYvbx2IwERUv9czY
+          shortId: 225e2cc8
+          spiderX: ""
+          mldsa65Verify: ""
+
+  # backup/img/1/2/ip/xray/4/config.json
+  - file: "backup/img/1/2/ip/xray/4/config.json"
+    format: json
+    outbounds:
+      - tag: proxy
+        protocol: vless
+        address: 2001:bc8:32d7:14f::6
+        port: 60011
+        uuid: a1f699e4-d7b7-4cdc-8414-1105e08fe4c5
+        email: t@t.tt
+        network: xhttp
+        security: reality
+        xhttpSettings:
+          path: /github.com/Alvin9999
+        realitySettings:
+          serverName: www.pixiv.co.jp
+          fingerprint: chrome
+          show: false
+          publicKey: BTCE_8R4FJ7wf9mR7PkONJyeihtHqi_TptjC20eMhic
+          shortId: ea22dff3025e4ff8
+          spiderX: /
+
+  # backup/img/1/2/ipp/clash.meta2/1/config.yaml
+  - file: "backup/img/1/2/ipp/clash.meta2/1/config.yaml"
+    proxies:
+      - name: dongtaiwang.com_2
+        type: vless
+        server: 195.154.200.13
+        port: 17401
+        uuid: add14a5b-f648-4423-8a1f-8b8f54c0daef
+        network: tcp
+        udp: true
+        tls: true
+        flow: ""
+        servername: itunes.apple.com
+        client-fingerprint: chrome
+        reality-opts:
+          public-key: IXcXrT_Y0ATTZlGOhPnSmKo-cuGr4yMKV9Rz4-nA3yU
+          short-id: 8ef4455ba637425b
+        smux:
+          enabled: true
+          protocol: h2mux
+          max-connections: 1
+          min-streams: 4
+          padding: true
+          brutal-opts:
+            enabled: true
+            up: 50
+            down: 100
+
+  # backup/img/1/2/ipp/clash.meta2/3/config.yaml
+  - file: "backup/img/1/2/ipp/clash.meta2/3/config.yaml"
+    proxies:
+      - name: dongtaiwang.com_0
+        type: vless
+        server: 2001:bc8:32d7:181::2
+        port: 443
+        uuid: 2460b5d1-0d74-427d-ad6c-bbe2aaab65cf
+        network: tcp
+        udp: true
+        tls: true
+        flow: ""
+        servername: itunes.apple.com
+        client-fingerprint: chrome
+        reality-opts:
+          public-key: IXcXrT_Y0ATTZlGOhPnSmKo-cuGr4yMKV9Rz4-nA3yU
+          short-id: 8ef4455ba637425b
+        smux:
+          enabled: true
+          protocol: h2mux
+          max-connections: 1
+          min-streams: 4
+          padding: true
+          brutal-opts:
+            enabled: true
+            up: 50
+            down: 100
+
+      - name: dongtaiwang.com_1
+        type: vless
+        server: 2001:bc8:32d7:181::2
+        port: 443
+        uuid: 2460b5d1-0d74-427d-ad6c-bbe2aaab65cf
+        network: tcp
+        udp: true
+        tls: true
+        flow: ""
+        servername: itunes.apple.com
+        client-fingerprint: chrome
+        reality-opts:
+          public-key: IXcXrT_Y0ATTZlGOhPnSmKo-cuGr4yMKV9Rz4-nA3yU
+          short-id: 8ef4455ba637425b
+        smux:
+          enabled: true
+          protocol: h2mux
+          max-connections: 1
+          min-streams: 4
+          padding: true
+          brutal-opts:
+            enabled: true
+            up: 50
+            down: 100
+
+      - name: dongtaiwang.com_2
+        type: vless
+        server: 2001:bc8:32d7:181::3
+        port: 443
+        uuid: 2460b5d1-0d74-427d-ad6c-bbe2aaab65cf
+        network: tcp
+        udp: true
+        tls: true
+        flow: ""
+        servername: itunes.apple.com
+        client-fingerprint: chrome
+        reality-opts:
+          public-key: IXcXrT_Y0ATTZlGOhPnSmKo-cuGr4yMKV9Rz4-nA3yU
+          short-id: 8ef4455ba637425b
+        smux:
+          enabled: true
+          protocol: h2mux
+          max-connections: 1
+          min-streams: 4
+          padding: true
+          brutal-opts:
+            enabled: true
+            up: 50
+            down: 100
+
+  # backup/img/1/2/ipp/singbox/1/config.json (内容同 ip/singbox/1)
+  - file: "backup/img/1/2/ipp/singbox/1/config.json"
+    format: json
+    outbounds:
+      - tag: "https://github.com/Alvin9999-newpac/fanqiang/wiki"
+        type: vless
+        uuid: d0b3e27d-bbfc-4a3b-8e60-6973de8fcefa
+        server: 157.254.223.44
+        server_port: 18959
+        tls:
+          enabled: true
+          server_name: itunes.apple.com
+          reality:
+            enabled: true
+            public_key: -hwVEdgFkvjku8ESuDoAA7id5yGGv_zXBvBW_RdhmHA
+            short_id: d557c6895d014075
+
+  # backup/img/1/2/ipp/singbox/2/config.json (内容同 ip/singbox/2)
+  - file: "backup/img/1/2/ipp/singbox/2/config.json"
+    format: json
+    outbounds:
+      - tag: proxy
+        type: vless
+        uuid: 2460b5d1-0d74-427d-ad6c-bbe2aaab65cf
+        server: 62.210.10.113
+        server_port: 18958
+        tls:
+          enabled: true
+          server_name: itunes.apple.com
+          reality:
+            enabled: true
+            public_key: o4gXQf1n5YOoLo6OnyHykodK1ZShHvDqu1FgxNHe6n8
+            short_id: 8346964417a2552b
+
+  # backup/img/1/2/ipp/xray/1/config.json
+  - file: "backup/img/1/2/ipp/xray/1/config.json"
+    format: json
+    outbounds:
+      - tag: proxy
+        protocol: vless
+        address: 89.144.35.231
+        port: 23889
+        uuid: 2460b5d1-0d74-427d-ad6c-bbe2aaab65cf
+        network: xhttp
+        security: reality
+        xhttpSettings:
+          path: /github.com/Alvin9999
+        realitySettings:
+          serverName: www.sky.com
+          fingerprint: chrome
+          publicKey: JNcfkAqeuYew3pxXliMPe8vDro8JmzbJynQobOipGn4
+          shortId: 8f589d63440b23a0
+          spiderX: /
+
+  # backup/img/1/2/ipp/xray/2/config.json
+  - file: "backup/img/1/2/ipp/xray/2/config.json"
+    format: json
+    outbounds:
+      - tag: proxy
+        protocol: vless
+        address: fan3.394615.xyz
+        port: 34500
+        uuid: 8b66e552-e89d-4c4f-bb5a-e3d37bf151b8
+        network: xhttp
+        security: reality
+        xhttpSettings:
+          path: /ZTWhzkrWeLnk5ARp8SsoVlVMGn6cSDq8CElbAniRQ9dMR
+        realitySettings:
+          serverName: www.lovelive-anime.jp
+          fingerprint: chrome
+          publicKey: Yg6kOijRv1IbFcwhY0WmwJ8KW7YTtux4QlQhekEzNEQ
+          shortId: 3a1381d1b2cc9e19
+          spiderX: /
+
+  # backup/img/1/2/ipp/xray/3/config.json
+  - file: "backup/img/1/2/ipp/xray/3/config.json"
+    format: json
+    outbounds:
+      - tag: proxy
+        protocol: vless
+        address: 89.144.35.231
+        port: 28667
+        uuid: 2460b5d1-0d74-427d-ad6c-bbe2aaab65cf
+        network: xhttp
+        security: reality
+        xhttpSettings:
+          path: 5cfc52bc-e701-4160-89df-930a0c040576-xh
+          mode: auto
+        realitySettings:
+          serverName: apple.com
+          fingerprint: chrome
+          publicKey: kfw5DgkyKiovC3dzb-o2PUYnZPnbYvbx2IwERUv9czY
+          shortId: 225e2cc8
+          spiderX: ""
+          mldsa65Verify: ""
+
+  # backup/img/1/2/ipp/xray/4/config.json
+  - file: "backup/img/1/2/ipp/xray/4/config.json"
+    format: json
+    outbounds:
+      - tag: proxy
+        protocol: vless
+        address: 2001:bc8:32d7:14f::6
+        port: 60011
+        uuid: a1f699e4-d7b7-4cdc-8414-1105e08fe4c5
+        network: xhttp
+        security: reality
+        xhttpSettings:
+          path: /github.com/Alvin9999
+        realitySettings:
+          serverName: www.pixiv.co.jp
+          fingerprint: chrome
+          publicKey: BTCE_8R4FJ7wf9mR7PkONJyeihtHqi_TptjC20eMhic
+          shortId: ea22dff3025e4ff8
+          spiderX: /
+
+# ========================================
+# 统计信息
+# ========================================
+statistics:
+  total_files: 23
+  anytls_files: 6
+  reality_files: 17
+  unique_servers: 15+
+  common_passwords:
+    - dongtaiwang.com
+  common_server_names:
+    - itunes.apple.com
+    - www.sky.com
+    - www.lovelive-anime.jp
+    - apple.com
+    - www.pixiv.co.jp
+  common_fingerprints:
+    - chrome
+  network_protocols:
+    - tcp (Clash)
+    - xhttp (Xray)
+  multiplex_protocols:
+    - h2mux

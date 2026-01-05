@@ -1,0 +1,334 @@
+# 项目中所有的 VMess 配置汇总 (排除 tls: false)
+# 生成时间: 2025-01-05
+
+# ========================================
+# VMESS 配置 (9个文件,已排除tls: false)
+# ========================================
+
+vmess-tls_configs:
+  # clash/2/config.yaml - 只包含tls: true的配置
+  - file: "clash/2/config.yaml"
+    format: yaml
+    proxies:
+      - name: https://github.com/Alvin9999/new-pac/wiki_2
+        type: vmess
+        server: zfc.windowsupdate1.com
+        port: 443
+        uuid: 2cb6537c-e6db-4d20-ba70-3495b95aca68
+        alterId: 0
+        cipher: auto
+        tls: true
+        network: ws
+        ws-opts:
+          path: /kbjc/de1
+          headers:
+            Host: de1.hnokkdf.top
+
+      - name: https://github.com/Alvin9999/new-pac/wiki_3
+        type: vmess
+        server: zfc.windowsupdate1.com
+        port: 443
+        uuid: 2cb6537c-e6db-4d20-ba70-3495b95aca68
+        alterId: 0
+        cipher: auto
+        tls: true
+        network: ws
+        ws-opts:
+          path: /kbjc/us4
+          headers:
+            Host: us4.hnokkdf.top
+
+      - name: https://github.com/Alvin9999/new-pac/wiki_4
+        type: vmess
+        server: zfc.windowsupdate1.com
+        port: 443
+        uuid: 2cb6537c-e6db-4d20-ba70-3495b95aca68
+        alterId: 0
+        cipher: auto
+        tls: true
+        network: ws
+        ws-opts:
+          path: /kbjc/fr1
+          headers:
+            Host: fr1.hnokkdf.top
+
+      - name: https://github.com/Alvin9999/new-pac/wiki_17
+        type: vmess
+        server: zfc.windowsupdate1.com
+        port: 443
+        uuid: 2cb6537c-e6db-4d20-ba70-3495b95aca68
+        alterId: 0
+        cipher: auto
+        tls: true
+        network: ws
+        ws-opts:
+          path: /kbjc/jp1
+          headers:
+            Host: jp1.hnokkdf.top
+
+      - name: https://github.com/Alvin9999/new-pac/wiki_39
+        type: vmess
+        server: zfc.windowsupdate1.com
+        port: 443
+        uuid: 2cb6537c-e6db-4d20-ba70-3495b95aca68
+        alterId: 0
+        cipher: auto
+        tls: true
+        network: ws
+        ws-opts:
+          path: /kbjc/us2
+          headers:
+            Host: us2.hnokkdf.top
+
+  # clash/3/config.yaml - 只包含tls: true的配置
+  - file: "clash/3/config.yaml"
+    format: yaml
+    proxies:
+      - name: https://github.com/Alvin9999/new-pac/wiki_2
+        type: vmess
+        server: zfc.windowsupdate1.com
+        port: 443
+        uuid: 2cb6537c-e6db-4d20-ba70-3495b95aca68
+        alterId: 0
+        cipher: auto
+        tls: true
+        network: ws
+        ws-opts:
+          path: /kbjc/de1
+          headers:
+            Host: de1.hnokkdf.top
+
+      - name: https://github.com/Alvin9999/new-pac/wiki_3
+        type: vmess
+        server: zfc.windowsupdate1.com
+        port: 443
+        uuid: 2cb6537c-e6db-4d20-ba70-3495b95aca68
+        alterId: 0
+        cipher: auto
+        tls: true
+        network: ws
+        ws-opts:
+          path: /kbjc/us4
+          headers:
+            Host: us4.hnokkdf.top
+
+      - name: https://github.com/Alvin9999/new-pac/wiki_4
+        type: vmess
+        server: zfc.windowsupdate1.com
+        port: 443
+        uuid: 2cb6537c-e6db-4d20-ba70-3495b95aca68
+        alterId: 0
+        cipher: auto
+        tls: true
+        network: ws
+        ws-opts:
+          path: /kbjc/fr1
+          headers:
+            Host: fr1.hnokkdf.top
+
+      - name: https://github.com/Alvin9999/new-pac/wiki_17
+        type: vmess
+        server: zfc.windowsupdate1.com
+        port: 443
+        uuid: 2cb6537c-e6db-4d20-ba70-3495b95aca68
+        alterId: 0
+        cipher: auto
+        tls: true
+        network: ws
+        ws-opts:
+          path: /kbjc/jp1
+          headers:
+            Host: jp1.hnokkdf.top
+
+      - name: https://github.com/Alvin9999/new-pac/wiki_39
+        type: vmess
+        server: zfc.windowsupdate1.com
+        port: 443
+        uuid: 2cb6537c-e6db-4d20-ba70-3495b95aca68
+        alterId: 0
+        cipher: auto
+        tls: true
+        network: ws
+        ws-opts:
+          path: /kbjc/us2
+          headers:
+            Host: us2.hnokkdf.top
+
+  # clash/config.yaml - 没有vmess配置,只有ss配置
+
+  # v2rayN/2/config.json
+  - file: "v2rayN/2/config.json"
+    format: json
+    outbounds:
+      - tag: proxy
+        protocol: vmess
+        address: 198.41.196.119
+        port: 2095
+        uuid: 430fb75e-863a-4c25-ce05-6b816413aa0b
+        alterId: 0
+        email: t@t.tt
+        security: auto
+        network: ws
+        ws-settings:
+          path: /tg:@hkaa0
+          headers:
+            Host: us202345.wyhkaa0.ml
+        mux:
+          enabled: true
+          concurrency: 8
+
+  # v2rayN/config.json
+  - file: "v2rayN/config.json"
+    format: json
+    outbounds:
+      - tag: proxy
+        protocol: vmess
+        address: 198.2.208.87
+        port: 50002
+        uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+        alterId: 64
+        email: t@t.tt
+        security: auto
+        network: tcp
+        mux:
+          enabled: true
+          concurrency: 8
+
+  # v2rayN/2/guiNConfig.json - GUI配置文件
+  - file: "v2rayN/2/guiNConfig.json"
+    format: json
+    vmess:
+      - indexId: "5627046512762297836"
+        configType: 1
+        configVersion: 2
+        sort: 40
+        address: 198.41.196.119
+        port: 2095
+        id: 430fb75e-863a-4c25-ce05-6b816413aa0b
+        alterId: 0
+        security: auto
+        network: ws
+        remarks: https://github.com/Alvin9999/new-pac/wiki 洛杉矶ip3
+        headerType: none
+        requestHost: us202345.wyhkaa0.ml
+        path: /tg:@hkaa0
+        streamSecurity: ""
+        allowInsecure: false
+
+  # v2rayN/guiNConfig.json - GUI配置文件
+  - file: "v2rayN/guiNConfig.json"
+    format: json
+    vmess:
+      - indexId: "5006754005121279981"
+        configType: 1
+        configVersion: 2
+        sort: 20
+        address: 198.2.208.87
+        port: 50002
+        id: 418048af-a293-4b99-9b0c-98ca3580dd24
+        alterId: 64
+        security: auto
+        network: tcp
+        remarks: https://github.com/Alvin9999/new-pac/wiki ip1
+        headerType: none
+        requestHost: ""
+        path: /
+        streamSecurity: ""
+        allowInsecure: false
+
+  # xray/2/config.json
+  - file: "xray/2/config.json"
+    format: json
+    outbounds:
+      - tag: proxy
+        protocol: vmess
+        address: 104.21.238.35
+        port: 2086
+        uuid: ee420fda-efb7-48a8-9249-8987e36ebd9e
+        alterId: 0
+        email: t@t.tt
+        security: auto
+        network: ws
+        ws-settings:
+          path: github.com/Alvin9999
+          headers:
+            Host: ip19.9447609.xyz
+        mux:
+          enabled: false
+          concurrency: -1
+
+  # xray/config.json
+  - file: "xray/config.json"
+    format: json
+    outbounds:
+      - tag: proxy
+        protocol: vmess
+        address: 104.21.238.35
+        port: 2086
+        uuid: ee420fda-efb7-48a8-9249-8987e36ebd9e
+        alterId: 0
+        email: t@t.tt
+        security: auto
+        network: ws
+        ws-settings:
+          path: github.com/Alvin9999
+          headers:
+            Host: ip29.9447609.xyz
+        mux:
+          enabled: false
+          concurrency: -1
+
+# ========================================
+# 统计信息
+# ========================================
+statistics:
+  total_files: 9
+  files_with_tls_true: 2 (clash/2, clash/3)
+  files_without_tls_setting: 7
+  unique_servers: 6
+  total_proxies_excluded: 37 (clash配置中的tls: false配置)
+
+# 常用服务器
+common_servers:
+  - zfc.windowsupdate1.com:443 (多路径WebSocket + TLS)
+  - 104.21.238.35:2086 (WebSocket)
+  - 198.41.196.119:2095 (WebSocket)
+  - 198.2.208.87:50002 (TCP)
+
+# 网络协议统计
+network_protocols:
+  ws: 6
+  tcp: 1
+
+# 加密方式
+ciphers:
+  auto: 100%
+
+# WebSocket路径
+ws_paths:
+  - /kbjc/de1
+  - /kbjc/us4
+  - /kbjc/fr1
+  - /kbjc/jp1
+  - /kbjc/us2
+  - /tg:@hkaa0
+  - github.com/Alvin9999
+
+# Host头
+ws_hosts:
+  - de1.hnokkdf.top
+  - us4.hnokkdf.top
+  - fr1.hnokkdf.top
+  - jp1.hnokkdf.top
+  - us2.hnokkdf.top
+  - us202345.wyhkaa0.ml
+  - ip19.9447609.xyz
+  - ip29.9447609.xyz
+
+# 备注信息
+remarks:
+  - "该汇总已排除所有 tls: false 的配置"
+  - "clash/2和clash/3中包含41个vmess节点,但只有5个使用tls: true"
+  - "大部分配置使用WebSocket传输"
+  - "所有配置使用auto加密"
+  - "alterId主要为0或64"

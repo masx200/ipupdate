@@ -1,0 +1,32 @@
+{
+  "password": "zw38d4X5YasX6Twg",
+  "method": "chacha20-ietf",
+  "protocol": "auth_chain_f",
+  "protocol_param": "",
+  "obfs": "tls1.2_ticket_fastauth",
+  "obfs_param": "",
+
+  "udp": true,
+  "idle_timeout": 300,
+  "connect_timeout": 6,
+  "udp_timeout": 6,
+
+  "server_settings": {
+    "listen_address": "0.0.0.0",
+    "listen_port": 14895
+  },
+
+  "client_settings": {
+    "server": "45.129.2.198",
+    "server_port": 443,
+    "listen_address": "0.0.0.0",
+    "listen_port": 1080
+  },
+
+  "over_tls_settings": {
+    "enable": true,
+    "server_domain": "ssrot5.free3333.xyz",
+    "path": "/9gX0OgOBGqSQuEp1vu0V/",
+    "root_cert_file": ""
+  }
+}

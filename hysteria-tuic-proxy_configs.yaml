@@ -1,0 +1,549 @@
+# 项目中所有的 TUIC 和 Hysteria 配置汇总
+# 生成时间: 2025-01-05
+
+# ========================================
+# HYSTERIA 配置 (18个文件)
+# ========================================
+
+hysteria_configs:
+  # backup/img/1/2/ip/clash.meta2/1/config.yaml
+  - file: "backup/img/1/2/ip/clash.meta2/1/config.yaml"
+    proxies:
+      - name: "https://github.com/Alvin9999-newpac/fanqiang/wiki"
+        type: hysteria
+        server: 89.144.35.30
+        port: 23008
+        auth-str: dongtaiwang.com
+        sni: apple.com
+        skip-cert-verify: true
+        alpn: [h3]
+        protocol: udp
+        up: "11 Mbps"
+        down: "55 Mbps"
+
+      - name: dongtaiwang.com_1
+        type: hysteria
+        server: 5.178.101.33
+        port: 23008
+        auth-str: dongtaiwang.com
+        sni: apple.com
+        skip-cert-verify: true
+        alpn: [h3]
+        protocol: udp
+        up: "11 Mbps"
+        down: "55 Mbps"
+
+      - name: dongtaiwang.com_3
+        type: hysteria
+        server: 2001:bc8:32d7:402::3
+        port: 20001
+        auth-str: dongtaiwang.com
+        sni: apple.com
+        skip-cert-verify: true
+        alpn: [h3]
+        protocol: udp
+        up: "11 Mbps"
+        down: "55 Mbps"
+
+      - name: dongtaiwang.com_4
+        type: hysteria
+        server: 2001:bc8:32d7:402::4
+        port: 20001
+        auth-str: dongtaiwang.com
+        sni: apple.com
+        skip-cert-verify: true
+        alpn: [h3]
+        protocol: udp
+        up: "11 Mbps"
+        down: "55 Mbps"
+
+  # backup/img/1/2/ip/clash.meta2/6/config.yaml
+  - file: "backup/img/1/2/ip/clash.meta2/6/config.yaml"
+    proxies:
+      - name: dongtaiwang.com_0
+        type: hysteria
+        server: 2001:bc8:32d7:14f::4
+        port: 23880
+        auth-str: dongtaiwang.com
+        sni: bing.com
+        skip-cert-verify: true
+        alpn: [h3]
+        protocol: udp
+        up: "11 Mbps"
+        down: "55 Mbps"
+
+  # backup/img/1/2/ip/quick/2/config.yaml
+  - file: "backup/img/1/2/ip/quick/2/config.yaml"
+    proxies:
+      - name: dongtaiwang.com_0
+        type: hysteria
+        server: 208.87.243.151
+        port: 10023
+        auth-str: dongtaiwang.com
+        sni: apple.com
+        skip-cert-verify: true
+        alpn: [h3]
+        protocol: udp
+        up: "11 Mbps"
+        down: "55 Mbps"
+
+  # backup/img/1/2/ip/quick/3/config.yaml
+  - file: "backup/img/1/2/ip/quick/3/config.yaml"
+    proxies:
+      - name: dongtaiwang.com_0
+        type: hysteria
+        server: 2001:bc8:32d7:14f::4
+        port: 23880
+        auth-str: dongtaiwang.com
+        sni: bing.com
+        skip-cert-verify: true
+        alpn: [h3]
+        protocol: udp
+        up: "11 Mbps"
+        down: "55 Mbps"
+
+  # backup/img/1/2/ipp/clash.meta2/1/config.yaml
+  - file: "backup/img/1/2/ipp/clash.meta2/1/config.yaml"
+    proxies:
+      - name: "https://github.com/Alvin9999-newpac/fanqiang/wiki"
+        type: hysteria
+        server: 89.144.35.30
+        port: 23008
+        auth-str: dongtaiwang.com
+        sni: apple.com
+        skip-cert-verify: true
+        alpn: [h3]
+        protocol: udp
+        up: "11 Mbps"
+        down: "55 Mbps"
+
+      - name: dongtaiwang.com_1
+        type: hysteria
+        server: 5.178.101.33
+        port: 23008
+        auth-str: dongtaiwang.com
+        sni: apple.com
+        skip-cert-verify: true
+        alpn: [h3]
+        protocol: udp
+        up: "11 Mbps"
+        down: "55 Mbps"
+
+      - name: dongtaiwang.com_3
+        type: hysteria
+        server: 2001:bc8:32d7:402::3
+        port: 20001
+        auth-str: dongtaiwang.com
+        sni: apple.com
+        skip-cert-verify: true
+        alpn: [h3]
+        protocol: udp
+        up: "11 Mbps"
+        down: "55 Mbps"
+
+      - name: dongtaiwang.com_4
+        type: hysteria
+        server: 2001:bc8:32d7:402::4
+        port: 20001
+        auth-str: dongtaiwang.com
+        sni: apple.com
+        skip-cert-verify: true
+        alpn: [h3]
+        protocol: udp
+        up: "11 Mbps"
+        down: "55 Mbps"
+
+  # backup/img/1/2/ipp/clash.meta2/6/config.yaml
+  - file: "backup/img/1/2/ipp/clash.meta2/6/config.yaml"
+    proxies:
+      - name: dongtaiwang.com_0
+        type: hysteria
+        server: 2001:bc8:32d7:14f::4
+        port: 23880
+        auth-str: dongtaiwang.com
+        sni: bing.com
+        skip-cert-verify: true
+        alpn: [h3]
+        protocol: udp
+        up: "11 Mbps"
+        down: "55 Mbps"
+
+  # backup/img/1/2/ipp/quick/2/config.yaml
+  - file: "backup/img/1/2/ipp/quick/2/config.yaml"
+    proxies:
+      - name: dongtaiwang.com_0
+        type: hysteria
+        server: 208.87.243.151
+        port: 10023
+        auth-str: dongtaiwang.com
+        sni: apple.com
+        skip-cert-verify: true
+        alpn: [h3]
+        protocol: udp
+        up: "11 Mbps"
+        down: "55 Mbps"
+
+  # backup/img/1/2/ipp/quick/3/config.yaml
+  - file: "backup/img/1/2/ipp/quick/3/config.yaml"
+    proxies:
+      - name: dongtaiwang.com_0
+        type: hysteria
+        server: 2001:bc8:32d7:14f::4
+        port: 23880
+        auth-str: dongtaiwang.com
+        sni: bing.com
+        skip-cert-verify: true
+        alpn: [h3]
+        protocol: udp
+        up: "11 Mbps"
+        down: "55 Mbps"
+
+  # clash.meta/2/config.yaml
+  - file: "clash.meta/2/config.yaml"
+    proxies:
+      - name: ip
+        type: hysteria
+        server: hy1.dtku47.xyz
+        port: 11257
+        auth-str: oO5q7L6QPSuJ
+        alpn: [h3]
+        protocol: udp
+        up: "50 Mbps"
+        down: "100 Mbps"
+
+  # clash.meta2/2/config.yaml
+  - file: "clash.meta2/2/config.yaml"
+    proxies:
+      - name: dongtaiwang.com_0
+        type: hysteria2
+        server: 2001:bc8:32d7:302::17
+        port: 20088
+        password: dongtaiwang.com
+        sni: apple.com
+        skip-cert-verify: true
+        alpn: [h3]
+        protocol: udp
+        up: "11 Mbps"
+        down: "55 Mbps"
+
+  # clash.meta2/3/config.yaml
+  - file: "clash.meta2/3/config.yaml"
+    proxies:
+      - name: dongtaiwang.com_0
+        type: hysteria
+        server: 2001:bc8:32d7:17b::2
+        port: 11000
+        auth-str: dongtaiwang.com
+        sni: apple.com
+        skip-cert-verify: true
+        alpn: [h3]
+        protocol: udp
+        up: "11 Mbps"
+        down: "55 Mbps"
+
+  # clash.meta2/config.yaml
+  - file: "clash.meta2/config.yaml"
+    proxies:
+      - name: dongtaiwang.com_0
+        type: hysteria
+        server: 2001:bc8:32d7:17b::2
+        port: 11000
+        auth-str: dongtaiwang.com
+        sni: apple.com
+        skip-cert-verify: true
+        alpn: [h3]
+        protocol: udp
+        up: "11 Mbps"
+        down: "55 Mbps"
+
+  # metawj/2/config.yaml (JSON格式)
+  - file: "metawj/2/config.yaml"
+    proxies:
+      - name: 洛杉矶5
+        type: hysteria
+        server: 104.149.153.91
+        port: 10802
+        sni: www.microsoft.com
+        skip-cert-verify: true
+        alpn: [h3]
+        protocol: udp
+        auth_str: Ryr93NBZcQneXUrlB9MX6RR414GPrsgJLHcecA9X6z0sazuHVC
+        up: 11
+        down: 88
+
+  # metawj/3/config.yaml (JSON格式)
+  - file: "metawj/3/config.yaml"
+    proxies:
+      - name: 洛杉矶2
+        type: hysteria
+        server: 104.149.148.219
+        port: 34753
+        sni: www.paypal.com
+        skip-cert-verify: true
+        alpn: [h3]
+        protocol: udp
+        auth_str: sWZ27pSm6mZb9MiFmde4dSNyBToBd02UTm2RgrZJfFDkhSSZWU
+        up: 11
+        down: 55
+
+  # metawj/config.yaml (JSON格式)
+  - file: "metawj/config.yaml"
+    proxies:
+      - name: 洛杉矶1
+        type: hysteria
+        server: 173.234.25.51
+        port: 42479
+        sni: wechat.com
+        skip-cert-verify: true
+        alpn: [h3]
+        protocol: udp
+        auth_str: dongadlkdjafidjdfaodfadfdf
+        up: 11
+        down: 55
+
+  # quick/3/config.yaml
+  - file: "quick/3/config.yaml"
+    proxies:
+      - name: dongtaiwang.com_0
+        type: hysteria
+        server: 2001:bc8:32d7:902::3
+        port: 26691
+        auth-str: dongtaiwang.com
+        sni: apple.com
+        skip-cert-verify: true
+        alpn: [h3]
+        protocol: udp
+        up: "11 Mbps"
+        down: "55 Mbps"
+
+  # quick/config.yaml
+  - file: "quick/config.yaml"
+    proxies:
+      - name: dongtaiwang.com_0
+        type: hysteria
+        server: 62.210.196.68
+        port: 26691
+        auth-str: dongtaiwang.com
+        sni: apple.com
+        skip-cert-verify: true
+        alpn: [h3]
+        protocol: udp
+        up: "11 Mbps"
+        down: "55 Mbps"
+
+  # singbox/config.json
+  - file: "singbox/config.json"
+    proxies:
+      - tag: dongtaiwang.com
+        type: hysteria
+        server: 62.210.127.177
+        server_port: 23880
+        up_mbps: 11
+        down_mbps: 55
+        auth_str: dongtaiwang.com
+        tls:
+          enabled: true
+          insecure: true
+          server_name: bing.com
+
+# ========================================
+# TUIC 配置 (5个文件)
+# ========================================
+
+tuic_configs:
+  # backup/img/1/2/ip/clash.meta2/5/config.yaml
+  - file: "backup/img/1/2/ip/clash.meta2/5/config.yaml"
+    proxies:
+      - name: dongtaiwang.com_0
+        type: tuic
+        server: 89.144.35.231
+        port: 33457
+        uuid: 66d37a65-7f6f-4e7c-a0f6-163bd917756a
+        password: dongtaiwang.com
+        alpn: [h3]
+        sni: apple.com
+        skip-cert-verify: true
+        reduce-rtt: true
+        udp-relay-mode: native
+        congestion-controller: bbr
+
+      - name: dongtaiwang.com_1
+        type: tuic
+        server: 2a14:7583:299d::a
+        port: 33457
+        uuid: 66d37a65-7f6f-4e7c-a0f6-163bd917756a
+        password: dongtaiwang.com
+        alpn: [h3]
+        sni: apple.com
+        skip-cert-verify: true
+        reduce-rtt: true
+        udp-relay-mode: native
+        congestion-controller: bbr
+
+  # backup/img/1/2/ip/quick/1/config.yaml
+  - file: "backup/img/1/2/ip/quick/1/config.yaml"
+    proxies:
+      - name: dongtaiwang.com_0
+        type: tuic
+        server: 62.210.10.113
+        port: 33998
+        uuid: 909212b8-5d67-4532-885e-7a6b5e724ab8
+        password: dongtaiwang.com
+        alpn: [h3]
+        sni: bing.com
+        skip-cert-verify: true
+        reduce-rtt: true
+        udp-relay-mode: native
+        congestion-controller: bbr
+
+      - name: dongtaiwang.com_2
+        type: tuic
+        server: 2001:bc8:32d7:306::124
+        port: 33998
+        uuid: 909212b8-5d67-4532-885e-7a6b5e724ab8
+        password: dongtaiwang.com
+        alpn: [h3]
+        sni: bing.com
+        skip-cert-verify: true
+        reduce-rtt: true
+        udp-relay-mode: native
+        congestion-controller: bbr
+
+      - name: dongtaiwang.com_3
+        type: tuic
+        server: 2001:bc8:32d7:306::125
+        port: 33998
+        uuid: 909212b8-5d67-4532-885e-7a6b5e724ab8
+        password: dongtaiwang.com
+        alpn: [h3]
+        sni: bing.com
+        skip-cert-verify: true
+        reduce-rtt: true
+        udp-relay-mode: native
+        congestion-controller: bbr
+
+      - name: dongtaiwang.com_4
+        type: tuic
+        server: 2001:bc8:32d7:306::126
+        port: 33998
+        uuid: 909212b8-5d67-4532-885e-7a6b5e724ab8
+        password: dongtaiwang.com
+        alpn: [h3]
+        sni: bing.com
+        skip-cert-verify: true
+        reduce-rtt: true
+        udp-relay-mode: native
+        congestion-controller: bbr
+
+  # backup/img/1/2/ipp/clash.meta2/5/config.yaml
+  - file: "backup/img/1/2/ipp/clash.meta2/5/config.yaml"
+    proxies:
+      - name: dongtaiwang.com_0
+        type: tuic
+        server: 89.144.35.231
+        port: 33457
+        uuid: 66d37a65-7f6f-4e7c-a0f6-163bd917756a
+        password: dongtaiwang.com
+        alpn: [h3]
+        sni: apple.com
+        skip-cert-verify: true
+        reduce-rtt: true
+        udp-relay-mode: native
+        congestion-controller: bbr
+
+      - name: dongtaiwang.com_1
+        type: tuic
+        server: 2a14:7583:299d::a
+        port: 33457
+        uuid: 66d37a65-7f6f-4e7c-a0f6-163bd917756a
+        password: dongtaiwang.com
+        alpn: [h3]
+        sni: apple.com
+        skip-cert-verify: true
+        reduce-rtt: true
+        udp-relay-mode: native
+        congestion-controller: bbr
+
+  # backup/img/1/2/ipp/quick/1/config.yaml
+  - file: "backup/img/1/2/ipp/quick/1/config.yaml"
+    proxies:
+      - name: dongtaiwang.com_0
+        type: tuic
+        server: 62.210.10.113
+        port: 33998
+        uuid: 909212b8-5d67-4532-885e-7a6b5e724ab8
+        password: dongtaiwang.com
+        alpn: [h3]
+        sni: bing.com
+        skip-cert-verify: true
+        reduce-rtt: true
+        udp-relay-mode: native
+        congestion-controller: bbr
+
+      - name: dongtaiwang.com_2
+        type: tuic
+        server: 2001:bc8:32d7:306::124
+        port: 33998
+        uuid: 909212b8-5d67-4532-885e-7a6b5e724ab8
+        password: dongtaiwang.com
+        alpn: [h3]
+        sni: bing.com
+        skip-cert-verify: true
+        reduce-rtt: true
+        udp-relay-mode: native
+        congestion-controller: bbr
+
+      - name: dongtaiwang.com_3
+        type: tuic
+        server: 2001:bc8:32d7:306::125
+        port: 33998
+        uuid: 909212b8-5d67-4532-885e-7a6b5e724ab8
+        password: dongtaiwang.com
+        alpn: [h3]
+        sni: bing.com
+        skip-cert-verify: true
+        reduce-rtt: true
+        udp-relay-mode: native
+        congestion-controller: bbr
+
+      - name: dongtaiwang.com_4
+        type: tuic
+        server: 2001:bc8:32d7:306::126
+        port: 33998
+        uuid: 909212b8-5d67-4532-885e-7a6b5e724ab8
+        password: dongtaiwang.com
+        alpn: [h3]
+        sni: bing.com
+        skip-cert-verify: true
+        reduce-rtt: true
+        udp-relay-mode: native
+        congestion-controller: bbr
+
+  # clash.meta/3/config.yaml
+  - file: "clash.meta/3/config.yaml"
+    proxies:
+      - name: ip
+        type: tuic
+        server: tuic1.dtku47.xyz
+        port: 22336
+        uuid: 39edbd65-1a14-4d58-bb5a-3b69c52d0869
+        password: hSOogY0SXn4T
+        alpn: [h3]
+        request-timeout: 8000
+        udp-relay-mode: native
+        congestion-controller: bbr
+
+# ========================================
+# 统计信息
+# ========================================
+statistics:
+  total_files: 23
+  hysteria_files: 18
+  tuic_files: 5
+  unique_servers: 20+
+  common_auth_strings:
+    - dongtaiwang.com
+    - oO5q7L6QPSuJ
+    - Ryr93NBZcQneXUrlB9MX6RR414GPrsgJLHcecA9X6z0sazuHVC
+    - sWZ27pSm6mZb9MiFmde4dSNyBToBd02UTm2RgrZJfFDkhSSZWU
+    - dongadlkdjafidjdfaodfadfdf
