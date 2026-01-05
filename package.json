@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "generate-hysteria2-subscription": "node generate-hysteria2-subscription.js",
+    "generate-tuic-subscription": "node generate-tuic-subscription.js",
     "format": "deno fmt"
   },
   "repository": {

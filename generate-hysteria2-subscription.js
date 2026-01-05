@@ -301,6 +301,17 @@ if (import.meta.main) {
       console.error(`无法写入文件 ${outputFile}: ${err.message}`);
       process.exit(1);
     });
+  } else {
+    // 重定向 stdout 到文件
+    const stream = fs.createWriteStream("hysteria2_subscription.txt", "utf-8");
+    process.stdout.write = process.stderr.write = function (data) {
+      stream.write(data);
+    };
+
+    stream.on("error", (err) => {
+      console.error(`无法写入文件 ${outputFile}: ${err.message}`);
+      process.exit(1);
+    });
   }
 
   main();
