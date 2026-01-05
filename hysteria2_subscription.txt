@@ -4,7 +4,7 @@ hysteria2://dongtaiwang.com@[2001:bc8:32d7:402::3]:20001/?sni=apple.com&insecure
 hysteria2://dongtaiwang.com@[2001:bc8:32d7:402::4]:20001/?sni=apple.com&insecure=1
 hysteria2://dongtaiwang.com@[2001:bc8:32d7:14f::4]:23880/?sni=bing.com&insecure=1
 hysteria2://dongtaiwang.com@208.87.243.151:10023/?sni=apple.com&insecure=1
-hysteria2://oO5q7L6QPSuJ@hy1.dtku47.xyz:11257/
+hysteria2://oO5q7L6QPSuJ@hy1.dtku47.xyz:11257/?sni=hy1.dtku47.xyz&insecure=0
 hysteria2://dongtaiwang.com@[2001:bc8:32d7:302::17]:20088/?sni=apple.com&insecure=1
 hysteria2://dongtaiwang.com@[2001:bc8:32d7:17b::2]:11000/?sni=apple.com&insecure=1
 hysteria2://Ryr93NBZcQneXUrlB9MX6RR414GPrsgJLHcecA9X6z0sazuHVC@104.149.153.91:10802/?sni=www.microsoft.com&insecure=1
@@ -13,11 +13,3 @@ hysteria2://dongadlkdjafidjdfaodfadfdf@173.234.25.51:42479/?sni=wechat.com&insec
 hysteria2://dongtaiwang.com@[2001:bc8:32d7:902::3]:26691/?sni=apple.com&insecure=1
 hysteria2://dongtaiwang.com@62.210.196.68:26691/?sni=apple.com&insecure=1
 hysteria2://dongtaiwang.com@62.210.127.177:23880/?sni=bing.com&insecure=1
-
-========================================
-Hysteria 2 订阅链接生成成功
-========================================
-总配置数: 24
-去重后: 15 条链接
-========================================
-

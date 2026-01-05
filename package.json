@@ -4,6 +4,7 @@
   "description": "[![GitLab CI/CD](https://img.shields.io/badge/GitLab-CI%2FCD-blue.svg)](https://gitlab.com/masx200/ipupdate) [![License: GPL-3.0](https://img.shields.io/badge/License-GPL--3.0-green.svg)](COPYING) [![代理配置](https://img.shields.io/badge/代理配置-30+-orange.svg)](#支持的代理协议)",
   "main": "index.js",
   "scripts": {
+    "generate-hysteria2-subscription": "node generate-hysteria2-subscription.js",
     "format": "deno fmt"
   },
   "repository": {

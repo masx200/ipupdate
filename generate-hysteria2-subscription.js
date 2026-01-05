@@ -91,6 +91,8 @@ function convertToHysteria2URI(config) {
   } else if (config.tls && config.tls.server_name) {
     // 从 tls 对象中提取 SNI
     params.push(`sni=${encodeURIComponentCustom(config.tls.server_name)}`);
+  } else {
+    params.push(`sni=${encodeURIComponentCustom(config.server)}`);
   }
 
   // 添加跳过证书验证 (如果为 true)
@@ -100,6 +102,8 @@ function convertToHysteria2URI(config) {
     (config.tls && config.tls.insecure === true)
   ) {
     params.push("insecure=1");
+  } else {
+    params.push("insecure=0");
   }
 
   // 添加混淆 (obfs) - Hysteria 2 支持 salamander 混淆
